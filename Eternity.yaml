@@ -618,7 +618,6 @@ proxies:
   - {name: 05-0674-CN, server: ah3-picfgde5bmwtmart.bestzumo.com, port: 54697, type: ss, cipher: chacha20-ietf-poly1305, password: ae55a312-bf33-41d8-ad29-623435cb9128, udp: true}
   - {name: 05-0675-CN, server: ah3-picfgde5bmwtmart.bestzumo.com, port: 12235, type: ss, cipher: chacha20-ietf-poly1305, password: a27162ed-9045-4358-9916-969502893c61, udp: true}
   - {name: 05-0676-CN, server: ah3-picfgde5bmwtmart.bestzumo.com, port: 12235, type: ss, cipher: chacha20-ietf-poly1305, password: ae55a312-bf33-41d8-ad29-623435cb9128, udp: true}
-  - {name: 05-0678-RELAY, server: vxlbb.kovmk.website, port: 443, type: vmess, uuid: cb58e764-77ab-4048-b362-0d38c78b81e1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vxlbb.kovmk.website}}, udp: true}
   - {name: 05-0679-CN, server: ah3-picfgde5bmwtmart.bestzumo.com, port: 53951, type: ss, cipher: chacha20-ietf-poly1305, password: a27162ed-9045-4358-9916-969502893c61, udp: true}
   - {name: 05-0680-CN, server: ah3-picfgde5bmwtmart.bestzumo.com, port: 53951, type: ss, cipher: chacha20-ietf-poly1305, password: ae55a312-bf33-41d8-ad29-623435cb9128, udp: true}
   - {name: 05-0681-CN, server: ah3-picfgde5bmwtmart.bestzumo.com, port: 33594, type: ss, cipher: chacha20-ietf-poly1305, password: a27162ed-9045-4358-9916-969502893c61, udp: true}
@@ -639,16 +638,17 @@ proxies:
   - {name: 05-0696-CN, server: 110.40.59.61, port: 16683, type: ss, cipher: chacha20-ietf-poly1305, password: ae55a312-bf33-41d8-ad29-623435cb9128, udp: true}
   - {name: 05-0697-CN, server: 122.188.71.122, port: 29473, type: ss, cipher: chacha20-ietf-poly1305, password: a27162ed-9045-4358-9916-969502893c61, udp: true}
   - {name: 05-0698-CN, server: 122.188.71.122, port: 29473, type: ss, cipher: chacha20-ietf-poly1305, password: ae55a312-bf33-41d8-ad29-623435cb9128, udp: true}
+  - {name: 24-3981-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 1d6f13d4-2c60-43ad-92d2-43c79d9a0755, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 24-3982-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 7ee5ed08-e5b3-4bc5-8ae7-19a6e3c21fe3, udp: true}
+  - {name: 24-3984-CN, server: gstdnb.myfczy169.top, port: 14232, type: ss, cipher: chacha20-ietf-poly1305, password: d0d75b99-1f57-4cec-a83f-fc32bcc0e100, udp: true}
+  - {name: 24-3988-RELAY, server: vxlbb.kovmk.website, port: 443, type: vmess, uuid: 05e17ebd-fa63-4e6a-a749-a6386f6548e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vxlbb.kovmk.website}}, udp: true}
   - {name: 24-3989-CN, server: gstdnb.myfczy169.top, port: 15070, type: ss, cipher: chacha20-ietf-poly1305, password: 1c8addc8-79a8-43b5-ac2c-8e50274b25d3, udp: true}
   - {name: 24-3990-CN, server: ttnx.xn--pss804a00koh0a.xn--fiqs8s, port: 44263, type: ss, cipher: chacha20-ietf-poly1305, password: 9203f476-3a78-43bb-a51b-35a21bbfefc0, udp: true}
   - {name: 24-3991-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 7ac2d68b-4bf3-44b8-b98a-24fbe4c3c71b, udp: true}
-  - {name: 24-3992-RELAY, server: sunkp.kovmk.website, port: 443, type: vmess, uuid: a3a1fca9-8fdc-476e-98ac-949a7859328a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sunkp.kovmk.website}}, udp: true}
   - {name: 24-3993-CN, server: ah3-picfgde5bmwtmart.bestzumo.com, port: 33594, type: ss, cipher: chacha20-ietf-poly1305, password: 8ba72ddb-525d-4dbd-bcfc-0822b90d3e57, udp: true}
-  - {name: 24-3994-RELAY, server: sunkp.kovmk.website, port: 443, type: vmess, uuid: 71f53699-c2d9-431f-a89f-8d59691e7090, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sunkp.kovmk.website}}, udp: true}
   - {name: 24-3995-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 30af32df-9d21-49c7-b142-1acf0485c822, udp: true}
   - {name: 24-3996-CN, server: dg2-dhmkadj4ewendprw.bestzumo.com, port: 32646, type: ss, cipher: chacha20-ietf-poly1305, password: 8ba72ddb-525d-4dbd-bcfc-0822b90d3e57, udp: true}
   - {name: 24-3997-RELAY, server: whoge.kovmk.website, port: 443, type: vmess, uuid: 083caa9d-cafb-4594-9cc9-93150b149899, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: whoge.kovmk.website}}, udp: true}
-  - {name: 24-3998-RELAY, server: vxlbb.kovmk.website, port: 443, type: vmess, uuid: 8c50d595-6e62-43ef-876f-ab4866867e8c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vxlbb.kovmk.website}}, udp: true}
   - {name: 24-3999-RELAY, server: fr-new01.daluquan.top, port: 8880, type: vmess, uuid: 4bb9dbe7-ab0b-48fa-b79d-47ab20c2c12d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: fr-new01.daluquan.top}}, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -1233,7 +1233,6 @@ proxy-groups:
       - 05-0674-CN
       - 05-0675-CN
       - 05-0676-CN
-      - 05-0678-RELAY
       - 05-0679-CN
       - 05-0680-CN
       - 05-0681-CN
@@ -1254,16 +1253,17 @@ proxy-groups:
       - 05-0696-CN
       - 05-0697-CN
       - 05-0698-CN
+      - 24-3981-KR
+      - 24-3982-CN
+      - 24-3984-CN
+      - 24-3988-RELAY
       - 24-3989-CN
       - 24-3990-CN
       - 24-3991-CN
-      - 24-3992-RELAY
       - 24-3993-CN
-      - 24-3994-RELAY
       - 24-3995-CN
       - 24-3996-CN
       - 24-3997-RELAY
-      - 24-3998-RELAY
       - 24-3999-RELAY
   - name: 负载均衡
     type: load-balance
@@ -1379,6 +1379,7 @@ proxy-groups:
       - 05-0671-CN
       - 05-0681-CN
       - 05-0691-CN
+      - 24-3981-KR
       - 24-3991-CN
   - name: 测速2分组
     type: url-test
@@ -1446,7 +1447,7 @@ proxy-groups:
       - 05-0672-CN
       - 05-0682-CN
       - 05-0692-CN
-      - 24-3992-RELAY
+      - 24-3982-CN
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1578,7 +1579,7 @@ proxy-groups:
       - 05-0674-CN
       - 05-0684-CN
       - 05-0694-CN
-      - 24-3994-RELAY
+      - 24-3984-CN
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1838,10 +1839,9 @@ proxy-groups:
       - 05-0648-CN
       - 05-0658-CN
       - 05-0668-CN
-      - 05-0678-RELAY
       - 05-0688-CN
       - 05-0698-CN
-      - 24-3998-RELAY
+      - 24-3988-RELAY
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
