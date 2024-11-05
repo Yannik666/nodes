@@ -638,11 +638,11 @@ proxies:
   - {name: 06-0691-RELAY, server: cf.hy2.one, port: 80, type: vmess, uuid: aa6dda0a-0dec-49b9-81d7-eac72a29bd77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af323d, headers: {Host: cf.hy2.one}}, udp: true}
   - {name: 06-0692-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 4052466f-f6f2-4e7a-96dd-baf36483a420, udp: true}
   - {name: 06-0693-CN, server: 110.40.59.61, port: 34975, type: ss, cipher: chacha20-ietf-poly1305, password: fc74eb2f-97f9-4b56-ad03-30562a80d8ca, udp: true}
+  - {name: 06-0694-RELAY, server: vxlbb.kovmk.website, port: 443, type: vmess, uuid: 9fb45a76-d9d7-4bc7-9408-1b6525492837, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vxlbb.kovmk.website}}, udp: true}
   - {name: 06-0695-CN, server: ah1-xj6fwjj5fymdrn8y.bestzumo.com, port: 34635, type: ss, cipher: chacha20-ietf-poly1305, password: 9e23f18a-12d1-4bd5-ad3b-1ef5b9903953, udp: true}
   - {name: 06-0696-CN, server: ah3-picfgde5bmwtmart.bestzumo.com, port: 50474, type: ss, cipher: chacha20-ietf-poly1305, password: 9e23f18a-12d1-4bd5-ad3b-1ef5b9903953, udp: true}
   - {name: 06-0697-CN, server: 122.188.71.122, port: 29473, type: ss, cipher: chacha20-ietf-poly1305, password: 9e23f18a-12d1-4bd5-ad3b-1ef5b9903953, udp: true}
   - {name: 06-0698-CN, server: gstdnb.myfczy169.top, port: 38225, type: ss, cipher: chacha20-ietf-poly1305, password: 81329011-f5ca-4dfa-be90-0b79aa4dd47d, udp: true}
-  - {name: 24-3373-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 30af32df-9d21-49c7-b142-1acf0485c822, udp: true}
   - {name: 24-3374-CN, server: dg2-dhmkadj4ewendprw.bestzumo.com, port: 32646, type: ss, cipher: chacha20-ietf-poly1305, password: 8ba72ddb-525d-4dbd-bcfc-0822b90d3e57, udp: true}
   - {name: 24-3375-NOWHERE, server: whoge.kovmk.website, port: 443, type: vmess, uuid: 083caa9d-cafb-4594-9cc9-93150b149899, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: whoge.kovmk.website}}, udp: true}
   - {name: 24-3376-RELAY, server: vxlbb.kovmk.website, port: 443, type: vmess, uuid: 8c50d595-6e62-43ef-876f-ab4866867e8c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vxlbb.kovmk.website}}, udp: true}
@@ -1252,11 +1252,11 @@ proxy-groups:
       - 06-0691-RELAY
       - 06-0692-CN
       - 06-0693-CN
+      - 06-0694-RELAY
       - 06-0695-CN
       - 06-0696-CN
       - 06-0697-CN
       - 06-0698-CN
-      - 24-3373-CN
       - 24-3374-CN
       - 24-3375-NOWHERE
       - 24-3376-RELAY
@@ -1505,7 +1505,6 @@ proxy-groups:
       - 06-0673-CN
       - 06-0683-CN
       - 06-0693-CN
-      - 24-3373-CN
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1571,6 +1570,7 @@ proxy-groups:
       - 05-0664-RELAY
       - 06-0674-NOWHERE
       - 06-0684-CN
+      - 06-0694-RELAY
       - 24-3374-CN
   - name: 测速5分组
     type: url-test
