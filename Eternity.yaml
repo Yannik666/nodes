@@ -582,7 +582,6 @@ proxies:
   - {name: 05-0634-NOWHERE, server: kwwbw.mmzhk.website, port: 443, type: vmess, uuid: 2f324a34-41eb-4ca9-899c-a8a7df8b89cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kwwbw.mmzhk.website}}, udp: true}
   - {name: 05-0635-NOWHERE, server: kwwbw.mmzhk.website, port: 443, type: vmess, uuid: cb58e764-77ab-4048-b362-0d38c78b81e1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kwwbw.mmzhk.website}}, udp: true}
   - {name: 05-0636-RELAY, server: sunkp.kovmk.website, port: 443, type: vmess, uuid: 2f324a34-41eb-4ca9-899c-a8a7df8b89cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sunkp.kovmk.website}}, udp: true}
-  - {name: 05-0637-RELAY, server: sunkp.kovmk.website, port: 443, type: vmess, uuid: cb58e764-77ab-4048-b362-0d38c78b81e1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sunkp.kovmk.website}}, udp: true}
   - {name: 05-0640-NOWHERE, server: whoge.kovmk.website, port: 443, type: vmess, uuid: 2f324a34-41eb-4ca9-899c-a8a7df8b89cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: whoge.kovmk.website}}, udp: true}
   - {name: 05-0641-NOWHERE, server: whoge.kovmk.website, port: 443, type: vmess, uuid: cb58e764-77ab-4048-b362-0d38c78b81e1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: whoge.kovmk.website}}, udp: true}
   - {name: 05-0642-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 9628bfbc-ea5c-4abe-b1aa-10eeb4e4ac13, udp: true}
@@ -642,6 +641,7 @@ proxies:
   - {name: 05-0696-CN, server: 110.40.59.61, port: 16683, type: ss, cipher: chacha20-ietf-poly1305, password: a27162ed-9045-4358-9916-969502893c61, udp: true}
   - {name: 05-0697-CN, server: 110.40.59.61, port: 16683, type: ss, cipher: chacha20-ietf-poly1305, password: ae55a312-bf33-41d8-ad29-623435cb9128, udp: true}
   - {name: 05-0698-CN, server: 122.188.71.122, port: 29473, type: ss, cipher: chacha20-ietf-poly1305, password: a27162ed-9045-4358-9916-969502893c61, udp: true}
+  - {name: 24-3615-CN, server: ah3-picfgde5bmwtmart.bestzumo.com, port: 33594, type: ss, cipher: chacha20-ietf-poly1305, password: 8ba72ddb-525d-4dbd-bcfc-0822b90d3e57, udp: true}
   - {name: 24-3617-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 30af32df-9d21-49c7-b142-1acf0485c822, udp: true}
   - {name: 24-3618-CN, server: dg2-dhmkadj4ewendprw.bestzumo.com, port: 32646, type: ss, cipher: chacha20-ietf-poly1305, password: 8ba72ddb-525d-4dbd-bcfc-0822b90d3e57, udp: true}
   - {name: 24-3619-NOWHERE, server: whoge.kovmk.website, port: 443, type: vmess, uuid: 083caa9d-cafb-4594-9cc9-93150b149899, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: whoge.kovmk.website}}, udp: true}
@@ -1196,7 +1196,6 @@ proxy-groups:
       - 05-0634-NOWHERE
       - 05-0635-NOWHERE
       - 05-0636-RELAY
-      - 05-0637-RELAY
       - 05-0640-NOWHERE
       - 05-0641-NOWHERE
       - 05-0642-CN
@@ -1256,6 +1255,7 @@ proxy-groups:
       - 05-0696-CN
       - 05-0697-CN
       - 05-0698-CN
+      - 24-3615-CN
       - 24-3617-CN
       - 24-3618-CN
       - 24-3619-NOWHERE
@@ -1641,6 +1641,7 @@ proxy-groups:
       - 05-0675-CN
       - 05-0685-CN
       - 05-0695-CN
+      - 24-3615-CN
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1766,7 +1767,6 @@ proxy-groups:
       - 04-0507-CN
       - 04-0517-CN
       - 04-0527-CN
-      - 05-0637-RELAY
       - 05-0647-CN
       - 05-0657-CN
       - 05-0667-CN
