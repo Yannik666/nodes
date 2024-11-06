@@ -562,6 +562,7 @@ proxies:
   - {name: 07-0617-RELAY, server: russia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: russia.com}}, udp: true}
   - {name: 07-0618-RELAY, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: singapore.com}}, udp: true}
   - {name: 07-0619-RELAY, server: malaysia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: malaysia.com}}, udp: true}
+  - {name: 07-0620-VN, server: 36.50.134.29, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380, skip-cert-verify: true, udp: true}
   - {name: 08-0621-RELAY, server: cf.hy2.one, port: 80, type: vmess, uuid: 7b380942-8ba2-465f-9807-4df8dd82cfa1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af323d, headers: {Host: cf.hy2.one}}, udp: true}
   - {name: 08-0622-RELAY, server: cf.hy2.one, port: 2052, type: vmess, uuid: 7b380942-8ba2-465f-9807-4df8dd82cfa1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0, headers: {Host: cf.hy2.one}}, udp: true}
   - {name: 08-0623-NOWHERE, server: sg6.sulink.one, port: 12343, type: ss, cipher: chacha20-ietf-poly1305, password: fa2a7088-748b-4044-982e-f7a91467235a, udp: true}
@@ -640,7 +641,6 @@ proxies:
   - {name: 08-0696-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 61c012bc-5cbf-486d-8dfb-efd6e8110998, udp: true}
   - {name: 08-0697-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: cf7ea0dd-5832-4555-8a1f-0f8e22370688, udp: true}
   - {name: 08-0698-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 61c012bc-5cbf-486d-8dfb-efd6e8110998, udp: true}
-  - {name: 24-3049-CN, server: dg2-dhmkadj4ewendprw.bestzumo.com, port: 25179, type: ss, cipher: chacha20-ietf-poly1305, password: 1e7b821c-e536-4194-8c06-9ad74e4082ec, udp: true}
   - {name: 24-3050-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: e37072e6-87cc-4a0e-b786-f3c155c17ca4, udp: true}
   - {name: 24-3051-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: e37072e6-87cc-4a0e-b786-f3c155c17ca4, udp: true}
   - {name: 24-3052-NOWHERE, server: ncb.kovmk.website, port: 443, type: vmess, uuid: b8bd0d44-9390-4d5c-8c56-da34dcf30c45, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ncb.kovmk.website}}, udp: true}
@@ -1176,6 +1176,7 @@ proxy-groups:
       - 07-0617-RELAY
       - 07-0618-RELAY
       - 07-0619-RELAY
+      - 07-0620-VN
       - 08-0621-RELAY
       - 08-0622-RELAY
       - 08-0623-NOWHERE
@@ -1254,7 +1255,6 @@ proxy-groups:
       - 08-0696-CN
       - 08-0697-CN
       - 08-0698-CN
-      - 24-3049-CN
       - 24-3050-CN
       - 24-3051-CN
       - 24-3052-NOWHERE
@@ -1903,7 +1903,6 @@ proxy-groups:
       - 08-0669-CN
       - 08-0679-CN
       - 08-0689-CN
-      - 24-3049-CN
       - 24-3059-CN
   - name: 测速10分组
     type: url-test
@@ -1961,6 +1960,7 @@ proxy-groups:
       - 06-0590-CN
       - 06-0600-CN
       - 06-0610-NOWHERE
+      - 07-0620-VN
       - 08-0630-CN
       - 08-0640-CN
       - 08-0650-CN
