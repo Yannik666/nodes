@@ -520,7 +520,6 @@ proxies:
   - {name: 06-0582-CN, server: 110.40.59.61, port: 53793, type: ss, cipher: chacha20-ietf-poly1305, password: 4adf592c-ae65-4491-a035-07525e339020, udp: true}
   - {name: 06-0583-CN, server: ah3-picfgde5bmwtmart.bestzumo.com, port: 48903, type: ss, cipher: chacha20-ietf-poly1305, password: d18a0642-b193-422f-a775-6fc18948c54c, udp: true}
   - {name: 06-0584-RELAY, server: cf.hy2.one, port: 2052, type: vmess, uuid: 35a62ad8-2dc3-431b-bd5b-de9880f10e4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0, headers: {Host: cf.hy2.one}}, udp: true}
-  - {name: 06-0585-RELAY, server: vxlbb.kovmk.website, port: 443, type: vmess, uuid: 293b8d0e-0051-4fdb-9fdb-beb491b41a3e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vxlbb.kovmk.website}}, udp: true}
   - {name: 06-0586-CN, server: ah1-xj6fwjj5fymdrn8y.bestzumo.com, port: 34892, type: ss, cipher: chacha20-ietf-poly1305, password: d18a0642-b193-422f-a775-6fc18948c54c, udp: true}
   - {name: 06-0587-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: f116858d-b1ff-4ddb-b9ae-00222e21884d, udp: true}
   - {name: 06-0588-CN, server: ah3-picfgde5bmwtmart.bestzumo.com, port: 50653, type: ss, cipher: chacha20-ietf-poly1305, password: d18a0642-b193-422f-a775-6fc18948c54c, udp: true}
@@ -631,6 +630,7 @@ proxies:
   - {name: 08-0696-CN, server: 122.188.71.122, port: 29473, type: ss, cipher: chacha20-ietf-poly1305, password: ba074307-f413-4614-b156-271069796505, udp: true}
   - {name: 08-0697-CN, server: 122.188.71.122, port: 29473, type: ss, cipher: chacha20-ietf-poly1305, password: 12cb6fc0-02f7-4875-b3a7-2d56ee72a7ce, udp: true}
   - {name: 08-0698-CN, server: dg2-dhmkadj4ewendprw.bestzumo.com, port: 32646, type: ss, cipher: chacha20-ietf-poly1305, password: ba074307-f413-4614-b156-271069796505, udp: true}
+  - {name: 24-3077-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 88f4e5de-79a8-4aa6-8ff3-7a3c7d1b78a1, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-3079-RU, server: m003.mmzhk.website, port: 8080, type: vmess, uuid: ecf7e67b-d539-4b0e-a8dd-51ef7fdb829d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xyz, headers: {Host: m003.mmzhk.website}}, udp: true}
   - {name: 24-3080-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: bc683f99-6608-461e-907b-f331aa661617, udp: true}
   - {name: 24-3081-CN, server: ah3-picfgde5bmwtmart.bestzumo.com, port: 42457, type: ss, cipher: chacha20-ietf-poly1305, password: f2540669-51f8-423a-a832-ea3eae98573f, udp: true}
@@ -1135,7 +1135,6 @@ proxy-groups:
       - 06-0582-CN
       - 06-0583-CN
       - 06-0584-RELAY
-      - 06-0585-RELAY
       - 06-0586-CN
       - 06-0587-CN
       - 06-0588-CN
@@ -1246,6 +1245,7 @@ proxy-groups:
       - 08-0696-CN
       - 08-0697-CN
       - 08-0698-CN
+      - 24-3077-KR
       - 24-3079-RU
       - 24-3080-CN
       - 24-3081-CN
@@ -1630,7 +1630,6 @@ proxy-groups:
       - 06-0555-RELAY
       - 06-0565-CN
       - 06-0575-CN
-      - 06-0585-RELAY
       - 06-0595-CN
       - 06-0605-CN
       - 06-0615-RU
@@ -1776,6 +1775,7 @@ proxy-groups:
       - 08-0677-CN
       - 08-0687-CN
       - 08-0697-CN
+      - 24-3077-KR
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
