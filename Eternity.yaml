@@ -639,9 +639,9 @@ proxies:
   - {name: 07-0693-RELAY, server: 172.64.175.88, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 07-0694-RELAY, server: 104.19.38.9, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 08-0696-RU, server: m003.mmzhk.website, port: 8080, type: vmess, uuid: 1ab25d04-619d-42dc-9ad3-f0ce4597eb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xyz, headers: {Host: m003.mmzhk.website}}, udp: true}
+  - {name: 24-3302-RU, server: m003.mmzhk.website, port: 8080, type: vmess, uuid: b8bd0d44-9390-4d5c-8c56-da34dcf30c45, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xyz, headers: {Host: m003.mmzhk.website}}, udp: true}
   - {name: 24-3306-CN, server: ah3-picfgde5bmwtmart.bestzumo.com, port: 50474, type: ss, cipher: chacha20-ietf-poly1305, password: cd7cb08d-7d5c-4ded-bf15-9587989759e5, udp: true}
   - {name: 24-3308-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: bc683f99-6608-461e-907b-f331aa661617, udp: true}
-  - {name: 24-3309-RELAY, server: dmybj.kovmk.website, port: 443, type: vmess, uuid: 8c50d595-6e62-43ef-876f-ab4866867e8c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dmybj.kovmk.website}}, udp: true}
   - {name: 24-3310-CN, server: 183.232.159.51, port: 56697, type: ss, cipher: chacha20-ietf-poly1305, password: 085bb1b2-fdef-4353-b9c3-7e1e7ddcf0b7, udp: true}
   - {name: 24-3311-RU, server: m003.mmzhk.website, port: 8080, type: vmess, uuid: 579ba4ab-3364-4bb8-bd97-9726b468242a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xyz, headers: {Host: m003.mmzhk.website}}, udp: true}
   - {name: 24-3314-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d992956c-ca13-4819-82aa-59fe384abff9, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -1253,9 +1253,9 @@ proxy-groups:
       - 07-0693-RELAY
       - 07-0694-RELAY
       - 08-0696-RU
+      - 24-3302-RU
       - 24-3306-CN
       - 24-3308-CN
-      - 24-3309-RELAY
       - 24-3310-CN
       - 24-3311-RU
       - 24-3314-KR
@@ -1441,6 +1441,7 @@ proxy-groups:
       - 06-0672-CN
       - 06-0682-CN
       - 07-0692-RELAY
+      - 24-3302-RU
       - 24-3322-CN
   - name: 测速3分组
     type: url-test
@@ -1902,7 +1903,6 @@ proxy-groups:
       - 06-0669-CN
       - 06-0679-CN
       - 06-0689-CN
-      - 24-3309-RELAY
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
