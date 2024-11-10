@@ -352,6 +352,8 @@ proxies:
   - {name: 05-0403-NOWHERE, server: sg6.sulink.one, port: 12343, type: ss, cipher: chacha20-ietf-poly1305, password: a3292f74-762b-4e16-9938-3ac3c7907a43, udp: true}
   - {name: 05-0404-RELAY, server: yx.sulink.one, port: 80, type: vmess, uuid: a3292f74-762b-4e16-9938-3ac3c7907a43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yx.sulink.one}}, udp: true}
   - {name: 05-0405-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: daf75384-b016-41aa-b05c-5f138516f29b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 05-0408-RELAY, server: ptcdm.whmvmkwuey.store, port: 443, type: vmess, uuid: 9c86cd8e-9dae-4232-9b74-aee4fd8ad79b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ptcdm.whmvmkwuey.store}}, udp: true}
+  - {name: 05-0409-RELAY, server: ptcdm.whmvmkwuey.store, port: 443, type: vmess, uuid: c8dcc2e4-a96e-4dd8-a8c8-28357af4a8ef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ptcdm.whmvmkwuey.store}}, udp: true}
   - {name: 05-0410-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: aed737e1-6543-4a43-910c-42cabab60f9f, udp: true}
   - {name: 05-0411-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: eacd2090-36ee-4c63-b4cf-90fd2f358c6e, udp: true}
   - {name: 05-0412-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: aed737e1-6543-4a43-910c-42cabab60f9f, udp: true}
@@ -641,8 +643,6 @@ proxies:
   - {name: 14-0696-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6d05bc0c-0397-4bba-ac0a-1fbc93ce0cac, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-0697-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: d58853eb-809f-4558-b673-c363add72722, udp: true}
   - {name: 14-0698-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 8c6704f8-13a7-4c13-971a-f2488244defb, udp: true}
-  - {name: 24-2033-US, server: gmhjh.mmzhk.website, port: 443, type: vmess, uuid: 1f5fd1e2-b499-45ae-8ad0-d51413c007f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gmhjh.mmzhk.website}}, udp: true}
-  - {name: 24-2034-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2fd9db50-5243-4833-b56d-0105f130b6b6, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-2035-US, server: gmhjh.mmzhk.website, port: 443, type: vmess, uuid: 5b302bfd-b0a4-4bfb-b06c-67a93b1d3a70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gmhjh.mmzhk.website}}, udp: true}
   - {name: 24-2036-US, server: gmhjh.mmzhk.website, port: 443, type: vmess, uuid: 8c50d595-6e62-43ef-876f-ab4866867e8c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gmhjh.mmzhk.website}}, udp: true}
   - {name: 24-2038-NOWHERE, server: sg6.sulink.one, port: 12343, type: ss, cipher: chacha20-ietf-poly1305, password: d6525136-4a3e-4798-a51f-363e22a566b8, udp: true}
@@ -966,6 +966,8 @@ proxy-groups:
       - 05-0403-NOWHERE
       - 05-0404-RELAY
       - 05-0405-KR
+      - 05-0408-RELAY
+      - 05-0409-RELAY
       - 05-0410-CN
       - 05-0411-CN
       - 05-0412-CN
@@ -1255,8 +1257,6 @@ proxy-groups:
       - 14-0696-KR
       - 14-0697-CN
       - 14-0698-CN
-      - 24-2033-US
-      - 24-2034-KR
       - 24-2035-US
       - 24-2036-US
       - 24-2038-NOWHERE
@@ -1508,7 +1508,6 @@ proxy-groups:
       - 13-0673-DE
       - 14-0683-KR
       - 14-0693-CN
-      - 24-2033-US
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1574,7 +1573,6 @@ proxy-groups:
       - 13-0674-DE
       - 14-0684-KR
       - 14-0694-KR
-      - 24-2034-KR
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1809,6 +1807,7 @@ proxy-groups:
       - 04-0278-CN
       - 04-0288-CN
       - 04-0298-CN
+      - 05-0408-RELAY
       - 05-0418-CN
       - 05-0428-CN
       - 06-0438-CN
@@ -1875,6 +1874,7 @@ proxy-groups:
       - 04-0279-CN
       - 04-0289-CN
       - 04-0299-CN
+      - 05-0409-RELAY
       - 05-0419-CN
       - 05-0429-CN
       - 06-0439-CN
