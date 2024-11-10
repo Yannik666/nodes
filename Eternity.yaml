@@ -347,6 +347,8 @@ proxies:
   - {name: 05-0398-NOWHERE, server: sg6.hy2.one, port: 23343, type: ss, cipher: chacha20-ietf-poly1305, password: 0fbd4718-e402-4684-9297-07e627591ded, udp: true}
   - {name: 05-0399-RELAY, server: yx.sulink.one, port: 80, type: vmess, uuid: 2838d175-c704-4e07-bf22-776a5a6316fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yx.sulink.one}}, udp: true}
   - {name: 05-0400-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 964bcda1-171c-40c6-8951-5fbf453746b5, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 05-0401-US, server: gmhjh.mmzhk.website, port: 443, type: vmess, uuid: 11e71dde-29d1-4c93-bfcc-45a7ebf50aba, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gmhjh.mmzhk.website}}, udp: true}
+  - {name: 05-0402-US, server: gmhjh.mmzhk.website, port: 443, type: vmess, uuid: fb43dbfd-e0f7-4971-92f6-580b42378198, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gmhjh.mmzhk.website}}, udp: true}
   - {name: 05-0403-US, server: m003.mmzhk.website, port: 8080, type: vmess, uuid: 11e71dde-29d1-4c93-bfcc-45a7ebf50aba, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xyz, headers: {Host: m003.mmzhk.website}}, udp: true}
   - {name: 05-0404-US, server: m003.mmzhk.website, port: 8080, type: vmess, uuid: fb43dbfd-e0f7-4971-92f6-580b42378198, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xyz, headers: {Host: m003.mmzhk.website}}, udp: true}
   - {name: 05-0405-US, server: cuqai.kovmk.website, port: 443, type: vmess, uuid: 11e71dde-29d1-4c93-bfcc-45a7ebf50aba, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cuqai.kovmk.website}}, udp: true}
@@ -643,8 +645,6 @@ proxies:
   - {name: 13-0696-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: ba3d9258-3a9d-415b-ad58-243f20f79f6a, udp: true}
   - {name: 13-0697-CN, server: 110.40.59.61, port: 18762, type: ss, cipher: chacha20-ietf-poly1305, password: e5e5b6e2-1e2e-4bf4-bbe1-b320bf285cab, udp: true}
   - {name: 13-0698-DE, server: gstdnb.myfczy168.top, port: 15070, type: ss, cipher: chacha20-ietf-poly1305, password: 9c6dbc66-2135-4c4c-8340-6d22216b9dec, udp: true}
-  - {name: 24-2092-US, server: gmhjh.mmzhk.website, port: 443, type: vmess, uuid: 5b302bfd-b0a4-4bfb-b06c-67a93b1d3a70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gmhjh.mmzhk.website}}, udp: true}
-  - {name: 24-2093-US, server: gmhjh.mmzhk.website, port: 443, type: vmess, uuid: 8c50d595-6e62-43ef-876f-ab4866867e8c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gmhjh.mmzhk.website}}, udp: true}
   - {name: 24-2095-NOWHERE, server: sg6.sulink.one, port: 12343, type: ss, cipher: chacha20-ietf-poly1305, password: d6525136-4a3e-4798-a51f-363e22a566b8, udp: true}
   - {name: 24-2096-US, server: gmhjh.mmzhk.website, port: 443, type: vmess, uuid: 05e17ebd-fa63-4e6a-a749-a6386f6548e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gmhjh.mmzhk.website}}, udp: true}
   - {name: 24-2097-US, server: m003.mmzhk.website, port: 8080, type: vmess, uuid: 53b9e189-8f8e-45ea-8d59-3b38168b5954, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xyz, headers: {Host: m003.mmzhk.website}}, udp: true}
@@ -961,6 +961,8 @@ proxy-groups:
       - 05-0398-NOWHERE
       - 05-0399-RELAY
       - 05-0400-KR
+      - 05-0401-US
+      - 05-0402-US
       - 05-0403-US
       - 05-0404-US
       - 05-0405-US
@@ -1257,8 +1259,6 @@ proxy-groups:
       - 13-0696-CN
       - 13-0697-CN
       - 13-0698-DE
-      - 24-2092-US
-      - 24-2093-US
       - 24-2095-NOWHERE
       - 24-2096-US
       - 24-2097-US
@@ -1347,6 +1347,7 @@ proxy-groups:
       - 04-0271-CN
       - 04-0281-CN
       - 04-0291-CN
+      - 05-0401-US
       - 05-0411-CN
       - 05-0421-CN
       - 06-0431-CN
@@ -1412,6 +1413,7 @@ proxy-groups:
       - 04-0272-CN
       - 04-0282-CN
       - 04-0292-CN
+      - 05-0402-US
       - 05-0412-CN
       - 05-0422-CN
       - 06-0432-NOWHERE
@@ -1441,7 +1443,6 @@ proxy-groups:
       - 13-0672-CN
       - 13-0682-CN
       - 13-0692-CN
-      - 24-2092-US
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1508,7 +1509,6 @@ proxy-groups:
       - 13-0673-CN
       - 13-0683-DE
       - 13-0693-DE
-      - 24-2093-US
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
