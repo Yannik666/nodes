@@ -367,6 +367,7 @@ proxies:
   - {name: 06-0422-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 515afaa7-52e3-45a0-9856-5f5a9ef673a5, udp: true}
   - {name: 06-0423-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 455c351b-2713-45e9-aae9-2593c358e55b, udp: true}
   - {name: 06-0424-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 455c351b-2713-45e9-aae9-2593c358e55b, udp: true}
+  - {name: 07-0425-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 07-0426-RELAY, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: singapore.com}}, udp: true}
   - {name: 07-0427-RELAY, server: iyufgvpkjbhandzejotsnxmrgmprul.roxifa.ir, port: 443, type: vmess, uuid: e739af9d-a9f4-476f-9d98-e1b30f276e13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "@RaFaV2Bot", headers: {Host: iyufgvpkjbhandzejotsnxmrgmprul.roxifa.ir}}, udp: true}
   - {name: 08-0429-NOWHERE, server: fkyyg.mmzhk.website, port: 443, type: vmess, uuid: 1e75b86b-e006-40ec-b1e4-009a1783b232, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fkyyg.mmzhk.website}}, udp: true}
@@ -636,7 +637,6 @@ proxies:
   - {name: 14-0696-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48b407-2e01-4b79-ae34-766e529953f1, udp: true}
   - {name: 14-0697-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: cbb88918-3e2d-4892-a425-3ca1aa31a6ae, udp: true}
   - {name: 14-0698-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 0f48b407-2e01-4b79-ae34-766e529953f1, udp: true}
-  - {name: 24-2241-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 4de3cd7f-88b8-46bc-99b3-6d8963d17f79, udp: true}
   - {name: 24-2242-NOWHERE, server: fnujs.whmvmkwuey.store, port: 443, type: vmess, uuid: 5db3a979-3fea-415e-926d-1c3f239bfb06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fnujs.whmvmkwuey.store}}, udp: true}
   - {name: 24-2243-NOWHERE, server: qyqeu.whmvmkwuey.store, port: 443, type: vmess, uuid: c5e6e74c-9e94-4ea1-8430-19b57ae382b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: qyqeu.whmvmkwuey.store}}, udp: true}
   - {name: 24-2245-NOWHERE, server: fkyyg.mmzhk.website, port: 443, type: vmess, uuid: 3d0fb298-f424-46d7-8f64-d792eef8b570, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fkyyg.mmzhk.website}}, udp: true}
@@ -981,6 +981,7 @@ proxy-groups:
       - 06-0422-CN
       - 06-0423-CN
       - 06-0424-CN
+      - 07-0425-RELAY
       - 07-0426-RELAY
       - 07-0427-RELAY
       - 08-0429-NOWHERE
@@ -1250,7 +1251,6 @@ proxy-groups:
       - 14-0696-CN
       - 14-0697-CN
       - 14-0698-CN
-      - 24-2241-CN
       - 24-2242-NOWHERE
       - 24-2243-NOWHERE
       - 24-2245-NOWHERE
@@ -1374,7 +1374,6 @@ proxy-groups:
       - 14-0671-CN
       - 14-0681-KR
       - 14-0691-KR
-      - 24-2241-CN
       - 24-2251-NOWHERE
   - name: 测速2分组
     type: url-test
@@ -1611,6 +1610,7 @@ proxy-groups:
       - 06-0395-CN
       - 06-0405-CN
       - 06-0415-CN
+      - 07-0425-RELAY
       - 08-0435-NOWHERE
       - 08-0445-CN
       - 08-0455-CN
