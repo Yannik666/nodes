@@ -416,7 +416,6 @@ proxies:
   - {name: 06-0467-HK, server: hk1.a123.my, port: 4536, type: trojan, password: c378e548-2056-40df-8a73-f8b5a8a18b67, skip-cert-verify: true, udp: true}
   - {name: 06-0468-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 1e880c54-913e-4274-b197-703dc7470bca, udp: true}
   - {name: 06-0469-RELAY, server: in2.127414.xyz, port: 80, type: vmess, uuid: cf84484e-3eb4-4aff-b047-b0a01a77046e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in2.127414.xyz}}, udp: true}
-  - {name: 07-0470-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 07-0471-RELAY, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: singapore.com}}, udp: true}
   - {name: 07-0472-RELAY, server: iyufgvpkjbhandzejotsnxmrgmprul.roxifa.ir, port: 443, type: vmess, uuid: e739af9d-a9f4-476f-9d98-e1b30f276e13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "@RaFaV2Bot", headers: {Host: iyufgvpkjbhandzejotsnxmrgmprul.roxifa.ir}}, udp: true}
   - {name: 08-0473-RELAY, server: in2.127414.xyz, port: 80, type: vmess, uuid: fe7d93fa-558b-45d4-b4cb-8187efe3c325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in2.127414.xyz}}, udp: true}
@@ -645,6 +644,7 @@ proxies:
   - {name: 13-0696-DE, server: gstdnb.myfczy168.top, port: 15070, type: ss, cipher: chacha20-ietf-poly1305, password: 9c6dbc66-2135-4c4c-8340-6d22216b9dec, udp: true}
   - {name: 13-0697-DE, server: gstdnb.myfczy168.top, port: 25149, type: ss, cipher: chacha20-ietf-poly1305, password: e31eb8ea-9cc5-4deb-af2f-a44d82c516dd, udp: true}
   - {name: 13-0698-DE, server: gstdnb.myfczy168.top, port: 27110, type: ss, cipher: chacha20-ietf-poly1305, password: e31eb8ea-9cc5-4deb-af2f-a44d82c516dd, udp: true}
+  - {name: 24-2150-NOWHERE, server: qagmg.whmvmkwuey.store, port: 443, type: vmess, uuid: d2601bbe-856a-4556-b0dd-5c7c493a905a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: qagmg.whmvmkwuey.store}}, udp: true}
   - {name: 24-2151-NOWHERE, server: qagmg.whmvmkwuey.store, port: 443, type: vmess, uuid: 50861c72-43e0-4171-82d0-0eee99b1e00a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: qagmg.whmvmkwuey.store}}, udp: true}
   - {name: 24-2152-NOWHERE, server: qagmg.whmvmkwuey.store, port: 443, type: vmess, uuid: 7a84c6c5-6de6-4800-9d09-70c3b51187b2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: qagmg.whmvmkwuey.store}}, udp: true}
   - {name: 24-2153-RELAY, server: ae2.127414.xyz, port: 80, type: vmess, uuid: 5252793b-cc99-45aa-9a31-b9ea59a76ab5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ae2.127414.xyz}}, udp: true}
@@ -1031,7 +1031,6 @@ proxy-groups:
       - 06-0467-HK
       - 06-0468-CN
       - 06-0469-RELAY
-      - 07-0470-RELAY
       - 07-0471-RELAY
       - 07-0472-RELAY
       - 08-0473-RELAY
@@ -1260,6 +1259,7 @@ proxy-groups:
       - 13-0696-DE
       - 13-0697-DE
       - 13-0698-DE
+      - 24-2150-NOWHERE
       - 24-2151-NOWHERE
       - 24-2152-NOWHERE
       - 24-2153-RELAY
@@ -1949,7 +1949,6 @@ proxy-groups:
       - 06-0440-KR
       - 06-0450-CN
       - 06-0460-CN
-      - 07-0470-RELAY
       - 08-0480-RELAY
       - 08-0490-NOWHERE
       - 08-0500-CN
@@ -1972,6 +1971,7 @@ proxy-groups:
       - 13-0670-CN
       - 13-0680-CN
       - 13-0690-CN
+      - 24-2150-NOWHERE
   - name: 广告拦截
     type: select
     proxies:
