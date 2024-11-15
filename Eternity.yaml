@@ -386,6 +386,7 @@ proxies:
   - {name: 06-0439-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: ff9ab03b-5eff-4344-82bf-05848d22c86e, udp: true}
   - {name: 06-0440-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 8c6d736e-d6fe-4515-a2e1-c011c65c6b1b, udp: true}
   - {name: 06-0441-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 8c6d736e-d6fe-4515-a2e1-c011c65c6b1b, udp: true}
+  - {name: 07-0442-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: 0614a202-deb0-406a-be12-ed386e41dd3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 07-0443-RELAY, server: 172.64.198.249, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 07-0444-RELAY, server: singapore.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: singapore.com}}, udp: true}
   - {name: 07-0445-RELAY, server: malaysia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: malaysia.com}}, udp: true}
@@ -639,7 +640,6 @@ proxies:
   - {name: 14-0696-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 44788cc7-a214-4166-8f9e-f1e55921d1d9, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-0697-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d01bd02a-a9e5-45b2-9955-50785d3f341c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-0698-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0b2827e4-5d17-44a0-9f8e-1a70bbb35af3, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 24-2387-RELAY, server: jp2.127414.xyz, port: 80, type: vmess, uuid: 98bdac5c-da1b-404f-a3e2-876b91849a2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp2.127414.xyz}}, udp: true}
   - {name: 24-2388-NOWHERE, server: yfyoc.whmvmkwuey.store, port: 443, type: vmess, uuid: 5db3a979-3fea-415e-926d-1c3f239bfb06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yfyoc.whmvmkwuey.store}}, udp: true}
   - {name: 24-2389-NOWHERE, server: kqvpa.whmvmkwuey.store, port: 443, type: vmess, uuid: 95c320e7-41f3-4675-bc61-67ae99e912e3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kqvpa.whmvmkwuey.store}}, udp: true}
   - {name: 24-2390-NOWHERE, server: bbdin.whmvmkwuey.store, port: 443, type: vmess, uuid: fbf0e395-cd89-4b7b-874f-c1fc050cfaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bbdin.whmvmkwuey.store}}, udp: true}
@@ -999,6 +999,7 @@ proxy-groups:
       - 06-0439-CN
       - 06-0440-CN
       - 06-0441-CN
+      - 07-0442-RELAY
       - 07-0443-RELAY
       - 07-0444-RELAY
       - 07-0445-RELAY
@@ -1252,7 +1253,6 @@ proxy-groups:
       - 14-0696-KR
       - 14-0697-KR
       - 14-0698-KR
-      - 24-2387-RELAY
       - 24-2388-NOWHERE
       - 24-2389-NOWHERE
       - 24-2390-NOWHERE
@@ -1412,6 +1412,7 @@ proxy-groups:
       - 06-0412-CN
       - 06-0422-CN
       - 06-0432-CN
+      - 07-0442-RELAY
       - 08-0452-RELAY
       - 08-0462-CN
       - 08-0472-CN
@@ -1768,7 +1769,6 @@ proxy-groups:
       - 13-0677-CN
       - 13-0687-CN
       - 14-0697-KR
-      - 24-2387-RELAY
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
