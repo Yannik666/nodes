@@ -643,11 +643,11 @@ proxies:
   - {name: 14-0696-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 34bf40bf-406b-4c07-aed2-4ad12dcbd4db, udp: true}
   - {name: 14-0697-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: e481574c-41b5-4e5d-bd4f-b0f307d4faf0, udp: true}
   - {name: 14-0698-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ddebf440-e193-4941-b782-513a0da8f4ba, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 24-2115-RELAY, server: in2.127414.xyz, port: 80, type: vmess, uuid: d0442602-89d5-4619-8391-63accfca7703, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in2.127414.xyz}}, udp: true}
   - {name: 24-2117-RELAY, server: yx.sulink.one, port: 80, type: vmess, uuid: 597bd2b8-11df-4ac2-a84b-c4619727cf1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yx.sulink.one}}, udp: true}
   - {name: 24-2119-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5635d9d2-8fea-4fc8-997a-8c9d53e60818, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-2123-NOWHERE, server: sg6.sulink.one, port: 12343, type: ss, cipher: chacha20-ietf-poly1305, password: 597bd2b8-11df-4ac2-a84b-c4619727cf1c, udp: true}
   - {name: 24-2124-NOWHERE, server: zpwdw.whmvmkwuey.store, port: 443, type: vmess, uuid: f81bd011-e7ed-4fc5-959b-8dad32b1cfbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zpwdw.whmvmkwuey.store}}, udp: true}
+  - {name: 24-2125-RELAY, server: rucyk.whmvmkwuey.store, port: 443, type: vmess, uuid: 81b74312-5ca3-41ef-84bd-a64268bce039, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rucyk.whmvmkwuey.store}}, udp: true}
   - {name: 24-2134-NOWHERE, server: zpwdw.whmvmkwuey.store, port: 443, type: vmess, uuid: 5b302bfd-b0a4-4bfb-b06c-67a93b1d3a70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zpwdw.whmvmkwuey.store}}, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -1257,11 +1257,11 @@ proxy-groups:
       - 14-0696-CN
       - 14-0697-CN
       - 14-0698-KR
-      - 24-2115-RELAY
       - 24-2117-RELAY
       - 24-2119-KR
       - 24-2123-NOWHERE
       - 24-2124-NOWHERE
+      - 24-2125-RELAY
       - 24-2134-NOWHERE
   - name: 负载均衡
     type: load-balance
@@ -1640,7 +1640,7 @@ proxy-groups:
       - 13-0675-RELAY
       - 13-0685-CN
       - 14-0695-KR
-      - 24-2115-RELAY
+      - 24-2125-RELAY
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
