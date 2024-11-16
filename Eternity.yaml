@@ -640,14 +640,14 @@ proxies:
   - {name: 14-0696-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0bccf8c4-52d8-4e3c-84f3-551b6203bde3, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-0697-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 9b6afea0-88e9-44bf-b84d-63a72516c618, udp: true}
   - {name: 14-0698-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 10acdad9-5f2a-4016-a8b7-7b5f88a09922, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 24-2246-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: ecfb7b23-7a47-4d1b-9cd5-429a078d4672, udp: true}
+  - {name: 24-2250-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: d3b02573-7e93-466e-9619-1ca28e7d179b, udp: true}
   - {name: 24-2251-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 623119a1-d3f3-4d33-b7d6-cb37644b418d, udp: true}
   - {name: 24-2252-RELAY, server: cf.hy2.one, port: 80, type: vmess, uuid: 8d6a67f7-ff63-4452-bc32-31b6fc11f24d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af323d, headers: {Host: cf.hy2.one}}, udp: true}
   - {name: 24-2256-RELAY, server: in2.127414.xyz, port: 80, type: vmess, uuid: d0442602-89d5-4619-8391-63accfca7703, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in2.127414.xyz}}, udp: true}
   - {name: 24-2258-RELAY, server: yx.sulink.one, port: 80, type: vmess, uuid: 597bd2b8-11df-4ac2-a84b-c4619727cf1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yx.sulink.one}}, udp: true}
   - {name: 24-2260-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5635d9d2-8fea-4fc8-997a-8c9d53e60818, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-2264-NOWHERE, server: sg6.sulink.one, port: 12343, type: ss, cipher: chacha20-ietf-poly1305, password: 597bd2b8-11df-4ac2-a84b-c4619727cf1c, udp: true}
-  - {name: 24-2272-RELAY, server: rucyk.whmvmkwuey.store, port: 443, type: vmess, uuid: f81bd011-e7ed-4fc5-959b-8dad32b1cfbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rucyk.whmvmkwuey.store}}, udp: true}
-  - {name: 24-2274-RELAY, server: rucyk.whmvmkwuey.store, port: 443, type: vmess, uuid: 95c320e7-41f3-4675-bc61-67ae99e912e3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rucyk.whmvmkwuey.store}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1253,14 +1253,14 @@ proxy-groups:
       - 14-0696-KR
       - 14-0697-CN
       - 14-0698-KR
+      - 24-2246-CN
+      - 24-2250-CN
       - 24-2251-CN
       - 24-2252-RELAY
       - 24-2256-RELAY
       - 24-2258-RELAY
       - 24-2260-KR
       - 24-2264-NOWHERE
-      - 24-2272-RELAY
-      - 24-2274-RELAY
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1442,7 +1442,6 @@ proxy-groups:
       - 13-0682-DE
       - 14-0692-KR
       - 24-2252-RELAY
-      - 24-2272-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1572,7 +1571,6 @@ proxy-groups:
       - 13-0684-DE
       - 14-0694-KR
       - 24-2264-NOWHERE
-      - 24-2274-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1702,6 +1700,7 @@ proxy-groups:
       - 13-0676-DE
       - 13-0686-DE
       - 14-0696-KR
+      - 24-2246-CN
       - 24-2256-RELAY
   - name: 测速7分组
     type: url-test
@@ -1965,6 +1964,7 @@ proxy-groups:
       - 13-0670-CN
       - 13-0680-CN
       - 13-0690-DE
+      - 24-2250-CN
       - 24-2260-KR
   - name: 广告拦截
     type: select
