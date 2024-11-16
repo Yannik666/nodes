@@ -642,12 +642,12 @@ proxies:
   - {name: 14-0695-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d01bd02a-a9e5-45b2-9955-50785d3f341c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-0696-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 34bf40bf-406b-4c07-aed2-4ad12dcbd4db, udp: true}
   - {name: 14-0697-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: e481574c-41b5-4e5d-bd4f-b0f307d4faf0, udp: true}
+  - {name: 24-2123-NOWHERE, server: sg6.sulink.one, port: 12343, type: ss, cipher: chacha20-ietf-poly1305, password: 597bd2b8-11df-4ac2-a84b-c4619727cf1c, udp: true}
+  - {name: 24-2124-NOWHERE, server: zpwdw.whmvmkwuey.store, port: 443, type: vmess, uuid: f81bd011-e7ed-4fc5-959b-8dad32b1cfbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zpwdw.whmvmkwuey.store}}, udp: true}
   - {name: 24-2125-RELAY, server: rucyk.whmvmkwuey.store, port: 443, type: vmess, uuid: 81b74312-5ca3-41ef-84bd-a64268bce039, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rucyk.whmvmkwuey.store}}, udp: true}
   - {name: 24-2126-RELAY, server: rucyk.whmvmkwuey.store, port: 443, type: vmess, uuid: e912fe65-bf7e-4b6c-81d9-13438f195df8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rucyk.whmvmkwuey.store}}, udp: true}
-  - {name: 24-2127-RELAY, server: wfqyk.whmvmkwuey.store, port: 443, type: vmess, uuid: fbf0e395-cd89-4b7b-874f-c1fc050cfaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wfqyk.whmvmkwuey.store}}, udp: true}
   - {name: 24-2129-RELAY, server: rucyk.whmvmkwuey.store, port: 443, type: vmess, uuid: 50861c72-43e0-4171-82d0-0eee99b1e00a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rucyk.whmvmkwuey.store}}, udp: true}
   - {name: 24-2131-RELAY, server: rucyk.whmvmkwuey.store, port: 443, type: vmess, uuid: f81bd011-e7ed-4fc5-959b-8dad32b1cfbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rucyk.whmvmkwuey.store}}, udp: true}
-  - {name: 24-2133-RELAY, server: rucyk.whmvmkwuey.store, port: 443, type: vmess, uuid: 95c320e7-41f3-4675-bc61-67ae99e912e3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rucyk.whmvmkwuey.store}}, udp: true}
   - {name: 24-2134-NOWHERE, server: zpwdw.whmvmkwuey.store, port: 443, type: vmess, uuid: 5b302bfd-b0a4-4bfb-b06c-67a93b1d3a70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zpwdw.whmvmkwuey.store}}, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -1256,12 +1256,12 @@ proxy-groups:
       - 14-0695-KR
       - 14-0696-CN
       - 14-0697-CN
+      - 24-2123-NOWHERE
+      - 24-2124-NOWHERE
       - 24-2125-RELAY
       - 24-2126-RELAY
-      - 24-2127-RELAY
       - 24-2129-RELAY
       - 24-2131-RELAY
-      - 24-2133-RELAY
       - 24-2134-NOWHERE
   - name: 负载均衡
     type: load-balance
@@ -1509,7 +1509,7 @@ proxy-groups:
       - 13-0673-US
       - 13-0683-SG
       - 14-0693-CN
-      - 24-2133-RELAY
+      - 24-2123-NOWHERE
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1575,6 +1575,7 @@ proxy-groups:
       - 13-0674-CN
       - 13-0684-DE
       - 14-0694-CN
+      - 24-2124-NOWHERE
       - 24-2134-NOWHERE
   - name: 测速5分组
     type: url-test
@@ -1772,7 +1773,6 @@ proxy-groups:
       - 13-0677-DE
       - 13-0687-DE
       - 14-0697-CN
-      - 24-2127-RELAY
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
