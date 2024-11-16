@@ -640,14 +640,14 @@ proxies:
   - {name: 14-0696-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f920d911-e4f2-43e3-8a80-1804c3cbe091, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-0697-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 52ddb6e7-4aff-49e3-ac46-eced39dcd25a, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-0698-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9c25cd12-6de8-4457-b1bf-18af3e0dd2de, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 24-2226-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: d3b02573-7e93-466e-9619-1ca28e7d179b, udp: true}
   - {name: 24-2227-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 623119a1-d3f3-4d33-b7d6-cb37644b418d, udp: true}
   - {name: 24-2228-RELAY, server: cf.hy2.one, port: 80, type: vmess, uuid: 8d6a67f7-ff63-4452-bc32-31b6fc11f24d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af323d, headers: {Host: cf.hy2.one}}, udp: true}
   - {name: 24-2232-RELAY, server: in2.127414.xyz, port: 80, type: vmess, uuid: d0442602-89d5-4619-8391-63accfca7703, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in2.127414.xyz}}, udp: true}
   - {name: 24-2234-RELAY, server: yx.sulink.one, port: 80, type: vmess, uuid: 597bd2b8-11df-4ac2-a84b-c4619727cf1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yx.sulink.one}}, udp: true}
   - {name: 24-2236-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5635d9d2-8fea-4fc8-997a-8c9d53e60818, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 24-2237-RELAY, server: wfqyk.whmvmkwuey.store, port: 443, type: vmess, uuid: 214aa14e-58d3-488d-8a6f-c35a303d04f6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wfqyk.whmvmkwuey.store}}, udp: true}
   - {name: 24-2240-NOWHERE, server: sg6.sulink.one, port: 12343, type: ss, cipher: chacha20-ietf-poly1305, password: 597bd2b8-11df-4ac2-a84b-c4619727cf1c, udp: true}
-  - {name: 24-2242-RELAY, server: rucyk.whmvmkwuey.store, port: 443, type: vmess, uuid: 81b74312-5ca3-41ef-84bd-a64268bce039, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rucyk.whmvmkwuey.store}}, udp: true}
-  - {name: 24-2243-RELAY, server: rucyk.whmvmkwuey.store, port: 443, type: vmess, uuid: e912fe65-bf7e-4b6c-81d9-13438f195df8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rucyk.whmvmkwuey.store}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1253,14 +1253,14 @@ proxy-groups:
       - 14-0696-KR
       - 14-0697-KR
       - 14-0698-KR
+      - 24-2226-CN
       - 24-2227-CN
       - 24-2228-RELAY
       - 24-2232-RELAY
       - 24-2234-RELAY
       - 24-2236-KR
+      - 24-2237-RELAY
       - 24-2240-NOWHERE
-      - 24-2242-RELAY
-      - 24-2243-RELAY
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1442,7 +1442,6 @@ proxy-groups:
       - 13-0682-CN
       - 13-0692-DE
       - 24-2232-RELAY
-      - 24-2242-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1508,7 +1507,6 @@ proxy-groups:
       - 13-0673-CN
       - 13-0683-CN
       - 13-0693-DE
-      - 24-2243-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1701,6 +1699,7 @@ proxy-groups:
       - 13-0676-RELAY
       - 13-0686-CN
       - 14-0696-KR
+      - 24-2226-CN
       - 24-2236-KR
   - name: 测速7分组
     type: url-test
@@ -1768,6 +1767,7 @@ proxy-groups:
       - 13-0687-DE
       - 14-0697-KR
       - 24-2227-CN
+      - 24-2237-RELAY
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
