@@ -618,25 +618,25 @@ Fork from TopFreeProxies.
     trojan://0bccf8c4-52d8-4e3c-84f3-551b6203bde3@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#14-0696-KR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5YjZhZmVhMC04OGU5LTQ0YmYtYjg0ZC02M2E3MjUxNmM2MTg@gy.666666222.shop:20002#14-0697-CN
     trojan://10acdad9-5f2a-4016-a8b7-7b5f88a09922@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#14-0698-KR
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplY2ZiN2IyMy03YTQ3LTRkMWItOWNkNS00MjlhMDc4ZDQ2NzI@gy.666666222.shop:20004#24-2246-CN
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkM2IwMjU3My03ZTkzLTQ2NmUtOTYxOS0xY2EyOGU3ZDE3OWI@gy.666666222.shop:47564#24-2250-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2MjMxMTlhMS1kM2YzLTRkMzMtYjdkNi1jYjM3NjQ0YjQxOGQ@gy.666666222.shop:47564#24-2251-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMjQtMjI1Mi1SRUxBWSIsImFkZCI6ImNmLmh5Mi5vbmUiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiOGQ2YTY3ZjctZmY2My00NDUyLWJjMzItMzFiNmZjMTFmMjRkIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9hZjMyM2QiLCJob3N0IjoiY2YuaHkyLm9uZSIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMjQtMjI1Ni1SRUxBWSIsImFkZCI6ImluMi4xMjc0MTQueHl6IiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImQwNDQyNjAyLTg5ZDUtNDYxOS04MzkxLTYzYWNjZmNhNzcwMyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImluMi4xMjc0MTQueHl6IiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMjQtMjI1OC1SRUxBWSIsImFkZCI6Inl4LnN1bGluay5vbmUiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNTk3YmQyYjgtMTFkZi00YWMyLWE4NGItYzQ2MTk3MjdjZjFjIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoieXguc3VsaW5rLm9uZSIsInRscyI6IiJ9
     trojan://5635d9d2-8fea-4fc8-997a-8c9d53e60818@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#24-2260-KR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1OTdiZDJiOC0xMWRmLTRhYzItYTg0Yi1jNDYxOTcyN2NmMWM@sg6.sulink.one:12343#24-2264-NOWHERE
-    vmess://eyJ2IjoiMiIsInBzIjoiMjQtMjI3Mi1SRUxBWSIsImFkZCI6InJ1Y3lrLndobXZta3d1ZXkuc3RvcmUiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImY4MWJkMDExLWU3ZWQtNGZjNS05NTliLThkYWQzMmIxY2ZiYiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InJ1Y3lrLndobXZta3d1ZXkuc3RvcmUiLCJ0bHMiOiJ0bHMifQ==
-    vmess://eyJ2IjoiMiIsInBzIjoiMjQtMjI3NC1SRUxBWSIsImFkZCI6InJ1Y3lrLndobXZta3d1ZXkuc3RvcmUiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6Ijk1YzMyMGU3LTQxZjMtNDY3NS1iYzYxLTY3YWU5OWU5MTJlMyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InJ1Y3lrLndobXZta3d1ZXkuc3RvcmUiLCJ0bHMiOiJ0bHMifQ==
     
 
 
 </details>
 
 ### 所有节点
-合并节点总数: `2277`
+合并节点总数: `2252`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `2277`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `2252`
 
 
 ## 仓库声明
