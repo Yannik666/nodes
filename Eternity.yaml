@@ -416,6 +416,8 @@ proxies:
   - {name: 07-0467-RELAY, server: 172.64.198.249, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 07-0468-RELAY, server: 172.64.166.9, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 07-0469-RELAY, server: 104.19.38.12, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: 07-0474-CN, server: gzyd3.piaomiaoxu.net, port: 46989, type: ss, cipher: aes-256-gcm, password: cf1e8002-c184-4f9e-bbff-ac9ab2d76d25, udp: true}
+  - {name: 07-0475-CN, server: gzyd5-1.piaomiaoxu.net, port: 46989, type: ss, cipher: aes-256-gcm, password: 17ac099b-3a2d-4484-b8a4-f58092a03903, udp: true}
   - {name: 08-0476-RELAY, server: jnd.mnys668.xyz, port: 2083, type: vmess, uuid: 612559cf-2d7b-4a8c-ad59-f006cc091841, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jnd.mnys668.xyz}}, udp: true}
   - {name: 08-0477-RELAY, server: fg.mnys668.xyz, port: 2083, type: vmess, uuid: 612559cf-2d7b-4a8c-ad59-f006cc091841, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fg.mnys668.xyz}}, udp: true}
   - {name: 08-0478-RELAY, server: dg.mnys668.xyz, port: 2083, type: vmess, uuid: 612559cf-2d7b-4a8c-ad59-f006cc091841, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dg.mnys668.xyz}}, udp: true}
@@ -638,8 +640,6 @@ proxies:
   - {name: 13-0696-DE, server: gstdnb.myfczy168.top, port: 36858, type: ss, cipher: chacha20-ietf-poly1305, password: 9c6dbc66-2135-4c4c-8340-6d22216b9dec, udp: true}
   - {name: 13-0697-DE, server: gstdnb.myfczy168.top, port: 29172, type: ss, cipher: chacha20-ietf-poly1305, password: e31eb8ea-9cc5-4deb-af2f-a44d82c516dd, udp: true}
   - {name: 13-0698-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: ba3d9258-3a9d-415b-ad58-243f20f79f6a, udp: true}
-  - {name: 24-1987-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0528b735-9beb-4c99-986d-9d2efacaba7e, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 24-1988-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3bf4fb78-07c4-4130-93b0-8a6f8ccf70e2, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-1989-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 742d4738-3c4f-4155-b31a-2272bbe0282d, udp: true}
   - {name: 24-1990-RELAY, server: us-new01.daluquan.top, port: 8880, type: vmess, uuid: 4cafc75f-dc27-4912-8f60-f44f6a8bcbf4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new01.daluquan.top}}, udp: true}
   - {name: 24-1991-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 19d1731b-ed1d-4e87-a039-d09307ddd74d, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -1029,6 +1029,8 @@ proxy-groups:
       - 07-0467-RELAY
       - 07-0468-RELAY
       - 07-0469-RELAY
+      - 07-0474-CN
+      - 07-0475-CN
       - 08-0476-RELAY
       - 08-0477-RELAY
       - 08-0478-RELAY
@@ -1251,8 +1253,6 @@ proxy-groups:
       - 13-0696-DE
       - 13-0697-DE
       - 13-0698-CN
-      - 24-1987-KR
-      - 24-1988-KR
       - 24-1989-CN
       - 24-1990-RELAY
       - 24-1991-KR
@@ -1549,6 +1549,7 @@ proxy-groups:
       - 06-0444-CN
       - 06-0454-RELAY
       - 07-0464-RELAY
+      - 07-0474-CN
       - 08-0484-NOWHERE
       - 08-0494-CN
       - 08-0504-CN
@@ -1615,6 +1616,7 @@ proxy-groups:
       - 06-0445-RELAY
       - 06-0455-CN
       - 07-0465-RELAY
+      - 07-0475-CN
       - 08-0485-RELAY
       - 08-0495-CN
       - 08-0505-CN
@@ -1768,7 +1770,6 @@ proxy-groups:
       - 13-0677-DE
       - 13-0687-DE
       - 13-0697-DE
-      - 24-1987-KR
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1833,7 +1834,6 @@ proxy-groups:
       - 13-0678-DE
       - 13-0688-CN
       - 13-0698-CN
-      - 24-1988-KR
       - 24-1998-CN
   - name: 测速9分组
     type: url-test
