@@ -293,7 +293,7 @@ proxies:
   - {name: 04-0244-SG, server: sgvip101.qlgq.fun, port: 31223, type: trojan, password: a6cab208-9ca9-3d58-89e8-dd095dde41ad, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0245-SG, server: sgvip101.qlgq.fun, port: 41223, type: trojan, password: a6cab208-9ca9-3d58-89e8-dd095dde41ad, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0246-SG, server: sgvip101.qlgq.fun, port: 51223, type: trojan, password: a6cab208-9ca9-3d58-89e8-dd095dde41ad, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
-  - {name: 04-0247-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a2292db7-7e9b-4652-9c44-24fa81a8c2cb, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
+  - {name: 04-0247-US, server: lavip101.qlgq.fun, port: 11156, type: trojan, password: a6cab208-9ca9-3d58-89e8-dd095dde41ad, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0248-US, server: lavip101.qlgq.fun, port: 21156, type: trojan, password: a6cab208-9ca9-3d58-89e8-dd095dde41ad, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0249-US, server: lavip101.qlgq.fun, port: 31156, type: trojan, password: a6cab208-9ca9-3d58-89e8-dd095dde41ad, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0250-US, server: lavip102.qlgq.fun, port: 49643, type: trojan, password: a6cab208-9ca9-3d58-89e8-dd095dde41ad, sni: lavip102.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -636,7 +636,6 @@ proxies:
   - {name: 13-0688-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: ba3d9258-3a9d-415b-ad58-243f20f79f6a, udp: true}
   - {name: 13-0689-CN, server: 221.181.185.182, port: 57467, type: ss, cipher: aes-128-gcm, password: 0e92901d-bb37-456b-87d1-1644bd794ff7, udp: true}
   - {name: 13-0690-DE, server: gstdnb.myfczy168.top, port: 34013, type: ss, cipher: chacha20-ietf-poly1305, password: 9c6dbc66-2135-4c4c-8340-6d22216b9dec, udp: true}
-  - {name: 13-0691-KR, server: shouer2112.12123.org, port: 30002, type: vmess, uuid: ba39a38d-43b4-4468-8591-f6051b2bef99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /12123.org, headers: {Host: shouer2112.12123.org}}, udp: true}
   - {name: 13-0692-CN, server: 221.181.185.182, port: 34950, type: ss, cipher: aes-128-gcm, password: 0e92901d-bb37-456b-87d1-1644bd794ff7, udp: true}
   - {name: 13-0693-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: ba3d9258-3a9d-415b-ad58-243f20f79f6a, udp: true}
   - {name: 13-0694-CN, server: 110.40.59.61, port: 18762, type: ss, cipher: chacha20-ietf-poly1305, password: e5e5b6e2-1e2e-4bf4-bbe1-b320bf285cab, udp: true}
@@ -1250,7 +1249,6 @@ proxy-groups:
       - 13-0688-CN
       - 13-0689-CN
       - 13-0690-DE
-      - 13-0691-KR
       - 13-0692-CN
       - 13-0693-CN
       - 13-0694-CN
@@ -1376,7 +1374,6 @@ proxy-groups:
       - 13-0661-CN
       - 13-0671-DE
       - 13-0681-CN
-      - 13-0691-KR
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
