@@ -343,6 +343,7 @@ proxies:
   - {name: 04-0289-CN, server: 4c52.ens3.buzz, port: 31681, type: ss, cipher: chacha20-ietf-poly1305, password: 1285ebd4-be55-4a33-b215-006da491db3f, udp: true}
   - {name: 04-0290-CN, server: 4c52.ens3.buzz, port: 31683, type: ss, cipher: chacha20-ietf-poly1305, password: 1285ebd4-be55-4a33-b215-006da491db3f, udp: true}
   - {name: 04-0291-CN, server: jsyd.yunnode.win, port: 31660, type: ss, cipher: chacha20-ietf-poly1305, password: 1285ebd4-be55-4a33-b215-006da491db3f, udp: true}
+  - {name: 04-0293-JP, server: 35.75.8.137, port: 443, type: trojan, password: 94f7aee1-73ad-3284-930a-b87761937fa3, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-0297-RELAY, server: s3.db-link01.top, port: 8880, type: vmess, uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.234.249, headers: {Host: s3.db-link01.top}}, udp: true}
   - {name: 04-0298-RELAY, server: s2.db-link01.top, port: 8080, type: vmess, uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.52.145, headers: {Host: s2.db-link01.top}}, udp: true}
   - {name: 04-0299-RELAY, server: s2.db-link01.top, port: 8880, type: vmess, uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.25.10, headers: {Host: s2.db-link01.top}}, udp: true}
@@ -645,7 +646,6 @@ proxies:
   - {name: 12-0696-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 1b3e6259-9234-447c-afff-80c2428a72ca, udp: true}
   - {name: 12-0697-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 165980c1-2d23-4efa-903b-3202880de1fa, udp: true}
   - {name: 12-0698-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 1b3e6259-9234-447c-afff-80c2428a72ca, udp: true}
-  - {name: 24-2130-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 836c56cd-768d-4d90-8b13-c6d2a3ca22b2, udp: true}
   - {name: 24-2131-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0fafb82d-c4fe-48f7-b16a-f0623ad16622, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-2132-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: bb5ca2de-2426-4a99-91ac-9ae618c2f3f1, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-2134-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 420363e2-c376-4bc3-b23d-8f90e03a11cb, udp: true}
@@ -957,6 +957,7 @@ proxy-groups:
       - 04-0289-CN
       - 04-0290-CN
       - 04-0291-CN
+      - 04-0293-JP
       - 04-0297-RELAY
       - 04-0298-RELAY
       - 04-0299-RELAY
@@ -1259,7 +1260,6 @@ proxy-groups:
       - 12-0696-CN
       - 12-0697-CN
       - 12-0698-CN
-      - 24-2130-CN
       - 24-2131-KR
       - 24-2132-KR
       - 24-2134-CN
@@ -1479,6 +1479,7 @@ proxy-groups:
       - 03-0263-CN
       - 03-0273-KR
       - 04-0283-CN
+      - 04-0293-JP
       - 04-0303-RELAY
       - 04-0313-NOWHERE
       - 04-0323-CN
@@ -1968,7 +1969,6 @@ proxy-groups:
       - 12-0670-RELAY
       - 12-0680-CN
       - 12-0690-CN
-      - 24-2130-CN
   - name: 广告拦截
     type: select
     proxies:
