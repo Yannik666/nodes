@@ -84,7 +84,7 @@ proxies:
   - {name: 02-0030-RELAY, server: 104.19.42.49, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999}, udp: true}
   - {name: 02-0031-RELAY, server: 104.21.238.100, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999}, udp: true}
   - {name: 02-0032-RELAY, server: 172.64.175.213, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999}, udp: true}
-  - {name: 02-0033-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 58ff9ed2-c375-4c8a-9657-56d236fba21e, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 02-0033-US, server: 35.75.8.137, port: 443, type: trojan, password: e89aab32-e6dc-3c00-9117-6c8b6e3d771c, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 02-0034-RELAY, server: 104.19.32.216, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999}, udp: true}
   - {name: 02-0035-US, server: 103.136.185.28, port: 3516, type: trojan, password: 637308bc-fd52-343d-b573-7693835b8e20, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 02-0036-RELAY, server: 104.19.59.89, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999}, udp: true}
@@ -645,9 +645,9 @@ proxies:
   - {name: 12-0696-NOWHERE, server: sg6.sulink.one, port: 12343, type: ss, cipher: chacha20-ietf-poly1305, password: 49b95a6f-f722-49d9-b95f-b71f4ca0f710, udp: true}
   - {name: 12-0697-RELAY, server: yx.sulink.one, port: 80, type: vmess, uuid: 49b95a6f-f722-49d9-b95f-b71f4ca0f710, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yx.sulink.one}}, udp: true}
   - {name: 12-0698-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 636e361a-a6e4-41db-938c-c8503c30e78b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 24-2179-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 836c56cd-768d-4d90-8b13-c6d2a3ca22b2, udp: true}
   - {name: 24-2180-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0fafb82d-c4fe-48f7-b16a-f0623ad16622, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-2181-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: bb5ca2de-2426-4a99-91ac-9ae618c2f3f1, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 24-2182-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 58ff9ed2-c375-4c8a-9657-56d236fba21e, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-2183-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 420363e2-c376-4bc3-b23d-8f90e03a11cb, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -1259,9 +1259,9 @@ proxy-groups:
       - 12-0696-NOWHERE
       - 12-0697-RELAY
       - 12-0698-KR
-      - 24-2179-CN
       - 24-2180-KR
       - 24-2181-KR
+      - 24-2182-KR
       - 24-2183-CN
   - name: 负载均衡
     type: load-balance
@@ -1446,6 +1446,7 @@ proxy-groups:
       - 11-0672-CN
       - 11-0682-CN
       - 11-0692-CN
+      - 24-2182-KR
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1902,7 +1903,6 @@ proxy-groups:
       - 11-0669-CN
       - 11-0679-KR
       - 11-0689-CN
-      - 24-2179-CN
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
