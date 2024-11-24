@@ -342,6 +342,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjg1ZWJkNC1iZTU1LTRhMzMtYjIxNS0wMDZkYTQ5MWRiM2Y@4c52.ens3.buzz:31681#04-0310-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjg1ZWJkNC1iZTU1LTRhMzMtYjIxNS0wMDZkYTQ5MWRiM2Y@4c52.ens3.buzz:31683#04-0311-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjg1ZWJkNC1iZTU1LTRhMzMtYjIxNS0wMDZkYTQ5MWRiM2Y@jsyd.yunnode.win:31660#04-0312-CN
+    trojan://f03ed160-756e-3c76-8cf6-db5f6ebae829@35.75.8.137:443?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-0314-JP
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDMxOC1SRUxBWSIsImFkZCI6InMzLmRiLWxpbmswMS50b3AiLCJwb3J0IjoiMjA4NiIsInR5cGUiOiJub25lIiwiaWQiOiJlNTBiYjE3NC1mMmNiLTMwODEtOTMxZS1mYTRiZmQ2OWY0MmQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTA0LjI1LjI3LjE1NCIsImhvc3QiOiJzMy5kYi1saW5rMDEudG9wIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDMxOS1SRUxBWSIsImFkZCI6InMxLmRiLWxpbmswMi50b3AiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZTUwYmIxNzQtZjJjYi0zMDgxLTkzMWUtZmE0YmZkNjlmNDJkIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjEwNC4xNy4xMjYuMTIzIiwiaG9zdCI6InMxLmRiLWxpbmswMi50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDMyMC1SRUxBWSIsImFkZCI6InM0LmRiLWxpbmswMS50b3AiLCJwb3J0IjoiMjA4NiIsInR5cGUiOiJub25lIiwiaWQiOiJlNTBiYjE3NC1mMmNiLTMwODEtOTMxZS1mYTRiZmQ2OWY0MmQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTA0LjE4LjIzLjEyOSIsImhvc3QiOiJzNC5kYi1saW5rMDEudG9wIiwidGxzIjoiIn0=
@@ -623,7 +624,6 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0OWI5NWE2Zi1mNzIyLTQ5ZDktYjk1Zi1iNzFmNGNhMGY3MTA@sg6.sulink.one:12343#12-0696-NOWHERE
     vmess://eyJ2IjoiMiIsInBzIjoiMTItMDY5Ny1SRUxBWSIsImFkZCI6Inl4LnN1bGluay5vbmUiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNDliOTVhNmYtZjcyMi00OWQ5LWI5NWYtYjcxZjRjYTBmNzEwIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoieXguc3VsaW5rLm9uZSIsInRscyI6IiJ9
     trojan://636e361a-a6e4-41db-938c-c8503c30e78b@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#12-0698-KR
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4MzZjNTZjZC03NjhkLTRkOTAtOGIxMy1jNmQyYTNjYTIyYjI@gy.666666222.shop:20035#24-2179-CN
     trojan://0fafb82d-c4fe-48f7-b16a-f0623ad16622@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#24-2180-KR
     trojan://bb5ca2de-2426-4a99-91ac-9ae618c2f3f1@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#24-2181-KR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0MjAzNjNlMi1jMzc2LTRiYzMtYjIzZC04ZjkwZTAzYTExY2I@gy.666666222.shop:20052#24-2183-CN
