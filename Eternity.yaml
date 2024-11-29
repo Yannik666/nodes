@@ -591,6 +591,9 @@ proxies:
   - {name: 07-0641-RELAY, server: www.parsvds.com, port: 2087, type: vmess, uuid: d00b1cb0-d184-4581-a4c1-349bac358562, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.parsvds.com}}, udp: true}
   - {name: 07-0642-RELAY, server: www.parsvds.com, port: 2087, type: vmess, uuid: ad0a8c49-0785-46d9-bb14-2c3ab03a5dbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.parsvds.com}}, udp: true}
   - {name: 07-0643-FASTLY, server: root.mid.al, port: 443, type: vmess, uuid: a983c698-cae4-4254-d047-51898ccd8ee7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: root.mid.al}}, udp: true}
+  - {name: 07-0644-RU, server: jqegya2k.wmdkwwurw.top, port: 19796, type: ss, cipher: aes-256-gcm, password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05, udp: true}
+  - {name: 07-0645-RU, server: bs0sl9j1.wmdkwwurw.top, port: 63118, type: ss, cipher: aes-256-gcm, password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05, udp: true}
+  - {name: 07-0646-RU, server: l98tygm6.wmdkwwurw.top, port: 19994, type: ss, cipher: aes-256-gcm, password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05, udp: true}
   - {name: 07-0647-RELAY, server: 104.21.238.234, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 07-0648-RELAY, server: 104.18.114.81, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 07-0649-RELAY, server: 104.18.114.203, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
@@ -607,6 +610,8 @@ proxies:
   - {name: 07-0660-RELAY, server: 104.19.32.216, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 07-0661-RELAY, server: 104.26.5.123, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 07-0662-RELAY, server: 104.18.114.65, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: 07-0663-RU, server: esbnsn6y.wmdkwwurw.top, port: 27047, type: ss, cipher: aes-256-gcm, password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05, udp: true}
+  - {name: 07-0664-RU, server: 78tel8ar.wmdkwwurw.top, port: 42140, type: ss, cipher: aes-256-gcm, password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05, udp: true}
   - {name: 07-0665-RU, server: 1r3zcdlz.wmdkwwurw.top, port: 43761, type: ss, cipher: aes-256-gcm, password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05, udp: true}
   - {name: 08-0666-CN, server: 8gfry0izrou80f1412wrxf3mcw9t6ml4.01.01.ca.k7h.lol, port: 19915, type: ss, cipher: chacha20-ietf-poly1305, password: 77f32fef-9c2a-4a4a-9c59-92621bec3910, udp: true}
   - {name: 08-0667-RELAY, server: in2.127414.xyz, port: 80, type: vmess, uuid: f0a14b26-e36f-4990-bac9-fb3be861ad3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in2.127414.xyz}}, udp: true}
@@ -641,11 +646,6 @@ proxies:
   - {name: 08-0696-RELAY, server: yx.sulink.one, port: 80, type: vmess, uuid: 942b402b-1f91-4787-a16d-1261d0c7675c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yx.sulink.one}}, udp: true}
   - {name: 08-0697-CN, server: amj0g7zkbkb6z8h251y54tr6tuvqedfz.01.01.us.k7h.lol, port: 15513, type: ss, cipher: chacha20-ietf-poly1305, password: 77f32fef-9c2a-4a4a-9c59-92621bec3910, udp: true}
   - {name: 08-0698-CN, server: hwbnmha68cjqtwdjvzzi2h3unp4unpcf.01.02.us.k7h.lol, port: 14506, type: ss, cipher: chacha20-ietf-poly1305, password: 77f32fef-9c2a-4a4a-9c59-92621bec3910, udp: true}
-  - {name: 24-2254-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: ef63d641-d69a-435a-8098-0daa57f62c95, udp: true}
-  - {name: 24-2255-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 303d5e2a-cd63-4d4f-8689-a410c9c085aa, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 24-2256-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9477e90a-ca94-4a83-95dc-cdb0b75b2895, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 24-2257-RELAY, server: jp2.127414.xyz, port: 80, type: vmess, uuid: 93a8933b-445d-4fe0-9581-639d831bc7b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp2.127414.xyz}}, udp: true}
-  - {name: 24-2258-RELAY, server: it2.127414.xyz, port: 80, type: vmess, uuid: a8909812-3e9a-446a-bc2e-9873e7b3a2b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: it2.127414.xyz}}, udp: true}
   - {name: 24-2259-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: cc26b0fd-ffbb-4256-9fc8-1643b3a1871c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-2260-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 703d114b-836e-4245-a2a4-3d73798e0c41, udp: true}
   - {name: 24-2261-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: eac51708-16c6-4b77-b030-caa4513813cb, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -1206,6 +1206,9 @@ proxy-groups:
       - 07-0641-RELAY
       - 07-0642-RELAY
       - 07-0643-FASTLY
+      - 07-0644-RU
+      - 07-0645-RU
+      - 07-0646-RU
       - 07-0647-RELAY
       - 07-0648-RELAY
       - 07-0649-RELAY
@@ -1222,6 +1225,8 @@ proxy-groups:
       - 07-0660-RELAY
       - 07-0661-RELAY
       - 07-0662-RELAY
+      - 07-0663-RU
+      - 07-0664-RU
       - 07-0665-RU
       - 08-0666-CN
       - 08-0667-RELAY
@@ -1256,11 +1261,6 @@ proxy-groups:
       - 08-0696-RELAY
       - 08-0697-CN
       - 08-0698-CN
-      - 24-2254-CN
-      - 24-2255-KR
-      - 24-2256-KR
-      - 24-2257-RELAY
-      - 24-2258-RELAY
       - 24-2259-KR
       - 24-2260-CN
       - 24-2261-KR
@@ -1507,6 +1507,7 @@ proxy-groups:
       - 06-0633-CN
       - 07-0643-FASTLY
       - 07-0653-RELAY
+      - 07-0663-RU
       - 08-0673-RELAY
       - 08-0683-CN
       - 08-0693-CN
@@ -1570,11 +1571,12 @@ proxy-groups:
       - 06-0614-RELAY
       - 06-0624-CN
       - 06-0634-CN
+      - 07-0644-RU
       - 07-0654-RELAY
+      - 07-0664-RU
       - 08-0674-RELAY
       - 08-0684-CN
       - 08-0694-RELAY
-      - 24-2254-CN
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1635,12 +1637,12 @@ proxy-groups:
       - 06-0615-CN
       - 06-0625-CN
       - 06-0635-RELAY
+      - 07-0645-RU
       - 07-0655-RELAY
       - 07-0665-RU
       - 08-0675-NOWHERE
       - 08-0685-CN
       - 08-0695-RELAY
-      - 24-2255-KR
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1701,12 +1703,12 @@ proxy-groups:
       - 06-0616-CN
       - 06-0626-CN
       - 06-0636-CN
+      - 07-0646-RU
       - 07-0656-RELAY
       - 08-0666-CN
       - 08-0676-CN
       - 08-0686-CN
       - 08-0696-RELAY
-      - 24-2256-KR
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1773,7 +1775,6 @@ proxy-groups:
       - 08-0677-CN
       - 08-0687-CN
       - 08-0697-CN
-      - 24-2257-RELAY
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1840,7 +1841,6 @@ proxy-groups:
       - 08-0678-CN
       - 08-0688-CN
       - 08-0698-CN
-      - 24-2258-RELAY
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
