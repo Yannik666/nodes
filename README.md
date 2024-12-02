@@ -34,6 +34,7 @@ Fork from TopFreeProxies.
     trojan://1f962f36-f751-40c3-91b3-cb6d2360b450@lmgj.hongxingdl.vip:39593?allowInsecure=1&sni=mmbiz10.redapricotcloud.com#02-0002-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowOTgzM2E2Zi00ZDQ2LTQyNmUtODdmZS03NzkzYTU0ODlmODQ@k-r03.loveroise.com:54012#02-0003-NOWHERE
     vmess://eyJ2IjoiMiIsInBzIjoiMDItMDAwNC1SRUxBWSIsImFkZCI6IjE5MC45My4yNDUuODAiLCJwb3J0IjoiMjA4MiIsInR5cGUiOiJub25lIiwiaWQiOiI1ZjNmMDlhZC04OWNiLTRlOTQtYTdhZC1hYTgyMzk5MTM1NTUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2dpdGh1Yi5jb20vQWx2aW45OTk5IiwiaG9zdCI6IiIsInRscyI6IiJ9
+    vmess://eyJ2IjoiMiIsInBzIjoiMDItMDAwNS1GUiIsImFkZCI6ImlydmlkZW8uY2ZkIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJlNTM3ZjJmNS0yYTBjLTRmNTktOTJjOS04MzJjYTY0MzNiZjMiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt3cyIsImhvc3QiOiJpcnZpZGVvLmNmZCIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDItMDAwNi1GQVNUTFkiLCJhZGQiOiJyb290Lm1pZC5hbCIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiJhOTgzYzY5OC1jYWU0LTQyNTQtZDA0Ny01MTg5OGNjZDhlZTciLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2FyaWVzP2VkPTIwNDgiLCJob3N0Ijoicm9vdC5taWQuYWwiLCJ0bHMiOiIifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0NTNhNTAxOS0yYjY0LTQyMjItODdlZi03NTU4MjNmOTIzZGU@gy.666666222.shop:20013#03-0007-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozZGIwMTczMC0yZDE1LTRiNDUtOGJmOC02MDI3Njg4MDEyMzE@gy.666666222.shop:20016#03-0008-CN
@@ -623,7 +624,6 @@ Fork from TopFreeProxies.
     trojan://906076d9-c691-4702-b374-a500993a5853@iecn.cutecloud.link:52509?allowInsecure=1&sni=usz.cloud-services.top#08-0711-CN
     trojan://c527d7e8-dc97-4fff-87a7-641d50c6b759@iecn.cutecloud.link:52509?allowInsecure=1&sni=usz.cloud-services.top#08-0712-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1NThhZTk5YS03ZjJjLTQwMDItOTA5NS02MGFmNDg3NGJmY2Q@zhuanxian168.top:58868#08-0713-CN
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowNWM3ODFkYy03MWYzLTRiMmItYWY2Yi05MDgxZmZhMzMwN2Q@gy.666666222.shop:20052#24-2211-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMjU3ZTViNS0wM2QwLTRiMWEtYjQ4OC01MGM5NWFhZTU0Yjc@gy.666666222.shop:20004#24-2212-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowNWM3ODFkYy03MWYzLTRiMmItYWY2Yi05MDgxZmZhMzMwN2Q@gy.666666222.shop:20035#24-2213-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowNWM3ODFkYy03MWYzLTRiMmItYWY2Yi05MDgxZmZhMzMwN2Q@gy.666666222.shop:34338#24-2215-CN
@@ -634,11 +634,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `2218`
+合并节点总数: `2260`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `2218`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `2260`
 
 
 ## 仓库声明
