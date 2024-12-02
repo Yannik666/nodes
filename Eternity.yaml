@@ -56,6 +56,7 @@ proxies:
   - {name: 02-0002-CN, server: lmgj.hongxingdl.vip, port: 39593, type: trojan, password: 1f962f36-f751-40c3-91b3-cb6d2360b450, sni: mmbiz10.redapricotcloud.com, skip-cert-verify: true, udp: true}
   - {name: 02-0003-NOWHERE, server: k-r03.loveroise.com, port: 54012, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84, udp: true}
   - {name: 02-0004-RELAY, server: 190.93.245.80, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999}, udp: true}
+  - {name: 02-0005-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}, udp: true}
   - {name: 02-0006-FASTLY, server: root.mid.al, port: 80, type: vmess, uuid: a983c698-cae4-4254-d047-51898ccd8ee7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: root.mid.al}}, udp: true}
   - {name: 03-0007-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 453a5019-2b64-4222-87ef-755823f923de, udp: true}
   - {name: 03-0008-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 3db01730-2d15-4b45-8bf8-602768801231, udp: true}
@@ -645,7 +646,6 @@ proxies:
   - {name: 08-0711-CN, server: iecn.cutecloud.link, port: 52509, type: trojan, password: 906076d9-c691-4702-b374-a500993a5853, sni: usz.cloud-services.top, skip-cert-verify: true, udp: true}
   - {name: 08-0712-CN, server: iecn.cutecloud.link, port: 52509, type: trojan, password: c527d7e8-dc97-4fff-87a7-641d50c6b759, sni: usz.cloud-services.top, skip-cert-verify: true, udp: true}
   - {name: 08-0713-CN, server: zhuanxian168.top, port: 58868, type: ss, cipher: chacha20-ietf-poly1305, password: 558ae99a-7f2c-4002-9095-60af4874bfcd, udp: true}
-  - {name: 24-2211-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 05c781dc-71f3-4b2b-af6b-9081ffa3307d, udp: true}
   - {name: 24-2212-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 3257e5b5-03d0-4b1a-b488-50c95aae54b7, udp: true}
   - {name: 24-2213-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 05c781dc-71f3-4b2b-af6b-9081ffa3307d, udp: true}
   - {name: 24-2215-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 05c781dc-71f3-4b2b-af6b-9081ffa3307d, udp: true}
@@ -671,6 +671,7 @@ proxy-groups:
       - 02-0002-CN
       - 02-0003-NOWHERE
       - 02-0004-RELAY
+      - 02-0005-FR
       - 02-0006-FASTLY
       - 03-0007-CN
       - 03-0008-CN
@@ -1260,7 +1261,6 @@ proxy-groups:
       - 08-0711-CN
       - 08-0712-CN
       - 08-0713-CN
-      - 24-2211-CN
       - 24-2212-CN
       - 24-2213-CN
       - 24-2215-CN
@@ -1380,7 +1380,6 @@ proxy-groups:
       - 08-0691-JP
       - 08-0701-CN
       - 08-0711-CN
-      - 24-2211-CN
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1584,6 +1583,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0005-FR
       - 03-0015-KR
       - 03-0025-KR
       - 03-0035-KR
