@@ -219,7 +219,7 @@ proxies:
   - {name: 04-0165-SG, server: sgvip101.qlgq.fun, port: 31223, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0166-SG, server: sgvip101.qlgq.fun, port: 41223, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0167-SG, server: sgvip101.qlgq.fun, port: 51223, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
-  - {name: 04-0168-US, server: d0d104f4fa78cb0e2726e085b1ef4ed4.v1.cac.node-is.green, port: 47249, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
+  - {name: 04-0168-US, server: f46b3f65e076124c635c50538527e26d.v1.cac.node-is.green, port: 41143, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0169-US, server: lavip101.qlgq.fun, port: 21156, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0170-US, server: lavip101.qlgq.fun, port: 31156, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0171-US, server: lavip102.qlgq.fun, port: 49643, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip102.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -241,6 +241,7 @@ proxies:
   - {name: 04-0187-MY, server: klvip101.qlgq.fun, port: 10443, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: klvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0188-MY, server: klvip101.qlgq.fun, port: 20443, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: klvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0189-MY, server: klvip101.qlgq.fun, port: 30443, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: klvip101.qlgq.fun, skip-cert-verify: true, udp: true}
+  - {name: 04-0192-US, server: 35.91.90.223, port: 443, type: trojan, password: 8adda66d-38e6-3e83-b1e1-5ae236f7fe15, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-0195-CN, server: jsyd.yeahfast.com, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: ad9f9019-1c14-491d-b1cc-458837a3847c, udp: true}
   - {name: 04-0196-CN, server: jsyd.yeahfast.com, port: 35628, type: ss, cipher: chacha20-ietf-poly1305, password: ad9f9019-1c14-491d-b1cc-458837a3847c, udp: true}
   - {name: 04-0197-CN, server: jsyd.yeahfast.com, port: 35630, type: ss, cipher: chacha20-ietf-poly1305, password: ad9f9019-1c14-491d-b1cc-458837a3847c, udp: true}
@@ -436,9 +437,8 @@ proxies:
   - {name: 06-0486-RELAY, server: cf.hy2.one, port: 80, type: vmess, uuid: 54864dc9-3a4f-43f6-a556-9495b876674e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af323d, headers: {Host: cf.hy2.one}}, udp: true}
   - {name: 06-0487-RELAY, server: in2.127414.xyz, port: 80, type: vmess, uuid: d6cef74d-efe2-45f7-b9ab-85f53b47dc2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: in2.127414.xyz}}, udp: true}
   - {name: 06-0488-CN, server: forward-03.sudatech.store, port: 43500, type: trojan, password: e09a29a6-2f37-4682-af70-cb04feec722a, sni: vpn-4-6.sudatech.store, skip-cert-verify: true, udp: true}
-  - {name: 07-0489-HK, server: f46b3f65e076124c635c50538527e26d.v1.cac.node-is.green, port: 41143, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: ca1.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 07-0490-HK, server: 8dab945f6519cada5b92a0149679c88d.v1.cac.node-is.green, port: 47249, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: ca1.bilibili.com, skip-cert-verify: true, udp: true}
-  - {name: 07-0494-HK, server: eeaa7ed9a53f5bb5260e79cd2bbd9823.v1.cac.node-is.green, port: 49905, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: de1.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 07-0495-HK, server: abf4a13f063dfe2373df11fe8b9ba0b4.v1.cac.node-is.green, port: 45181, type: trojan, password: aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856, sni: de1.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 07-0497-US, server: us003.421421.xyz, port: 20230, type: trojan, password: 429ad146-8f43-4dd4-8fb3-cca3f3a30c63, sni: 421421.xyz, skip-cert-verify: true, udp: true}
   - {name: 07-0498-US, server: 52.38.9.34, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0499-RELAY, server: s2.cn-db.top, port: 2052, type: vmess, uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.31.219, headers: {Host: s2.cn-db.top}}, udp: true}
@@ -856,6 +856,7 @@ proxy-groups:
       - 04-0187-MY
       - 04-0188-MY
       - 04-0189-MY
+      - 04-0192-US
       - 04-0195-CN
       - 04-0196-CN
       - 04-0197-CN
@@ -1051,9 +1052,8 @@ proxy-groups:
       - 06-0486-RELAY
       - 06-0487-RELAY
       - 06-0488-CN
-      - 07-0489-HK
       - 07-0490-HK
-      - 07-0494-HK
+      - 07-0495-HK
       - 07-0497-US
       - 07-0498-US
       - 07-0499-RELAY
@@ -1404,6 +1404,7 @@ proxy-groups:
       - 04-0162-DE
       - 04-0172-US
       - 04-0182-HK
+      - 04-0192-US
       - 04-0202-CN
       - 04-0212-CN
       - 04-0222-CN
@@ -1553,7 +1554,6 @@ proxy-groups:
       - 06-0464-CN
       - 06-0474-CN
       - 06-0484-CN
-      - 07-0494-HK
       - 08-0504-RELAY
       - 08-0514-GOOGLE
       - 08-0524-CN
@@ -1620,6 +1620,7 @@ proxy-groups:
       - 06-0465-CN
       - 06-0475-CN
       - 06-0485-CN
+      - 07-0495-HK
       - 08-0505-RELAY
       - 08-0515-RELAY
       - 08-0525-CN
@@ -1885,7 +1886,6 @@ proxy-groups:
       - 06-0459-CN
       - 06-0469-CN
       - 06-0479-KR
-      - 07-0489-HK
       - 07-0499-RELAY
       - 08-0509-RELAY
       - 08-0519-CN
