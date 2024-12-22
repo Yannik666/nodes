@@ -433,7 +433,6 @@ proxies:
   - {name: 06-0486-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: f646d574-1fcd-4f07-adf3-53bd542b92cd, udp: true}
   - {name: 06-0487-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 4ff3d001-8f60-4e88-9883-91574ad50ded, udp: true}
   - {name: 06-0488-RELAY, server: go.daluquan.top, port: 8880, type: vmess, uuid: 20871f07-54f0-44a0-bbdc-55f05a541abc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: go.daluquan.top}}, udp: true}
-  - {name: 07-0489-US, server: nsus3.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: +asd6a5s5df+, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "\x0b�:��'#�#\"\"�'\x07#�#\x03\"�\x03\x03\x03\x12�$�\x15�\"�", obfs-param: "", udp: true}
   - {name: 07-0490-US, server: 38.33.56.39, port: 37001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1734770191644}, udp: true}
   - {name: 07-0491-US, server: 192.74.236.155, port: 30004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1734770577466}, udp: true}
   - {name: 07-0492-US, server: 38.11.61.90, port: 31001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1734770191644}, udp: true}
@@ -641,6 +640,7 @@ proxies:
   - {name: 13-0696-CN, server: 110.40.59.61, port: 18762, type: ss, cipher: chacha20-ietf-poly1305, password: e5e5b6e2-1e2e-4bf4-bbe1-b320bf285cab, udp: true}
   - {name: 13-0697-NOWHERE, server: gstdnb.myfczy168.top, port: 15070, type: ss, cipher: chacha20-ietf-poly1305, password: 9c6dbc66-2135-4c4c-8340-6d22216b9dec, udp: true}
   - {name: 13-0698-NOWHERE, server: gstdnb.myfczy168.top, port: 25149, type: ss, cipher: chacha20-ietf-poly1305, password: e31eb8ea-9cc5-4deb-af2f-a44d82c516dd, udp: true}
+  - {name: 24-1975-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 04f90829-1173-4be3-baa6-1769d1bf1452, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-1976-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: b5a576f1-b091-4b18-b7b8-a2425d46a193, udp: true}
   - {name: 24-1977-CN, server: jehw72eh.iwbh.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 36c24cc2-0579-4647-a3a0-43a5e908630f, udp: true}
   - {name: 24-1978-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: cc26b0fd-ffbb-4256-9fc8-1643b3a1871c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -1047,7 +1047,6 @@ proxy-groups:
       - 06-0486-CN
       - 06-0487-CN
       - 06-0488-RELAY
-      - 07-0489-US
       - 07-0490-US
       - 07-0491-US
       - 07-0492-US
@@ -1255,6 +1254,7 @@ proxy-groups:
       - 13-0696-CN
       - 13-0697-NOWHERE
       - 13-0698-NOWHERE
+      - 24-1975-KR
       - 24-1976-CN
       - 24-1977-CN
       - 24-1978-KR
@@ -1640,6 +1640,7 @@ proxy-groups:
       - 13-0675-NOWHERE
       - 13-0685-NOWHERE
       - 13-0695-CN
+      - 24-1975-KR
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1881,7 +1882,6 @@ proxy-groups:
       - 06-0459-CN
       - 06-0469-CN
       - 06-0479-RELAY
-      - 07-0489-US
       - 08-0499-RELAY
       - 08-0509-CN
       - 08-0519-CN
