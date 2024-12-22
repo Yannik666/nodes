@@ -208,7 +208,6 @@ proxies:
   - {name: 04-0154-SG, server: sgvip101.qlgq.fun, port: 31223, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0155-SG, server: sgvip101.qlgq.fun, port: 41223, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0156-SG, server: sgvip101.qlgq.fun, port: 51223, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
-  - {name: 04-0157-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5e529445-9f1e-4e88-b091-337a73cc3c9e, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0158-US, server: lavip101.qlgq.fun, port: 21156, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0159-US, server: lavip101.qlgq.fun, port: 31156, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0160-US, server: lavip102.qlgq.fun, port: 49643, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip102.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -643,13 +642,13 @@ proxies:
   - {name: 13-0696-JP, server: osaka002-a.oraclenat.cc, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: 582c6e0e-1a9a-4074-8bfe-4a442128b265, udp: true}
   - {name: 13-0697-CN, server: 221.181.185.182, port: 40979, type: ss, cipher: aes-128-gcm, password: 0e92901d-bb37-456b-87d1-1644bd794ff7, udp: true}
   - {name: 13-0698-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: ba3d9258-3a9d-415b-ad58-243f20f79f6a, udp: true}
-  - {name: 24-1964-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c4abff97-eeb1-46e4-85ff-69b67a29762d, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-1965-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 211e4274-f206-4429-8354-586c07c760e1, udp: true}
   - {name: 24-1966-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e76b349c-20d5-4ecc-a9a6-2d8dcb27621a, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-1967-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: eac51708-16c6-4b77-b030-caa4513813cb, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-1968-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 777b77ab-12ff-42b5-8617-48d26fe9e4d1, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-1969-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: e2f95c61-9af3-43e2-974b-7b936a58d68b, udp: true}
   - {name: 24-1970-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 36956968-031b-4e17-9fc9-38008e274742, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 24-1971-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5e529445-9f1e-4e88-b091-337a73cc3c9e, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -823,7 +822,6 @@ proxy-groups:
       - 04-0154-SG
       - 04-0155-SG
       - 04-0156-SG
-      - 04-0157-US
       - 04-0158-US
       - 04-0159-US
       - 04-0160-US
@@ -1258,13 +1256,13 @@ proxy-groups:
       - 13-0696-JP
       - 13-0697-CN
       - 13-0698-CN
-      - 24-1964-KR
       - 24-1965-CN
       - 24-1966-KR
       - 24-1967-KR
       - 24-1968-KR
       - 24-1969-CN
       - 24-1970-KR
+      - 24-1971-KR
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1379,6 +1377,7 @@ proxy-groups:
       - 13-0671-NOWHERE
       - 13-0681-NOWHERE
       - 13-0691-RELAY
+      - 24-1971-KR
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1574,7 +1573,6 @@ proxy-groups:
       - 13-0674-CN
       - 13-0684-NOWHERE
       - 13-0694-NOWHERE
-      - 24-1964-KR
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1730,7 +1728,6 @@ proxy-groups:
       - 03-0127-KR
       - 03-0137-KR
       - 04-0147-NOWHERE
-      - 04-0157-US
       - 04-0167-HK
       - 04-0177-MY
       - 04-0187-CN
