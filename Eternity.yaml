@@ -52,7 +52,6 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0020-CA, server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "��:��'#�#\"\"�'\x07#�#\x03�\x03\x03#\"�$�\x15�\"�", obfs-param: "", udp: true}
   - {name: 03-0023-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: adf4bf5d-bbd7-4dc2-b5c0-21b220202f54, udp: true}
   - {name: 03-0024-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: adf4bf5d-bbd7-4dc2-b5c0-21b220202f54, udp: true}
   - {name: 03-0025-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8cc8a629-0d4e-469d-abed-6a48b5d71927, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -86,7 +85,7 @@ proxies:
   - {name: 04-0053-SG, server: sgvip101.qlgq.fun, port: 31223, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0054-SG, server: sgvip101.qlgq.fun, port: 41223, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0055-SG, server: sgvip101.qlgq.fun, port: 51223, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
-  - {name: 04-0056-US, server: lavip101.qlgq.fun, port: 11156, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
+  - {name: 04-0056-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ae3fa3c9-81d4-49c5-8d6f-a009619b4482, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0057-US, server: lavip101.qlgq.fun, port: 21156, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0058-US, server: lavip101.qlgq.fun, port: 31156, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0059-US, server: lavip102.qlgq.fun, port: 49643, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip102.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -297,6 +296,7 @@ proxies:
   - {name: 07-0369-JP, server: us01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: us01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 07-0370-JP, server: us02.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: us02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 07-0371-US, server: 38.33.44.27, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1736075590186}, udp: true}
+  - {name: 07-0372-US, server: 38.11.50.68, port: 31005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1735984102656}, udp: true}
   - {name: 07-0373-JP, server: uk01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: uk01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 07-0374-FASTLY, server: 151.101.194.133, port: 80, type: vmess, uuid: fd79106e-0f6c-4ad7-af1b-40a079afdf67, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN}, udp: true}
   - {name: 07-0376-CN, server: cu.awslcn.info, port: 25284, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
@@ -641,6 +641,7 @@ proxies:
   - {name: 15-0716-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 256f2e6a-2798-47d3-8fa3-82f1a2c707ec, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-0717-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 96e9db59-462b-4919-a7be-20a71060cfc8, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-0718-RELAY, server: cf.hy2.one, port: 80, type: vmess, uuid: d13f9a06-0cd1-4e15-b7bf-265c67b11433, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af323d, headers: {Host: cf.hy2.one}}, udp: true}
+  - {name: 24-1800-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 218e3a45-45c0-42a2-b95b-8b6371010c5c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-1801-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 4c2866d9-94b8-455c-acbf-f3060e1e9efb, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-1802-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6318b7dc-54d1-4466-9ee2-44a84e041611, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-1803-KR, server: 2603:c022:800d:f623:8083:3b44:9684:de8e, port: 8888, type: vmess, uuid: c1b539db-9fe3-4daa-aa78-70b32ae6256b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
@@ -666,7 +667,6 @@ proxy-groups:
       - 测速8分组
       - 测速9分组
       - 测速10分组
-      - 02-0020-CA
       - 03-0023-CN
       - 03-0024-CN
       - 03-0025-KR
@@ -911,6 +911,7 @@ proxy-groups:
       - 07-0369-JP
       - 07-0370-JP
       - 07-0371-US
+      - 07-0372-US
       - 07-0373-JP
       - 07-0374-FASTLY
       - 07-0376-CN
@@ -1255,6 +1256,7 @@ proxy-groups:
       - 15-0716-KR
       - 15-0717-KR
       - 15-0718-RELAY
+      - 24-1800-KR
       - 24-1801-KR
       - 24-1802-KR
       - 24-1803-KR
@@ -1406,6 +1408,7 @@ proxy-groups:
       - 06-0342-CN
       - 06-0352-RELAY
       - 07-0362-CN
+      - 07-0372-US
       - 08-0382-CN
       - 08-0392-CN
       - 10-0402-CN
@@ -1910,7 +1913,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 02-0020-CA
       - 03-0030-CN
       - 03-0040-CN
       - 04-0050-DE
@@ -1969,6 +1971,7 @@ proxy-groups:
       - 15-0690-KR
       - 15-0700-CN
       - 15-0710-RELAY
+      - 24-1800-KR
   - name: 广告拦截
     type: select
     proxies:
