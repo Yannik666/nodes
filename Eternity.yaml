@@ -85,7 +85,7 @@ proxies:
   - {name: 04-0053-SG, server: sgvip101.qlgq.fun, port: 31223, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0054-SG, server: sgvip101.qlgq.fun, port: 41223, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0055-SG, server: sgvip101.qlgq.fun, port: 51223, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
-  - {name: 04-0056-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ae3fa3c9-81d4-49c5-8d6f-a009619b4482, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
+  - {name: 04-0056-US, server: lavip101.qlgq.fun, port: 11156, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0057-US, server: lavip101.qlgq.fun, port: 21156, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0058-US, server: lavip101.qlgq.fun, port: 31156, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0059-US, server: lavip102.qlgq.fun, port: 49643, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip102.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -641,8 +641,6 @@ proxies:
   - {name: 15-0716-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 312d611e-8303-4234-924e-77aefebfb0b4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-0717-RELAY, server: cf.hy2.one, port: 80, type: vmess, uuid: 0ebc6667-f22f-47f3-9a37-5f6494efa739, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af323d, headers: {Host: cf.hy2.one}}, udp: true}
   - {name: 15-0718-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f56aed6e-03e0-4519-98a2-0f2192293461, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 24-1796-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 218e3a45-45c0-42a2-b95b-8b6371010c5c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 24-1797-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 4c2866d9-94b8-455c-acbf-f3060e1e9efb, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-1798-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6318b7dc-54d1-4466-9ee2-44a84e041611, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-1799-KR, server: 2603:c022:800d:f623:8083:3b44:9684:de8e, port: 8888, type: vmess, uuid: c1b539db-9fe3-4daa-aa78-70b32ae6256b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 24-1800-RELAY, server: go.daluquan.top, port: 8080, type: vmess, uuid: 56f1c6b5-1c59-4372-bfb5-6ad5b0d1d409, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: go.daluquan.top}}, udp: true}
@@ -650,6 +648,7 @@ proxies:
   - {name: 24-1802-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: aadef63c-a92f-42fc-8b01-ba74835d53e5, udp: true}
   - {name: 24-1803-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 413e38c2-e2b4-409f-af09-58f7c127d400, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-1804-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 8f91776a-ff71-4832-a1bd-1cde8ccf3dbc, udp: true}
+  - {name: 24-1805-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ae3fa3c9-81d4-49c5-8d6f-a009619b4482, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1256,8 +1255,6 @@ proxy-groups:
       - 15-0716-KR
       - 15-0717-RELAY
       - 15-0718-KR
-      - 24-1796-KR
-      - 24-1797-KR
       - 24-1798-KR
       - 24-1799-KR
       - 24-1800-RELAY
@@ -1265,6 +1262,7 @@ proxy-groups:
       - 24-1802-CN
       - 24-1803-KR
       - 24-1804-CN
+      - 24-1805-KR
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1642,6 +1640,7 @@ proxy-groups:
       - 15-0695-CN
       - 15-0705-KR
       - 15-0715-CN
+      - 24-1805-KR
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1708,7 +1707,6 @@ proxy-groups:
       - 15-0696-KR
       - 15-0706-CN
       - 15-0716-KR
-      - 24-1796-KR
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1775,7 +1773,6 @@ proxy-groups:
       - 15-0697-CN
       - 15-0707-CN
       - 15-0717-RELAY
-      - 24-1797-KR
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
