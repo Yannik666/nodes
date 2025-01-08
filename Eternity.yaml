@@ -96,7 +96,7 @@ proxies:
   - {name: 04-0064-SG, server: sgvip101.qlgq.fun, port: 31223, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0065-SG, server: sgvip101.qlgq.fun, port: 41223, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0066-SG, server: sgvip101.qlgq.fun, port: 51223, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: sgvip101.qlgq.fun, skip-cert-verify: true, udp: true}
-  - {name: 04-0067-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8bd157bf-d5d7-4f33-9ad7-6ce37515ac62, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
+  - {name: 04-0067-US, server: lavip101.qlgq.fun, port: 11156, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0068-US, server: lavip101.qlgq.fun, port: 21156, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0069-US, server: lavip101.qlgq.fun, port: 31156, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0070-US, server: lavip102.qlgq.fun, port: 49643, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: lavip102.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -640,7 +640,6 @@ proxies:
   - {name: 15-0716-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 85dbd1d9-b75a-4b59-8f1c-2c1637586f9d, udp: true}
   - {name: 15-0717-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: cd1e76b9-cc2c-4e30-b6e9-2fae39d90e0e, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-0718-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e790d64d-cb47-441e-af9d-487ecb6a704c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 24-1833-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: b5e533f3-c124-4d7d-919c-febf56b6c8ed, udp: true}
   - {name: 24-1834-AU, server: syd-01.oci.ee, port: 23451, type: vmess, uuid: 56f1c6b5-1c59-4372-bfb5-6ad5b0d1d409, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: syd-01.oci.ee}}, udp: true}
   - {name: 24-1835-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: 1890570d-f5bf-4748-aef2-a719bd0b4b84, udp: true}
   - {name: 24-1836-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: c3e00f5c-790b-4ef7-929d-878c6997fba1, udp: true}
@@ -1254,7 +1253,6 @@ proxy-groups:
       - 15-0716-CN
       - 15-0717-KR
       - 15-0718-KR
-      - 24-1833-CN
       - 24-1834-AU
       - 24-1835-CN
       - 24-1836-CN
@@ -1506,7 +1504,6 @@ proxy-groups:
       - 15-0693-KR
       - 15-0703-CN
       - 15-0713-KR
-      - 24-1833-CN
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
