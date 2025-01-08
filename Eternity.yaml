@@ -52,7 +52,6 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0020-CA, server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "��:��'#�#\"\"�'\x07#�#\x03�\x03\x03#\"�$�\x15�\"�", obfs-param: "", udp: true}
   - {name: 03-0023-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: adf4bf5d-bbd7-4dc2-b5c0-21b220202f54, udp: true}
   - {name: 03-0024-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: adf4bf5d-bbd7-4dc2-b5c0-21b220202f54, udp: true}
   - {name: 03-0025-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8cc8a629-0d4e-469d-abed-6a48b5d71927, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -297,6 +296,7 @@ proxies:
   - {name: 07-0369-JP, server: us01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: us01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 07-0370-JP, server: us02.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: us02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 07-0371-US, server: 38.33.44.27, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1736075590186}, udp: true}
+  - {name: 07-0372-US, server: 38.11.50.68, port: 31005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1735984102656}, udp: true}
   - {name: 07-0373-JP, server: uk01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: uk01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 07-0374-FASTLY, server: 151.101.194.133, port: 80, type: vmess, uuid: fd79106e-0f6c-4ad7-af1b-40a079afdf67, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN}, udp: true}
   - {name: 07-0376-CN, server: cu.awslcn.info, port: 25284, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
@@ -666,7 +666,6 @@ proxy-groups:
       - 测速8分组
       - 测速9分组
       - 测速10分组
-      - 02-0020-CA
       - 03-0023-CN
       - 03-0024-CN
       - 03-0025-KR
@@ -911,6 +910,7 @@ proxy-groups:
       - 07-0369-JP
       - 07-0370-JP
       - 07-0371-US
+      - 07-0372-US
       - 07-0373-JP
       - 07-0374-FASTLY
       - 07-0376-CN
@@ -1406,6 +1406,7 @@ proxy-groups:
       - 06-0342-CN
       - 06-0352-RELAY
       - 07-0362-CN
+      - 07-0372-US
       - 08-0382-CN
       - 08-0392-CN
       - 10-0402-CN
@@ -1909,7 +1910,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 02-0020-CA
       - 03-0030-CN
       - 03-0040-CN
       - 04-0050-DE
