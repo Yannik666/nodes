@@ -55,10 +55,8 @@ proxies:
   - {name: 02-0001-CN, server: hdhdaswjp.cfprefer1.xyz, port: 10041, type: ss, cipher: aes-256-gcm, password: b6b2c224-9845-4ad6-b33f-d46a46a72768, udp: true}
   - {name: 02-0002-CN, server: 120.232.217.96, port: 21332, type: trojan, password: 7daf833c-37b9-4afc-8495-96590f03f781, sni: 120.232.217.96, skip-cert-verify: true, udp: true}
   - {name: 03-0003-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
-  - {name: 03-0004-US, server: aflzzul.meiquankongjian.com, port: 52513, type: vmess, uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflzzul.meiquankongjian.com}}, udp: true}
   - {name: 03-0008-CN, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 03-0009-CN, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
-  - {name: 03-0010-US, server: u2.huvicloud.com, port: 443, type: vmess, uuid: f07b9711-a6a4-4128-807d-fdb40dcaa488, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f07b9711-a6a4-4128-807d-fdb40dcaa488, headers: {Host: u2.huvicloud.com}}, udp: true}
   - {name: 03-0011-CN, server: 120.232.217.96, port: 21015, type: trojan, password: 0bc68743-cff8-4730-9818-9d8192ee335c, sni: k43.tudou211.com, skip-cert-verify: true, udp: true}
   - {name: 03-0012-CN, server: 120.232.217.96, port: 21142, type: trojan, password: 0bc68743-cff8-4730-9818-9d8192ee335c, sni: k33.tudou211.com, skip-cert-verify: true, udp: true}
   - {name: 03-0013-CN, server: 120.232.217.96, port: 39431, type: trojan, password: 0bc68743-cff8-4730-9818-9d8192ee335c, sni: k34.tudou211.com, skip-cert-verify: true, udp: true}
@@ -209,8 +207,8 @@ proxies:
   - {name: 03-0158-CN, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 6328cc54-fc31-44dd-b302-2436bee2d48c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 03-0159-CN, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 6328cc54-fc31-44dd-b302-2436bee2d48c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 03-0160-HK, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 6328cc54-fc31-44dd-b302-2436bee2d48c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 03-0161-DE, server: 5.39.252.204, port: 27681, type: vmess, uuid: 313bdedf-0ff0-4e71-b768-24bf0b1418bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0163-RU, server: 194.87.69.50, port: 27681, type: vmess, uuid: 313bdedf-0ff0-4e71-b768-24bf0b1418bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 03-0164-RU, server: 195.58.49.42, port: 27681, type: vmess, uuid: 313bdedf-0ff0-4e71-b768-24bf0b1418bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0165-RU, server: 195.58.49.50, port: 27681, type: vmess, uuid: 313bdedf-0ff0-4e71-b768-24bf0b1418bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0166-RU, server: 194.87.69.52, port: 27681, type: vmess, uuid: 313bdedf-0ff0-4e71-b768-24bf0b1418bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0167-RU, server: 195.58.49.86, port: 27681, type: vmess, uuid: 313bdedf-0ff0-4e71-b768-24bf0b1418bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -225,12 +223,10 @@ proxies:
   - {name: 03-0176-CA, server: 141.195.112.167, port: 27681, type: vmess, uuid: 313bdedf-0ff0-4e71-b768-24bf0b1418bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0177-DE, server: 5.39.252.204, port: 27681, type: vmess, uuid: 41d8345f-07f8-49bc-bbc6-ef764a67d29d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0179-RU, server: 194.87.69.50, port: 27681, type: vmess, uuid: 41d8345f-07f8-49bc-bbc6-ef764a67d29d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 03-0181-RU, server: 195.58.49.50, port: 27681, type: vmess, uuid: 41d8345f-07f8-49bc-bbc6-ef764a67d29d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0182-RU, server: 194.87.69.52, port: 27681, type: vmess, uuid: 41d8345f-07f8-49bc-bbc6-ef764a67d29d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0183-RU, server: 195.58.49.86, port: 27681, type: vmess, uuid: 41d8345f-07f8-49bc-bbc6-ef764a67d29d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0184-RU, server: 194.87.68.115, port: 27681, type: vmess, uuid: 41d8345f-07f8-49bc-bbc6-ef764a67d29d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0185-RU, server: 195.58.49.152, port: 27681, type: vmess, uuid: 41d8345f-07f8-49bc-bbc6-ef764a67d29d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 03-0186-RU, server: 176.32.39.181, port: 27681, type: vmess, uuid: 41d8345f-07f8-49bc-bbc6-ef764a67d29d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0187-RU, server: 194.87.69.244, port: 27681, type: vmess, uuid: 41d8345f-07f8-49bc-bbc6-ef764a67d29d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0188-RU, server: 194.87.69.56, port: 21359, type: vmess, uuid: 41d8345f-07f8-49bc-bbc6-ef764a67d29d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0189-RU, server: 194.87.68.228, port: 27681, type: vmess, uuid: 41d8345f-07f8-49bc-bbc6-ef764a67d29d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -277,7 +273,6 @@ proxies:
   - {name: 03-0230-RELAY, server: s2.db-link01.top, port: 2082, type: vmess, uuid: 24d58aef-92b8-3a9a-b88f-f5c4df0f4311, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.44.56, headers: {Host: s2.db-link01.top}}, udp: true}
   - {name: 03-0233-RU, server: 194.87.69.50, port: 27681, type: vmess, uuid: 720b9b09-e31b-49e6-a076-4da5ced3af21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0234-RU, server: 195.58.49.42, port: 27681, type: vmess, uuid: 720b9b09-e31b-49e6-a076-4da5ced3af21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 03-0235-RU, server: 195.58.49.50, port: 27681, type: vmess, uuid: 720b9b09-e31b-49e6-a076-4da5ced3af21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0236-RU, server: 194.87.69.52, port: 27681, type: vmess, uuid: 720b9b09-e31b-49e6-a076-4da5ced3af21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0237-RU, server: 195.58.49.86, port: 27681, type: vmess, uuid: 720b9b09-e31b-49e6-a076-4da5ced3af21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0238-RU, server: 194.87.68.115, port: 27681, type: vmess, uuid: 720b9b09-e31b-49e6-a076-4da5ced3af21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -291,7 +286,6 @@ proxies:
   - {name: 03-0246-CA, server: 141.195.112.167, port: 27681, type: vmess, uuid: 720b9b09-e31b-49e6-a076-4da5ced3af21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0247-DE, server: 5.39.252.204, port: 27681, type: vmess, uuid: b0f853ea-8691-4c95-8066-5a4d214feead, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0249-RU, server: 194.87.69.50, port: 27681, type: vmess, uuid: b0f853ea-8691-4c95-8066-5a4d214feead, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 03-0251-RU, server: 195.58.49.50, port: 27681, type: vmess, uuid: b0f853ea-8691-4c95-8066-5a4d214feead, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0252-RU, server: 194.87.69.52, port: 27681, type: vmess, uuid: b0f853ea-8691-4c95-8066-5a4d214feead, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0253-RU, server: 195.58.49.86, port: 27681, type: vmess, uuid: b0f853ea-8691-4c95-8066-5a4d214feead, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0254-RU, server: 194.87.68.115, port: 27681, type: vmess, uuid: b0f853ea-8691-4c95-8066-5a4d214feead, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -433,6 +427,8 @@ proxies:
   - {name: 03-0390-MY, server: 103.75.189.152, port: 100, type: trojan, password: ea485df4-d31a-4130-a86d-e3e5b928ae21, skip-cert-verify: true, udp: true}
   - {name: 03-0391-MY, server: 103.75.188.189, port: 101, type: trojan, password: ea485df4-d31a-4130-a86d-e3e5b928ae21, skip-cert-verify: true, udp: true}
   - {name: 03-0394-RU, server: 194.87.69.50, port: 27681, type: vmess, uuid: ce3fe02a-3684-49e1-a553-ff13f29ff514, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 03-0395-RU, server: 195.58.49.42, port: 27681, type: vmess, uuid: ce3fe02a-3684-49e1-a553-ff13f29ff514, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 03-0396-RU, server: 195.58.49.50, port: 27681, type: vmess, uuid: ce3fe02a-3684-49e1-a553-ff13f29ff514, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0397-RU, server: 194.87.69.52, port: 27681, type: vmess, uuid: ce3fe02a-3684-49e1-a553-ff13f29ff514, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0398-RU, server: 195.58.49.86, port: 27681, type: vmess, uuid: ce3fe02a-3684-49e1-a553-ff13f29ff514, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0399-RU, server: 194.87.68.115, port: 27681, type: vmess, uuid: ce3fe02a-3684-49e1-a553-ff13f29ff514, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -635,6 +631,10 @@ proxies:
   - {name: 03-0597-CN, server: xctransfer1st.cokecloud.top, port: 44489, type: vmess, uuid: 91fa8395-f4b9-4bf4-9d3f-bb3a8c96960a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 03-0598-CN, server: xdtw.cokecloud.top, port: 13255, type: vmess, uuid: 91fa8395-f4b9-4bf4-9d3f-bb3a8c96960a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 03-0599-CN, server: xdtw.cokecloud.top, port: 29299, type: vmess, uuid: 91fa8395-f4b9-4bf4-9d3f-bb3a8c96960a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 24-4216-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 7302617a-2900-4496-986b-9604f1de2fb7, udp: true}
+  - {name: 24-4217-RELAY, server: cf.hy2.one, port: 2052, type: vmess, uuid: 33475f48-aa85-4a6b-9cf4-91819f50aca1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0, headers: {Host: cf.hy2.one}}, udp: true}
+  - {name: 24-4218-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5a5b6f92-831b-4cc7-b99e-9b2db8184c81, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 24-4219-RELAY, server: visa.com, port: 443, type: vmess, uuid: 56f1c6b5-1c59-4372-bfb5-6ad5b0d1d409, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 24-4220-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f27c7ad9-3b28-4900-a714-f38106429bc4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-4221-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 7302617a-2900-4496-986b-9604f1de2fb7, udp: true}
   - {name: 24-4222-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 7302617a-2900-4496-986b-9604f1de2fb7, udp: true}
@@ -668,10 +668,8 @@ proxy-groups:
       - 02-0001-CN
       - 02-0002-CN
       - 03-0003-CN
-      - 03-0004-US
       - 03-0008-CN
       - 03-0009-CN
-      - 03-0010-US
       - 03-0011-CN
       - 03-0012-CN
       - 03-0013-CN
@@ -822,8 +820,8 @@ proxy-groups:
       - 03-0158-CN
       - 03-0159-CN
       - 03-0160-HK
-      - 03-0161-DE
       - 03-0163-RU
+      - 03-0164-RU
       - 03-0165-RU
       - 03-0166-RU
       - 03-0167-RU
@@ -838,12 +836,10 @@ proxy-groups:
       - 03-0176-CA
       - 03-0177-DE
       - 03-0179-RU
-      - 03-0181-RU
       - 03-0182-RU
       - 03-0183-RU
       - 03-0184-RU
       - 03-0185-RU
-      - 03-0186-RU
       - 03-0187-RU
       - 03-0188-RU
       - 03-0189-RU
@@ -890,7 +886,6 @@ proxy-groups:
       - 03-0230-RELAY
       - 03-0233-RU
       - 03-0234-RU
-      - 03-0235-RU
       - 03-0236-RU
       - 03-0237-RU
       - 03-0238-RU
@@ -904,7 +899,6 @@ proxy-groups:
       - 03-0246-CA
       - 03-0247-DE
       - 03-0249-RU
-      - 03-0251-RU
       - 03-0252-RU
       - 03-0253-RU
       - 03-0254-RU
@@ -1046,6 +1040,8 @@ proxy-groups:
       - 03-0390-MY
       - 03-0391-MY
       - 03-0394-RU
+      - 03-0395-RU
+      - 03-0396-RU
       - 03-0397-RU
       - 03-0398-RU
       - 03-0399-RU
@@ -1248,6 +1244,10 @@ proxy-groups:
       - 03-0597-CN
       - 03-0598-CN
       - 03-0599-CN
+      - 24-4216-CN
+      - 24-4217-RELAY
+      - 24-4218-KR
+      - 24-4219-RELAY
       - 24-4220-KR
       - 24-4221-CN
       - 24-4222-CN
@@ -1332,15 +1332,12 @@ proxy-groups:
       - 03-0131-CN
       - 03-0141-CN
       - 03-0151-CN
-      - 03-0161-DE
       - 03-0171-RU
-      - 03-0181-RU
       - 03-0191-CH
       - 03-0201-CN
       - 03-0211-HK
       - 03-0221-JP
       - 03-0241-RU
-      - 03-0251-RU
       - 03-0261-CH
       - 03-0271-CN
       - 03-0281-CN
@@ -1514,7 +1511,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 03-0004-US
       - 03-0014-CN
       - 03-0024-CN
       - 03-0034-CN
@@ -1530,6 +1526,7 @@ proxy-groups:
       - 03-0134-CN
       - 03-0144-CN
       - 03-0154-CN
+      - 03-0164-RU
       - 03-0174-US
       - 03-0184-RU
       - 03-0194-CN
@@ -1602,7 +1599,6 @@ proxy-groups:
       - 03-0205-CN
       - 03-0215-SG
       - 03-0225-RELAY
-      - 03-0235-RU
       - 03-0245-CH
       - 03-0255-RU
       - 03-0265-CN
@@ -1618,6 +1614,7 @@ proxy-groups:
       - 03-0365-CN
       - 03-0375-CN
       - 03-0385-AU
+      - 03-0395-RU
       - 03-0405-US
       - 03-0415-CN
       - 03-0425-CN
@@ -1662,7 +1659,6 @@ proxy-groups:
       - 03-0156-CN
       - 03-0166-RU
       - 03-0176-CA
-      - 03-0186-RU
       - 03-0196-CN
       - 03-0206-CN
       - 03-0216-SG
@@ -1683,6 +1679,7 @@ proxy-groups:
       - 03-0366-CN
       - 03-0376-CN
       - 03-0386-IN
+      - 03-0396-RU
       - 03-0406-CH
       - 03-0416-CN
       - 03-0426-CN
@@ -1703,6 +1700,7 @@ proxy-groups:
       - 03-0576-HK
       - 03-0586-CN
       - 03-0596-CN
+      - 24-4216-CN
       - 24-4226-CN
   - name: 测速7分组
     type: url-test
@@ -1768,6 +1766,7 @@ proxy-groups:
       - 03-0577-RU
       - 03-0587-SG
       - 03-0597-CN
+      - 24-4217-RELAY
       - 24-4227-KR
   - name: 测速8分组
     type: url-test
@@ -1833,6 +1832,7 @@ proxy-groups:
       - 03-0578-HK
       - 03-0588-AU
       - 03-0598-CN
+      - 24-4218-KR
       - 24-4228-CN
   - name: 测速9分组
     type: url-test
@@ -1900,6 +1900,7 @@ proxy-groups:
       - 03-0579-RU
       - 03-0589-CN
       - 03-0599-CN
+      - 24-4219-RELAY
       - 24-4229-KR
   - name: 测速10分组
     type: url-test
@@ -1907,7 +1908,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 03-0010-US
       - 03-0020-CN
       - 03-0030-CN
       - 03-0040-CN
