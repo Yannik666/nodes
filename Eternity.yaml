@@ -128,6 +128,7 @@ proxies:
   - {name: 04-0074-RELAY, server: s1.db-link02.top, port: 2052, type: vmess, uuid: 65c003b7-d0b5-3751-8e22-b959f46463bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.124.167, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 04-0075-RELAY, server: s3.cn-db.top, port: 2052, type: vmess, uuid: 65c003b7-d0b5-3751-8e22-b959f46463bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.15.122, headers: {Host: s3.cn-db.top}}, udp: true}
   - {name: 04-0076-RELAY, server: s5.db-link02.top, port: 2082, type: vmess, uuid: 65c003b7-d0b5-3751-8e22-b959f46463bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.200.183, headers: {Host: s5.db-link02.top}}, udp: true}
+  - {name: 04-0079-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6318b7dc-54d1-4466-9ee2-44a84e041611, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-0082-CN, server: jsyd.yeahfast.com, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
   - {name: 04-0083-CN, server: jsyd.yeahfast.com, port: 35628, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
   - {name: 04-0084-CN, server: jsyd.yeahfast.com, port: 35630, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
@@ -182,6 +183,7 @@ proxies:
   - {name: 04-0133-CN, server: ru.cooc.icu, port: 35645, type: ss, cipher: chacha20-ietf-poly1305, password: 290e70d6-4904-4e3c-8bd8-fbd8e95a6a0f, udp: true}
   - {name: 04-0134-CN, server: mas.cooc.icu, port: 35603, type: ss, cipher: chacha20-ietf-poly1305, password: 290e70d6-4904-4e3c-8bd8-fbd8e95a6a0f, udp: true}
   - {name: 04-0135-TW, server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 290e70d6-4904-4e3c-8bd8-fbd8e95a6a0f, udp: true}
+  - {name: 04-0136-US, server: us.cooc.icu, port: 35881, type: ss, cipher: chacha20-ietf-poly1305, password: 290e70d6-4904-4e3c-8bd8-fbd8e95a6a0f, udp: true}
   - {name: 04-0137-JP, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 290e70d6-4904-4e3c-8bd8-fbd8e95a6a0f, udp: true}
   - {name: 04-0138-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 15cf7da7-f9ad-34b6-9ad9-c9a820f0fbe5, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0139-CN, server: gy.58n.net, port: 20301, type: trojan, password: 15cf7da7-f9ad-34b6-9ad9-c9a820f0fbe5, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -310,14 +312,10 @@ proxies:
   - {name: 06-0362-RELAY, server: go.daluquan.top, port: 8080, type: vmess, uuid: 469c4fc8-1f89-49fc-a77f-ec555b083d5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: go.daluquan.top}}, udp: true}
   - {name: 06-0363-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: f5efc5e8-cc1d-4933-9753-6cc1b745e2f2, udp: true}
   - {name: 06-0364-RELAY, server: visa.com, port: 443, type: vmess, uuid: 469c4fc8-1f89-49fc-a77f-ec555b083d5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
-  - {name: 07-0365-JP, server: 74.226.136.204, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: tw02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 07-0366-US, server: 199.188.105.57, port: 31004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1736415675034}, udp: true}
   - {name: 07-0367-HK, server: 41699d8ad5e758d2c6e42c1e7f40e820.v1.cac.node-is.green, port: 49782, type: trojan, password: 299beacf-37f0-41c6-a122-9260c75731bf, sni: hk12.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 07-0368-HK, server: hk3.sdwan.day, port: 443, type: vmess, uuid: fade2b35-7872-442e-a54e-6ccf9b970476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /auth, headers: {Host: hk3.sdwan.day}}, udp: true}
-  - {name: 07-0370-JP, server: ru01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, skip-cert-verify: true, udp: true}
-  - {name: 07-0371-JP, server: in01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, skip-cert-verify: true, udp: true}
   - {name: 07-0372-FASTLY, server: 151.101.0.155, port: 80, type: vmess, uuid: 67650521-85de-4679-bf72-920a09781374, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=80/#id-telegram:--->@vpn_whal<---"}, udp: true}
-  - {name: 07-0373-JP, server: de01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, skip-cert-verify: true, udp: true}
   - {name: 07-0374-CN, server: gw.liangyuandianwan.com, port: 35501, type: ss, cipher: chacha20-ietf-poly1305, password: c4843eba-b070-403f-b43f-ef1ef7db571e, udp: true}
   - {name: 07-0375-JP, server: tky1.sdwan.day, port: 443, type: vmess, uuid: fade2b35-7872-442e-a54e-6ccf9b970476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /name, headers: {Host: tky1.sdwan.day}}, udp: true}
   - {name: 07-0376-US, server: sjc5.sdwan.day, port: 4430, type: vmess, uuid: fade2b35-7872-442e-a54e-6ccf9b970476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: sjc5.sdwan.day}}, udp: true}
@@ -341,7 +339,6 @@ proxies:
   - {name: 07-0395-RELAY, server: s2.cn-db.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.93.35, headers: {Host: s2.cn-db.top}}, udp: true}
   - {name: 07-0396-RELAY, server: s1.db-link01.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.154.223, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 07-0397-RELAY, server: s1.cn-db.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.18.179.207, headers: {Host: s1.cn-db.top}}, udp: true}
-  - {name: 07-0398-JP, server: us01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, skip-cert-verify: true, udp: true}
   - {name: 07-0399-RU, server: mo1.sdwan.day, port: 443, type: vmess, uuid: fade2b35-7872-442e-a54e-6ccf9b970476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /auth, headers: {Host: mo1.sdwan.day}}, udp: true}
   - {name: 07-0400-US, server: 38.11.50.69, port: 31005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1736418711617}, udp: true}
   - {name: 07-0401-US, server: 38.33.44.27, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1736418711617}, udp: true}
@@ -349,7 +346,6 @@ proxies:
   - {name: 07-0403-US, server: jp5.sdwan.day, port: 4432, type: vmess, uuid: fade2b35-7872-442e-a54e-6ccf9b970476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: jp5.sdwan.day}}, udp: true}
   - {name: 07-0404-US, server: jp1.sdwan.day, port: 9230, type: vmess, uuid: fade2b35-7872-442e-a54e-6ccf9b970476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: jp1.sdwan.day}}, udp: true}
   - {name: 07-0405-US, server: jp4.sdwan.day, port: 4431, type: vmess, uuid: fade2b35-7872-442e-a54e-6ccf9b970476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: jp4.sdwan.day}}, udp: true}
-  - {name: 07-0406-JP, server: sg02.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, skip-cert-verify: true, udp: true}
   - {name: 07-0410-RELAY, server: 195.85.59.161, port: 443, type: vmess, uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048"}, udp: true}
   - {name: 08-0411-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: fcce90f0-ed26-42eb-ad76-982ec5f1a151, udp: true}
   - {name: 08-0412-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: fcce90f0-ed26-42eb-ad76-982ec5f1a151, udp: true}
@@ -635,6 +631,11 @@ proxies:
   - {name: 14-0696-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 00eb7fac-2a92-4a67-bb8f-ff0087bd7361, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-0697-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3e3590e9-6ae9-4dc1-a370-d64f89e437d0, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-0698-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: a2b0e372-25d5-4296-b731-c8fadad2c6bb, udp: true}
+  - {name: 24-2591-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 56f1c6b5-1c59-4372-bfb5-6ad5b0d1d409, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
+  - {name: 24-2592-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: fc025e27-75e7-494c-bb95-ebcaf11c72b0, udp: true}
+  - {name: 24-2593-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: 7d53b03c-35e6-433a-9113-25eae7ffdd36, udp: true}
+  - {name: 24-2594-RELAY, server: cf.hy2.one, port: 2052, type: vmess, uuid: b3cd1cb4-a9e6-4abe-a1ab-c15445e8df35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0, headers: {Host: cf.hy2.one}}, udp: true}
+  - {name: 24-2595-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: 1890570d-f5bf-4748-aef2-a719bd0b4b84, udp: true}
   - {name: 24-2596-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d3712915-c7cd-4774-89ba-1590050865c4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-2598-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: dbbabadd-12e0-46a6-95b6-c6297f78ac83, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 24-2599-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c0ee6428-1638-41cc-8524-23bfcfce934b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -741,6 +742,7 @@ proxy-groups:
       - 04-0074-RELAY
       - 04-0075-RELAY
       - 04-0076-RELAY
+      - 04-0079-US
       - 04-0082-CN
       - 04-0083-CN
       - 04-0084-CN
@@ -795,6 +797,7 @@ proxy-groups:
       - 04-0133-CN
       - 04-0134-CN
       - 04-0135-TW
+      - 04-0136-US
       - 04-0137-JP
       - 04-0138-CN
       - 04-0139-CN
@@ -923,14 +926,10 @@ proxy-groups:
       - 06-0362-RELAY
       - 06-0363-CN
       - 06-0364-RELAY
-      - 07-0365-JP
       - 07-0366-US
       - 07-0367-HK
       - 07-0368-HK
-      - 07-0370-JP
-      - 07-0371-JP
       - 07-0372-FASTLY
-      - 07-0373-JP
       - 07-0374-CN
       - 07-0375-JP
       - 07-0376-US
@@ -954,7 +953,6 @@ proxy-groups:
       - 07-0395-RELAY
       - 07-0396-RELAY
       - 07-0397-RELAY
-      - 07-0398-JP
       - 07-0399-RU
       - 07-0400-US
       - 07-0401-US
@@ -962,7 +960,6 @@ proxy-groups:
       - 07-0403-US
       - 07-0404-US
       - 07-0405-US
-      - 07-0406-JP
       - 07-0410-RELAY
       - 08-0411-CN
       - 08-0412-CN
@@ -1248,6 +1245,11 @@ proxy-groups:
       - 14-0696-KR
       - 14-0697-KR
       - 14-0698-CN
+      - 24-2591-RELAY
+      - 24-2592-CN
+      - 24-2593-CN
+      - 24-2594-RELAY
+      - 24-2595-CN
       - 24-2596-KR
       - 24-2598-KR
       - 24-2599-KR
@@ -1342,7 +1344,6 @@ proxy-groups:
       - 06-0341-RELAY
       - 06-0351-CN
       - 06-0361-CN
-      - 07-0371-JP
       - 07-0381-RELAY
       - 07-0391-JP
       - 07-0401-US
@@ -1375,6 +1376,7 @@ proxy-groups:
       - 14-0671-KR
       - 14-0681-CN
       - 14-0691-KR
+      - 24-2591-RELAY
       - 24-2601-CN
   - name: 测速2分组
     type: url-test
@@ -1442,6 +1444,7 @@ proxy-groups:
       - 14-0672-KR
       - 14-0682-KR
       - 14-0692-KR
+      - 24-2592-CN
       - 24-2602-CN
   - name: 测速3分组
     type: url-test
@@ -1476,7 +1479,6 @@ proxy-groups:
       - 06-0343-SG
       - 06-0353-CN
       - 06-0363-CN
-      - 07-0373-JP
       - 07-0383-RELAY
       - 07-0393-RELAY
       - 07-0403-US
@@ -1509,6 +1511,7 @@ proxy-groups:
       - 14-0673-KR
       - 14-0683-KR
       - 14-0693-KR
+      - 24-2593-CN
       - 24-2603-CN
   - name: 测速4分组
     type: url-test
@@ -1576,6 +1579,7 @@ proxy-groups:
       - 14-0674-KR
       - 14-0684-CN
       - 14-0694-CN
+      - 24-2594-RELAY
       - 24-2604-CN
   - name: 测速5分组
     type: url-test
@@ -1609,7 +1613,6 @@ proxy-groups:
       - 05-0335-CN
       - 06-0345-AU
       - 06-0355-RELAY
-      - 07-0365-JP
       - 07-0375-JP
       - 07-0385-RELAY
       - 07-0395-RELAY
@@ -1643,6 +1646,7 @@ proxy-groups:
       - 14-0675-KR
       - 14-0685-KR
       - 14-0695-CN
+      - 24-2595-CN
       - 24-2605-KR
   - name: 测速6分组
     type: url-test
@@ -1663,6 +1667,7 @@ proxy-groups:
       - 04-0106-CN
       - 04-0116-CN
       - 04-0126-CN
+      - 04-0136-US
       - 04-0146-CN
       - 04-0156-CN
       - 04-0166-CN
@@ -1678,7 +1683,6 @@ proxy-groups:
       - 07-0376-US
       - 07-0386-RELAY
       - 07-0396-RELAY
-      - 07-0406-JP
       - 08-0416-CN
       - 08-0426-CN
       - 09-0436-CN
@@ -1807,7 +1811,6 @@ proxy-groups:
       - 07-0368-HK
       - 07-0378-US
       - 07-0388-RELAY
-      - 07-0398-JP
       - 08-0418-CN
       - 08-0428-CN
       - 09-0438-CN
@@ -1852,6 +1855,7 @@ proxy-groups:
       - 03-0049-CN
       - 03-0059-CN
       - 03-0069-CN
+      - 04-0079-US
       - 04-0089-CN
       - 04-0099-CN
       - 04-0109-CN
@@ -1933,7 +1937,6 @@ proxy-groups:
       - 06-0340-CN
       - 06-0350-NOWHERE
       - 06-0360-CN
-      - 07-0370-JP
       - 07-0380-US
       - 07-0400-US
       - 07-0410-RELAY
