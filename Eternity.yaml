@@ -646,7 +646,7 @@ proxies:
   - {name: 18-853-FR, server: az05.beyondy.cfd, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: az05.beyondy.cfd}}, udp: true}
   - {name: 18-854-RELAY, server: s4.cn-db.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s4.cn-db.top}}, udp: true}
   - {name: 18-855-RELAY, server: 104.16.155.10, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-857-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
+  - {name: 18-856-BR, server: 168.138.142.53, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
   - {name: 18-858-RELAY, server: 172.67.165.53, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -1259,7 +1259,7 @@ proxy-groups:
       - 18-853-FR
       - 18-854-RELAY
       - 18-855-RELAY
-      - 18-857-RELAY
+      - 18-856-BR
       - 18-858-RELAY
   - name: 负载均衡
     type: load-balance
@@ -1701,6 +1701,7 @@ proxy-groups:
       - 17-676-KR
       - 17-686-CN
       - 17-696-KR
+      - 18-856-BR
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1768,7 +1769,6 @@ proxy-groups:
       - 17-687-CN
       - 17-697-CN
       - 18-847-RELAY
-      - 18-857-RELAY
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
