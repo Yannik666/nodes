@@ -636,7 +636,8 @@ proxies:
   - {name: 17-696-RELAY, server: cf.hy2.one, port: 2052, type: vmess, uuid: 86356214-7b55-48bd-979e-4cc00cd76f14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0, headers: {Host: cf.hy2.one}}, udp: true}
   - {name: 17-697-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: cc29e131-c3a8-4061-b386-9741741c309c, udp: true}
   - {name: 17-698-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c21d83a0-c994-4c8f-81c7-32551d753dd9, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 18-851-RELAY, server: s1.cn-db.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.cn-db.top}}, udp: true}
+  - {name: 18-850-US, server: 38.99.82.203, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-855-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-856-RELAY, server: yaml777.133010.xyz, port: 80, type: vmess, uuid: 4a1cb611-381c-4fff-ca35-99be316eee17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yaml777.133010.xyz}}, udp: true}
   - {name: 18-857-DE, server: hms26.xpengmotors.sbs, port: 443, type: vmess, uuid: fb0a2de6-bf06-4ff0-97ce-c21abcdc2d55, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hms26.xpengmotors.sbs}}, udp: true}
   - {name: 18-858-RELAY, server: 104.19.48.236, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -648,7 +649,6 @@ proxies:
   - {name: 18-864-RELAY, server: s1.cn-db.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 18-865-RELAY, server: 104.17.221.248, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-867-RELAY, server: 104.19.48.236, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-868-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1250,7 +1250,8 @@ proxy-groups:
       - 17-696-RELAY
       - 17-697-CN
       - 17-698-KR
-      - 18-851-RELAY
+      - 18-850-US
+      - 18-855-DE
       - 18-856-RELAY
       - 18-857-DE
       - 18-858-RELAY
@@ -1262,7 +1263,6 @@ proxy-groups:
       - 18-864-RELAY
       - 18-865-RELAY
       - 18-867-RELAY
-      - 18-868-RELAY
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1378,7 +1378,6 @@ proxy-groups:
       - 17-671-RELAY
       - 17-681-CN
       - 17-691-KR
-      - 18-851-RELAY
       - 18-861-RELAY
   - name: 测速2分组
     type: url-test
@@ -1642,6 +1641,7 @@ proxy-groups:
       - 17-675-KR
       - 17-685-SG
       - 17-695-CN
+      - 18-855-DE
       - 18-865-RELAY
   - name: 测速6分组
     type: url-test
@@ -1838,7 +1838,6 @@ proxy-groups:
       - 17-688-CN
       - 17-698-KR
       - 18-858-RELAY
-      - 18-868-RELAY
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1968,6 +1967,7 @@ proxy-groups:
       - 17-670-CN
       - 17-680-CN
       - 17-690-CN
+      - 18-850-US
       - 18-860-RELAY
   - name: 广告拦截
     type: select
