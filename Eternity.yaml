@@ -57,7 +57,6 @@ proxies:
   - {name: 02-004-CN, server: 120.232.217.96, port: 21146, type: trojan, password: 0bc68743-cff8-4730-9818-9d8192ee335c, skip-cert-verify: true, udp: true}
   - {name: 02-005-CN, server: 120.232.217.96, port: 21142, type: trojan, password: 0bc68743-cff8-4730-9818-9d8192ee335c, skip-cert-verify: true, udp: true}
   - {name: 02-006-CN, server: 120.232.217.96, port: 39431, type: trojan, password: 0bc68743-cff8-4730-9818-9d8192ee335c, skip-cert-verify: true, udp: true}
-  - {name: 02-007-FR, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 04-008-RELAY, server: s4.db-link02.top, port: 2086, type: vmess, uuid: 5088c21f-c3b9-3c51-8c69-0d5137cac427, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.100.65, headers: {Host: s4.db-link02.top}}, udp: true}
   - {name: 04-009-RELAY, server: s2.db-link01.top, port: 2052, type: vmess, uuid: 5088c21f-c3b9-3c51-8c69-0d5137cac427, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.212.247, headers: {Host: s2.db-link01.top}}, udp: true}
   - {name: 04-010-RELAY, server: s2.cn-db.top, port: 2082, type: vmess, uuid: 5088c21f-c3b9-3c51-8c69-0d5137cac427, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.89.194, headers: {Host: s2.cn-db.top}}, udp: true}
@@ -577,7 +576,6 @@ proxies:
   - {name: 16-635-NOWHERE, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: 5155aee6-c643-41c6-af0f-111f1b301345, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 16-636-RELAY, server: visa.com, port: 443, type: vmess, uuid: e2961ed3-35fa-4964-8d31-214c10146580, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-637-RELAY, server: go.daluquan.top, port: 8880, type: vmess, uuid: 43fa3d3f-3a35-46b2-a4db-2da80de105f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: go.daluquan.top}}, udp: true}
-  - {name: 16-638-CN, server: gdgs.tarioblink.me, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: 9f7ba3bf-e6c9-4017-9480-e58f2d04865b, udp: true}
   - {name: 16-639-NOWHERE, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: 45ff0bba-35e4-47cc-a1e1-6541c35491e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 16-640-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: c4523a1a-6a8a-473c-abff-228e02407e48, udp: true}
   - {name: 16-641-CN, server: chiyu.myfczy169.top, port: 20936, type: ss, cipher: chacha20-ietf-poly1305, password: 338df7af-981a-45b9-aee4-a8176d183e6c, udp: true}
@@ -638,7 +636,9 @@ proxies:
   - {name: 17-696-CN, server: forward-03.sudatech.store, port: 43500, type: trojan, password: 46d2be1b-6241-4c00-a98e-a5573c2c810c, sni: vpn-4-6.sudatech.store, skip-cert-verify: true, udp: true}
   - {name: 17-697-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: f9f8376b-f2cb-4805-98d7-57f818a39c10, udp: true}
   - {name: 17-699-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: f9f8376b-f2cb-4805-98d7-57f818a39c10, udp: true}
+  - {name: 18-867-RELAY, server: jgw350m.pai50288.uk, port: 443, type: vmess, uuid: 3686f557-f0d7-4e9d-d281-b740f8f41393, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jgw350m.pai50288.uk}}, udp: true}
   - {name: 18-869-RELAY, server: 104.19.48.236, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-870-FR, server: indiavideo.sbs, port: 443, type: vmess, uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: indiavideo.sbs}}, udp: true}
   - {name: 18-871-AU, server: 172.105.172.209, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-872-DE, server: 57.129.24.141, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-873-RELAY, server: 104.17.221.248, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -672,7 +672,6 @@ proxy-groups:
       - 02-004-CN
       - 02-005-CN
       - 02-006-CN
-      - 02-007-FR
       - 04-008-RELAY
       - 04-009-RELAY
       - 04-010-RELAY
@@ -1192,7 +1191,6 @@ proxy-groups:
       - 16-635-NOWHERE
       - 16-636-RELAY
       - 16-637-RELAY
-      - 16-638-CN
       - 16-639-NOWHERE
       - 16-640-CN
       - 16-641-CN
@@ -1253,7 +1251,9 @@ proxy-groups:
       - 17-696-CN
       - 17-697-CN
       - 17-699-CN
+      - 18-867-RELAY
       - 18-869-RELAY
+      - 18-870-FR
       - 18-871-AU
       - 18-872-DE
       - 18-873-RELAY
@@ -1716,7 +1716,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 02-007-FR
       - 04-017-CN
       - 04-037-CN
       - 04-047-CN
@@ -1775,6 +1774,7 @@ proxy-groups:
       - 17-677-SG
       - 17-687-KR
       - 17-697-CN
+      - 18-867-RELAY
       - 18-877-RELAY
   - name: 测速8分组
     type: url-test
@@ -1835,7 +1835,6 @@ proxy-groups:
       - 16-608-AU
       - 16-618-CN
       - 16-628-SG
-      - 16-638-CN
       - 16-648-SG
       - 17-658-KR
       - 17-668-CN
@@ -1975,6 +1974,7 @@ proxy-groups:
       - 17-670-NOWHERE
       - 17-680-CN
       - 17-690-RELAY
+      - 18-870-FR
       - 18-880-FR
   - name: 广告拦截
     type: select
