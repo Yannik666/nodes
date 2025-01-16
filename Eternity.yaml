@@ -629,13 +629,13 @@ proxies:
   - {name: 17-691-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: 77e527bc-2e13-4726-92b7-8e0984656eeb, udp: true}
   - {name: 17-692-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: 4e13005f-8434-4593-bee6-e4ce6647eafa, udp: true}
   - {name: 17-693-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: c54647b5-85fa-4426-bb6d-712f61bbf705, udp: true}
+  - {name: 17-694-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 3f7e70d2-4a98-4a92-bd5c-1ced89f712ea, udp: true}
   - {name: 17-695-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: c54647b5-85fa-4426-bb6d-712f61bbf705, udp: true}
   - {name: 17-696-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: 433e4270-ec8d-4a62-8a43-e2d61d3e39c1, udp: true}
   - {name: 17-697-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: cf295b27-b6f2-47bf-a902-140f3659f1e5, udp: true}
   - {name: 17-698-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: c54647b5-85fa-4426-bb6d-712f61bbf705, udp: true}
   - {name: 17-699-RELAY, server: visa.com, port: 443, type: vmess, uuid: 0fd9ed46-0f01-4a76-b434-e515e41e6e91, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
-  - {name: 18-871-FR, server: 51.77.20.137, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-877-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-872-FR, server: denc36.xtooltech.cfd, port: 443, type: vmess, uuid: b321fd5d-e6ec-4293-a644-164e3885f52e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: denc36.xtooltech.cfd}}, udp: true}
   - {name: 18-878-RELAY, server: 104.19.48.236, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-879-FR, server: indiavideo.sbs, port: 443, type: vmess, uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: indiavideo.sbs}}, udp: true}
   - {name: 18-880-AU, server: 172.105.172.209, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1243,13 +1243,13 @@ proxy-groups:
       - 17-691-CN
       - 17-692-CN
       - 17-693-CN
+      - 17-694-CN
       - 17-695-CN
       - 17-696-CN
       - 17-697-CN
       - 17-698-CN
       - 17-699-RELAY
-      - 18-871-FR
-      - 18-877-DE
+      - 18-872-FR
       - 18-878-RELAY
       - 18-879-FR
       - 18-880-AU
@@ -1378,7 +1378,6 @@ proxy-groups:
       - 17-671-CN
       - 17-681-CN
       - 17-691-CN
-      - 18-871-FR
       - 18-881-DE
       - 18-891-RELAY
   - name: 测速2分组
@@ -1445,6 +1444,7 @@ proxy-groups:
       - 17-672-CN
       - 17-682-KR
       - 17-692-CN
+      - 18-872-FR
       - 18-882-RELAY
   - name: 测速3分组
     type: url-test
@@ -1578,6 +1578,7 @@ proxy-groups:
       - 17-664-CN
       - 17-674-CN
       - 17-684-CN
+      - 17-694-CN
       - 18-884-RELAY
   - name: 测速5分组
     type: url-test
@@ -1772,7 +1773,6 @@ proxy-groups:
       - 17-677-KR
       - 17-687-CN
       - 17-697-CN
-      - 18-877-DE
       - 18-887-RELAY
   - name: 测速8分组
     type: url-test
