@@ -633,13 +633,13 @@ proxies:
   - {name: 17-690-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 69238c85-cac4-4743-995f-ecbbafd8f8a4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-691-RELAY, server: visa.com, port: 443, type: vmess, uuid: 0fd9ed46-0f01-4a76-b434-e515e41e6e91, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-692-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: 769761a3-49c4-4a5a-8cc0-9d1fcf65ed10, udp: true}
-  - {name: 17-693-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 3dbc4e77-c961-4d06-8c5c-5190d2e53d50, udp: true}
   - {name: 17-694-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: 937ba6e0-e3bb-4a6d-ac9c-6738da082cc2, udp: true}
   - {name: 17-695-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: f433937b-52bc-4baa-a52a-c187bc4a55a4, udp: true}
   - {name: 17-696-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: f433937b-52bc-4baa-a52a-c187bc4a55a4, udp: true}
   - {name: 17-697-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: d4af6b33-6225-4a29-af2a-6b74c4022ccf, udp: true}
   - {name: 17-699-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 872c5613-a12a-42c4-99b1-345258c961f9, udp: true}
-  - {name: 18-879-FR, server: indiavideo.sbs, port: 443, type: vmess, uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: indiavideo.sbs}}, udp: true}
+  - {name: 18-877-US, server: 38.91.106.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-880-RELAY, server: 104.17.221.248, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-881-FR, server: az05.beyondy.cfd, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: az05.beyondy.cfd}}, udp: true}
   - {name: 18-882-RELAY, server: s1.cn-db.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 18-883-BR, server: bz02.ssr.ee, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
@@ -1247,13 +1247,13 @@ proxy-groups:
       - 17-690-KR
       - 17-691-RELAY
       - 17-692-CN
-      - 17-693-CN
       - 17-694-CN
       - 17-695-CN
       - 17-696-CN
       - 17-697-CN
       - 17-699-CN
-      - 18-879-FR
+      - 18-877-US
+      - 18-880-RELAY
       - 18-881-FR
       - 18-882-RELAY
       - 18-883-BR
@@ -1510,7 +1510,6 @@ proxy-groups:
       - 16-663-SG
       - 17-673-KR
       - 17-683-KR
-      - 17-693-CN
       - 18-883-BR
   - name: 测速4分组
     type: url-test
@@ -1770,6 +1769,7 @@ proxy-groups:
       - 17-677-CN
       - 17-687-CN
       - 17-697-CN
+      - 18-877-US
       - 18-887-RELAY
   - name: 测速8分组
     type: url-test
@@ -1901,7 +1901,6 @@ proxy-groups:
       - 17-679-CN
       - 17-689-KR
       - 17-699-CN
-      - 18-879-FR
       - 18-889-RELAY
   - name: 测速10分组
     type: url-test
@@ -1968,6 +1967,7 @@ proxy-groups:
       - 17-670-CN
       - 17-680-CN
       - 17-690-KR
+      - 18-880-RELAY
       - 18-890-RELAY
   - name: 广告拦截
     type: select
