@@ -150,7 +150,6 @@ proxies:
   - {name: 08-207-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 6e42035e-e9c0-494c-8e25-866c15eb441f, udp: true}
   - {name: 08-208-RELAY, server: yx.sulink.one, port: 80, type: vmess, uuid: 2dc0b954-39d4-44ae-975c-233053a78df8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yx.sulink.one}}, udp: true}
   - {name: 08-209-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 68bab686-1b5b-4483-824e-fe98d3af3e2d, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 08-210-KR, server: seoul-1ddns.aboutanime.eu.org, port: 23451, type: vmess, uuid: 2beef116-e2ab-4c4a-ab2c-688fe44ff05e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: seoul-1ddns.aboutanime.eu.org}}, udp: true}
   - {name: 08-211-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 6e42035e-e9c0-494c-8e25-866c15eb441f, udp: true}
   - {name: 08-212-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 6e42035e-e9c0-494c-8e25-866c15eb441f, udp: true}
   - {name: 08-213-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 6e42035e-e9c0-494c-8e25-866c15eb441f, udp: true}
@@ -634,7 +633,8 @@ proxies:
   - {name: 17-696-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2c9b5b3d-db70-434f-a058-a19f03bfe92d, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-697-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 8f26be1e-c6d6-460d-876a-c2882d6a3345, udp: true}
   - {name: 17-698-RELAY, server: visa.com, port: 443, type: vmess, uuid: e0375875-9029-487f-8114-cc52fd52e934, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
-  - {name: 18-716-FR, server: denc36.xtooltech.cfd, port: 443, type: vmess, uuid: b321fd5d-e6ec-4293-a644-164e3885f52e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: denc36.xtooltech.cfd}}, udp: true}
+  - {name: 18-715-US, server: 38.14.107.228, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-717-FR, server: 51.77.20.137, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-718-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-719-RELAY, server: 104.17.213.241, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-720-RELAY, server: 104.16.155.10, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -763,7 +763,6 @@ proxy-groups:
       - 08-207-CN
       - 08-208-RELAY
       - 08-209-KR
-      - 08-210-KR
       - 08-211-CN
       - 08-212-CN
       - 08-213-CN
@@ -1247,7 +1246,8 @@ proxy-groups:
       - 17-696-KR
       - 17-697-CN
       - 17-698-RELAY
-      - 18-716-FR
+      - 18-715-US
+      - 18-717-FR
       - 18-718-DE
       - 18-719-RELAY
       - 18-720-RELAY
@@ -1641,6 +1641,7 @@ proxy-groups:
       - 17-675-CN
       - 17-685-CN
       - 17-695-CN
+      - 18-715-US
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1706,7 +1707,6 @@ proxy-groups:
       - 17-676-AU
       - 17-686-CN
       - 17-696-KR
-      - 18-716-FR
       - 18-726-JP
   - name: 测速7分组
     type: url-test
@@ -1774,6 +1774,7 @@ proxy-groups:
       - 17-677-RELAY
       - 17-687-CN
       - 17-697-CN
+      - 18-717-FR
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1915,7 +1916,6 @@ proxy-groups:
       - 04-080-CN
       - 07-190-RELAY
       - 08-200-RELAY
-      - 08-210-KR
       - 10-220-CN
       - 11-230-CN
       - 11-240-CN
