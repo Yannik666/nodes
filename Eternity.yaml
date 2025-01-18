@@ -53,6 +53,9 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-001-CN, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
+  - {name: 02-002-SG, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: tw02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: 02-003-JP, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: tw01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: 02-004-SG, server: us01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: us01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-005-RELAY, server: s5.cn-db.top, port: 2082, type: vmess, uuid: 5088c21f-c3b9-3c51-8c69-0d5137cac427, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.18.113.120, headers: {Host: s5.cn-db.top}}, udp: true}
   - {name: 04-006-RELAY, server: s1.cn-db.top, port: 2052, type: vmess, uuid: 5088c21f-c3b9-3c51-8c69-0d5137cac427, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.19.215, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 04-007-RELAY, server: s4.db-link02.top, port: 80, type: vmess, uuid: 5088c21f-c3b9-3c51-8c69-0d5137cac427, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.63.65, headers: {Host: s4.db-link02.top}}, udp: true}
@@ -635,10 +638,7 @@ proxies:
   - {name: 17-696-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 6e232d70-425b-46b3-a633-4aa51bc2bea9, udp: true}
   - {name: 17-697-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: 98f62ccc-3a59-43d9-bd69-791827f57137, udp: true}
   - {name: 17-698-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 72393400-2bb5-4bc1-bbc4-b3bb03a5aad0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
-  - {name: 18-822-DE, server: 23.158.56.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-824-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-825-DE, server: 57.129.24.141, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-826-US, server: 38.14.107.233, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-827-DE, server: 57.129.25.22, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-828-US, server: 199.180.103.24, port: 37007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-829-FR, server: 194.9.172.65, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -667,6 +667,9 @@ proxy-groups:
       - 测速9分组
       - 测速10分组
       - 02-001-CN
+      - 02-002-SG
+      - 02-003-JP
+      - 02-004-SG
       - 04-005-RELAY
       - 04-006-RELAY
       - 04-007-RELAY
@@ -1249,10 +1252,7 @@ proxy-groups:
       - 17-696-CN
       - 17-697-CN
       - 17-698-SG
-      - 18-822-DE
-      - 18-824-DE
       - 18-825-DE
-      - 18-826-US
       - 18-827-DE
       - 18-828-US
       - 18-829-FR
@@ -1384,6 +1384,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-002-SG
       - 04-012-CN
       - 04-032-CN
       - 04-042-CN
@@ -1442,7 +1443,6 @@ proxy-groups:
       - 17-672-CN
       - 17-682-KR
       - 17-692-KR
-      - 18-822-DE
       - 18-832-DE
   - name: 测速3分组
     type: url-test
@@ -1450,6 +1450,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-003-JP
       - 04-013-CN
       - 04-033-CN
       - 04-043-CN
@@ -1512,6 +1513,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-004-SG
       - 04-014-CN
       - 04-034-CN
       - 04-044-CN
@@ -1570,7 +1572,6 @@ proxy-groups:
       - 17-674-CN
       - 17-684-CN
       - 17-694-CN
-      - 18-824-DE
       - 18-834-US
   - name: 测速5分组
     type: url-test
@@ -1704,7 +1705,6 @@ proxy-groups:
       - 17-676-RELAY
       - 17-686-CN
       - 17-696-CN
-      - 18-826-US
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
