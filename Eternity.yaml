@@ -121,6 +121,7 @@ proxies:
   - {name: 04-074-CN, server: gy.58n.net, port: 20304, type: trojan, password: 0614d404-98ca-3a52-bb59-80398391c234, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-075-CN, server: gy.58n.net, port: 20305, type: trojan, password: 0614d404-98ca-3a52-bb59-80398391c234, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-076-CN, server: gy.58n.net, port: 20306, type: trojan, password: 0614d404-98ca-3a52-bb59-80398391c234, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 07-176-DK, server: 185.186.79.53, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-177-RELAY, server: hsj.lbxjc.online, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hsj.lbxjc.online}}, udp: true}
   - {name: 07-178-CN, server: 120.232.217.96, port: 21183, type: trojan, password: 0bc68743-cff8-4730-9818-9d8192ee335c, skip-cert-verify: true, udp: true}
   - {name: 07-179-RELAY, server: s2.db-link02.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.114.165, headers: {Host: s2.db-link02.top}}, udp: true}
@@ -140,7 +141,6 @@ proxies:
   - {name: 08-193-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: f3013178-c2c6-45fa-af0f-90af338b39f1, udp: true}
   - {name: 08-194-RELAY, server: yx.sulink.one, port: 80, type: vmess, uuid: 67ea4221-3432-4d7b-bf1f-612fb6461b30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yx.sulink.one}}, udp: true}
   - {name: 08-195-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 12905e34-5f1e-4670-8e50-690acd430876, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 08-196-KR, server: seoul-1ddns.aboutanime.eu.org, port: 23451, type: vmess, uuid: a8727dec-4910-480c-8426-b1a4cdd0b4d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: seoul-1ddns.aboutanime.eu.org}}, udp: true}
   - {name: 08-197-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: f3013178-c2c6-45fa-af0f-90af338b39f1, udp: true}
   - {name: 08-198-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: f3013178-c2c6-45fa-af0f-90af338b39f1, udp: true}
   - {name: 08-199-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: f3013178-c2c6-45fa-af0f-90af338b39f1, udp: true}
@@ -735,6 +735,7 @@ proxy-groups:
       - 04-074-CN
       - 04-075-CN
       - 04-076-CN
+      - 07-176-DK
       - 07-177-RELAY
       - 07-178-CN
       - 07-179-RELAY
@@ -754,7 +755,6 @@ proxy-groups:
       - 08-193-CN
       - 08-194-RELAY
       - 08-195-KR
-      - 08-196-KR
       - 08-197-CN
       - 08-198-CN
       - 08-199-CN
@@ -1658,8 +1658,8 @@ proxy-groups:
       - 04-056-CN
       - 04-066-CN
       - 04-076-CN
+      - 07-176-DK
       - 08-186-RELAY
-      - 08-196-KR
       - 10-206-CN
       - 11-216-CN
       - 11-226-CN
