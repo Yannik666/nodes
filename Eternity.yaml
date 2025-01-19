@@ -638,9 +638,9 @@ proxies:
   - {name: 17-696-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 355aa21f-f2cc-4d69-aa42-1a53f5712c95, udp: true}
   - {name: 17-697-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: c32bcc49-747a-48f4-abc4-8a450f59a961, udp: true}
   - {name: 17-698-RELAY, server: visa.com, port: 443, type: vmess, uuid: 185a7069-8816-4dc8-9687-c8f4d49b3b82, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
-  - {name: 18-746-FR, server: az05.beyondy.cfd, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: az05.beyondy.cfd}}, udp: true}
+  - {name: 18-745-FR, server: 51.77.20.137, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-747-RELAY, server: 104.19.48.236, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-748-JP, server: in01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: in01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
-  - {name: 18-749-BR, server: bz02.ssr.ee, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
   - {name: 18-750-RELAY, server: 104.19.48.236, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-751-JP, server: hk03.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: hk03.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 18-752-JP, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: tw01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
@@ -1252,9 +1252,9 @@ proxy-groups:
       - 17-696-CN
       - 17-697-CN
       - 17-698-RELAY
-      - 18-746-FR
+      - 18-745-FR
+      - 18-747-RELAY
       - 18-748-JP
-      - 18-749-BR
       - 18-750-RELAY
       - 18-751-JP
       - 18-752-JP
@@ -1637,6 +1637,7 @@ proxy-groups:
       - 17-675-KR
       - 17-685-CN
       - 17-695-KR
+      - 18-745-FR
       - 18-755-RELAY
   - name: 测速6分组
     type: url-test
@@ -1704,7 +1705,6 @@ proxy-groups:
       - 17-676-CN
       - 17-686-CN
       - 17-696-CN
-      - 18-746-FR
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1771,6 +1771,7 @@ proxy-groups:
       - 17-677-CN
       - 17-687-CN
       - 17-697-CN
+      - 18-747-RELAY
       - 18-757-RELAY
   - name: 测速8分组
     type: url-test
@@ -1903,7 +1904,6 @@ proxy-groups:
       - 17-669-CN
       - 17-679-AU
       - 17-689-KR
-      - 18-749-BR
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
