@@ -52,7 +52,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-000-CA, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: www.python.org, skip-cert-verify: true, udp: true}
+  - {name: 02-000-CA, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 69238c85-cac4-4743-995f-ecbbafd8f8a4, sni: www.python.org, skip-cert-verify: true, udp: true}
   - {name: 02-002-CN, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 02-003-CN, server: 4.api-catssr.catcloud.host, port: 32184, type: ss, cipher: chacha20-ietf-poly1305, password: 2a167710-f1be-4201-ba87-b60136e0d8a6, udp: true}
   - {name: 02-004-CN, server: gdgs.tarioblink.me, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 3164812a-caea-4cd7-acad-9cf0627aac08, udp: true}
@@ -639,11 +639,11 @@ proxies:
   - {name: 17-695-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b18f466b-cd68-4ac6-ae2a-937956cd44ec, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-696-CN, server: forward-03.sudatech.store, port: 43500, type: trojan, password: 2258e8d9-db93-4a0d-8083-689d144c6aa7, sni: vpn-4-6.sudatech.store, skip-cert-verify: true, udp: true}
   - {name: 17-697-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: eb3ad798-c6bf-4a0b-972d-b3548ecccf6a, udp: true}
-  - {name: 17-698-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 69238c85-cac4-4743-995f-ecbbafd8f8a4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 18-749-RELAY, server: 104.17.213.241, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-752-FR, server: az05.beyondy.cfd, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: az05.beyondy.cfd}}, udp: true}
   - {name: 18-753-RELAY, server: 104.19.48.236, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-755-BR, server: bz02.ssr.ee, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
   - {name: 18-756-RELAY, server: 104.19.48.236, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-757-SG, server: hk03.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: hk03.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 18-759-RELAY, server: s1.cn-db.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 18-760-FR, server: 146.19.168.161, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-761-RELAY, server: 104.17.221.248, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1254,11 +1254,11 @@ proxy-groups:
       - 17-695-KR
       - 17-696-CN
       - 17-697-CN
-      - 17-698-KR
+      - 18-749-RELAY
+      - 18-752-FR
       - 18-753-RELAY
       - 18-755-BR
       - 18-756-RELAY
-      - 18-757-SG
       - 18-759-RELAY
       - 18-760-FR
       - 18-761-RELAY
@@ -1444,6 +1444,7 @@ proxy-groups:
       - 17-672-KR
       - 17-682-CN
       - 17-692-CN
+      - 18-752-FR
       - 18-762-BR
   - name: 测速3分组
     type: url-test
@@ -1778,7 +1779,6 @@ proxy-groups:
       - 17-677-CN
       - 17-687-CN
       - 17-697-CN
-      - 18-757-SG
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1843,7 +1843,6 @@ proxy-groups:
       - 17-668-CN
       - 17-678-KR
       - 17-688-CN
-      - 17-698-KR
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1907,6 +1906,7 @@ proxy-groups:
       - 17-669-KR
       - 17-679-CN
       - 17-689-CN
+      - 18-749-RELAY
       - 18-759-RELAY
   - name: 测速10分组
     type: url-test
