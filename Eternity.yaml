@@ -427,7 +427,6 @@ proxies:
   - {name: 16-482-RELAY, server: visa.com, port: 443, type: vmess, uuid: 5516d7e7-72ca-48f0-87d3-e54588f77108, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-483-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 5155aee6-c643-41c6-af0f-111f1b301345, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-484-CN, server: chiyu.myfczy169.top, port: 30518, type: ss, cipher: chacha20-ietf-poly1305, password: caaed784-bb84-486b-9aa5-d60f619b7d9f, udp: true}
-  - {name: 16-485-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: cb1b7d6e-3fb9-41c1-93ff-10887530c3d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-486-CN, server: chiyu.myfczy169.top, port: 20936, type: ss, cipher: chacha20-ietf-poly1305, password: 5cebd2d9-c635-4a41-a738-72e87f1bc1ab, udp: true}
   - {name: 16-487-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: e05c3426-ae37-4d8f-984d-fee4249dc49f, udp: true}
   - {name: 16-488-RELAY, server: visa.com, port: 443, type: vmess, uuid: 54f05a05-53a5-43b1-8452-fca945f90eb5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
@@ -458,6 +457,7 @@ proxies:
   - {name: 16-513-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 657d9bc1-e4e6-4eb6-8548-f70a77919562, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-514-CN, server: chiyu.myfczy169.top, port: 20901, type: ss, cipher: chacha20-ietf-poly1305, password: caaed784-bb84-486b-9aa5-d60f619b7d9f, udp: true}
   - {name: 16-515-CN, server: chiyu.myfczy169.top, port: 18841, type: ss, cipher: chacha20-ietf-poly1305, password: caaed784-bb84-486b-9aa5-d60f619b7d9f, udp: true}
+  - {name: 16-516-CN, server: chiyu.myfczy169.top, port: 20289, type: ss, cipher: chacha20-ietf-poly1305, password: caaed784-bb84-486b-9aa5-d60f619b7d9f, udp: true}
   - {name: 16-517-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: a386f32c-1086-4a2a-a4de-88ea208ed415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-518-CN, server: chiyu.myfczy169.top, port: 21071, type: ss, cipher: chacha20-ietf-poly1305, password: 5cebd2d9-c635-4a41-a738-72e87f1bc1ab, udp: true}
   - {name: 16-519-CN, server: chiyu.myfczy169.top, port: 43641, type: ss, cipher: chacha20-ietf-poly1305, password: caaed784-bb84-486b-9aa5-d60f619b7d9f, udp: true}
@@ -1042,7 +1042,6 @@ proxy-groups:
       - 16-482-RELAY
       - 16-483-SG
       - 16-484-CN
-      - 16-485-SG
       - 16-486-CN
       - 16-487-CN
       - 16-488-RELAY
@@ -1073,6 +1072,7 @@ proxy-groups:
       - 16-513-SG
       - 16-514-CN
       - 16-515-CN
+      - 16-516-CN
       - 16-517-SG
       - 16-518-CN
       - 16-519-CN
@@ -1620,7 +1620,6 @@ proxy-groups:
       - 16-455-RELAY
       - 16-465-SG
       - 16-475-CN
-      - 16-485-SG
       - 16-495-AU
       - 16-505-CN
       - 16-515-CN
@@ -1691,6 +1690,7 @@ proxy-groups:
       - 16-486-CN
       - 16-496-CN
       - 16-506-CN
+      - 16-516-CN
       - 16-526-CN
       - 16-536-CN
       - 17-546-KR
