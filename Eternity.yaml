@@ -118,6 +118,8 @@ proxies:
   - {name: 04-069-CN, server: gy.58n.net, port: 20304, type: trojan, password: 80b18c3a-2bc6-3d64-83e9-198d5fc2a99f, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-070-CN, server: gy.58n.net, port: 20305, type: trojan, password: 80b18c3a-2bc6-3d64-83e9-198d5fc2a99f, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-071-CN, server: gy.58n.net, port: 20306, type: trojan, password: 80b18c3a-2bc6-3d64-83e9-198d5fc2a99f, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 07-171-TW, server: recvhwashhry.461553.best, port: 85, type: vmess, uuid: 48ce30d2-ea1b-48f5-a469-3446bf41ae1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=1024", headers: {Host: recvhwashhry.461553.best}}, udp: true}
+  - {name: 07-172-TW, server: tsadfhyifgk.461553.best, port: 85, type: vmess, uuid: 48ce30d2-ea1b-48f5-a469-3446bf41ae1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=1024", headers: {Host: tsadfhyifgk.461553.best}}, udp: true}
   - {name: 07-173-CN, server: 2.hublink.pro, port: 40206, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
   - {name: 07-174-CN, server: 2.api-catssr.catcloud.host, port: 46653, type: ss, cipher: chacha20-ietf-poly1305, password: 2a167710-f1be-4201-ba87-b60136e0d8a6, udp: true}
   - {name: 07-175-HK, server: v13.emovpn.buzz, port: 3110, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v13.emovpn.buzz}}, udp: true}
@@ -637,8 +639,6 @@ proxies:
   - {name: 17-695-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 32baaf5b-a786-42e5-aa96-1d90fd6dd025, udp: true}
   - {name: 17-696-RELAY, server: visa.com, port: 443, type: vmess, uuid: cd468d68-85f6-4d31-9efe-61fea1d4c8e4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-698-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 9d8b776c-2316-47d4-8d2c-b13f0dc3651a, udp: true}
-  - {name: 18-751-US, server: 96.126.102.150, port: 443, type: vmess, uuid: 051e3f0c-c139-4c7c-9559-41222b72ca20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-754-RELAY, server: yaml777.133010.xyz, port: 80, type: vmess, uuid: 4a1cb611-381c-4fff-ca35-99be316eee17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yaml777.133010.xyz}}, udp: true}
   - {name: 18-755-RELAY, server: 104.19.48.236, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-756-RELAY, server: 198.41.209.70, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-757-RELAY, server: 104.16.155.10, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -733,6 +733,8 @@ proxy-groups:
       - 04-069-CN
       - 04-070-CN
       - 04-071-CN
+      - 07-171-TW
+      - 07-172-TW
       - 07-173-CN
       - 07-174-CN
       - 07-175-HK
@@ -1252,8 +1254,6 @@ proxy-groups:
       - 17-695-CN
       - 17-696-RELAY
       - 17-698-CN
-      - 18-751-US
-      - 18-754-RELAY
       - 18-755-RELAY
       - 18-756-RELAY
       - 18-757-RELAY
@@ -1327,6 +1327,7 @@ proxy-groups:
       - 04-051-CN
       - 04-061-CN
       - 04-071-CN
+      - 07-171-TW
       - 07-191-CN
       - 07-201-US
       - 08-211-RELAY
@@ -1377,7 +1378,6 @@ proxy-groups:
       - 17-671-KR
       - 17-681-CN
       - 17-691-KR
-      - 18-751-US
       - 18-761-FR
   - name: 测速2分组
     type: url-test
@@ -1391,6 +1391,7 @@ proxy-groups:
       - 04-042-CN
       - 04-052-CN
       - 04-062-CN
+      - 07-172-TW
       - 07-182-SG
       - 07-192-CN
       - 07-202-US
@@ -1574,7 +1575,6 @@ proxy-groups:
       - 17-674-CN
       - 17-684-CN
       - 17-694-CN
-      - 18-754-RELAY
       - 18-764-CA
   - name: 测速5分组
     type: url-test
