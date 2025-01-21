@@ -77,6 +77,7 @@ proxies:
   - {name: 04-027-CN, server: 5.mamamajd.site, port: 23605, type: vmess, uuid: 9d119e16-2272-3cfe-91d3-ff320d167408, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.mamamajd.site}}, udp: true}
   - {name: 04-028-CN, server: 13.mamamajd.site, port: 23613, type: vmess, uuid: 9d119e16-2272-3cfe-91d3-ff320d167408, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mamamajd.site}}, udp: true}
   - {name: 04-029-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 9d119e16-2272-3cfe-91d3-ff320d167408, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
+  - {name: 04-032-US, server: 34.216.90.162, port: 443, type: trojan, password: 81d90469-cd6c-3554-8701-c1ec74a2abcc, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-035-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 80b18c3a-2bc6-3d64-83e9-198d5fc2a99f, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-036-CN, server: gy.58n.net, port: 20301, type: trojan, password: 80b18c3a-2bc6-3d64-83e9-198d5fc2a99f, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-037-CN, server: gy.58n.net, port: 43337, type: trojan, password: 80b18c3a-2bc6-3d64-83e9-198d5fc2a99f, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -264,7 +265,6 @@ proxies:
   - {name: 16-319-CN, server: chiyu.myfczy169.top, port: 21081, type: ss, cipher: chacha20-ietf-poly1305, password: fc7f0b52-a533-4d85-ba08-9e262876d238, udp: true}
   - {name: 16-320-AU, server: syd-01.oci.ee, port: 23452, type: vmess, uuid: e8a49dc6-e547-4f8d-891b-b7bceb054fbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: syd-01.oci.ee}}, udp: true}
   - {name: 16-321-HK, server: 2a0f:7803:fb31:a::a, port: 8888, type: vmess, uuid: ca79fec1-2a41-47ee-a83f-91aeb452e381, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
-  - {name: 16-322-TW, server: tw1.ydso.xyz, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: 9f7ba3bf-e6c9-4017-9480-e58f2d04865b, udp: true}
   - {name: 16-323-JP, server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: e93f1a97-239c-475a-9d4c-7b81a6863825, udp: true}
   - {name: 16-324-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: f2840771-c91f-47b1-9703-e92ad7e5fc0b, udp: true}
   - {name: 16-325-CN, server: chiyu.myfczy169.top, port: 34701, type: ss, cipher: chacha20-ietf-poly1305, password: fc7f0b52-a533-4d85-ba08-9e262876d238, udp: true}
@@ -636,7 +636,6 @@ proxies:
   - {name: 17-696-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 7840ded6-e1f6-4a8b-be27-c8950c0497b1, udp: true}
   - {name: 17-697-CN, server: forward-03.sudatech.store, port: 43500, type: trojan, password: 419070e3-96d6-48cb-85c0-21a45c0c9f04, sni: vpn-4-6.sudatech.store, skip-cert-verify: true, udp: true}
   - {name: 17-698-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c403c2b1-827e-4c3e-b3e3-4f2fad86687a, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 18-787-FR, server: 51.77.20.137, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-790-FR, server: 146.19.168.161, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-791-BR, server: bz02.ssr.ee, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
   - {name: 18-792-BR, server: 168.138.142.53, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
@@ -647,6 +646,7 @@ proxies:
   - {name: 18-797-RELAY, server: 104.17.221.248, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-798-RELAY, server: 104.19.48.236, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-799-RELAY, server: 198.41.209.70, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-800-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
   - {name: 18-801-RELAY, server: 104.16.155.10, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-802-RELAY, server: 172.67.165.53, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
@@ -691,6 +691,7 @@ proxy-groups:
       - 04-027-CN
       - 04-028-CN
       - 04-029-CN
+      - 04-032-US
       - 04-035-CN
       - 04-036-CN
       - 04-037-CN
@@ -878,7 +879,6 @@ proxy-groups:
       - 16-319-CN
       - 16-320-AU
       - 16-321-HK
-      - 16-322-TW
       - 16-323-JP
       - 16-324-CN
       - 16-325-CN
@@ -1250,7 +1250,6 @@ proxy-groups:
       - 17-696-CN
       - 17-697-CN
       - 17-698-KR
-      - 18-787-FR
       - 18-790-FR
       - 18-791-BR
       - 18-792-BR
@@ -1261,6 +1260,7 @@ proxy-groups:
       - 18-797-RELAY
       - 18-798-RELAY
       - 18-799-RELAY
+      - 18-800-RELAY
       - 18-801-RELAY
       - 18-802-RELAY
   - name: 负载均衡
@@ -1386,6 +1386,7 @@ proxy-groups:
     proxies:
       - 02-001-HKss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.211.250.149443#02-012-US
       - 04-022-CN
+      - 04-032-US
       - 04-042-CN
       - 04-052-CN
       - 04-062-CN
@@ -1404,7 +1405,6 @@ proxy-groups:
       - 16-292-SG
       - 16-302-SG
       - 16-312-CN
-      - 16-322-TW
       - 16-332-CN
       - 16-342-SG
       - 16-352-AU
@@ -1772,7 +1772,6 @@ proxy-groups:
       - 17-677-RELAY
       - 17-687-CN
       - 17-697-CN
-      - 18-787-FR
       - 18-797-RELAY
   - name: 测速8分组
     type: url-test
@@ -1970,6 +1969,7 @@ proxy-groups:
       - 17-680-KR
       - 17-690-CN
       - 18-790-FR
+      - 18-800-RELAY
   - name: 广告拦截
     type: select
     proxies:
