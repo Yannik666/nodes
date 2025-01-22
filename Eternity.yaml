@@ -57,6 +57,7 @@ proxies:
   - {name: 02-003-CN, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 02-004-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 02-005-CN, server: 2.hublink.pro, port: 40208, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
+  - {name: 02-006-JP, server: 74.226.136.204, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: tw02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 02-007-JP, server: sg02.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: sg02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 02-008-JP, server: 74.226.136.204, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: sg02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-009-RELAY, server: s1.db-link02.top, port: 2052, type: vmess, uuid: 5088c21f-c3b9-3c51-8c69-0d5137cac427, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.213.252, headers: {Host: s1.db-link02.top}}, udp: true}
@@ -76,9 +77,8 @@ proxies:
   - {name: 04-023-CN, server: 5.mamamajd.site, port: 23605, type: vmess, uuid: 0ba74086-8055-3397-b43d-e52a1e7a8a91, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.mamamajd.site}}, udp: true}
   - {name: 04-024-CN, server: 13.mamamajd.site, port: 23613, type: vmess, uuid: 0ba74086-8055-3397-b43d-e52a1e7a8a91, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mamamajd.site}}, udp: true}
   - {name: 04-025-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 0ba74086-8055-3397-b43d-e52a1e7a8a91, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
-  - {name: 04-026-JP, server: 35.78.173.41, port: 443, type: trojan, password: 3954349b-5a84-33d8-86de-b7368007cdfa, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-027-JP, server: 43.206.140.0, port: 443, type: trojan, password: 3954349b-5a84-33d8-86de-b7368007cdfa, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-028-US, server: 35.92.2.22, port: 443, type: trojan, password: 3954349b-5a84-33d8-86de-b7368007cdfa, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-029-US, server: 103.136.185.27, port: 5535, type: trojan, password: 3954349b-5a84-33d8-86de-b7368007cdfa, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-030-US, server: 103.136.185.28, port: 3516, type: trojan, password: 3954349b-5a84-33d8-86de-b7368007cdfa, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-031-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 12e074ff-294f-3d19-8b9f-35d197e85840, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-032-CN, server: gy.58n.net, port: 20301, type: trojan, password: 12e074ff-294f-3d19-8b9f-35d197e85840, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -653,6 +653,7 @@ proxy-groups:
       - 02-003-CN
       - 02-004-CN
       - 02-005-CN
+      - 02-006-JP
       - 02-007-JP
       - 02-008-JP
       - 04-009-RELAY
@@ -672,9 +673,8 @@ proxy-groups:
       - 04-023-CN
       - 04-024-CN
       - 04-025-CN
-      - 04-026-JP
       - 04-027-JP
-      - 04-028-US
+      - 04-029-US
       - 04-030-US
       - 04-031-CN
       - 04-032-CN
@@ -1602,8 +1602,8 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-006-JP
       - 04-016-CN
-      - 04-026-JP
       - 04-036-CN
       - 04-046-CN
       - 04-056-CN
@@ -1732,7 +1732,6 @@ proxy-groups:
     proxies:
       - 02-008-JP
       - 04-018-CN
-      - 04-028-US
       - 04-038-CN
       - 04-048-CN
       - 04-058-CN
@@ -1796,6 +1795,7 @@ proxy-groups:
     proxies:
       - 04-009-RELAY
       - 04-019-CN
+      - 04-029-US
       - 04-039-CN
       - 04-049-CN
       - 04-059-CN
