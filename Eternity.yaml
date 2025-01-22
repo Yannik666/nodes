@@ -330,7 +330,6 @@ proxies:
   - {name: 16-382-JP, server: 54.199.121.245, port: 80, type: vmess, uuid: a36cf530-3fa3-43a0-bb45-8a40ae498c79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 16-383-JP, server: 13.231.141.124, port: 80, type: vmess, uuid: 3c40b090-25b2-4985-8b62-4788ff740eb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 16-384-CN, server: chiyu.myfczy169.top, port: 18841, type: ss, cipher: chacha20-ietf-poly1305, password: d01a1627-5695-4f54-8e2f-3cfd1ab6e7be, udp: true}
-  - {name: 16-385-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 54f05a05-53a5-43b1-8452-fca945f90eb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-386-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 8a4b8f2f-89e7-4ba6-8ce0-f8172418ad74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-387-JP, server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: 4bffbd52-347b-47aa-81f3-0ceb6589a32c, udp: true}
   - {name: 16-388-CN, server: chiyu.myfczy169.top, port: 21296, type: ss, cipher: chacha20-ietf-poly1305, password: d01a1627-5695-4f54-8e2f-3cfd1ab6e7be, udp: true}
@@ -642,7 +641,8 @@ proxies:
   - {name: 18-695-US, server: 38.14.107.228, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-696-RELAY, server: tokyo.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tokyo.899994.xyz}}, udp: true}
   - {name: 18-698-RELAY, server: br.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: br.899994.xyz}}, udp: true}
-  - {name: 18-724-JP, server: in01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: in01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: 18-723-RELAY, server: 104.19.48.236, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-726-RELAY, server: s1.db-link01.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 18-727-RELAY, server: 104.16.155.10, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: "18-728-JPtrojan//82667668-4bfd-4906-ab31-c2745d0de78e@t37.emoyes.top657?allowInsecure=1&sni=www.python.org#07-202-US", server: 5.forlive.live, port: 60033, type: ss, cipher: chacha20-ietf-poly1305, password: 54d73e4b-054d-4148-bab6-22646f4431a9, udp: true}
   - {name: 18-729-RELAY, server: it0.899994.xyz, port: 8443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: it0.899994.xyz}}, udp: true}
@@ -944,7 +944,6 @@ proxy-groups:
       - 16-382-JP
       - 16-383-JP
       - 16-384-CN
-      - 16-385-SG
       - 16-386-SG
       - 16-387-JP
       - 16-388-CN
@@ -1256,7 +1255,8 @@ proxy-groups:
       - 18-695-US
       - 18-696-RELAY
       - 18-698-RELAY
-      - 18-724-JP
+      - 18-723-RELAY
+      - 18-726-RELAY
       - 18-727-RELAY
       - 18-728-JPtrojan//82667668-4bfd-4906-ab31-c2745d0de78e@t37.emoyes.top657?allowInsecure=1&sni=www.python.org#07-202-US
       - 18-729-RELAY
@@ -1512,6 +1512,7 @@ proxy-groups:
       - 17-673-CN
       - 17-683-KR
       - 18-693-FR
+      - 18-723-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1578,7 +1579,6 @@ proxy-groups:
       - 17-674-KR
       - 17-684-CN
       - 18-694-US
-      - 18-724-JP
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1613,7 +1613,6 @@ proxy-groups:
       - 16-355-AU
       - 16-365-SG
       - 16-375-RELAY
-      - 16-385-SG
       - 16-395-CN
       - 16-405-CN
       - 16-415-CN
@@ -1709,6 +1708,7 @@ proxy-groups:
       - 17-676-CN
       - 17-686-KR
       - 18-696-RELAY
+      - 18-726-RELAY
       - 18-728-JPtrojan//82667668-4bfd-4906-ab31-c2745d0de78e@t37.emoyes.top657?allowInsecure=1&sni=www.python.org#07-202-US
   - name: 测速7分组
     type: url-test
