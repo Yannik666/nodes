@@ -160,6 +160,7 @@ proxies:
   - {name: 07-211-RELAY, server: hsj.lbxjc.online, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hsj.lbxjc.online}}, udp: true}
   - {name: 07-212-CN, server: ctmm.gscloud.bond, port: 31620, type: ss, cipher: chacha20-ietf-poly1305, password: f16d3752-7bae-474e-87dc-f892df2caeaf, udp: true}
   - {name: 07-213-CN, server: 3.link-hub.click, port: 40254, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
+  - {name: 07-214-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9994b755-41c9-421a-afa6-b0ccf661378e, sni: "kr-qingyun.dwyun.me#17-696-KRtrojan://ef0b8b00-d7fc-11ef-8681-1239d0255272@15.204.234.166:443?allowInsecure=1", skip-cert-verify: true, udp: true}
   - {name: 07-215-US, server: 15.204.234.166, port: 443, type: trojan, password: 08eb3390-d6de-11ef-9955-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-216-CN, server: 2.hublink.pro, port: 40210, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
   - {name: 07-217-CN, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
@@ -389,6 +390,7 @@ proxies:
   - {name: 16-444-CN, server: chiyu.myfczy169.top, port: 50691, type: ss, cipher: chacha20-ietf-poly1305, password: f711a41d-6aa2-46d1-a69a-b4695a7a008f, udp: true}
   - {name: 16-445-CN, server: chiyu.myfczy169.top, port: 51578, type: ss, cipher: chacha20-ietf-poly1305, password: f711a41d-6aa2-46d1-a69a-b4695a7a008f, udp: true}
   - {name: 16-446-AU, server: syd-01.oci.ee, port: 23452, type: vmess, uuid: f3bd790d-778c-497f-ad61-fa055ce56141, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: syd-01.oci.ee}}, udp: true}
+  - {name: 16-447-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 5516d7e7-72ca-48f0-87d3-e54588f77108, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-448-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 09a24222-b1e9-4c02-aea9-0fccac77c09c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-449-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 7f3a085d-1965-4dc6-bedf-95ceb0af9c99, udp: true}
   - {name: 16-450-CN, server: chiyu.myfczy169.top, port: 20289, type: ss, cipher: chacha20-ietf-poly1305, password: 86deb0f1-62b1-4130-9b26-a3a8cadafe6d, udp: true}
@@ -637,7 +639,6 @@ proxies:
   - {name: 17-693-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 037c6eea-3d34-4f58-be1d-5aaeec210e59, udp: true}
   - {name: 17-694-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: af620bd2-90f2-4cca-8576-5dd1da2cddb3, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-695-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 11655bda-94e1-46e6-9df1-d2cf2c10b13b, udp: true}
-  - {name: 17-696-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9994b755-41c9-421a-afa6-b0ccf661378e, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-697-RELAY, server: visa.com, port: 443, type: vmess, uuid: d3c51647-27d3-4c7a-af98-f8b9bc5d2d82, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-698-CN, server: forward-03.sudatech.store, port: 43500, type: trojan, password: 8c02d1ca-ce4e-4279-9ce8-9e5c64a34829, sni: vpn-4-6.sudatech.store, skip-cert-verify: true, udp: true}
   - {name: 18-734-RELAY, server: portland.899994.xyz, port: 8443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: portland.899994.xyz}}, udp: true}
@@ -774,6 +775,7 @@ proxy-groups:
       - 07-211-RELAY
       - 07-212-CN
       - 07-213-CN
+      - 07-214-US
       - 07-215-US
       - 07-216-CN
       - 07-217-CN
@@ -1003,6 +1005,7 @@ proxy-groups:
       - 16-444-CN
       - 16-445-CN
       - 16-446-AU
+      - 16-447-SG
       - 16-448-SG
       - 16-449-CN
       - 16-450-CN
@@ -1251,7 +1254,6 @@ proxy-groups:
       - 17-693-CN
       - 17-694-KR
       - 17-695-CN
-      - 17-696-KR
       - 17-697-RELAY
       - 17-698-CN
       - 18-734-RELAY
@@ -1524,6 +1526,7 @@ proxy-groups:
       - 04-084-CN
       - 04-094-CN
       - 04-104-CN
+      - 07-214-US
       - 07-224-US
       - 08-234-RELAY
       - 08-244-CN
@@ -1704,7 +1707,6 @@ proxy-groups:
       - 17-666-CN
       - 17-676-KR
       - 17-686-KR
-      - 17-696-KR
       - 18-736-RELAY
   - name: 测速7分组
     type: url-test
@@ -1746,6 +1748,7 @@ proxy-groups:
       - 16-417-CN
       - 16-427-SG
       - 16-437-RELAY
+      - 16-447-SG
       - 16-457-RELAY
       - 16-467-SG
       - 16-477-CN
