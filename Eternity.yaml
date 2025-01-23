@@ -59,8 +59,7 @@ proxies:
   - {name: 02-005-CN, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 02-006-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 02-007-FR, server: 194.9.172.65, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
-  - {name: 02-008-FR, server: beyonddbc.sbs, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: beyonddbc.sbs}}, udp: true}
-  - {name: 02-009-HK, server: 150.107.46.21, port: 8083, type: ssr, cipher: aes-256-cfb, password: iFqnzSscN, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "\x0b��:��ѿ\x1bӝ��>ן�μ����۞@...:?\t�˫", obfs-param: "", udp: true}
+  - {name: 02-009-HK, server: 150.107.46.21, port: 8083, type: ssr, cipher: aes-256-cfb, password: iFqnzSscN, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 04-010-RELAY, server: s3.db-link01.top, port: 2095, type: vmess, uuid: c6bfb557-9d98-3d3d-ac21-cd7692a9db35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.114.137, headers: {Host: s3.db-link01.top}}, udp: true}
   - {name: 04-011-RELAY, server: s4.db-link02.top, port: 2095, type: vmess, uuid: c6bfb557-9d98-3d3d-ac21-cd7692a9db35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.112.89, headers: {Host: s4.db-link02.top}}, udp: true}
   - {name: 04-012-RELAY, server: s5.db-link01.top, port: 8880, type: vmess, uuid: c6bfb557-9d98-3d3d-ac21-cd7692a9db35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.128.193, headers: {Host: s5.db-link01.top}}, udp: true}
@@ -129,6 +128,7 @@ proxies:
   - {name: 07-179-RELAY, server: hsj.lbxjc.online, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hsj.lbxjc.online}}, udp: true}
   - {name: 07-180-CN, server: ctmm.gscloud.bond, port: 31620, type: ss, cipher: chacha20-ietf-poly1305, password: f16d3752-7bae-474e-87dc-f892df2caeaf, udp: true}
   - {name: 07-181-CN, server: 3.link-hub.click, port: 40254, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
+  - {name: 07-182-US, server: 35.78.173.41, port: 443, type: trojan, password: 2435af14-9182-33e5-8882-d7eb840bd22b, sni: "steampipe.akamaized.net#04-027-JPtrojan://ef0b8b00-d7fc-11ef-8681-1239d0255272@15.204.234.166:443?allowInsecure=1", skip-cert-verify: true, udp: true}
   - {name: 07-183-US, server: 15.204.234.166, port: 443, type: trojan, password: 08eb3390-d6de-11ef-9955-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-184-CN, server: 2.hublink.pro, port: 40210, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
   - {name: 07-185-RELAY, server: s5.cn-db.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.26.191, headers: {Host: s5.cn-db.top}}, udp: true}
@@ -674,7 +674,6 @@ proxy-groups:
       - 02-005-CN
       - 02-006-CN
       - 02-007-FR
-      - 02-008-FR
       - 02-009-HK
       - 04-010-RELAY
       - 04-011-RELAY
@@ -744,6 +743,7 @@ proxy-groups:
       - 07-179-RELAY
       - 07-180-CN
       - 07-181-CN
+      - 07-182-US
       - 07-183-US
       - 07-184-CN
       - 07-185-RELAY
@@ -1394,6 +1394,7 @@ proxy-groups:
       - 04-052-CN
       - 04-062-CN
       - 04-072-CN
+      - 07-182-US
       - 07-192-RELAY
       - 08-202-CN
       - 08-212-CN
@@ -1782,7 +1783,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 02-008-FR
       - 04-018-CN
       - 04-038-CN
       - 04-048-CN
