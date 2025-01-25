@@ -642,10 +642,10 @@ proxies:
   - {name: 17-696-CN, server: gzct.guguyun.xyz, port: 46666, type: ss, cipher: chacha20-ietf-poly1305, password: 56110fe6-231a-44ed-aa70-55a26243980e, udp: true}
   - {name: 17-697-CN, server: ct1.notinsmingrsfsorg.lol, port: 51726, type: ss, cipher: chacha20-ietf-poly1305, password: 38dd5c63-d294-44da-ad75-2609997e2cd8, udp: true}
   - {name: 17-698-CN, server: cu1.guguyun.xyz, port: 21057, type: ss, cipher: chacha20-ietf-poly1305, password: c67279dc-ed47-4cd9-a2f8-d21dc53a7eec, udp: true}
-  - {name: 18-914-RELAY, server: hsj.lbxjc.online, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hsj.lbxjc.online}}, udp: true}
-  - {name: 18-919-RELAY, server: nl.899994.xyz, port: 8443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nl.899994.xyz}}, udp: true}
+  - {name: 18-915-RELAY, server: s2.db-link01.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link01.top}}, udp: true}
   - {name: 18-920-RELAY, server: s5.db-link01.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s5.db-link01.top}}, udp: true}
   - {name: 18-921-RELAY, server: 190.93.245.230, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-922-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
   - {name: 18-923-RELAY, server: s4.db-link02.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s4.db-link02.top}}, udp: true}
   - {name: 18-924-RELAY, server: s4.db-link02.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s4.db-link02.top}}, udp: true}
 proxy-groups:
@@ -1255,10 +1255,10 @@ proxy-groups:
       - 17-696-CN
       - 17-697-CN
       - 17-698-CN
-      - 18-914-RELAY
-      - 18-919-RELAY
+      - 18-915-RELAY
       - 18-920-RELAY
       - 18-921-RELAY
+      - 18-922-RELAY
       - 18-923-RELAY
       - 18-924-RELAY
   - name: 负载均衡
@@ -1439,6 +1439,7 @@ proxy-groups:
       - 17-672-CN
       - 17-682-CN
       - 17-692-KR
+      - 18-922-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1569,7 +1570,6 @@ proxy-groups:
       - 17-664-KR
       - 17-674-CN
       - 17-684-CN
-      - 18-914-RELAY
       - 18-924-RELAY
   - name: 测速5分组
     type: url-test
@@ -1636,6 +1636,7 @@ proxy-groups:
       - 17-675-CN
       - 17-685-CN
       - 17-695-RELAY
+      - 18-915-RELAY
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1899,7 +1900,6 @@ proxy-groups:
       - 17-669-CN
       - 17-679-CN
       - 17-689-CN
-      - 18-919-RELAY
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
