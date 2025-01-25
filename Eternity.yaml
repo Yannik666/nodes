@@ -102,7 +102,7 @@ proxies:
   - {name: 04-148-CN, server: gy.58n.net, port: 20305, type: trojan, password: 7ea5261c-36a7-3e9a-9423-648ac14989d1, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-149-CN, server: gy.58n.net, port: 20306, type: trojan, password: 7ea5261c-36a7-3e9a-9423-648ac14989d1, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-150-JP, server: 35.78.173.41, port: 443, type: trojan, password: ab72de88-7c76-3103-85cf-477c434c0fd2, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-153-US, server: 103.136.185.27, port: 5535, type: trojan, password: ab72de88-7c76-3103-85cf-477c434c0fd2, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-152-US, server: 52.27.195.4, port: 443, type: trojan, password: ab72de88-7c76-3103-85cf-477c434c0fd2, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-154-US, server: 103.136.185.28, port: 3516, type: trojan, password: ab72de88-7c76-3103-85cf-477c434c0fd2, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-155-RELAY, server: s1.db-link02.top, port: 8080, type: vmess, uuid: 3735a478-cd75-3248-b356-db4a40825c31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.10.253, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 04-156-RELAY, server: s1.db-link01.top, port: 2086, type: vmess, uuid: 3735a478-cd75-3248-b356-db4a40825c31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.81.112, headers: {Host: s1.db-link01.top}}, udp: true}
@@ -656,7 +656,7 @@ proxy-groups:
       - 04-148-CN
       - 04-149-CN
       - 04-150-JP
-      - 04-153-US
+      - 04-152-US
       - 04-154-US
       - 04-155-RELAY
       - 04-156-RELAY
@@ -1261,6 +1261,7 @@ proxy-groups:
       - 04-122-CN
       - 04-132-CN
       - 04-142-CN
+      - 04-152-US
       - 04-162-CN
       - 07-172-US
       - 08-182-RELAY
@@ -1320,7 +1321,6 @@ proxy-groups:
       - 04-123-CN
       - 04-133-CN
       - 04-143-CN
-      - 04-153-US
       - 04-163-CN
       - 07-173-US
       - 08-183-CN
