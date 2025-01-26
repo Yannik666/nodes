@@ -635,7 +635,6 @@ proxies:
   - {name: 16-0687-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 212fdded-1a56-4b33-91e1-0b4e0cd24ec1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-0688-JP, server: osaka002-a.oraclenat.cc, port: 23451, type: vmess, uuid: 5516d7e7-72ca-48f0-87d3-e54588f77108, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: osaka002-a.oraclenat.cc}}, udp: true}
   - {name: 16-0689-CN, server: chiyu.myfczy169.top, port: 22539, type: ss, cipher: chacha20-ietf-poly1305, password: af7c14a9-444e-4082-afa5-3f35303cbccc, udp: true}
-  - {name: 16-0690-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: e8a49dc6-e547-4f8d-891b-b7bceb054fbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-0691-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 6468b48f-210e-4600-9438-6091fab6d38d, udp: true}
   - {name: 16-0692-JP, server: 13.231.141.124, port: 80, type: vmess, uuid: a36cf530-3fa3-43a0-bb45-8a40ae498c79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 16-0693-RELAY, server: cf.hy2.one, port: 80, type: vmess, uuid: 97ff13b1-8c2c-4327-b003-dfb1e64d3262, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af323d, headers: {Host: cf.hy2.one}}, udp: true}
@@ -644,9 +643,9 @@ proxies:
   - {name: 16-0696-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: b83332bd-3f2d-4c61-b829-1bffdeab083c, udp: true}
   - {name: 16-0697-HK, server: 8.218.213.13, port: 80, type: vmess, uuid: a36cf530-3fa3-43a0-bb45-8a40ae498c79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path}, udp: true}
   - {name: 16-0698-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 9ecf9095-1292-47c5-b366-b166381f6eeb, udp: true}
-  - {name: 18-1072-RELAY, server: 104.16.155.10, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-1071-RELAY, server: 104.16.155.10, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-1075-RELAY, server: 104.17.221.248, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1076-RELAY, server: 104.17.221.248, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-1078-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
   - {name: 18-1079-RELAY, server: s2.db-link02.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link02.top}}, udp: true}
   - {name: 18-1080-RELAY, server: s2.db-link01.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link01.top}}, udp: true}
 proxy-groups:
@@ -1249,7 +1248,6 @@ proxy-groups:
       - 16-0687-SG
       - 16-0688-JP
       - 16-0689-CN
-      - 16-0690-SG
       - 16-0691-CN
       - 16-0692-JP
       - 16-0693-RELAY
@@ -1258,9 +1256,9 @@ proxy-groups:
       - 16-0696-CN
       - 16-0697-HK
       - 16-0698-CN
-      - 18-1072-RELAY
+      - 18-1071-RELAY
+      - 18-1075-RELAY
       - 18-1076-RELAY
-      - 18-1078-RELAY
       - 18-1079-RELAY
       - 18-1080-RELAY
   - name: 负载均衡
@@ -1376,6 +1374,7 @@ proxy-groups:
       - 16-0671-CN
       - 16-0681-CN
       - 16-0691-CN
+      - 18-1071-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1441,7 +1440,6 @@ proxy-groups:
       - 16-0672-CN
       - 16-0682-SG
       - 16-0692-JP
-      - 18-1072-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1638,6 +1636,7 @@ proxy-groups:
       - 16-0675-CN
       - 16-0685-CN
       - 16-0695-JP
+      - 18-1075-RELAY
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1837,7 +1836,6 @@ proxy-groups:
       - 16-0678-CN
       - 16-0688-JP
       - 16-0698-CN
-      - 18-1078-RELAY
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1967,7 +1965,6 @@ proxy-groups:
       - 16-0660-CN
       - 16-0670-CN
       - 16-0680-CN
-      - 16-0690-SG
       - 18-1080-RELAY
   - name: 广告拦截
     type: select
