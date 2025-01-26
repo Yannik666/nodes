@@ -645,8 +645,8 @@ proxies:
   - {name: 16-0697-JP, server: osaka002-a.oraclenat.cc, port: 23451, type: vmess, uuid: 944bc952-e323-4ce5-9379-319a5e9ada79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: osaka002-a.oraclenat.cc}}, udp: true}
   - {name: 16-0698-RELAY, server: visa.com, port: 443, type: vmess, uuid: 14437964-c135-437c-b444-134b9fd49b36, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 18-1041-RELAY, server: 104.16.155.10, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-1044-RELAY, server: 104.17.221.248, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1045-RELAY, server: 104.17.221.248, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-1047-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
   - {name: 18-1048-RELAY, server: s2.db-link02.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link02.top}}, udp: true}
   - {name: 18-1049-RELAY, server: s2.db-link01.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link01.top}}, udp: true}
 proxy-groups:
@@ -1259,8 +1259,8 @@ proxy-groups:
       - 16-0697-JP
       - 16-0698-RELAY
       - 18-1041-RELAY
-      - 18-1044-RELAY
       - 18-1045-RELAY
+      - 18-1047-RELAY
       - 18-1048-RELAY
       - 18-1049-RELAY
   - name: 负载均衡
@@ -1572,7 +1572,6 @@ proxy-groups:
       - 16-0674-CN
       - 16-0684-RELAY
       - 16-0694-CN
-      - 18-1044-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1771,6 +1770,7 @@ proxy-groups:
       - 16-0677-CN
       - 16-0687-CN
       - 16-0697-JP
+      - 18-1047-RELAY
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
