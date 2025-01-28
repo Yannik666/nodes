@@ -642,7 +642,7 @@ proxies:
   - {name: 17-696-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 28a26748-fc47-4f25-a059-08f42b31a422, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-697-CN, server: yoyo.cmyiphone.top, port: 49311, type: ss, cipher: chacha20-ietf-poly1305, password: 15a29537-6faa-4d95-88d7-ff466296ce37, udp: true}
   - {name: 17-698-CN, server: yoyo.cmyiphone.top, port: 49306, type: ss, cipher: chacha20-ietf-poly1305, password: b8ed4056-11cf-4d88-beff-cd3a8e80ba44, udp: true}
-  - {name: 18-948-RELAY, server: 104.17.221.248, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-946-RELAY, server: 104.21.81.115, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-951-RELAY, server: 104.19.48.236, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-952-RELAY, server: 104.16.155.10, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-953-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: irvideo.cfd}}, udp: true}
@@ -1257,7 +1257,7 @@ proxy-groups:
       - 17-696-NOWHERE
       - 17-697-CN
       - 17-698-CN
-      - 18-948-RELAY
+      - 18-946-RELAY
       - 18-951-RELAY
       - 18-952-RELAY
       - 18-953-FR
@@ -1711,6 +1711,7 @@ proxy-groups:
       - 17-676-CN
       - 17-686-CN
       - 17-696-NOWHERE
+      - 18-946-RELAY
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1844,7 +1845,6 @@ proxy-groups:
       - 17-678-CN
       - 17-688-NOWHERE
       - 17-698-CN
-      - 18-948-RELAY
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
