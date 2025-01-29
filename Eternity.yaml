@@ -642,7 +642,7 @@ proxies:
   - {name: 17-0696-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 6444c906-18bd-49c2-863a-32d1347e2846, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-0697-RELAY, server: visa.com, port: 443, type: vmess, uuid: f0a6b306-328b-4b93-8b25-a2c6f1e73547, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-0698-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d04ec8b0-c793-48d7-a089-ab913b3f6058, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 18-1029-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: irvideo.cfd}}, udp: true}
+  - {name: 18-1028-JP, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: tw02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 18-1032-RELAY, server: s1.db-link02.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 18-1033-RELAY, server: s1.db-link02.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 18-1034-RELAY, server: it0.899994.xyz, port: 8443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: it0.899994.xyz}}, udp: true}
@@ -1256,7 +1256,7 @@ proxy-groups:
       - 17-0696-SG
       - 17-0697-RELAY
       - 17-0698-NOWHERE
-      - 18-1029-FR
+      - 18-1028-JP
       - 18-1032-RELAY
       - 18-1033-RELAY
       - 18-1034-RELAY
@@ -1841,6 +1841,7 @@ proxy-groups:
       - 17-0678-NOWHERE
       - 17-0688-US
       - 17-0698-NOWHERE
+      - 18-1028-JP
       - 18-1038-RELAY
   - name: 测速9分组
     type: url-test
@@ -1906,7 +1907,6 @@ proxy-groups:
       - 17-0669-NOWHERE
       - 17-0679-NOWHERE
       - 17-0689-CN
-      - 18-1029-FR
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
