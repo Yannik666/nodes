@@ -641,7 +641,7 @@ proxies:
   - {name: 17-696-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5e3eeedf-be9d-447c-8f56-c6e260c571c4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-697-JP, server: osaka002-a.oraclenat.cc, port: 23451, type: vmess, uuid: cd468d68-85f6-4d31-9efe-61fea1d4c8e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: osaka002-a.oraclenat.cc}}, udp: true}
   - {name: 17-698-CN, server: yoyo.cmyiphone.top, port: 49311, type: ss, cipher: chacha20-ietf-poly1305, password: d50e4259-c5db-4c82-a66d-3ebc6f747f07, udp: true}
-  - {name: 18-938-RELAY, server: portland.899994.xyz, port: 8443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: portland.899994.xyz}}, udp: true}
+  - {name: 18-939-RELAY, server: br.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: br.899994.xyz}}, udp: true}
   - {name: 18-943-RELAY, server: 198.41.209.70, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-944-RELAY, server: 104.17.221.248, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-945-RELAY, server: hsj.lbxjc.online, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hsj.lbxjc.online}}, udp: true}
@@ -1255,7 +1255,7 @@ proxy-groups:
       - 17-696-NOWHERE
       - 17-697-JP
       - 17-698-CN
-      - 18-938-RELAY
+      - 18-939-RELAY
       - 18-943-RELAY
       - 18-944-RELAY
       - 18-945-RELAY
@@ -1839,7 +1839,6 @@ proxy-groups:
       - 17-678-CN
       - 17-688-CN
       - 17-698-CN
-      - 18-938-RELAY
       - 18-948-RELAY
   - name: 测速9分组
     type: url-test
@@ -1905,6 +1904,7 @@ proxy-groups:
       - 17-669-CN
       - 17-679-SG
       - 17-689-CN
+      - 18-939-RELAY
       - 18-949-FR
   - name: 测速10分组
     type: url-test
