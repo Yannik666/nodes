@@ -60,7 +60,6 @@ proxies:
   - {name: 02-0006-HK, server: qq.miaolianyunapp.com, port: 51181, type: ss, cipher: chacha20-ietf-poly1305, password: a81dd416-d6dc-4268-b088-57ca0447b448, udp: true}
   - {name: 02-0007-CN, server: 1.linkhub.degree, port: 40202, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
   - {name: 02-0008-CN, server: 2.hublink.pro, port: 40218, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
-  - {name: 02-0009-VN, server: cmc3.5gsieuvip.vn, port: 443, type: trojan, password: 5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad, skip-cert-verify: true, udp: true}
   - {name: 02-0011-HK, server: qq.miaolianyunapp.com, port: 51183, type: ss, cipher: chacha20-ietf-poly1305, password: a81dd416-d6dc-4268-b088-57ca0447b448, udp: true}
   - {name: 02-0012-HK, server: qq.miaolianyunapp.com, port: 51184, type: ss, cipher: chacha20-ietf-poly1305, password: a81dd416-d6dc-4268-b088-57ca0447b448, udp: true}
   - {name: 02-0013-HK, server: qq.miaolianyunapp.com, port: 51180, type: ss, cipher: chacha20-ietf-poly1305, password: a81dd416-d6dc-4268-b088-57ca0447b448, udp: true}
@@ -641,8 +640,9 @@ proxies:
   - {name: 17-0694-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b18f466b-cd68-4ac6-ae2a-937956cd44ec, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-0695-RELAY, server: visa.com, port: 443, type: vmess, uuid: 91484031-14fa-4491-876b-7ae2cad9dabe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-0696-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 48593830-000e-487b-b74b-4886e6b551ac, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 17-0697-HK, server: 2c5f4d939eaa96f216d08771b5c62ac5.node.tro.node-is.green, port: 40215, type: trojan, password: abb5b775-1f88-45ad-b6b5-af5a5ad1901c, sni: live.douyin.com, skip-cert-verify: true, udp: true}
   - {name: 17-0698-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 13d98a00-c578-4b24-8543-ef97377d480c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
-  - {name: 18-1049-RELAY, server: tokyo.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tokyo.899994.xyz}}, udp: true}
+  - {name: 18-1063-RELAY, server: s4.db-link01.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s4.db-link01.top}}, udp: true}
   - {name: 18-1066-RELAY, server: s1.db-link01.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 18-1067-RELAY, server: se.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: se.899994.xyz}}, udp: true}
   - {name: 18-1069-RELAY, server: s2.db-link01.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link01.top}}, udp: true}
@@ -674,7 +674,6 @@ proxy-groups:
       - 02-0006-HK
       - 02-0007-CN
       - 02-0008-CN
-      - 02-0009-VN
       - 02-0011-HK
       - 02-0012-HK
       - 02-0013-HK
@@ -1255,8 +1254,9 @@ proxy-groups:
       - 17-0694-NOWHERE
       - 17-0695-RELAY
       - 17-0696-NOWHERE
+      - 17-0697-HK
       - 17-0698-DE
-      - 18-1049-RELAY
+      - 18-1063-RELAY
       - 18-1066-RELAY
       - 18-1067-RELAY
       - 18-1069-RELAY
@@ -1509,6 +1509,7 @@ proxy-groups:
       - 17-0673-NOWHERE
       - 17-0683-NOWHERE
       - 17-0693-CN
+      - 18-1063-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1771,6 +1772,7 @@ proxy-groups:
       - 16-0667-US
       - 17-0677-SG
       - 17-0687-CN
+      - 17-0697-HK
       - 18-1067-RELAY
   - name: 测速8分组
     type: url-test
@@ -1844,7 +1846,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 02-0009-VN
       - 04-0119-CN
       - 04-0129-CN
       - 04-0139-CN
@@ -1903,7 +1904,6 @@ proxy-groups:
       - 16-0669-CN
       - 17-0679-CN
       - 17-0689-CN
-      - 18-1049-RELAY
       - 18-1069-RELAY
   - name: 测速10分组
     type: url-test
