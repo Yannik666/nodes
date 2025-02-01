@@ -642,7 +642,7 @@ proxies:
   - {name: 17-696-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 9da5002e-c178-4ef1-8142-b0580c088160, udp: true}
   - {name: 17-697-RELAY, server: visa.com, port: 443, type: vmess, uuid: 272c6512-8d6d-4b65-838e-1452df1ed4fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-698-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 22766a74-6adc-461d-b0d5-691ad7a1028b, udp: true}
-  - {name: 18-976-RELAY, server: vu-mumbai-01.vnode.info, port: 2053, type: vmess, uuid: a04001f3-2dba-40ed-8c2e-d0c765d9afaa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vu-mumbai-01.vnode.info}}, udp: true}
+  - {name: 18-977-RELAY, server: se.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: se.899994.xyz}}, udp: true}
   - {name: 18-982-RELAY, server: 104.16.155.10, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-983-RELAY, server: 104.16.155.10, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-984-RELAY, server: ff.kncc2.top, port: 8443, type: vmess, uuid: 89c344f2-096c-445c-b629-9b15152f38e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ff.kncc2.top}}, udp: true}
@@ -1255,7 +1255,7 @@ proxy-groups:
       - 17-696-CN
       - 17-697-RELAY
       - 17-698-CN
-      - 18-976-RELAY
+      - 18-977-RELAY
       - 18-982-RELAY
       - 18-983-RELAY
       - 18-984-RELAY
@@ -1704,7 +1704,6 @@ proxy-groups:
       - 17-676-CN
       - 17-686-CN
       - 17-696-CN
-      - 18-976-RELAY
       - 18-986-RELAY
   - name: 测速7分组
     type: url-test
@@ -1772,6 +1771,7 @@ proxy-groups:
       - 17-677-CN
       - 17-687-SG
       - 17-697-RELAY
+      - 18-977-RELAY
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
