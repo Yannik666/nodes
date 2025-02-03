@@ -220,7 +220,6 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZDRmMjcyYS01ZGIyLTRhNjUtODQ3MC02OWM4NjAxYzBlOTE@gy.666666222.shop:20016#11-0293-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjM2EwYTg4Yi0zNTg2LTQyNzEtODYxMC05ZmQyMTI4NjFiOWE@southvip1.pkyun.xyz:34303#11-0294-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjM2EwYTg4Yi0zNTg2LTQyNzEtODYxMC05ZmQyMTI4NjFiOWE@southvip1.pkyun.xyz:58849#11-0295-CN
-    vmess://eyJ2IjoiMiIsInBzIjoiMTEtMDI5Ni1KUCIsImFkZCI6IjEtb3Nha2EtcC5hYm91dGFuaW1lLmV1Lm9yZyIsInBvcnQiOiIyMzQ1MSIsInR5cGUiOiJub25lIiwiaWQiOiJlZGU2ZjJkOC1lNWRhLTQwOGItOThiMy0zNjJlMGQ1ODM0MzEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxLW9zYWthLXAuYWJvdXRhbmltZS5ldS5vcmciLCJ0bHMiOiIifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZDRmMjcyYS01ZGIyLTRhNjUtODQ3MC02OWM4NjAxYzBlOTE@gy.666666222.shop:47564#11-0297-CN
     trojan://41650c63-b653-43c4-b1ed-ab5a87dad1ae@055ada3d2763983b1d66e36fb51a709d.node.tro.node-is.green:40388?allowInsecure=1&sni=www.ucloud.cn#11-0298-HK
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjM2EwYTg4Yi0zNTg2LTQyNzEtODYxMC05ZmQyMTI4NjFiOWE@southvip1.pkyun.xyz:58812#11-0299-CN
@@ -584,6 +583,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMDY2MS1VUyIsImFkZCI6InNoaGgwMDEub3JhY2xlbmF0LmNjIiwicG9ydCI6IjIzNDUxIiwidHlwZSI6Im5vbmUiLCJpZCI6ImYzYmQ3OTBkLTc3OGMtNDk3Zi1hZDYxLWZhMDU1Y2U1NjE0MSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InNoaGgwMDEub3JhY2xlbmF0LmNjIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMDY2Mi1SRUxBWSIsImFkZCI6InZpc2EuY29tIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJiOTA1ZmMyYS0xNzlhLTRhMDktYWYwNC03Y2RiMTc5OTEwMjAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ2aXNhLmNvbSIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMDY2My1SRUxBWSIsImFkZCI6InZpc2EuY29tIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI2N2U3ODMxYi0zNTBiLTQ2ODgtYmRmNy0zNzlhMGQ0MmEyZDQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ2aXNhLmNvbSIsInRscyI6IiJ9
+    trojan://ad25ef44-2720-4d20-82e8-bc0456c64738@33087a934deb3361b5c1c60326046ffd.node.tro.node-is.green:42087?allowInsecure=1&sni=www.ahu.edu.cn#16-0664-HK
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NmY2MWFlYy1lNTNmLTQyYTEtYjU4NC1kNDExNjVlNGFhNjc@southvip1.pkyun.xyz:58803#16-0665-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYTMzYzRkZi0xZjkwLTRiYTEtOGJlOC1kZjNjYmE2YWM4N2Y@chiyu.myfczy169.top:18841#16-0666-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2NWU0OTgwYy05ZTVkLTQ4ZDAtOTRkNi0zN2IwZTdhODZiYmM@southvip1.pkyun.xyz:58830#16-0667-CN
@@ -632,11 +632,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1736`
+合并节点总数: `1737`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1736`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1737`
 
 
 ## 仓库声明
