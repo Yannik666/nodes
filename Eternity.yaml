@@ -106,6 +106,10 @@ proxies:
   - {name: 04-0151-CN, server: gy.58n.net, port: 20304, type: trojan, password: 8b637aca-440b-3ea9-86f8-b1d0f3e16490, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0152-CN, server: gy.58n.net, port: 20305, type: trojan, password: 8b637aca-440b-3ea9-86f8-b1d0f3e16490, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0153-CN, server: gy.58n.net, port: 20306, type: trojan, password: 8b637aca-440b-3ea9-86f8-b1d0f3e16490, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 04-0154-JP, server: 35.78.173.41, port: 443, type: trojan, password: d01fbc0a-a954-3c0b-a2d3-e642fa933ad4, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0155-JP, server: 35.74.5.159, port: 443, type: trojan, password: d01fbc0a-a954-3c0b-a2d3-e642fa933ad4, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0157-US, server: 103.136.185.27, port: 5535, type: trojan, password: d01fbc0a-a954-3c0b-a2d3-e642fa933ad4, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0158-US, server: 103.136.185.28, port: 3516, type: trojan, password: d01fbc0a-a954-3c0b-a2d3-e642fa933ad4, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0159-RELAY, server: s2.cn-db.top, port: 2095, type: vmess, uuid: 64e23742-7563-3f20-b779-ff4034f66c6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.83.117, headers: {Host: s2.cn-db.top}}, udp: true}
   - {name: 04-0160-RELAY, server: s4.db-link02.top, port: 2086, type: vmess, uuid: 64e23742-7563-3f20-b779-ff4034f66c6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.22.244, headers: {Host: s4.db-link02.top}}, udp: true}
   - {name: 04-0161-RELAY, server: s5.cn-db.top, port: 8080, type: vmess, uuid: 64e23742-7563-3f20-b779-ff4034f66c6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.4.161, headers: {Host: s5.cn-db.top}}, udp: true}
@@ -606,7 +610,6 @@ proxies:
   - {name: 16-0666-CN, server: southvip1.pkyun.xyz, port: 58852, type: ss, cipher: chacha20-ietf-poly1305, password: 33f672c5-6a4f-4d5f-93e6-6e2bbc15980c, udp: true}
   - {name: 16-0667-CN, server: southvip1.pkyun.xyz, port: 58854, type: ss, cipher: chacha20-ietf-poly1305, password: c2d1d62c-4c31-45c7-b9f6-db9aa63e2761, udp: true}
   - {name: 16-0668-CN, server: southvip1.pkyun.xyz, port: 58823, type: ss, cipher: chacha20-ietf-poly1305, password: 3967ecc3-a0b5-4a2a-88ea-26e66afb3ff4, udp: true}
-  - {name: 16-0669-RELAY, server: iwkplego.whmvmkwuey.store, port: 443, type: vmess, uuid: bd9fc4bf-495a-4015-9070-0112cc08fc05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iwkplego.whmvmkwuey.store}}, udp: true}
   - {name: 16-0670-CN, server: southvip1.pkyun.xyz, port: 34401, type: ss, cipher: chacha20-ietf-poly1305, password: 3967ecc3-a0b5-4a2a-88ea-26e66afb3ff4, udp: true}
   - {name: 16-0672-CN, server: southvip1.pkyun.xyz, port: 34003, type: ss, cipher: chacha20-ietf-poly1305, password: ba43481b-d394-43e5-87ba-39caccf72562, udp: true}
   - {name: 16-0673-CN, server: southvip1.pkyun.xyz, port: 58831, type: ss, cipher: chacha20-ietf-poly1305, password: f93ebe68-645f-45b8-b069-01d972f4e7b0, udp: true}
@@ -624,7 +627,6 @@ proxies:
   - {name: 16-0686-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 2bec8593-dcfb-477d-b67e-0de96fa1973e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-0687-CN, server: southvip1.pkyun.xyz, port: 58849, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-0688-CN, server: southvip1.pkyun.xyz, port: 58821, type: ss, cipher: chacha20-ietf-poly1305, password: 33f672c5-6a4f-4d5f-93e6-6e2bbc15980c, udp: true}
-  - {name: 16-0689-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: b1611426-55b1-4949-a2a6-cacb63daa15c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 16-0690-CN, server: southvip1.pkyun.xyz, port: 58840, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-0692-CN, server: southvip1.pkyun.xyz, port: 58826, type: ss, cipher: chacha20-ietf-poly1305, password: c2d1d62c-4c31-45c7-b9f6-db9aa63e2761, udp: true}
   - {name: 16-0693-CN, server: southvip1.pkyun.xyz, port: 34001, type: ss, cipher: chacha20-ietf-poly1305, password: c2d1d62c-4c31-45c7-b9f6-db9aa63e2761, udp: true}
@@ -632,8 +634,6 @@ proxies:
   - {name: 16-0695-CN, server: southvip1.pkyun.xyz, port: 58830, type: ss, cipher: chacha20-ietf-poly1305, password: 33f672c5-6a4f-4d5f-93e6-6e2bbc15980c, udp: true}
   - {name: 16-0696-CN, server: yoyo.cmyiphone.top, port: 49314, type: ss, cipher: chacha20-ietf-poly1305, password: 3899ceb3-e7de-43b1-890f-ecefb7c0ed34, udp: true}
   - {name: 16-0698-CN, server: southvip1.pkyun.xyz, port: 58827, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
-  - {name: 18-2633-RELAY, server: br.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: br.899994.xyz}}, udp: true}
-  - {name: 18-2634-RELAY, server: tokyo.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tokyo.899994.xyz}}, udp: true}
   - {name: 18-2635-RELAY, server: 104.21.112.1, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-2636-FR, server: 146.19.168.161, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-2637-RELAY, server: s1.db-link01.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link01.top}}, udp: true}
@@ -719,6 +719,10 @@ proxy-groups:
       - 04-0151-CN
       - 04-0152-CN
       - 04-0153-CN
+      - 04-0154-JP
+      - 04-0155-JP
+      - 04-0157-US
+      - 04-0158-US
       - 04-0159-RELAY
       - 04-0160-RELAY
       - 04-0161-RELAY
@@ -1219,7 +1223,6 @@ proxy-groups:
       - 16-0666-CN
       - 16-0667-CN
       - 16-0668-CN
-      - 16-0669-RELAY
       - 16-0670-CN
       - 16-0672-CN
       - 16-0673-CN
@@ -1237,7 +1240,6 @@ proxy-groups:
       - 16-0686-SG
       - 16-0687-CN
       - 16-0688-CN
-      - 16-0689-US
       - 16-0690-CN
       - 16-0692-CN
       - 16-0693-CN
@@ -1245,8 +1247,6 @@ proxy-groups:
       - 16-0695-CN
       - 16-0696-CN
       - 16-0698-CN
-      - 18-2633-RELAY
-      - 18-2634-RELAY
       - 18-2635-RELAY
       - 18-2636-FR
       - 18-2637-RELAY
@@ -1502,7 +1502,6 @@ proxy-groups:
       - 16-0673-CN
       - 16-0683-DE
       - 16-0693-CN
-      - 18-2633-RELAY
       - 18-2643-RELAY
   - name: 测速4分组
     type: url-test
@@ -1515,6 +1514,7 @@ proxy-groups:
       - 04-0124-CN
       - 04-0134-CN
       - 04-0144-CN
+      - 04-0154-JP
       - 04-0164-RELAY
       - 04-0174-CN
       - 08-0194-CN
@@ -1567,7 +1567,6 @@ proxy-groups:
       - 16-0664-CN
       - 16-0674-CN
       - 16-0694-CN
-      - 18-2634-RELAY
       - 18-2644-RELAY
   - name: 测速5分组
     type: url-test
@@ -1580,6 +1579,7 @@ proxy-groups:
       - 04-0125-CN
       - 04-0135-CN
       - 04-0145-CN
+      - 04-0155-JP
       - 04-0165-RELAY
       - 04-0175-CN
       - 08-0195-CN
@@ -1714,6 +1714,7 @@ proxy-groups:
       - 04-0127-CN
       - 04-0137-CN
       - 04-0147-CN
+      - 04-0157-US
       - 04-0167-CN
       - 07-0177-CN
       - 08-0187-CN
@@ -1780,6 +1781,7 @@ proxy-groups:
       - 04-0128-CN
       - 04-0138-CN
       - 04-0148-CN
+      - 04-0158-US
       - 04-0168-CN
       - 07-0178-HK
       - 08-0188-CN
@@ -1896,9 +1898,7 @@ proxy-groups:
       - 16-0639-DE
       - 16-0649-RELAY
       - 16-0659-RELAY
-      - 16-0669-RELAY
       - 16-0679-CN
-      - 16-0689-US
       - 18-2649-RELAY
   - name: 测速10分组
     type: url-test
