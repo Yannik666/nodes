@@ -619,12 +619,12 @@ proxies:
   - {name: 16-0696-CN, server: southvip1.pkyun.xyz, port: 58854, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-0697-CN, server: chiyu.myfczy169.top, port: 20936, type: ss, cipher: chacha20-ietf-poly1305, password: 3b4dcdc5-c115-41ad-a07a-32b92b577bd2, udp: true}
   - {name: 16-0698-CN, server: southvip1.pkyun.xyz, port: 58823, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
+  - {name: 17-1636-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e710124b-8ea4-4527-8fa1-1233a568d6ad, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-1637-RELAY, server: visa.com, port: 443, type: vmess, uuid: e0375875-9029-487f-8114-cc52fd52e934, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-1638-CN, server: southvip1.pkyun.xyz, port: 34501, type: ss, cipher: chacha20-ietf-poly1305, password: cbd89baf-a2e5-4505-80e0-23e9072d146f, udp: true}
   - {name: 17-1639-CN, server: southvip1.pkyun.xyz, port: 58832, type: ss, cipher: chacha20-ietf-poly1305, password: 2dea86e5-ea4a-409d-bdfa-46ebc60d6930, udp: true}
   - {name: 17-1640-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 7a835934-123b-4c45-a2a6-5fe2901e0b35, udp: true}
   - {name: 17-1641-CN, server: southvip1.pkyun.xyz, port: 34301, type: ss, cipher: chacha20-ietf-poly1305, password: 2dea86e5-ea4a-409d-bdfa-46ebc60d6930, udp: true}
-  - {name: 17-1642-RELAY, server: fgukeyky.whmvmkwuey.store, port: 443, type: vmess, uuid: ae997f17-6c75-4107-9b13-8819a1f5fdd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fgukeyky.whmvmkwuey.store}}, udp: true}
   - {name: 17-1643-CN, server: southvip1.pkyun.xyz, port: 58824, type: ss, cipher: chacha20-ietf-poly1305, password: 2dea86e5-ea4a-409d-bdfa-46ebc60d6930, udp: true}
   - {name: 17-1645-CN, server: southvip1.pkyun.xyz, port: 58850, type: ss, cipher: chacha20-ietf-poly1305, password: 4db6d281-36f5-4290-a1c1-51a6b5a4c3ae, udp: true}
   - {name: 17-1646-CN, server: southvip1.pkyun.xyz, port: 58853, type: ss, cipher: chacha20-ietf-poly1305, password: 2dea86e5-ea4a-409d-bdfa-46ebc60d6930, udp: true}
@@ -1232,12 +1232,12 @@ proxy-groups:
       - 16-0696-CN
       - 16-0697-CN
       - 16-0698-CN
+      - 17-1636-NOWHERE
       - 17-1637-RELAY
       - 17-1638-CN
       - 17-1639-CN
       - 17-1640-CN
       - 17-1641-CN
-      - 17-1642-RELAY
       - 17-1643-CN
       - 17-1645-CN
       - 17-1646-CN
@@ -1439,7 +1439,6 @@ proxy-groups:
       - 12-0672-CN
       - 12-0682-CN
       - 16-0692-RELAY
-      - 17-1642-RELAY
       - 18-1652-US
       - 18-1662-RELAY
   - name: 测速3分组
@@ -1702,6 +1701,7 @@ proxy-groups:
       - 12-0676-CN
       - 12-0686-CN
       - 16-0696-CN
+      - 17-1636-NOWHERE
       - 17-1646-CN
       - 18-1656-RELAY
   - name: 测速7分组
