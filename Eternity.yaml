@@ -109,6 +109,7 @@ proxies:
   - {name: 04-0157-CN, server: gy.58n.net, port: 20304, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0158-CN, server: gy.58n.net, port: 20305, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0159-CN, server: gy.58n.net, port: 20306, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 04-0160-JP, server: 35.78.173.41, port: 443, type: trojan, password: 1c068d5a-5bb5-359c-9ab0-a0402ed55b96, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0165-RELAY, server: s3.db-link01.top, port: 2086, type: vmess, uuid: f2d8c67a-0117-3896-a6fa-8beb5adea16c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.107.45, headers: {Host: s3.db-link01.top}}, udp: true}
   - {name: 04-0166-RELAY, server: s4.cn-db.top, port: 2086, type: vmess, uuid: f2d8c67a-0117-3896-a6fa-8beb5adea16c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.209.207, headers: {Host: s4.cn-db.top}}, udp: true}
   - {name: 04-0167-RELAY, server: s2.db-link02.top, port: 80, type: vmess, uuid: f2d8c67a-0117-3896-a6fa-8beb5adea16c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.108.177, headers: {Host: s2.db-link02.top}}, udp: true}
@@ -635,13 +636,12 @@ proxies:
   - {name: 16-0691-CN, server: chiyu.myfczy169.top, port: 26867, type: ss, cipher: chacha20-ietf-poly1305, password: 8204fe3a-300d-433c-8a97-e605e57dc097, udp: true}
   - {name: 16-0692-CN, server: chiyu.myfczy169.top, port: 37958, type: ss, cipher: chacha20-ietf-poly1305, password: 8204fe3a-300d-433c-8a97-e605e57dc097, udp: true}
   - {name: 16-0693-CN, server: chiyu.myfczy169.top, port: 41512, type: ss, cipher: chacha20-ietf-poly1305, password: 3021f945-f078-4635-adc6-185d3152e0a1, udp: true}
+  - {name: 16-0694-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: c58c24f4-56a6-452f-bb13-b1781cf11b6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-0695-CN, server: southvip1.pkyun.xyz, port: 58847, type: ss, cipher: chacha20-ietf-poly1305, password: 25d24806-25c0-4470-80c6-34736bdf23d4, udp: true}
   - {name: 16-0696-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 09a24222-b1e9-4c02-aea9-0fccac77c09c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-0697-CN, server: chiyu.myfczy169.top, port: 20289, type: ss, cipher: chacha20-ietf-poly1305, password: 8204fe3a-300d-433c-8a97-e605e57dc097, udp: true}
   - {name: 16-0698-CN, server: yoyo.cmyiphone.top, port: 49311, type: ss, cipher: chacha20-ietf-poly1305, password: 3282c5a4-5ca1-4940-ba50-5e0bf4f6f565, udp: true}
   - {name: 16-0699-CN, server: southvip1.pkyun.xyz, port: 58801, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
-  - {name: 18-1499-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: f16b60f9-562c-46af-b420-5a8d71a9267b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
-  - {name: 18-1500-RELAY, server: s1.cn-db.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 18-1501-RELAY, server: visa.com, port: 443, type: vmess, uuid: 3e125fac-2e5e-44f4-bd5b-5de5712fdbff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 18-1502-RELAY, server: s1.db-link01.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 18-1503-RELAY, server: ca0.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca0.899994.xyz}}, udp: true}
@@ -722,6 +722,7 @@ proxy-groups:
       - 04-0157-CN
       - 04-0158-CN
       - 04-0159-CN
+      - 04-0160-JP
       - 04-0165-RELAY
       - 04-0166-RELAY
       - 04-0167-RELAY
@@ -1248,13 +1249,12 @@ proxy-groups:
       - 16-0691-CN
       - 16-0692-CN
       - 16-0693-CN
+      - 16-0694-SG
       - 16-0695-CN
       - 16-0696-DE
       - 16-0697-CN
       - 16-0698-CN
       - 16-0699-CN
-      - 18-1499-DE
-      - 18-1500-RELAY
       - 18-1501-RELAY
       - 18-1502-RELAY
       - 18-1503-RELAY
@@ -1568,6 +1568,7 @@ proxy-groups:
       - 16-0664-CN
       - 16-0674-CN
       - 16-0684-CN
+      - 16-0694-SG
       - 18-1504-RELAY
   - name: 测速5分组
     type: url-test
@@ -1900,7 +1901,6 @@ proxy-groups:
       - 16-0679-CN
       - 16-0689-CN
       - 16-0699-CN
-      - 18-1499-DE
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1912,6 +1912,7 @@ proxy-groups:
       - 04-0130-CN
       - 04-0140-CN
       - 04-0150-CN
+      - 04-0160-JP
       - 04-0170-RELAY
       - 04-0180-CN
       - 08-0190-CN
@@ -1965,7 +1966,6 @@ proxy-groups:
       - 16-0670-CN
       - 16-0680-CN
       - 16-0690-CN
-      - 18-1500-RELAY
   - name: 广告拦截
     type: select
     proxies:
