@@ -622,6 +622,7 @@ proxies:
   - {name: 16-0679-RELAY, server: visa.com, port: 443, type: vmess, uuid: bd591f7a-977e-4e64-ab5f-acd8f62c0ab3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-0680-CN, server: southvip1.pkyun.xyz, port: 34403, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-0681-CN, server: chiyu.myfczy169.top, port: 41512, type: ss, cipher: chacha20-ietf-poly1305, password: 375ad5bf-c906-40a3-8479-4a0c502c15a7, udp: true}
+  - {name: 16-0682-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: fbe27b1e-6ecb-497f-a4e0-b0101adda882, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-0683-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: aaf3f009-6236-4519-964f-4bbfd7ebda72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-0684-CN, server: yoyo.cmyiphone.top, port: 49311, type: ss, cipher: chacha20-ietf-poly1305, password: 3899ceb3-e7de-43b1-890f-ecefb7c0ed34, udp: true}
   - {name: 16-0685-CN, server: southvip1.pkyun.xyz, port: 58846, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
@@ -638,7 +639,6 @@ proxies:
   - {name: 16-0696-CN, server: chiyu.myfczy169.top, port: 20936, type: ss, cipher: chacha20-ietf-poly1305, password: 325379b3-b0cc-41a3-8ec0-a91c38d99a63, udp: true}
   - {name: 16-0697-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: aa997b36-1c2a-4724-855a-73b69f3dd061, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-0698-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: f55cdc98-4d7b-4c48-8abb-72cbf683fcab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
-  - {name: 18-1592-RELAY, server: 198.41.209.70, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1593-RELAY, server: s1.db-link02.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 18-1594-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: f16b60f9-562c-46af-b420-5a8d71a9267b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 18-1595-RELAY, server: s1.cn-db.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.cn-db.top}}, udp: true}
@@ -1235,6 +1235,7 @@ proxy-groups:
       - 16-0679-RELAY
       - 16-0680-CN
       - 16-0681-CN
+      - 16-0682-SG
       - 16-0683-DE
       - 16-0684-CN
       - 16-0685-CN
@@ -1251,7 +1252,6 @@ proxy-groups:
       - 16-0696-CN
       - 16-0697-DE
       - 16-0698-DE
-      - 18-1592-RELAY
       - 18-1593-RELAY
       - 18-1594-DE
       - 18-1595-RELAY
@@ -1438,8 +1438,8 @@ proxy-groups:
       - 16-0652-RELAY
       - 16-0662-RELAY
       - 16-0672-SG
+      - 16-0682-SG
       - 16-0692-CN
-      - 18-1592-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
