@@ -81,7 +81,6 @@ proxies:
   - {name: 02-0027-CN, server: cn10.closeai.one, port: 8304, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
   - {name: 02-0028-CN, server: t.cnmjcn.cyou, port: 16617, type: vmess, uuid: 6557bf4a-852b-4a69-ad35-d53293386a13, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cnmjcn.cyou}}, udp: true}
   - {name: 02-0029-CN, server: cn06.closeai.one, port: 8232, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
-  - {name: 02-0030-CN, server: gdgs.tarioblink.me, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 8886d2da-6252-468c-8e6a-6d76d0a4d5dc, udp: true}
   - {name: 02-0031-CN, server: cn08.closeai.one, port: 8209, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
   - {name: 02-0032-CN, server: cn18.closeai.one, port: 8520, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
   - {name: 02-0033-CN, server: cn16.closeai.one, port: 8507, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
@@ -641,6 +640,7 @@ proxies:
   - {name: 16-0695-CN, server: chiyu.myfczy169.top, port: 54016, type: ss, cipher: chacha20-ietf-poly1305, password: 375ad5bf-c906-40a3-8479-4a0c502c15a7, udp: true}
   - {name: 16-0696-CN, server: yoyo.cmyiphone.top, port: 49319, type: ss, cipher: chacha20-ietf-poly1305, password: 9f17e199-5a8a-417d-b931-0e9ff14f40b9, udp: true}
   - {name: 16-0697-CN, server: southvip1.pkyun.xyz, port: 58814, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
+  - {name: 18-1661-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: f16b60f9-562c-46af-b420-5a8d71a9267b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 18-1662-RELAY, server: s1.cn-db.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 18-1663-RELAY, server: visa.com, port: 443, type: vmess, uuid: 3e125fac-2e5e-44f4-bd5b-5de5712fdbff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 18-1664-RELAY, server: s1.db-link01.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link01.top}}, udp: true}
@@ -694,7 +694,6 @@ proxy-groups:
       - 02-0027-CN
       - 02-0028-CN
       - 02-0029-CN
-      - 02-0030-CN
       - 02-0031-CN
       - 02-0032-CN
       - 02-0033-CN
@@ -1254,6 +1253,7 @@ proxy-groups:
       - 16-0695-CN
       - 16-0696-CN
       - 16-0697-CN
+      - 18-1661-DE
       - 18-1662-RELAY
       - 18-1663-RELAY
       - 18-1664-RELAY
@@ -1376,6 +1376,7 @@ proxy-groups:
       - 16-0671-SG
       - 16-0681-RELAY
       - 16-0691-CN
+      - 18-1661-DE
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1911,7 +1912,6 @@ proxy-groups:
     proxies:
       - 02-0010-CN
       - 02-0020-CN
-      - 02-0030-CN
       - 02-0040-CN
       - 02-0050-CN
       - 02-0060-CN
