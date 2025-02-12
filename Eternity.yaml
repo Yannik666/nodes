@@ -635,11 +635,11 @@ proxies:
   - {name: 16-0692-CN, server: southvip1.pkyun.xyz, port: 58841, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-0693-CN, server: chiyu.myfczy169.top, port: 21048, type: ss, cipher: chacha20-ietf-poly1305, password: 87c2a03d-db17-4b4f-9ecc-bceed43c9a3e, udp: true}
   - {name: 16-0694-RELAY, server: visa.com, port: 443, type: vmess, uuid: 1151bfd3-cf3f-4065-9f8e-35c6fef1052d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
+  - {name: 16-0695-RELAY, server: ezpaselv.whmvmkwuey.store, port: 443, type: vmess, uuid: 9986dee4-d63e-43dd-98fe-4fe186a2d314, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ezpaselv.whmvmkwuey.store}}, udp: true}
   - {name: 16-0696-CN, server: chiyu.myfczy169.top, port: 19161, type: ss, cipher: chacha20-ietf-poly1305, password: 61655d04-4585-42cf-9a2e-db3df88dfdb2, udp: true}
   - {name: 16-0697-CN, server: southvip1.pkyun.xyz, port: 58819, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
   - {name: 16-0698-CN, server: southvip1.pkyun.xyz, port: 58840, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
   - {name: 16-0699-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 3e628c3e-465a-433c-9abf-3346aa6bcfbb, udp: true}
-  - {name: 18-1458-DE, server: 57.129.25.20, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1459-RELAY, server: s1.cn-db.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 18-1460-RELAY, server: s1.db-link01.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 18-1461-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: e6afaf50-e32d-11ef-b534-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
@@ -1248,11 +1248,11 @@ proxy-groups:
       - 16-0692-CN
       - 16-0693-CN
       - 16-0694-RELAY
+      - 16-0695-RELAY
       - 16-0696-CN
       - 16-0697-CN
       - 16-0698-CN
       - 16-0699-CN
-      - 18-1458-DE
       - 18-1459-RELAY
       - 18-1460-RELAY
       - 18-1461-RELAY
@@ -1636,6 +1636,7 @@ proxy-groups:
       - 16-0665-RELAY
       - 16-0675-US
       - 16-0685-CN
+      - 16-0695-RELAY
       - 18-1465-RELAY
   - name: 测速6分组
     type: url-test
@@ -1835,7 +1836,6 @@ proxy-groups:
       - 16-0668-RELAY
       - 16-0678-CN
       - 16-0698-CN
-      - 18-1458-DE
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
