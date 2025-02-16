@@ -636,10 +636,10 @@ proxies:
   - {name: 16-0692-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 526fabe4-9d70-4414-9715-23c14159b5df, udp: true}
   - {name: 16-0693-RELAY, server: visa.com, port: 443, type: vmess, uuid: 0d6758f3-3d8a-47e2-958a-17e12e3580a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-0694-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 9332e1fb-63f4-4b71-a0f4-d6e2c44a4d8f, udp: true}
+  - {name: 16-0695-RELAY, server: gquyvefk.whmvmkwuey.store, port: 443, type: vmess, uuid: 3cce6968-8eda-475a-a5fe-30542608973d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gquyvefk.whmvmkwuey.store}}, udp: true}
   - {name: 16-0696-RELAY, server: visa.com, port: 443, type: vmess, uuid: b108262c-6ee2-4acb-9f3b-3cc354e13950, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-0697-CN, server: chiyu.myfczy169.top, port: 41512, type: ss, cipher: chacha20-ietf-poly1305, password: 1436ac23-7a0d-48c3-bd64-111cd1444c0b, udp: true}
   - {name: 16-0698-CN, server: southvip1.pkyun.xyz, port: 58818, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
-  - {name: 18-1508-RELAY, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 18-1509-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1510-RELAY, server: cloudflare.182682.xyz, port: 80, type: vmess, uuid: b9a3206d-278c-4614-b352-eef632d1c8d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudflare.182682.xyz}}, udp: true}
   - {name: 18-1511-RELAY, server: 198.41.209.70, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1250,10 +1250,10 @@ proxy-groups:
       - 16-0692-CN
       - 16-0693-RELAY
       - 16-0694-CN
+      - 16-0695-RELAY
       - 16-0696-RELAY
       - 16-0697-CN
       - 16-0698-CN
-      - 18-1508-RELAY
       - 18-1509-CA
       - 18-1510-RELAY
       - 18-1511-RELAY
@@ -1639,6 +1639,7 @@ proxy-groups:
       - 16-0665-RELAY
       - 16-0675-US
       - 16-0685-US
+      - 16-0695-RELAY
       - 18-1515-SG
   - name: 测速6分组
     type: url-test
@@ -1837,7 +1838,6 @@ proxy-groups:
       - 16-0678-CN
       - 16-0688-US
       - 16-0698-CN
-      - 18-1508-RELAY
       - 18-1518-RELAY
   - name: 测速9分组
     type: url-test
