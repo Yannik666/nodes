@@ -137,6 +137,7 @@ proxies:
   - {name: 07-0188-RELAY, server: hk4.998998.best, port: 443, type: vmess, uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/5e6hsl8onu4i?ed=2560", headers: {Host: hk4.998998.best}}, udp: true}
   - {name: 07-0189-SG, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 3fb23a19-9424-40c7-9139-3540228283fa, udp: true}
   - {name: 07-0190-CN, server: 103.216.253.197, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 3fb23a19-9424-40c7-9139-3540228283fa, udp: true}
+  - {name: 07-0192-HK, server: v3.littlexing.eu.org, port: 10005, type: trojan, password: 4c7ca962-1b57-4e67-88fe-bdbed579df4d, sni: v3.littlexing.eu.org, skip-cert-verify: true, udp: true}
   - {name: 07-0193-HK, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 3fb23a19-9424-40c7-9139-3540228283fa, udp: true}
   - {name: 08-0194-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 6fe96161-0dfb-4f00-8802-1615a44a830b, udp: true}
   - {name: 08-0195-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 6fe96161-0dfb-4f00-8802-1615a44a830b, udp: true}
@@ -626,7 +627,6 @@ proxies:
   - {name: 16-0695-RELAY, server: cf2.yunduanjc.top, port: 2082, type: vmess, uuid: 6831525a-b706-4fdc-9652-3e32f6abd3b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf2.yunduanjc.top}}, udp: true}
   - {name: 16-0696-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: be541f49-fe27-4bde-9761-8d6831271b1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-0697-CN, server: southvip1.pkyun.xyz, port: 58845, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
-  - {name: 16-0698-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 7d8a0801-bff9-4901-b503-401b962c9505, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-1468-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 91484031-14fa-4491-876b-7ae2cad9dabe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 17-1469-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: adac13c8-dddc-4b33-91c0-4e784127c35a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 17-1470-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 42094421-d88e-4a84-9868-0e34149378b5, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -750,6 +750,7 @@ proxy-groups:
       - 07-0188-RELAY
       - 07-0189-SG
       - 07-0190-CN
+      - 07-0192-HK
       - 07-0193-HK
       - 08-0194-CN
       - 08-0195-CN
@@ -1239,7 +1240,6 @@ proxy-groups:
       - 16-0695-RELAY
       - 16-0696-DE
       - 16-0697-CN
-      - 16-0698-SG
       - 17-1468-DE
       - 17-1469-US
       - 17-1470-NOWHERE
@@ -1386,6 +1386,7 @@ proxy-groups:
       - 04-0052-CN
       - 04-0062-CN
       - 07-0182-US
+      - 07-0192-HK
       - 08-0212-CN
       - 08-0222-CN
       - 08-0232-CN
@@ -1832,7 +1833,6 @@ proxy-groups:
       - 16-0668-SG
       - 16-0678-CN
       - 16-0688-DE
-      - 16-0698-SG
       - 17-1468-DE
       - 18-1488-RELAY
   - name: 测速9分组
