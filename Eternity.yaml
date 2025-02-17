@@ -586,8 +586,8 @@ proxies:
   - {name: 16-0641-RELAY, server: visa.com, port: 443, type: vmess, uuid: 4e949627-d0c5-452d-9740-502a9c59459f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-0643-CN, server: southvip1.pkyun.xyz, port: 58807, type: ss, cipher: chacha20-ietf-poly1305, password: 23aede48-5b78-41e0-9452-7fc9b467a574, udp: true}
   - {name: 16-0644-RELAY, server: visa.com, port: 443, type: vmess, uuid: 99086bdc-a4da-4b50-a35e-4fdcad6035a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
-  - {name: 16-0645-RELAY, server: kcbmwhds.whmvmkwuey.store, port: 443, type: vmess, uuid: 834adc94-e2c6-4877-800e-1ae35b3bfe85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kcbmwhds.whmvmkwuey.store}}, udp: true}
   - {name: 16-0646-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: f08638f1-20d4-4129-b8e7-5cd9bfcb6fbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
+  - {name: 16-0647-RELAY, server: kcbmwhds.whmvmkwuey.store, port: 443, type: vmess, uuid: 1e611639-11da-4f76-8c74-7acff62d6d69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kcbmwhds.whmvmkwuey.store}}, udp: true}
   - {name: 16-0648-RELAY, server: kcbmwhds.whmvmkwuey.store, port: 443, type: vmess, uuid: a2c98270-3e0a-4210-ad2d-8d4f469b8beb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kcbmwhds.whmvmkwuey.store}}, udp: true}
   - {name: 16-0649-CN, server: chiyu.myfczy169.top, port: 21081, type: ss, cipher: chacha20-ietf-poly1305, password: 5ebf9e4a-e8f4-4bc5-b708-34ea4167c283, udp: true}
   - {name: 16-0650-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 947e49a8-344c-4cac-adb2-1ef45bb8c1b4, udp: true}
@@ -1199,8 +1199,8 @@ proxy-groups:
       - 16-0641-RELAY
       - 16-0643-CN
       - 16-0644-RELAY
-      - 16-0645-RELAY
       - 16-0646-SG
+      - 16-0647-RELAY
       - 16-0648-RELAY
       - 16-0649-CN
       - 16-0650-CN
@@ -1632,7 +1632,6 @@ proxy-groups:
       - 12-0615-CN
       - 16-0625-CN
       - 16-0635-SG
-      - 16-0645-RELAY
       - 16-0655-CN
       - 16-0665-US
       - 16-0675-CN
@@ -1766,6 +1765,7 @@ proxy-groups:
       - 12-0617-CN
       - 16-0627-SG
       - 16-0637-CN
+      - 16-0647-RELAY
       - 16-0657-CN
       - 16-0667-DE
       - 16-0677-RELAY
