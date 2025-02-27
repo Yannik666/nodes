@@ -619,7 +619,8 @@ proxies:
   - {name: 17-693-RELAY, server: visa.com, port: 443, type: vmess, uuid: 1aae1620-95dc-4571-86a2-9b2bb7f06bbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-694-RELAY, server: visa.com, port: 443, type: vmess, uuid: e31633ba-af38-46b6-b6b0-933a5c1b2383, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-696-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 3bd58e5a-c053-4ecc-9289-26cb4b8bbe8c, udp: true}
-  - {name: 17-780-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 267b7b04-955a-41f8-813f-41dedfd752d5, udp: true}
+  - {name: 17-779-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 104a6dd7-320a-46dd-9d38-fc56e1d01113, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
+  - {name: 17-789-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: badc4008-1f76-4e23-bc29-0758660cc155, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-791-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 546ff766-2bb2-4049-a4ca-aa2fd375e6df, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-792-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 6e8b9125-eb43-41a7-9f3e-9c4d438619c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 17-794-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 8dffc9d8-c2fa-4aa0-a401-c51f61315880, udp: true}
@@ -638,7 +639,6 @@ proxies:
   - {name: 18-808-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-809-RELAY, server: sgfqkqmltcy.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgfqkqmltcy.site}}, udp: true}
   - {name: 18-810-RELAY, server: hknbyivfffj.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hknbyivfffj.site}}, udp: true}
-  - {name: 18-811-DE, server: shadow-de01.gproxy.gratis, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 8fcf64c4-2ac5-4f2f-8298-5052d8cff826, udp: true}
   - {name: 18-812-US, server: 38.14.107.228, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-813-RELAY, server: 104.21.16.100, port: 2053, type: vmess, uuid: eb817168-5f83-4fba-af99-881ec0e547b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-814-US, server: 38.14.107.233, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1233,7 +1233,8 @@ proxy-groups:
       - 17-693-RELAY
       - 17-694-RELAY
       - 17-696-CN
-      - 17-780-CN
+      - 17-779-DE
+      - 17-789-US
       - 17-791-US
       - 17-792-US
       - 17-794-CN
@@ -1252,7 +1253,6 @@ proxy-groups:
       - 18-808-CA
       - 18-809-RELAY
       - 18-810-RELAY
-      - 18-811-DE
       - 18-812-US
       - 18-813-RELAY
       - 18-814-US
@@ -1374,7 +1374,6 @@ proxy-groups:
       - 17-691-US
       - 17-791-US
       - 17-801-US
-      - 18-811-DE
       - 18-821-RELAY
   - name: 测速2分组
     type: url-test
@@ -1900,6 +1899,8 @@ proxy-groups:
       - 17-669-US
       - 17-679-US
       - 17-689-CN
+      - 17-779-DE
+      - 17-789-US
       - 17-799-RELAY
       - 18-809-RELAY
       - 18-819-DE
@@ -1965,7 +1966,6 @@ proxy-groups:
       - 17-670-RELAY
       - 17-680-CN
       - 17-690-DE
-      - 17-780-CN
       - 17-800-US
       - 18-810-RELAY
       - 18-820-RELAY
