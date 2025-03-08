@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `599`
+高速节点数量: `598`
 <details>
   <summary>展开复制节点</summary>
 
@@ -339,7 +339,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtNDE2LVJFTEFZIiwiYWRkIjoidmlzYS5jb20iLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImQwOTRhYmExLTY4MDUtNGVlZC1hYWNhLWFhNmQwZjJkZDZiOSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InZpc2EuY29tIiwidGxzIjoiIn0=
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNDY4ZGRiNC1mMDZmLTRhMTAtYmUyYi0yYjg5NTE2OTliNmM@jg647hf446ghvw.eucs.cn:49709#16-417-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4M2VjOTk0Yy04OWQxLTQxM2EtOGQyZS1mYzAyNGFlZjZhODY@gy.666666222.shop:20016#16-418-CN
-    vmess://eyJ2IjoiMiIsInBzIjoiMTYtNDE5LVVTIiwiYWRkIjoic2hoaDAwMS5vcmFjbGVuYXQuY2MiLCJwb3J0IjoiMjM0NTEiLCJ0eXBlIjoibm9uZSIsImlkIjoiZDQ0NThkNzItNmRlOS00OTc0LWI3NGUtNzc4NzhkZmI2NGMxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0Ijoic2hoaDAwMS5vcmFjbGVuYXQuY2MiLCJ0bHMiOiIifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowZTM1MzY4OC04ZTgyLTQzNjktYWRhMC0xODliMDdlZjA4NWE@chiyu.myfczy169.top:54804#16-420-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYjJhNDI5Yi1jMjQyLTRmOTItYTA3Ny04ZWM0ZDQ5OTcwMDE@chiyu.myfczy169.top:19946#16-421-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowZTM1MzY4OC04ZTgyLTQzNjktYWRhMC0xODliMDdlZjA4NWE@chiyu.myfczy169.top:22539#16-422-CN
@@ -634,11 +633,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `750`
+合并节点总数: `745`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `750`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `745`
 
 
 ## 仓库声明
