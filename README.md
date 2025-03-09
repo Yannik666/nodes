@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `599`
+高速节点数量: `598`
 <details>
   <summary>展开复制节点</summary>
 
@@ -151,7 +151,6 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZGVhOGQwMS0xMTRiLTRjMGMtOWIzZi0wYjBlZDY1NTA5NjI@chiyu.myfczy169.top:57329#08-224-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZGVhOGQwMS0xMTRiLTRjMGMtOWIzZi0wYjBlZDY1NTA5NjI@chiyu.myfczy169.top:21071#08-225-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZGVhOGQwMS0xMTRiLTRjMGMtOWIzZi0wYjBlZDY1NTA5NjI@chiyu.myfczy169.top:21059#08-226-CN
-    trojan://55ed91ea-5101-4f04-abfe-c7596dfff956@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#08-227-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjQxM2EwNi02Y2FjLTQ4NmYtYmYyOS0xZTUwZDk3MzEzYmM@gy.666666222.shop:34338#08-228-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjQxM2EwNi02Y2FjLTQ4NmYtYmYyOS0xZTUwZDk3MzEzYmM@gy.666666222.shop:20035#08-229-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjQxM2EwNi02Y2FjLTQ4NmYtYmYyOS0xZTUwZDk3MzEzYmM@gy.666666222.shop:20052#08-230-CN
@@ -634,11 +633,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `780`
+合并节点总数: `778`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `780`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `778`
 
 
 ## 仓库声明
