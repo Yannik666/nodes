@@ -57,7 +57,7 @@ proxies:
   - {name: 04-003-RELAY, server: s1.db-link01.top, port: 8080, type: vmess, uuid: 600d2497-4ec2-32b3-a7bd-dc74f8a1d892, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.174.68, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 04-004-RELAY, server: s3.cn-db.top, port: 2086, type: vmess, uuid: 600d2497-4ec2-32b3-a7bd-dc74f8a1d892, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.73.160, headers: {Host: s3.cn-db.top}}, udp: true}
   - {name: 04-005-RELAY, server: s2.db-link02.top, port: 2052, type: vmess, uuid: 600d2497-4ec2-32b3-a7bd-dc74f8a1d892, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.231.68, headers: {Host: s2.db-link02.top}}, udp: true}
-  - {name: 04-006-JP, server: 54.168.236.31, port: 443, type: trojan, password: 29c444cf-350b-3428-865e-539d42857ab3, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: 04-007-JP, server: 35.74.248.202, port: 443, type: trojan, password: 29c444cf-350b-3428-865e-539d42857ab3, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-008-US, server: 54.201.215.147, port: 443, type: trojan, password: 29c444cf-350b-3428-865e-539d42857ab3, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-010-US, server: 103.136.185.28, port: 3516, type: trojan, password: 29c444cf-350b-3428-865e-539d42857ab3, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-011-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 7bb6e04d-8e61-38d9-95b7-6c40b14888d1, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -314,7 +314,7 @@ proxies:
   - {name: 17-361-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c6c7bfb0-511b-4032-b4e6-02b3b6ecf5e9, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-362-RELAY, server: visa.com, port: 443, type: vmess, uuid: 01a79ab6-0bb4-43d7-b8ad-e10f0fe4f3bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-363-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: bd24887a-79f0-4443-b6de-02e06bec845d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
-  - {name: 17-364-US, server: 35.74.248.202, port: 443, type: trojan, password: 29c444cf-350b-3428-865e-539d42857ab3, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 17-364-US, server: 54.168.236.31, port: 443, type: trojan, password: 29c444cf-350b-3428-865e-539d42857ab3, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-365-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 1e4a3e3f-ca1a-47aa-a517-3c56231bfde5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 17-366-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: ad2ceef2-4371-4464-ab3a-73f2c1d90b51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-367-RELAY, server: dibai.kxxd.site, port: 2082, type: vmess, uuid: 51634a68-dc55-4e6c-996e-95b422dc13be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ccc, headers: {Host: dibai.kxxd.site}}, udp: true}
@@ -487,7 +487,7 @@ proxy-groups:
       - 04-003-RELAY
       - 04-004-RELAY
       - 04-005-RELAY
-      - 04-006-JP
+      - 04-007-JP
       - 04-008-US
       - 04-010-US
       - 04-011-CN
@@ -1189,7 +1189,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 04-006-JP
       - 04-016-CN
       - 04-026-CN
       - 04-036-CN
@@ -1237,6 +1236,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 04-007-JP
       - 04-017-CN
       - 04-027-CN
       - 04-037-CN
