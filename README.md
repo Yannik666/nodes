@@ -37,7 +37,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczIuZGItbGluazAxLnRvcCIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjViODQyMjIwLTEzM2QtMzQ1Ni1hYTFlLWJlYmQ3M2NiMmQ5OSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMTkuMTY5LjEyNyIsImhvc3QiOiJzMi5kYi1saW5rMDEudG9wIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczIuY24tZGIudG9wIiwicG9ydCI6Ijg4ODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNWI4NDIyMjAtMTMzZC0zNDU2LWFhMWUtYmViZDczY2IyZDk5IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjE3Mi42NC4zLjIyNiIsImhvc3QiOiJzMi5jbi1kYi50b3AiLCJ0bHMiOiIifQ==
     trojan://e08a1644-dcfd-303e-80b8-a5b21064735c@54.168.236.31:443?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-007-JP
-    trojan://e08a1644-dcfd-303e-80b8-a5b21064735c@103.136.185.27:5535?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-010-US
+    trojan://e08a1644-dcfd-303e-80b8-a5b21064735c@54.201.215.147:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-009-US
     trojan://e08a1644-dcfd-303e-80b8-a5b21064735c@103.136.185.28:3516?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-011-US
     trojan://a9f083ae-e163-328f-a233-597717e7d3ce@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://a9f083ae-e163-328f-a233-597717e7d3ce@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
@@ -499,11 +499,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `566`
+合并节点总数: `568`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `566`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `568`
 
 
 ## 仓库声明
