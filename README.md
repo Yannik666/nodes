@@ -36,7 +36,8 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA0LVJFTEFZIiwiYWRkIjoiczIuZGItbGluazAxLnRvcCIsInBvcnQiOiI4MDgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImQ5NWQ1M2YxLWFkMDQtMzU0Zi1hNzNiLWJlMWVmNjIyYzY2YSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjcuMjcuMTkzIiwiaG9zdCI6InMyLmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczMuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDk1IiwidHlwZSI6Im5vbmUiLCJpZCI6ImQ5NWQ1M2YxLWFkMDQtMzU0Zi1hNzNiLWJlMWVmNjIyYzY2YSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMTkuMjMxLjQ3IiwiaG9zdCI6InMzLmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczUuZGItbGluazAyLnRvcCIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImQ5NWQ1M2YxLWFkMDQtMzU0Zi1hNzNiLWJlMWVmNjIyYzY2YSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjQuMjUzLjk1IiwiaG9zdCI6InM1LmRiLWxpbmswMi50b3AiLCJ0bHMiOiIifQ==
-    trojan://a66feb1d-8ba7-3805-a5a8-7efcc4b2cb42@54.168.236.31:443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-007-JP
+    trojan://a66feb1d-8ba7-3805-a5a8-7efcc4b2cb42@35.74.248.202:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-008-JP
+    trojan://a66feb1d-8ba7-3805-a5a8-7efcc4b2cb42@52.10.16.223:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-009-US
     trojan://a66feb1d-8ba7-3805-a5a8-7efcc4b2cb42@103.136.185.27:5535?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-010-US
     trojan://a66feb1d-8ba7-3805-a5a8-7efcc4b2cb42@103.136.185.28:3516?allowInsecure=1&sni=www.microsoft365.com#04-011-US
     trojan://03439d1a-8e2c-3815-a652-ff616cd44808@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
@@ -110,7 +111,6 @@ Fork from TopFreeProxies.
     ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.211.230.161:443#07-179-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1NmIxOGFhYi05ZTgzLTQ3OTEtYWI1Ny1iMzQ5NzA0ZmMxNzY@hk.tsapps.ru:443#07-180-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1NmIxOGFhYi05ZTgzLTQ3OTEtYWI1Ny1iMzQ5NzA0ZmMxNzY@sg2.tsapps.ru:443#07-181-US
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1NmIxOGFhYi05ZTgzLTQ3OTEtYWI1Ny1iMzQ5NzA0ZmMxNzY@jp.tsapps.ru:443#07-182-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1NmIxOGFhYi05ZTgzLTQ3OTEtYWI1Ny1iMzQ5NzA0ZmMxNzY@us.tsapps.ru:443#07-183-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1NmIxOGFhYi05ZTgzLTQ3OTEtYWI1Ny1iMzQ5NzA0ZmMxNzY@kr.tsapps.ru:443#07-184-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTg1LVJFTEFZIiwiYWRkIjoiTGEwMi44OTA2MDQuZmlsRUdFQXItc0cubWUiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjYwY2RkODllLWE5Y2YtNDg1MC04NTc3LWUzYzZhYmY1NTE1ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZ3lDVk9SZmpvWFl5SEhjSkJ1TGQiLCJob3N0IjoiTGEwMi44OTA2MDQuZmlsRUdFQXItc0cubWUiLCJ0bHMiOiJ0bHMifQ==
