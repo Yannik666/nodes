@@ -57,9 +57,9 @@ proxies:
   - {name: 04-003-RELAY, server: s3.cn-db.top, port: 8080, type: vmess, uuid: 82547ed4-fc5b-3282-b084-27b70c8a872a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.116.128, headers: {Host: s3.cn-db.top}}, udp: true}
   - {name: 04-004-RELAY, server: s1.db-link02.top, port: 8080, type: vmess, uuid: 82547ed4-fc5b-3282-b084-27b70c8a872a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.3.113, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 04-005-RELAY, server: s4.cn-db.top, port: 8080, type: vmess, uuid: 82547ed4-fc5b-3282-b084-27b70c8a872a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.224.111, headers: {Host: s4.cn-db.top}}, udp: true}
-  - {name: 04-007-JP, server: 35.74.248.202, port: 443, type: trojan, password: 76c3a0da-70c8-3896-a856-1eb0e611c63b, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-006-JP, server: 54.168.236.31, port: 443, type: trojan, password: 76c3a0da-70c8-3896-a856-1eb0e611c63b, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-008-US, server: 35.87.148.97, port: 443, type: trojan, password: 76c3a0da-70c8-3896-a856-1eb0e611c63b, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
-  - {name: 04-010-US, server: 103.136.185.28, port: 3516, type: trojan, password: 76c3a0da-70c8-3896-a856-1eb0e611c63b, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-009-US, server: 103.136.185.27, port: 5535, type: trojan, password: 76c3a0da-70c8-3896-a856-1eb0e611c63b, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-011-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 7370e1f9-6dc2-3f1d-9f78-5dc08030249b, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gy.58n.net, port: 43337, type: trojan, password: 7370e1f9-6dc2-3f1d-9f78-5dc08030249b, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-013-CN, server: gy.58n.net, port: 20307, type: trojan, password: 7370e1f9-6dc2-3f1d-9f78-5dc08030249b, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -525,9 +525,9 @@ proxy-groups:
       - 04-003-RELAY
       - 04-004-RELAY
       - 04-005-RELAY
-      - 04-007-JP
+      - 04-006-JP
       - 04-008-US
-      - 04-010-US
+      - 04-009-US
       - 04-011-CN
       - 04-012-CN
       - 04-013-CN
@@ -1284,6 +1284,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 04-006-JP
       - 04-016-CN
       - 04-026-CN
       - 04-036-CN
@@ -1335,7 +1336,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 04-007-JP
       - 04-017-CN
       - 04-027-CN
       - 04-037-CN
@@ -1437,6 +1437,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 04-009-US
       - 04-019-CN
       - 04-029-CN
       - 04-039-CN
@@ -1486,7 +1487,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 04-010-US
       - 04-020-CN
       - 04-030-CN
       - 04-040-CN
