@@ -57,8 +57,8 @@ proxies:
   - {name: 04-003-RELAY, server: s3.cn-db.top, port: 2086, type: vmess, uuid: 3ed7b3e4-8f54-3887-ac44-9bfc42559d80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.3.197, headers: {Host: s3.cn-db.top}}, udp: true}
   - {name: 04-004-RELAY, server: s3.cn-db.top, port: 8080, type: vmess, uuid: 3ed7b3e4-8f54-3887-ac44-9bfc42559d80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.108.12, headers: {Host: s3.cn-db.top}}, udp: true}
   - {name: 04-005-RELAY, server: s1.db-link01.top, port: 8080, type: vmess, uuid: 3ed7b3e4-8f54-3887-ac44-9bfc42559d80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.138.231, headers: {Host: s1.db-link01.top}}, udp: true}
-  - {name: 04-007-JP, server: 35.74.248.202, port: 443, type: trojan, password: ed86cb03-0590-3a41-b47e-55697e00f677, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-009-US, server: 103.136.185.27, port: 5535, type: trojan, password: ed86cb03-0590-3a41-b47e-55697e00f677, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: 04-006-JP, server: 54.168.236.31, port: 443, type: trojan, password: ed86cb03-0590-3a41-b47e-55697e00f677, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-008-US, server: 54.68.231.3, port: 443, type: trojan, password: ed86cb03-0590-3a41-b47e-55697e00f677, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-010-US, server: 103.136.185.28, port: 3516, type: trojan, password: ed86cb03-0590-3a41-b47e-55697e00f677, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-011-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 1950a010-1628-3124-a667-202ab8e9d2d8, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gy.58n.net, port: 43337, type: trojan, password: 1950a010-1628-3124-a667-202ab8e9d2d8, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -485,7 +485,7 @@ proxies:
   - {name: 17-532-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 74c01f79-f0c9-436d-959b-191d6856ac84, udp: true}
   - {name: 17-533-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 37e2aab9-2613-40a0-84c0-a38e694d3e51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 17-534-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 74c01f79-f0c9-436d-959b-191d6856ac84, udp: true}
-  - {name: 17-535-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: bd1e1869-d43c-4648-b79c-cccc3e81444c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 17-535-US, server: 35.74.248.202, port: 443, type: trojan, password: ed86cb03-0590-3a41-b47e-55697e00f677, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-536-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c04ab4e0-c6dd-4ab9-8b3f-d67d937346c5, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-537-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: a9d10520-115b-4add-8898-80a561a95520, udp: true}
   - {name: 17-538-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 4481da8f-06d4-4e6d-879c-e3e9ad5293f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
@@ -561,7 +561,7 @@ proxies:
   - {name: 17-608-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 3d3a0d7f-7368-4b9d-9e62-98e6c2a56fe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-609-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: dec88db8-42ca-42e7-8b56-2922bceeca1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 17-610-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: f1265d8c-16af-41a1-b9bc-cf650441a140, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
-  - {name: 17-611-US, server: 54.168.236.31, port: 443, type: trojan, password: ed86cb03-0590-3a41-b47e-55697e00f677, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 17-611-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2baa69d5-b665-4d23-8fca-753cb139ecf3, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-612-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 1df4ca6e-4db8-4738-a693-1a45aa5b29ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
   - {name: 17-613-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 6c2afa07-878b-4e26-8995-e7635e110a13, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 17-614-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 210a8fec-3665-4004-8bdb-52cad3aaf291, udp: true}
@@ -630,8 +630,8 @@ proxy-groups:
       - 04-003-RELAY
       - 04-004-RELAY
       - 04-005-RELAY
-      - 04-007-JP
-      - 04-009-US
+      - 04-006-JP
+      - 04-008-US
       - 04-010-US
       - 04-011-CN
       - 04-012-CN
@@ -1546,6 +1546,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 04-006-JP
       - 04-016-CN
       - 04-026-CN
       - 04-036-CN
@@ -1608,7 +1609,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 04-007-JP
       - 04-017-CN
       - 04-027-CN
       - 04-037-CN
@@ -1670,6 +1670,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 04-008-US
       - 04-018-CN
       - 04-028-CN
       - 04-038-CN
@@ -1730,7 +1731,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 04-009-US
       - 04-019-CN
       - 04-029-CN
       - 04-039-CN
