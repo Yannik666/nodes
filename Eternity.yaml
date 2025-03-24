@@ -52,15 +52,14 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 04-000-RELAY, server: s1.db-link02.top, port: 2082, type: vmess, uuid: 68989eab-c2ab-3f4b-a55e-d5585bcc6946, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.7.47, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 04-001-RELAY, server: s5.db-link02.top, port: 2095, type: vmess, uuid: 68989eab-c2ab-3f4b-a55e-d5585bcc6946, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.104.175, headers: {Host: s5.db-link02.top}}, udp: true}
   - {name: 04-002-RELAY, server: s3.cn-db.top, port: 2082, type: vmess, uuid: 68989eab-c2ab-3f4b-a55e-d5585bcc6946, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.71.213, headers: {Host: s3.cn-db.top}}, udp: true}
   - {name: 04-003-RELAY, server: s4.cn-db.top, port: 2086, type: vmess, uuid: 68989eab-c2ab-3f4b-a55e-d5585bcc6946, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.4.219, headers: {Host: s4.cn-db.top}}, udp: true}
   - {name: 04-004-RELAY, server: s1.db-link02.top, port: 80, type: vmess, uuid: 68989eab-c2ab-3f4b-a55e-d5585bcc6946, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.70.79, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 04-005-RELAY, server: s5.db-link01.top, port: 2082, type: vmess, uuid: 68989eab-c2ab-3f4b-a55e-d5585bcc6946, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.9.134, headers: {Host: s5.db-link01.top}}, udp: true}
-  - {name: 04-006-JP, server: 54.168.236.31, port: 443, type: trojan, password: 16396f71-3ba9-36b6-92f3-066730c7e958, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
-  - {name: 04-008-US, server: 54.68.231.3, port: 443, type: trojan, password: 16396f71-3ba9-36b6-92f3-066730c7e958, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 04-009-US, server: 103.136.185.27, port: 5535, type: trojan, password: 16396f71-3ba9-36b6-92f3-066730c7e958, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-006-JP, server: 54.168.236.31, port: 443, type: trojan, password: 7a957350-53b3-3b54-a744-fbc2ceb78ae0, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-008-US, server: 54.68.231.3, port: 443, type: trojan, password: 7a957350-53b3-3b54-a744-fbc2ceb78ae0, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-009-US, server: 103.136.185.27, port: 5535, type: trojan, password: 7a957350-53b3-3b54-a744-fbc2ceb78ae0, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-011-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 1950a010-1628-3124-a667-202ab8e9d2d8, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gy.58n.net, port: 43337, type: trojan, password: 1950a010-1628-3124-a667-202ab8e9d2d8, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-013-CN, server: gy.58n.net, port: 20307, type: trojan, password: 1950a010-1628-3124-a667-202ab8e9d2d8, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -595,6 +594,7 @@ proxies:
   - {name: 17-642-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 210a8fec-3665-4004-8bdb-52cad3aaf291, udp: true}
   - {name: 17-643-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 1e4a3e3f-ca1a-47aa-a517-3c56231bfde5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 17-644-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: dabef027-edb6-4eb8-83c9-b7c8f4cdd1e0, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 17-645-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 75670c17-08ab-4103-9441-076099e362c2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -612,7 +612,6 @@ proxy-groups:
       - 测速8分组
       - 测速9分组
       - 测速10分组
-      - 04-000-RELAY
       - 04-001-RELAY
       - 04-002-RELAY
       - 04-003-RELAY
@@ -1155,6 +1154,7 @@ proxy-groups:
       - 17-642-CN
       - 17-643-RELAY
       - 17-644-US
+      - 17-645-RELAY
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1508,6 +1508,7 @@ proxy-groups:
       - 17-615-CN
       - 17-625-CN
       - 17-635-CN
+      - 17-645-RELAY
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1753,7 +1754,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 04-000-RELAY
       - 04-020-CN
       - 04-030-CN
       - 04-040-CN
