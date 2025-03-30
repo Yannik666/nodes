@@ -64,7 +64,7 @@ proxies:
   - {name: 04-009-RELAY, server: s1.cn-db.top, port: 2086, type: vmess, uuid: f8ebc7e9-1249-3bae-a34b-522ee4ae2430, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.57.11, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 04-010-RELAY, server: s2.db-link02.top, port: 2086, type: vmess, uuid: f8ebc7e9-1249-3bae-a34b-522ee4ae2430, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.43.208, headers: {Host: s2.db-link02.top}}, udp: true}
   - {name: 04-011-RELAY, server: s4.cn-db.top, port: 8880, type: vmess, uuid: f8ebc7e9-1249-3bae-a34b-522ee4ae2430, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.88.73, headers: {Host: s4.cn-db.top}}, udp: true}
-  - {name: 04-012-JP, server: 54.168.236.31, port: 443, type: trojan, password: 2d2d8145-e6ee-3bf7-9a3b-5dca729910e7, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-013-JP, server: 35.74.248.202, port: 443, type: trojan, password: 2d2d8145-e6ee-3bf7-9a3b-5dca729910e7, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-015-US, server: 103.136.185.27, port: 5535, type: trojan, password: 2d2d8145-e6ee-3bf7-9a3b-5dca729910e7, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 04-016-US, server: 103.136.185.28, port: 3516, type: trojan, password: 2d2d8145-e6ee-3bf7-9a3b-5dca729910e7, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-017-CN, server: gyl.58n.net, port: 20309, type: trojan, password: d4061cea-9c28-3e85-9b26-03db7b3ed2f6, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -623,7 +623,7 @@ proxy-groups:
       - 04-009-RELAY
       - 04-010-RELAY
       - 04-011-RELAY
-      - 04-012-JP
+      - 04-013-JP
       - 04-015-US
       - 04-016-US
       - 04-017-CN
@@ -1270,7 +1270,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 02-002-CN
-      - 04-012-JP
       - 04-022-CN
       - 04-032-CN
       - 04-042-CN
@@ -1332,6 +1331,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 02-003-CN
+      - 04-013-JP
       - 04-023-CN
       - 04-033-CN
       - 04-043-CN
