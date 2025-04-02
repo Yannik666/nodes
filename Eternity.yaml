@@ -52,6 +52,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 02-000-CN, server: free-relay.themars.top, port: 31101, type: ss, cipher: chacha20-ietf-poly1305, password: 4d600c84-8221-44af-8fb1-f3273226e8f8, udp: true}
   - {name: 02-001-CN, server: free-relay.themars.top, port: 31100, type: ss, cipher: chacha20-ietf-poly1305, password: d8fcc5c0-4ab6-4978-bac7-55b31d67d76e, udp: true}
   - {name: 02-002-CN, server: free-relay.themars.top, port: 31100, type: ss, cipher: chacha20-ietf-poly1305, password: 4d600c84-8221-44af-8fb1-f3273226e8f8, udp: true}
   - {name: 02-003-HK, server: aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27001, type: trojan, password: 80e061f4-e5ae-470d-a336-82e682fc69bf, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
@@ -342,7 +343,6 @@ proxies:
   - {name: 16-389-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 4bc2e208-a07b-4a1e-a717-207d9292435e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-390-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: a383d0b6-2adc-4920-9ae8-75e317e0224e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-391-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 7a6f1042-6904-4ef5-8067-75713424f283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
-  - {name: 16-392-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 2dcace70-7704-4753-9477-f9e03a8d3e1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 16-393-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: dba37154-7edd-457b-8f98-072b35c1f6c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-394-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 3e48b5a4-fc4c-473c-88f8-0bf6391dae7a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 16-395-BR, server: 2603:c021:c006:3fee:8575:5336:6f66:6900, port: 443, type: vmess, uuid: fcb5ccd3-505a-479e-ad3c-250b3daa6add, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpDisney}, udp: true}
@@ -436,7 +436,6 @@ proxies:
   - {name: 17-483-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 955eabca-3ce8-4bb8-bc7d-a45a8035dc27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 17-484-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 731f203a-fe05-42b6-9901-1725d2e56f53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-485-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: be0d513e-4038-49f9-89e2-68847cd07173, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-486-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 10625f88-09e8-4254-aa0e-5d8a971ce5a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 17-487-RELAY, server: us148.vp1000.net, port: 443, type: vmess, uuid: 946ed147-4199-4513-a7ed-bf4f3d9b52da, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cp100vp800kkkdsnx, headers: {Host: us148.vp1000.net}}, udp: true}
   - {name: 17-488-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: d234f8fe-e539-45e1-b6bb-49b3d99748cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 17-489-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 51b322c1-8e08-442b-a903-04d80d33732a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
@@ -542,7 +541,7 @@ proxies:
   - {name: 17-589-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: a4c86e47-5a1f-4357-b25c-da5355510d87, udp: true}
   - {name: 17-590-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: dec88db8-42ca-42e7-8b56-2922bceeca1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 17-591-RELAY, server: ip4-jp2.vp1000.net, port: 443, type: vmess, uuid: 932d0bec-ec7e-42a9-9ec2-f2fd735b9f43, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpaylfastpDisney, headers: {Host: ip4-jp2.vp1000.net}}, udp: true}
-  - {name: 17-592-US, server: 35.77.24.250, port: 443, type: trojan, password: 5ae6b51a-77d1-322f-8023-babb0f82a3f7, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 17-592-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 64143703-1008-4ca1-b465-4f7af1e54b1c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-593-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: dc709829-154b-4375-8602-2a2bcd7ddb34, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-594-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 8efccd8a-4be7-40e2-bd65-87d437d17c7d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-595-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 7f6c48ad-65fd-4146-bd89-ad9e5dc60f7a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
@@ -652,6 +651,7 @@ proxy-groups:
       - 测速8分组
       - 测速9分组
       - 测速10分组
+      - 02-000-CN
       - 02-001-CN
       - 02-002-CN
       - 02-003-HK
@@ -942,7 +942,6 @@ proxy-groups:
       - 16-389-SG
       - 16-390-SG
       - 16-391-DE
-      - 16-392-US
       - 16-393-SG
       - 16-394-RELAY
       - 16-395-BR
@@ -1036,7 +1035,6 @@ proxy-groups:
       - 17-483-DE
       - 17-484-RELAY
       - 17-485-RELAY
-      - 17-486-DE
       - 17-487-RELAY
       - 17-488-DE
       - 17-489-RELAY
@@ -1385,7 +1383,6 @@ proxy-groups:
       - 16-362-RELAY
       - 16-372-US
       - 16-382-CN
-      - 16-392-US
       - 16-402-IN
       - 16-412-US
       - 17-422-CN
@@ -1651,7 +1648,6 @@ proxy-groups:
       - 17-456-US
       - 17-466-RELAY
       - 17-476-US
-      - 17-486-DE
       - 17-496-US
       - 17-506-US
       - 17-516-US
@@ -1869,6 +1865,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-000-CN
       - 02-010-HK
       - 04-020-RELAY
       - 04-030-CN
