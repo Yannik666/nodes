@@ -56,11 +56,9 @@ proxies:
   - {name: 02-0002-KR, server: 3.38.109.3, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-0003-SG, server: 47.129.142.193, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-0004-JP, server: 35.77.68.24, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0005-US, server: 44.244.37.212, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
   - {name: 02-0006-KR, server: 3.38.109.3, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
   - {name: 02-0007-SG, server: 47.129.142.193, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
   - {name: 02-0008-JP, server: 35.77.68.24, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 02-0009-US, server: 44.244.37.212, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 02-0010-KR, server: 3.38.109.3, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 02-0011-SG, server: 47.129.142.193, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0013-CN, server: hry200.2228333.xyz, port: 52511, type: ss, cipher: chacha20-ietf-poly1305, password: 12979501-81f2-4b04-bc8a-721cdcfa31ec, udp: true}
@@ -282,7 +280,6 @@ proxies:
   - {name: 03-0283-CN, server: alibaba1.xn--z7x16bf6t.com, port: 54889, type: ss, cipher: aes-128-gcm, password: 07a0e875-9b9a-4e11-a81f-8af85f82e74d, udp: true}
   - {name: 03-0284-CN, server: aawssb6.xn--z7x16bf6t.com, port: 54889, type: ss, cipher: aes-128-gcm, password: 07a0e875-9b9a-4e11-a81f-8af85f82e74d, udp: true}
   - {name: 03-0285-HK, server: hkvm4.656888.xyz, port: 30026, type: trojan, password: c184c42e-ba05-4dab-85e0-1ebaae802b4b, sni: hkvm4.656888.xyz, skip-cert-verify: true, udp: true}
-  - {name: 03-0286-US, server: hytro.91ai.de, port: 10022, type: trojan, password: c184c42e-ba05-4dab-85e0-1ebaae802b4b, sni: hytro.91ai.de, skip-cert-verify: true, udp: true}
   - {name: 03-0287-JP, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: c184c42e-ba05-4dab-85e0-1ebaae802b4b, sni: greenjp2.yueyun.de, skip-cert-verify: true, udp: true}
   - {name: 03-0288-JP, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: c184c42e-ba05-4dab-85e0-1ebaae802b4b, sni: vpsjp.yueyun.de, skip-cert-verify: true, udp: true}
   - {name: 03-0289-JP, server: cloud.yueyun.de, port: 10389, type: trojan, password: c184c42e-ba05-4dab-85e0-1ebaae802b4b, sni: cloud.yueyun.de, skip-cert-verify: true, udp: true}
@@ -364,7 +361,7 @@ proxies:
   - {name: 03-0365-VN, server: vn2.pptv-tv.store, port: 17752, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0366-AU, server: au1.pptv-tv.store, port: 17753, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0367-AU, server: au2.pptv-tv.store, port: 17754, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
-  - {name: 03-0368-ID, server: id1.pptv-tv.store, port: 17618, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
+  - {name: 03-0368-CN, server: id1.pptv-tv.store, port: 17618, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0369-RU, server: ru1.pptv-tv.store, port: 17615, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0370-UA, server: ua1.pptv-tv.store, port: 17749, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0371-AE, server: ae1.pptv-tv.store, port: 17720, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
@@ -639,7 +636,7 @@ proxies:
   - {name: 03-0641-DE, server: netcp4.616626.xyz, port: 10027, type: trojan, password: 88ebc7a7-ed45-44ab-be40-90eb71e094b0, sni: netcp4.616626.xyz, skip-cert-verify: true, udp: true}
   - {name: 03-0642-NOWHERE, server: zz.xiao666666.site, port: 20000, type: ss, cipher: chacha20-ietf-poly1305, password: bf67abcd-57c8-4f7e-82e6-637bc1188440, udp: true}
   - {name: 03-0643-NOWHERE, server: zz.xiao666666.site, port: 58888, type: ss, cipher: chacha20-ietf-poly1305, password: bf67abcd-57c8-4f7e-82e6-637bc1188440, udp: true}
-  - {name: 03-0644-TWss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@44.244.37.2129898#02-0001-US, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: bf67abcd-57c8-4f7e-82e6-637bc1188440, udp: true}
+  - {name: "03-0644-TWtrojan//c184c42e-ba05-4dab-85e0-1ebaae802b4b@hytro.91ai.de10022?allowInsecure=1&sni=hytro.91ai.de#03-0286-US", server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: bf67abcd-57c8-4f7e-82e6-637bc1188440, udp: true}
   - {name: 03-0645-CN, server: 1c4.bulldognet-dstat.uk, port: 45679, type: ss, cipher: chacha20-ietf-poly1305, password: bf67abcd-57c8-4f7e-82e6-637bc1188440, udp: true}
   - {name: 03-0646-NOWHERE, server: bestcf.top, port: 80, type: vmess, uuid: bf67abcd-57c8-4f7e-82e6-637bc1188440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.top}}, udp: true}
   - {name: 03-0647-NOWHERE, server: bestcf.mfwl.art, port: 80, type: vmess, uuid: bf67abcd-57c8-4f7e-82e6-637bc1188440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.mfwl.art}}, udp: true}
@@ -648,7 +645,10 @@ proxies:
   - {name: 03-0650-RELAY, server: time.is, port: 80, type: vmess, uuid: bf67abcd-57c8-4f7e-82e6-637bc1188440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
   - {name: 03-0651-RELAY, server: bevent.bilibili.tv, port: 443, type: vmess, uuid: bf67abcd-57c8-4f7e-82e6-637bc1188440, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bevent.bilibili.tv}}, udp: true}
   - {name: 03-0652-RELAY, server: time.is, port: 443, type: vmess, uuid: bf67abcd-57c8-4f7e-82e6-637bc1188440, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
-  - {name: 40-1864-CN, server: sz.fanhua.art, port: 63447, type: ss, cipher: aes-128-gcm, password: 43972f42-db63-4694-bb72-c480b5c905b7, udp: true}
+  - {name: 40-1854-CN, server: 7a25ddbb-swxgg0-t5vrf3-716s.cu.plebai.net, port: 15229, type: trojan, password: 088a0bbe-4f9f-11ea-a15d-f23c913c8d2b, skip-cert-verify: true, udp: true}
+  - {name: 40-1855-CN, server: 4ea64b74-swzb40-t3o6u7-1osdm.cu.plebai.net, port: 15229, type: trojan, password: 91365a7a-46d7-11ee-a8b9-f23c9164ca5d, skip-cert-verify: true, udp: true}
+  - {name: 40-1856-CN, server: f7c9656d-swvls0-td1w5f-1t3cz.cu.plebai.net, port: 15229, type: trojan, password: affe7124-c118-11ef-b6b2-f23c9164ca5d, skip-cert-verify: true, udp: true}
+  - {name: 40-1857-CN, server: 74603ad1-swxgg0-sye5o0-mv7m.cu.plebai.net, port: 15229, type: trojan, password: 94d40708-8273-11ea-8fc9-f23c913c8d2b, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -670,11 +670,9 @@ proxy-groups:
       - 02-0002-KR
       - 02-0003-SG
       - 02-0004-JP
-      - 02-0005-US
       - 02-0006-KR
       - 02-0007-SG
       - 02-0008-JP
-      - 02-0009-US
       - 02-0010-KR
       - 02-0011-SG
       - 03-0013-CN
@@ -896,7 +894,6 @@ proxy-groups:
       - 03-0283-CN
       - 03-0284-CN
       - 03-0285-HK
-      - 03-0286-US
       - 03-0287-JP
       - 03-0288-JP
       - 03-0289-JP
@@ -978,7 +975,7 @@ proxy-groups:
       - 03-0365-VN
       - 03-0366-AU
       - 03-0367-AU
-      - 03-0368-ID
+      - 03-0368-CN
       - 03-0369-RU
       - 03-0370-UA
       - 03-0371-AE
@@ -1253,7 +1250,7 @@ proxy-groups:
       - 03-0641-DE
       - 03-0642-NOWHERE
       - 03-0643-NOWHERE
-      - 03-0644-TWss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@44.244.37.2129898#02-0001-US
+      - 03-0644-TWtrojan//c184c42e-ba05-4dab-85e0-1ebaae802b4b@hytro.91ai.de10022?allowInsecure=1&sni=hytro.91ai.de#03-0286-US
       - 03-0645-CN
       - 03-0646-NOWHERE
       - 03-0647-NOWHERE
@@ -1262,7 +1259,10 @@ proxy-groups:
       - 03-0650-RELAY
       - 03-0651-RELAY
       - 03-0652-RELAY
-      - 40-1864-CN
+      - 40-1854-CN
+      - 40-1855-CN
+      - 40-1856-CN
+      - 40-1857-CN
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1376,7 +1376,6 @@ proxy-groups:
       - 03-0621-RELAY
       - 03-0631-RELAY
       - 03-0641-DE
-      - 03-0644-TWss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@44.244.37.2129898#02-0001-US
       - 03-0651-RELAY
   - name: 测速2分组
     type: url-test
@@ -1575,15 +1574,14 @@ proxy-groups:
       - 03-0614-RELAY
       - 03-0624-RELAY
       - 03-0634-RELAY
-      - 03-0644-TWss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@44.244.37.2129898#02-0001-US
-      - 40-1864-CN
+      - 03-0644-TWtrojan//c184c42e-ba05-4dab-85e0-1ebaae802b4b@hytro.91ai.de10022?allowInsecure=1&sni=hytro.91ai.de#03-0286-US
+      - 40-1854-CN
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 02-0005-US
       - 03-0015-CN
       - 03-0025-CN
       - 03-0035-CN
@@ -1642,6 +1640,7 @@ proxy-groups:
       - 03-0625-RELAY
       - 03-0635-RELAY
       - 03-0645-CN
+      - 40-1855-CN
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1670,7 +1669,6 @@ proxy-groups:
       - 03-0256-CN
       - 03-0266-CN
       - 03-0276-CN
-      - 03-0286-US
       - 03-0296-GB
       - 03-0306-CN
       - 03-0316-CN
@@ -1705,7 +1703,9 @@ proxy-groups:
       - 03-0616-RELAY
       - 03-0626-RELAY
       - 03-0636-RELAY
+      - 03-0644-TWtrojan//c184c42e-ba05-4dab-85e0-1ebaae802b4b@hytro.91ai.de10022?allowInsecure=1&sni=hytro.91ai.de#03-0286-US
       - 03-0646-NOWHERE
+      - 40-1856-CN
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1771,6 +1771,7 @@ proxy-groups:
       - 03-0627-RELAY
       - 03-0637-RELAY
       - 03-0647-NOWHERE
+      - 40-1857-CN
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1808,7 +1809,7 @@ proxy-groups:
       - 03-0338-HK
       - 03-0348-NOWHERE
       - 03-0358-TW
-      - 03-0368-ID
+      - 03-0368-CN
       - 03-0378-US
       - 03-0388-JP
       - 03-0398-VN
@@ -1843,7 +1844,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 02-0009-US
       - 03-0019-CN
       - 03-0029-CN
       - 03-0039-CN
