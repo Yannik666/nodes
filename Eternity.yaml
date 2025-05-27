@@ -569,6 +569,8 @@ proxies:
   - {name: 03-0522-CH, server: ch1.pptv-tv.store, port: 17725, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0523-ES, server: es1.pptv-tv.store, port: 17730, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0524-CN, server: dxzx.flyby-world.top, port: 46178, type: ss, cipher: chacha20-ietf-poly1305, password: d5af33b1-3e5f-4b31-9e0a-e263ed7956c9, udp: true}
+  - {name: 03-0525-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 2703867d-dd8f-4f7f-93f4-ac6e4f56c7e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
+  - {name: 03-0526-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 2703867d-dd8f-4f7f-93f4-ac6e4f56c7e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 03-0527-HK, server: v6.nmcf.me, port: 48422, type: vmess, uuid: d26fc1a3-0d97-416b-abcd-b335b4bf7881, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nmkj, headers: {Host: v6.nmcf.me}}, udp: true}
   - {name: 03-0528-TW, server: v5.nmcf.me, port: 8002, type: vmess, uuid: d26fc1a3-0d97-416b-abcd-b335b4bf7881, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nmkj, headers: {Host: v5.nmcf.me}}, udp: true}
   - {name: 03-0529-JP, server: v18.nmcf.me, port: 8000, type: vmess, uuid: d26fc1a3-0d97-416b-abcd-b335b4bf7881, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nmkj, headers: {Host: v18.nmcf.me}}, udp: true}
@@ -642,8 +644,6 @@ proxies:
   - {name: 03-0597-CN, server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com, port: 34320, type: ss, cipher: chacha20-ietf-poly1305, password: f4d5bf6c-125f-4f3c-9d68-3976b2de43cc, udp: true}
   - {name: 03-0598-CN, server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com, port: 24449, type: ss, cipher: chacha20-ietf-poly1305, password: f4d5bf6c-125f-4f3c-9d68-3976b2de43cc, udp: true}
   - {name: 03-0599-CN, server: iii1ilili1lilil1ilili.tikshopiiiiiiiii.com, port: 24450, type: ss, cipher: chacha20-ietf-poly1305, password: f4d5bf6c-125f-4f3c-9d68-3976b2de43cc, udp: true}
-  - {name: 40-1667-CN, server: 89c3e317-swvls0-tfmoda-25xl.cu.plebai.net, port: 15229, type: trojan, password: 7ddc7156-57be-11ee-9acd-f23c9164ca5d, skip-cert-verify: true, udp: true}
-  - {name: 40-1668-HK, server: 4a622e8a-swzb40-sydxa9-fa3p.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 905fcd78-866c-81e1-3cb8-1beb59d661ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 4a622e8a-swzb40-sydxa9-fa3p.hgc1.tcpbbr.net}}, udp: true}
   - {name: 40-1670-CN, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo}, udp: true}
   - {name: 40-1671-JP, server: 9988.mt.mt5888.top, port: 41116, type: ssr, cipher: dummy, password: mantouyun888, protocol: auth_chain_a, obfs: plain, protocol-param: 8198:CsJt8BBrKFOSrjv2, obfs-param: cbcdc8198.microsoft.com, udp: true}
   - {name: 40-1673-CN, server: tw002.dogsvip.site, port: 17002, type: ss, cipher: aes-256-gcm, password: 3030b609-f36f-4fd1-a4ef-a6e653780536, udp: true}
@@ -1182,6 +1182,8 @@ proxy-groups:
       - 03-0522-CH
       - 03-0523-ES
       - 03-0524-CN
+      - 03-0525-RELAY
+      - 03-0526-RELAY
       - 03-0527-HK
       - 03-0528-TW
       - 03-0529-JP
@@ -1255,8 +1257,6 @@ proxy-groups:
       - 03-0597-CN
       - 03-0598-CN
       - 03-0599-CN
-      - 40-1667-CN
-      - 40-1668-HK
       - 40-1670-CN
       - 40-1671-JP
       - 40-1673-CN
@@ -1629,6 +1629,7 @@ proxy-groups:
       - 03-0495-CN
       - 03-0505-TW
       - 03-0515-CN
+      - 03-0525-RELAY
       - 03-0535-RELAY
       - 03-0545-JP
       - 03-0555-VN
@@ -1693,6 +1694,7 @@ proxy-groups:
       - 03-0496-CN
       - 03-0506-US
       - 03-0516-RU
+      - 03-0526-RELAY
       - 03-0536-RELAY
       - 03-0546-JP
       - 03-0556-MY
@@ -1766,7 +1768,6 @@ proxy-groups:
       - 03-0577-TH
       - 03-0587-CN
       - 03-0597-CN
-      - 40-1667-CN
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1832,7 +1833,6 @@ proxy-groups:
       - 03-0578-TH
       - 03-0588-CN
       - 03-0598-CN
-      - 40-1668-HK
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
