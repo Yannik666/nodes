@@ -52,8 +52,6 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0005-US, server: 35.93.15.91, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0009-US, server: 35.93.15.91, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0012-TW, server: green.cdntencentmusic.com, port: 28503, type: trojan, password: 53d627b0-5ea4-494e-8d94-b425d8840ed8, sni: green.cdntencentmusic.com, skip-cert-verify: true, udp: true}
   - {name: 03-0013-TW, server: green.cdntencentmusic.com, port: 28504, type: trojan, password: 53d627b0-5ea4-494e-8d94-b425d8840ed8, sni: green.cdntencentmusic.com, skip-cert-verify: true, udp: true}
   - {name: 03-0014-TW, server: green.cdntencentmusic.com, port: 28505, type: trojan, password: 53d627b0-5ea4-494e-8d94-b425d8840ed8, sni: green.cdntencentmusic.com, skip-cert-verify: true, udp: true}
@@ -113,7 +111,7 @@ proxies:
   - {name: 03-0069-SG, server: sg2.pptv-tv.store, port: 17712, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0070-SG, server: sg3.pptv-tv.store, port: 17713, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0071-TW, server: tw1.pptv-tv.store, port: 17786, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
-  - {name: 03-0072-US, server: us1.pptv-tv.store, port: 17741, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
+  - {name: 03-0072-US, server: 47.245.31.103, port: 28455, type: trojan, password: 5b0e8d9b-9eb0-33aa-8819-733945a4d4ff, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0073-US, server: us2.pptv-tv.store, port: 17742, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0074-US, server: us3.pptv-tv.store, port: 17743, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0075-GB, server: gb1.pptv-tv.store, port: 17756, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
@@ -446,7 +444,6 @@ proxies:
   - {name: 03-0403-CN, server: cyy-iepl.cyykj.top, port: 50337, type: ss, cipher: chacha20-ietf-poly1305, password: 1136b08f-b9cb-4843-906d-ec7e7f9a5ae0, udp: true}
   - {name: 03-0404-CN, server: cyy-iepl.cyykj.top, port: 50332, type: ss, cipher: chacha20-ietf-poly1305, password: 1136b08f-b9cb-4843-906d-ec7e7f9a5ae0, udp: true}
   - {name: 03-0405-CN, server: cyy-iepl.cyykj.top, port: 50331, type: ss, cipher: chacha20-ietf-poly1305, password: 1136b08f-b9cb-4843-906d-ec7e7f9a5ae0, udp: true}
-  - {name: 03-0406-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 2703867d-dd8f-4f7f-93f4-ac6e4f56c7e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 03-0408-RELAY, server: www.visa.com.tw, port: 443, type: vmess, uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aa, headers: {Host: www.visa.com.tw}}, udp: true}
   - {name: 03-0409-RELAY, server: www.visa.com.tw, port: 443, type: vmess, uuid: cae97b1c-35e8-4cf2-dc1b-52032c3d3fa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aa, headers: {Host: www.visa.com.tw}}, udp: true}
   - {name: 03-0410-RELAY, server: www.visa.com.tw, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aa, headers: {Host: www.visa.com.tw}}, udp: true}
@@ -566,6 +563,7 @@ proxies:
   - {name: 03-0524-CN, server: 120.233.44.206, port: 39622, type: ss, cipher: chacha20-ietf-poly1305, password: 7d303894-95a9-4d45-b64b-78c73dbff51d, udp: true}
   - {name: 03-0525-CN, server: 120.233.44.206, port: 33922, type: ss, cipher: chacha20-ietf-poly1305, password: 7d303894-95a9-4d45-b64b-78c73dbff51d, udp: true}
   - {name: 03-0526-SG, server: www.jafi.cc, port: 23111, type: trojan, password: 2db5c495-5e53-4a1c-b6c5-42abcba1ff70, sni: www.jafi.cc, skip-cert-verify: true, udp: true}
+  - {name: 03-0527-SG, server: www.jafi.cc, port: 23111, type: trojan, password: 2db5c495-5e53-4a1c-b6c5-42abcba1ff70, sni: www.jafi.cc, skip-cert-verify: true, udp: true}
   - {name: 03-0528-CN, server: t02.jafiyun2024.cloud, port: 53112, type: trojan, password: 2db5c495-5e53-4a1c-b6c5-42abcba1ff70, sni: t02.jafiyun2024.cloud, skip-cert-verify: true, udp: true}
   - {name: 03-0529-CN, server: t03.jafiyun2024.cloud, port: 53113, type: trojan, password: 2db5c495-5e53-4a1c-b6c5-42abcba1ff70, sni: t03.jafiyun2024.cloud, skip-cert-verify: true, udp: true}
   - {name: 03-0530-CN, server: t04.jafiyun2024.cloud, port: 53114, type: trojan, password: 2db5c495-5e53-4a1c-b6c5-42abcba1ff70, sni: t04.jafiyun2024.cloud, skip-cert-verify: true, udp: true}
@@ -635,6 +633,9 @@ proxies:
   - {name: 03-0597-CN, server: sg003.dogsvip.site, port: 18003, type: ss, cipher: aes-256-gcm, password: 323537df-dbdf-4f7e-a4c7-6c290d8e53ff, udp: true}
   - {name: 03-0598-CN, server: sg004.dogsvip.site, port: 18004, type: ss, cipher: aes-256-gcm, password: 323537df-dbdf-4f7e-a4c7-6c290d8e53ff, udp: true}
   - {name: 03-0599-CN, server: sg005.dogsvip.site, port: 18005, type: ss, cipher: aes-256-gcm, password: 323537df-dbdf-4f7e-a4c7-6c290d8e53ff, udp: true}
+  - {name: 04-1825-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 5b0e8d9b-9eb0-33aa-8819-733945a4d4ff, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-1826-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 5b0e8d9b-9eb0-33aa-8819-733945a4d4ff, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-1827-JP, server: 47.245.40.60, port: 28457, type: trojan, password: 5b0e8d9b-9eb0-33aa-8819-733945a4d4ff, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 07-1830-CN, server: 120.233.147.197, port: 23335, type: ss, cipher: chacha20-ietf-poly1305, password: 0fbed6c9-0fb4-4ec3-8582-f569f8d773d5, udp: true}
   - {name: 07-1831-CN, server: v35.heduian.link, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v35.heduian.link}}, udp: true}
   - {name: 07-1832-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
@@ -665,8 +666,6 @@ proxy-groups:
       - 测速8分组
       - 测速9分组
       - 测速10分组
-      - 02-0005-US
-      - 02-0009-US
       - 03-0012-TW
       - 03-0013-TW
       - 03-0014-TW
@@ -1059,7 +1058,6 @@ proxy-groups:
       - 03-0403-CN
       - 03-0404-CN
       - 03-0405-CN
-      - 03-0406-RELAY
       - 03-0408-RELAY
       - 03-0409-RELAY
       - 03-0410-RELAY
@@ -1179,6 +1177,7 @@ proxy-groups:
       - 03-0524-CN
       - 03-0525-CN
       - 03-0526-SG
+      - 03-0527-SG
       - 03-0528-CN
       - 03-0529-CN
       - 03-0530-CN
@@ -1248,6 +1247,9 @@ proxy-groups:
       - 03-0597-CN
       - 03-0598-CN
       - 03-0599-CN
+      - 04-1825-HK
+      - 04-1826-HK
+      - 04-1827-JP
       - 07-1830-CN
       - 07-1831-CN
       - 07-1832-CN
@@ -1578,7 +1580,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 02-0005-US
       - 03-0015-TW
       - 03-0025-CN
       - 03-0035-CN
@@ -1638,6 +1639,7 @@ proxy-groups:
       - 03-0575-CN
       - 03-0585-CN
       - 03-0595-CN
+      - 04-1825-HK
       - 07-1845-CN
   - name: 测速6分组
     type: url-test
@@ -1684,7 +1686,6 @@ proxy-groups:
       - 03-0376-CN
       - 03-0386-CN
       - 03-0396-CN
-      - 03-0406-RELAY
       - 03-0416-CN
       - 03-0426-CN
       - 03-0436-CN
@@ -1704,6 +1705,7 @@ proxy-groups:
       - 03-0576-CN
       - 03-0586-CN
       - 03-0596-CN
+      - 04-1826-HK
       - 11-1846-NOWHERE
   - name: 测速7分组
     type: url-test
@@ -1760,6 +1762,7 @@ proxy-groups:
       - 03-0497-CN
       - 03-0507-CN
       - 03-0517-TW
+      - 03-0527-SG
       - 03-0537-CN
       - 03-0547-CN
       - 03-0557-CN
@@ -1767,6 +1770,7 @@ proxy-groups:
       - 03-0577-CN
       - 03-0587-CN
       - 03-0597-CN
+      - 04-1827-JP
       - 07-1837-CN
   - name: 测速8分组
     type: url-test
@@ -1840,7 +1844,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 02-0009-US
       - 03-0019-CN
       - 03-0029-CN
       - 03-0039-CN
