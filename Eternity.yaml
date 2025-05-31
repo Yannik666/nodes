@@ -158,6 +158,7 @@ proxies:
   - {name: 07-203-US, server: us-01.foxspirit018.top, port: 1090, type: vmess, uuid: 4fca6604-96d7-4c1b-9c0a-81c7f242a3cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dddaa, headers: {Host: us-01.foxspirit018.top}}, udp: true}
   - {name: 07-204-US, server: us-01.foxspirit018.top, port: 1090, type: vmess, uuid: 12eaefae-b983-4b51-a8ae-575da1a68f74, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dddaa, headers: {Host: us-01.foxspirit018.top}}, udp: true}
   - {name: 07-205-US, server: us-01.foxspirit018.top, port: 1090, type: vmess, uuid: 438461d9-40f2-4e16-a956-d45c318bfa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dddaa, headers: {Host: us-01.foxspirit018.top}}, udp: true}
+  - {name: 07-206-US, server: us-01.foxspirit018.top, port: 1090, type: vmess, uuid: 9d071189-e380-44ab-8a38-0b088aba2dde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dddaa, headers: {Host: us-01.foxspirit018.top}}, udp: true}
   - {name: 07-207-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
   - {name: 07-208-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 07-209-CN, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
@@ -215,7 +216,6 @@ proxies:
   - {name: 14-262-RELAY, server: 172.67.204.120, port: 443, type: trojan, password: 4a3ee276-f50f-46f6-ba4d-13571732ab70, sni: ddcDe.890603.XYz, skip-cert-verify: true, udp: true}
   - {name: 14-263-CN, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v32.heduian.link}}, udp: true}
   - {name: 18-265-RELAY, server: hjuyitu.222856.xyz, port: 443, type: vmess, uuid: ecb31946-b81d-4e37-bfd9-2eb7fa5c4e52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hjuyitu.222856.xyz}}, udp: true}
-  - {name: 18-266-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-267-RELAY, server: 172.66.168.209, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-268-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
   - {name: 18-269-RELAY, server: 9x.938.pp.ua, port: 443, type: vmess, uuid: 906ba92f-ef96-4133-8eee-f33202a5a721, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 9x.938.pp.ua}}, udp: true}
@@ -411,6 +411,7 @@ proxy-groups:
       - 07-203-US
       - 07-204-US
       - 07-205-US
+      - 07-206-US
       - 07-207-CN
       - 07-208-CN
       - 07-209-CN
@@ -468,7 +469,6 @@ proxy-groups:
       - 14-262-RELAY
       - 14-263-CN
       - 18-265-RELAY
-      - 18-266-CA
       - 18-267-RELAY
       - 18-268-RELAY
       - 18-269-RELAY
@@ -753,12 +753,12 @@ proxy-groups:
       - 04-176-CN
       - 04-186-CN
       - 04-196-JP
+      - 07-206-US
       - 07-216-CN
       - 07-226-RELAY
       - 13-236-CN
       - 13-246-GOOGLE
       - 13-256-NOWHERE
-      - 18-266-CA
       - 18-276-US
       - 18-286-RELAY
       - 18-296-JP
