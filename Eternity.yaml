@@ -53,7 +53,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-000-JP, server: 43.206.99.64, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-001-US, server: 52.33.38.4, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-002-KR, server: 3.39.247.218, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-003-SG, server: 13.214.35.13, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-004-JP, server: 43.206.99.64, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
@@ -61,6 +60,7 @@ proxies:
   - {name: 02-006-KR, server: 3.39.247.218, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
   - {name: 02-007-SG, server: 13.214.35.13, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
   - {name: 02-008-JP, server: 43.206.99.64, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-009-US, server: 52.33.38.4, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 02-010-KR, server: 3.39.247.218, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 02-011-SG, server: 13.214.35.13, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 04-013-RELAY, server: s2.db-link01.top, port: 2082, type: vmess, uuid: b1d362fd-71a9-37c9-95ca-d2f9ececd835, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.73.56, headers: {Host: s2.db-link01.top}}, udp: true}
@@ -148,7 +148,6 @@ proxies:
   - {name: 04-194-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 3abd28f2-501a-36ff-ba27-03c65b151104, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-195-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 3abd28f2-501a-36ff-ba27-03c65b151104, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-196-JP, server: 47.245.40.60, port: 28458, type: trojan, password: 3abd28f2-501a-36ff-ba27-03c65b151104, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-197-JP, server: 47.245.31.103, port: 28456, type: trojan, password: 3abd28f2-501a-36ff-ba27-03c65b151104, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-198-US, server: 103.136.185.28, port: 447, type: trojan, password: 3abd28f2-501a-36ff-ba27-03c65b151104, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 07-199-US, server: us-01.foxspirit018.top, port: 1090, type: vmess, uuid: 7927c437-ecc0-4ab4-906e-d3fa1e96ce55, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dddaa, headers: {Host: us-01.foxspirit018.top}}, udp: true}
   - {name: 07-200-US, server: us-01.foxspirit018.top, port: 1090, type: vmess, uuid: 3700cd71-fde6-436d-8687-51aa123bc681, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dddaa, headers: {Host: us-01.foxspirit018.top}}, udp: true}
@@ -198,7 +197,6 @@ proxy-groups:
       - 测速9分组
       - 测速10分组
       - 02-000-JP
-      - 02-001-US
       - 02-002-KR
       - 02-003-SG
       - 02-004-JP
@@ -206,6 +204,7 @@ proxy-groups:
       - 02-006-KR
       - 02-007-SG
       - 02-008-JP
+      - 02-009-US
       - 02-010-KR
       - 02-011-SG
       - 04-013-RELAY
@@ -293,7 +292,6 @@ proxy-groups:
       - 04-194-HK
       - 04-195-HK
       - 04-196-JP
-      - 04-197-JP
       - 04-198-US
       - 07-199-US
       - 07-200-US
@@ -380,7 +378,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 02-001-US
       - 02-011-SG
       - 04-121-CN
       - 04-131-CN
@@ -502,7 +499,6 @@ proxy-groups:
       - 04-167-CN
       - 04-177-CN
       - 04-187-CN
-      - 04-197-JP
       - 07-207-CN
       - 07-217-CN
       - 12-227-NOWHERE
@@ -531,6 +527,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-009-US
       - 04-119-CN
       - 04-129-US
       - 04-139-CN
