@@ -186,8 +186,8 @@ proxies:
   - {name: 07-231-CN, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v30.heduian.link}}, udp: true}
   - {name: 07-232-RELAY, server: s2.db-link02.top, port: 2082, type: vmess, uuid: 1c713b69-0abe-3a1e-bf70-b0579ea2f772, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.25.37, headers: {Host: s2.db-link02.top}}, udp: true}
   - {name: 09-234-RELAY, server: 162.159.45.236, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: 09-235-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 09-236-FR, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c, udp: true}
-  - {name: 09-237-US, server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
   - {name: 09-238-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-239-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: b3928f8d-ea81-4d75-bcec-4016a072adff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 11-240-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 97890b78-31a6-4163-8259-7d998a394bcb, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -228,7 +228,6 @@ proxies:
   - {name: 14-295-RELAY, server: 172.67.135.37, port: 443, type: trojan, password: 44ed7a37-af89-4cd1-8680-83a7207810d9, sni: cCtv4.459.pp.uA, skip-cert-verify: true, udp: true}
   - {name: 14-296-RELAY, server: www.xinjuc.com, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: www.xinjuc.com}}, udp: true}
   - {name: 18-299-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
-  - {name: 18-300-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-301-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: orvps2.horsenma.net}}, udp: true}
   - {name: 18-302-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: irvideo.cfd}}, udp: true}
   - {name: 18-303-FR, server: az05.beyondy.cfd, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: az05.beyondy.cfd}}, udp: true}
@@ -241,7 +240,6 @@ proxies:
   - {name: 18-310-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-311-US, server: 152.67.251.232, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-312-RELAY, server: 104.21.64.1, port: 2096, type: vmess, uuid: 8f78e709-2c5f-4c19-9f44-b5b5f80ab74c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "18-313-KRtrojan//3482c71a-d01c-4ae5-b454-fa8cb3785f66@94.131.20.3443?allowInsecure=1&sni=chop-wrist-bud.stark-industries.solutions#40-374-US", server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
   - {name: 18-314-RELAY, server: 9x.938.pp.ua, port: 443, type: vmess, uuid: 906ba92f-ef96-4133-8eee-f33202a5a721, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 9x.938.pp.ua}}, udp: true}
   - {name: 18-315-RELAY, server: 104.21.112.1, port: 2053, type: vmess, uuid: 8f78e709-2c5f-4c19-9f44-b5b5f80ab74c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-316-KR, server: lv4.789900.xyz, port: 2087, type: vmess, uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lv4.789900.xyz}}, udp: true}
@@ -302,6 +300,7 @@ proxies:
   - {name: 18-371-HK, server: 7b643962-sv0xs0-taj9mo-1tco3.hk.p5pv.com, port: 80, type: vmess, uuid: e29de954-ea01-11ef-a271-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 7b643962-sv0xs0-taj9mo-1tco3.hk.p5pv.com}}, udp: true}
   - {name: 18-372-HK, server: 2eed1a9a-sv0xs0-sv7gs8-1lkbs.hk.p5pv.com, port: 80, type: vmess, uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2eed1a9a-sv0xs0-sv7gs8-1lkbs.hk.p5pv.com}}, udp: true}
   - {name: 18-373-HK, server: cda8e3c5-sv0xs0-sv1dbp-xu56.hk.p5pv.com, port: 80, type: vmess, uuid: 1594b560-fb72-11ec-8d6a-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cda8e3c5-sv0xs0-sv1dbp-xu56.hk.p5pv.com}}, udp: true}
+  - {name: 40-374-US, server: 94.131.20.3, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 40-375-IR, server: 178.22.121.98, port: 1091, type: vmess, uuid: 6ef3b433-eea7-4e5d-95a5-c5f742ce2fb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 40-376-US, server: 142.4.119.72, port: 57118, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 40-377-RELAY, server: 172.67.133.248, port: 443, type: trojan, password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae, sni: DDd.890604.FIlEGear-sG.Me, skip-cert-verify: true, udp: true}
@@ -469,8 +468,8 @@ proxy-groups:
       - 07-231-CN
       - 07-232-RELAY
       - 09-234-RELAY
+      - 09-235-US
       - 09-236-FR
-      - 09-237-US
       - 09-238-CA
       - 09-239-RELAY
       - 11-240-NOWHERE
@@ -511,7 +510,6 @@ proxy-groups:
       - 14-295-RELAY
       - 14-296-RELAY
       - 18-299-RELAY
-      - 18-300-CA
       - 18-301-RELAY
       - 18-302-FR
       - 18-303-FR
@@ -524,7 +522,6 @@ proxy-groups:
       - 18-310-DE
       - 18-311-US
       - 18-312-RELAY
-      - 18-313-KRtrojan//3482c71a-d01c-4ae5-b454-fa8cb3785f66@94.131.20.3443?allowInsecure=1&sni=chop-wrist-bud.stark-industries.solutions#40-374-US
       - 18-314-RELAY
       - 18-315-RELAY
       - 18-316-KR
@@ -585,6 +582,7 @@ proxy-groups:
       - 18-371-HK
       - 18-372-HK
       - 18-373-HK
+      - 40-374-US
       - 40-375-IR
       - 40-376-US
       - 40-377-RELAY
@@ -741,7 +739,6 @@ proxy-groups:
       - 13-263-TW
       - 14-293-US
       - 18-303-FR
-      - 18-313-KRtrojan//3482c71a-d01c-4ae5-b454-fa8cb3785f66@94.131.20.3443?allowInsecure=1&sni=chop-wrist-bud.stark-industries.solutions#40-374-US
       - 18-323-HK
       - 18-333-HK
       - 18-343-HK
@@ -774,13 +771,13 @@ proxy-groups:
       - 13-254-CN
       - 13-264-CN
       - 18-304-FR
-      - 18-313-KRtrojan//3482c71a-d01c-4ae5-b454-fa8cb3785f66@94.131.20.3443?allowInsecure=1&sni=chop-wrist-bud.stark-industries.solutions#40-374-US
       - 18-314-RELAY
       - 18-324-RELAY
       - 18-334-HK
       - 18-344-HK
       - 18-354-RELAY
       - 18-364-HK
+      - 40-374-US
       - 40-384-US
   - name: 测速5分组
     type: url-test
@@ -801,6 +798,7 @@ proxy-groups:
       - 06-205-NOWHERE
       - 07-215-CN
       - 07-225-RELAY
+      - 09-235-US
       - 13-245-NOWHERE
       - 13-255-CN
       - 13-265-CN
@@ -866,7 +864,6 @@ proxy-groups:
       - 07-207-US
       - 07-217-CN
       - 07-227-RELAY
-      - 09-237-US
       - 13-247-CN
       - 13-257-RELAY
       - 13-267-CN
@@ -967,7 +964,6 @@ proxy-groups:
       - 13-250-CN
       - 13-260-CN
       - 13-270-CN
-      - 18-300-CA
       - 18-310-DE
       - 18-320-RELAY
       - 18-330-HK
