@@ -164,6 +164,7 @@ proxies:
   - {name: 07-209-US, server: us-01.foxspirit018.top, port: 1090, type: vmess, uuid: 4fca6604-96d7-4c1b-9c0a-81c7f242a3cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dddaa, headers: {Host: us-01.foxspirit018.top}}, udp: true}
   - {name: 07-210-US, server: us-01.foxspirit018.top, port: 1090, type: vmess, uuid: 12eaefae-b983-4b51-a8ae-575da1a68f74, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dddaa, headers: {Host: us-01.foxspirit018.top}}, udp: true}
   - {name: 07-211-US, server: us-01.foxspirit018.top, port: 1090, type: vmess, uuid: 438461d9-40f2-4e16-a956-d45c318bfa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dddaa, headers: {Host: us-01.foxspirit018.top}}, udp: true}
+  - {name: 07-212-US, server: us-01.foxspirit018.top, port: 1090, type: vmess, uuid: 9d071189-e380-44ab-8a38-0b088aba2dde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dddaa, headers: {Host: us-01.foxspirit018.top}}, udp: true}
   - {name: 07-213-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
   - {name: 07-214-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 07-215-CN, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
@@ -237,7 +238,6 @@ proxies:
   - {name: 14-284-MD, server: 45.67.229.222, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: morse-stank-most.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 14-285-CN, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
   - {name: 18-286-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
-  - {name: 18-287-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-288-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: orvps2.horsenma.net}}, udp: true}
   - {name: 18-289-NO, server: 95.164.38.151, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: copy-wifi-twins.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-290-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: irvideo.cfd}}, udp: true}
@@ -458,6 +458,7 @@ proxy-groups:
       - 07-209-US
       - 07-210-US
       - 07-211-US
+      - 07-212-US
       - 07-213-CN
       - 07-214-CN
       - 07-215-CN
@@ -531,7 +532,6 @@ proxy-groups:
       - 14-284-MD
       - 14-285-CN
       - 18-286-RELAY
-      - 18-287-CA
       - 18-288-RELAY
       - 18-289-NO
       - 18-290-FR
@@ -722,6 +722,7 @@ proxy-groups:
       - 04-182-CN
       - 04-192-CN
       - 04-202-JP
+      - 07-212-US
       - 07-222-CN
       - 07-232-RELAY
       - 08-242-HK
@@ -899,7 +900,6 @@ proxy-groups:
       - 13-257-RELAY
       - 13-267-CN
       - 13-277-CN
-      - 18-287-CA
       - 18-297-RELAY
       - 18-307-HK
       - 18-317-HK
