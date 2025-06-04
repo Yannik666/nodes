@@ -315,12 +315,11 @@ proxies:
   - {name: 09-362-RELAY, server: 172.67.214.33, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-363-RELAY, server: 104.21.23.231, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-364-RELAY, server: cs.flha.ru, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.flha.ru}}, udp: true}
+  - {name: 09-365-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-366-RELAY, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 09-367-RELAY, server: 185.146.173.25, port: 80, type: vmess, uuid: 46181c32-8c82-413a-b836-8375e5e513eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560"}, udp: true}
   - {name: 09-368-FR, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c, udp: true}
   - {name: 09-369-RELAY, server: tci3.tiamoci.us.kg, port: 80, type: vmess, uuid: 412466bf-7312-45dc-b089-f42d65a4c087, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tci3.tiamoci.us.kg}}, udp: true}
-  - {name: 09-370-US, server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
-  - {name: 09-371-US, server: 35.91.246.41, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
   - {name: 09-372-RELAY, server: 104.19.150.10, port: 80, type: vmess, uuid: 46181c32-8c82-413a-b836-8375e5e513eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560"}, udp: true}
   - {name: 11-373-CN, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: ae313fe3-49a8-4150-a984-01e906bb6475, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
   - {name: 11-374-NOWHERE, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: ae313fe3-49a8-4150-a984-01e906bb6475, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
@@ -464,11 +463,13 @@ proxies:
   - {name: 18-543-NO, server: 95.164.38.151, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: copy-wifi-twins.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-544-PT, server: 45.159.251.33, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: eats-rigor-judge.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-545-US, server: cache-giver-wife.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: cache-giver-wife.stark-industries.solutions, skip-cert-verify: true, udp: true}
+  - {name: 18-546-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-547-CA, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-548-MD, server: 45.67.229.222, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: morse-stank-most.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-549-US, server: bring-glove-shine.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bring-glove-shine.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-550-US, server: guy-trace-lyric.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, skip-cert-verify: true, udp: true}
   - {name: 18-551-US, server: strut-brisk-scope.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: strut-brisk-scope.stark-industries.solutions, skip-cert-verify: true, udp: true}
+  - {name: 18-552-KRss//YWVzLTI1Ni1jZmI6YXdzcHMwNTAx@35.91.246.41443#09-371-US, server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
   - {name: 18-553-RELAY, server: 172.67.200.13, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-554-FR, server: beyonddsz.cfd, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: beyonddsz.cfd}}, udp: true}
   - {name: 18-555-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: irvideo.cfd}}, udp: true}
@@ -847,12 +848,11 @@ proxy-groups:
       - 09-362-RELAY
       - 09-363-RELAY
       - 09-364-RELAY
+      - 09-365-CA
       - 09-366-RELAY
       - 09-367-RELAY
       - 09-368-FR
       - 09-369-RELAY
-      - 09-370-US
-      - 09-371-US
       - 09-372-RELAY
       - 11-373-CN
       - 11-374-NOWHERE
@@ -996,11 +996,13 @@ proxy-groups:
       - 18-543-NO
       - 18-544-PT
       - 18-545-US
+      - 18-546-CA
       - 18-547-CA
       - 18-548-MD
       - 18-549-US
       - 18-550-US
       - 18-551-US
+      - 18-552-KRss//YWVzLTI1Ni1jZmI6YXdzcHMwNTAx@35.91.246.41443#09-371-US
       - 18-553-RELAY
       - 18-554-FR
       - 18-555-FR
@@ -1181,7 +1183,6 @@ proxy-groups:
       - 08-341-CN
       - 08-351-RELAY
       - 09-361-US
-      - 09-371-US
       - 11-381-CN
       - 11-391-NOWHERE
       - 12-401-NOWHERE
@@ -1197,6 +1198,7 @@ proxy-groups:
       - 13-501-CN
       - 18-541-US
       - 18-551-US
+      - 18-552-KRss//YWVzLTI1Ni1jZmI6YXdzcHMwNTAx@35.91.246.41443#09-371-US
       - 18-561-HK
       - 18-571-HK
       - 18-581-HK
@@ -1255,6 +1257,7 @@ proxy-groups:
       - 13-492-CN
       - 13-502-CN
       - 18-542-RELAY
+      - 18-552-KRss//YWVzLTI1Ni1jZmI6YXdzcHMwNTAx@35.91.246.41443#09-371-US
       - 18-562-HK
       - 18-572-HK
       - 18-582-HK
@@ -1413,6 +1416,7 @@ proxy-groups:
       - 08-335-NOWHERE
       - 08-345-RELAY
       - 08-355-NOWHERE
+      - 09-365-CA
       - 11-375-CN
       - 11-385-CN
       - 11-395-NOWHERE
@@ -1483,6 +1487,7 @@ proxy-groups:
       - 13-476-CN
       - 13-486-CN
       - 13-496-CN
+      - 18-546-CA
       - 18-556-RELAY
       - 18-566-HK
       - 18-576-HK
@@ -1697,7 +1702,6 @@ proxy-groups:
       - 08-340-CN
       - 08-350-NOWHERE
       - 09-360-RELAY
-      - 09-370-US
       - 11-380-NOWHERE
       - 11-390-NOWHERE
       - 11-400-CN
