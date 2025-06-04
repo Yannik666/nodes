@@ -325,7 +325,7 @@ proxies:
   - {name: 09-372-RELAY, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 09-373-RELAY, server: 185.146.173.25, port: 80, type: vmess, uuid: 46181c32-8c82-413a-b836-8375e5e513eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560"}, udp: true}
   - {name: 09-374-FR, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c, udp: true}
-  - {name: 09-375-US, server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
+  - {name: 09-376-US, server: 35.91.246.41, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
   - {name: 09-377-RELAY, server: 104.19.150.10, port: 80, type: vmess, uuid: 46181c32-8c82-413a-b836-8375e5e513eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560"}, udp: true}
   - {name: 11-378-CN, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: ae313fe3-49a8-4150-a984-01e906bb6475, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
   - {name: 11-379-NOWHERE, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: ae313fe3-49a8-4150-a984-01e906bb6475, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
@@ -863,7 +863,7 @@ proxy-groups:
       - 09-372-RELAY
       - 09-373-RELAY
       - 09-374-FR
-      - 09-375-US
+      - 09-376-US
       - 09-377-RELAY
       - 11-378-CN
       - 11-379-NOWHERE
@@ -1425,7 +1425,6 @@ proxy-groups:
       - 08-345-NOWHERE
       - 08-355-RU
       - 09-365-CA
-      - 09-375-US
       - 11-385-NOWHERE
       - 11-395-NOWHERE
       - 11-405-CN
@@ -1483,6 +1482,7 @@ proxy-groups:
       - 08-346-CN
       - 08-356-NOWHERE
       - 09-366-RELAY
+      - 09-376-US
       - 11-386-CN
       - 11-396-NOWHERE
       - 12-406-NOWHERE
