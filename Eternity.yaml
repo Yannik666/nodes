@@ -82,6 +82,7 @@ proxies:
   - {name: 04-127-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: cfe3c481-7dd0-3e52-b317-5c8f281870e1, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-128-JP, server: 47.245.40.60, port: 28468, type: trojan, password: cfe3c481-7dd0-3e52-b317-5c8f281870e1, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-129-JP, server: 47.245.31.103, port: 28462, type: trojan, password: cfe3c481-7dd0-3e52-b317-5c8f281870e1, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: 04-130-US, server: 103.136.185.28, port: 447, type: trojan, password: cfe3c481-7dd0-3e52-b317-5c8f281870e1, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 05-146-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 914584ee-3515-46ac-a09d-4677a2e9dc9a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 06-149-NOWHERE, server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: 739d8ec8-d5d1-4277-9d8a-8129b27d957b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
   - {name: 06-150-CN, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 739d8ec8-d5d1-4277-9d8a-8129b27d957b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
@@ -168,9 +169,7 @@ proxies:
   - {name: 07-235-CN, server: 9e71a573-sxnds0-t6kzbp-1h5u7.cu.plebai.net, port: 15229, type: trojan, password: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b, sni: 9e71a573-sxnds0-t6kzbp-1h5u7.cu.plebai.net, skip-cert-verify: true, udp: true}
   - {name: 07-236-CN, server: 99dfcb82-sxhts0-t5qufl-8n27.cu.plebai.net, port: 15229, type: trojan, password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc, sni: 99dfcb82-sxhts0-t5qufl-8n27.cu.plebai.net, skip-cert-verify: true, udp: true}
   - {name: 07-237-CN, server: 495301f6-sxfz40-ta5nd4-e06r.cu.plebai.net, port: 15229, type: trojan, password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902, sni: 495301f6-sxfz40-ta5nd4-e06r.cu.plebai.net, skip-cert-verify: true, udp: true}
-  - {name: 07-238-GB, server: admin.c3.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 07-239-NOWHERE, server: freakconfig139.usecharge.ir, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
-  - {name: 07-241-GB, server: 85.210.120.237, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
   - {name: 07-243-CN, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v36.heduian.link}}, udp: true}
   - {name: 07-244-CN, server: 120.233.44.201, port: 21179, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k30.tudou211.com, skip-cert-verify: true, udp: true}
   - {name: 07-245-RELAY, server: tci2.tiamoci.us.kg, port: 8080, type: vmess, uuid: 596d6dad-d31d-4248-9d5e-af56ad341f4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tci2.tiamoci.us.kg}}, udp: true}
@@ -459,42 +458,45 @@ proxies:
   - {name: 18-571-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
   - {name: 18-580-GB, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-582-LT, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 18-586-LT, server: beesyar.org, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 18-589-LT, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 18-590-GB, server: admin.c4.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 69MUii7VDwMqh7Hz, udp: true}
+  - {name: 18-593-FR, server: 57.128.190.171, port: 11259, type: ss, cipher: chacha20-ietf-poly1305, password: f9d73c84e32a10f3, udp: true}
+  - {name: 18-594-GB, server: api.namasha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
   - {name: 18-596-GB, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
   - {name: 18-597-GB, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 18-598-US, server: 212.102.47.129, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 18-600-US, server: 45.55.2.232, port: 14293, type: ss, cipher: aes-256-cfb, password: 2170f8, udp: true}
+  - {name: 18-601-GB, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 18-603-GB, server: series-a2.varzesh360.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
+  - {name: 18-605-GB, server: admin.c2.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: WstuSnlu4ieA9M0L, udp: true}
   - {name: 18-606-GB, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-607-GB, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-608-GB, server: freakconfig13.felafel.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1xO2cqPazqjGfCfd, udp: true}
-  - {name: 18-609-CH, server: 84.17.53.160, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 18-610-GB, server: 212.102.53.196, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-612-SE, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-613-US, server: guy-trace-lyric.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, skip-cert-verify: true, udp: true}
   - {name: 18-614-LT, server: 45.87.175.166, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 18-616-LT, server: 45.87.175.164, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 18-617-FI, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-618-CH, server: 156.146.62.164, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 18-619-FR, server: 45.158.171.151, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 1RWwXhwfAB5gAEozU4G2Pg, udp: true}
   - {name: 18-620-CH, server: 156.146.62.162, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 18-622-GB, server: 212.102.53.195, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-623-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-624-CH, server: 156.146.62.161, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 18-625-CA, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-626-AT, server: 5.181.21.194, port: 18660, type: ss, cipher: chacha20-ietf-poly1305, password: pV5BAzqLZosOfuIrkyoadT, udp: true}
+  - {name: 18-627-GB, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-628-US, server: 172.233.128.126, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
   - {name: 18-630-SK, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 18-631-NL, server: 149.34.244.68, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-632-RO, server: 194.14.217.38, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-633-RU, server: 45.151.62.54, port: 28825, type: ss, cipher: chacha20-ietf-poly1305, password: 0zyDRZ1XmNXaaCAN7KEA8a, udp: true}
-  - {name: 18-634-GB, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 18-635-CZ, server: 195.181.160.6, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-636-PY, server: 38.165.233.18, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-637-RELAY, server: 172.67.200.13, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-638-CA, server: both-cramp-banjo.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: both-cramp-banjo.stark-industries.solutions, skip-cert-verify: true, udp: true}
-  - {name: 18-639-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-640-PT, server: 185.231.233.173, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-642-CH, server: 156.146.62.163, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: "18-643-JPtrojan//3482c71a-d01c-4ae5-b454-fa8cb3785f66@146.19.106.154443?allowInsecure=1&sni=both-cramp-banjo.stark-industries.solutions#18-644-CA", server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: "18-643-JPtrojan//3482c71a-d01c-4ae5-b454-fa8cb3785f66@94.131.20.3443?allowInsecure=1&sni=chop-wrist-bud.stark-industries.solutions#18-666-US", server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 18-644-CA, server: 146.19.106.154, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: both-cramp-banjo.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-645-US, server: chop-wrist-bud.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
-  - {name: 18-646-GB, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 18-647-JP, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-649-US, server: 194.116.173.21, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
   - {name: 18-650-KR, server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
@@ -513,7 +515,6 @@ proxies:
   - {name: 18-663-RU, server: 5.189.201.250, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: RiPuKJJl18ZgvLpTjWxBwSfKiPkt9gzFKyxGCY8eHtOcDb2X, udp: true}
   - {name: 18-664-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-665-RELAY, server: www.hdmoli.com, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.hdmoli.com}}, udp: true}
-  - {name: 18-666-US, server: 94.131.20.3, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-667-HK, server: c53bf275-sv2sg0-svv72o-1e0ty.hk.p5pv.com, port: 80, type: vmess, uuid: ccd9704a-f980-11eb-a0fc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c53bf275-sv2sg0-svv72o-1e0ty.hk.p5pv.com}}, udp: true}
   - {name: 18-668-ES, server: 45.154.206.192, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-669-DE, server: 80.92.204.106, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
@@ -559,7 +560,6 @@ proxies:
   - {name: 18-710-US, server: 104.167.197.25, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 18-711-VN, server: 103.186.155.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 18-712-RELAY, server: cs.flha.ru, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.flha.ru}}, udp: true}
-  - {name: 18-713-NL, server: 103.106.1.92, port: 23492, type: ss, cipher: chacha20-ietf-poly1305, password: yMX9WGPgUEcRZmlaa0YHHC, udp: true}
   - {name: 18-714-KR, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-715-CA, server: ca225.vpnbook.com, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq, udp: true}
   - {name: 18-716-VN, server: 103.186.155.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -696,6 +696,7 @@ proxy-groups:
       - 04-127-HK
       - 04-128-JP
       - 04-129-JP
+      - 04-130-US
       - 05-146-RELAY
       - 06-149-NOWHERE
       - 06-150-CN
@@ -782,9 +783,7 @@ proxy-groups:
       - 07-235-CN
       - 07-236-CN
       - 07-237-CN
-      - 07-238-GB
       - 07-239-NOWHERE
-      - 07-241-GB
       - 07-243-CN
       - 07-244-CN
       - 07-245-RELAY
@@ -1073,42 +1072,45 @@ proxy-groups:
       - 18-571-RELAY
       - 18-580-GB
       - 18-582-LT
-      - 18-586-LT
       - 18-589-LT
+      - 18-590-GB
+      - 18-593-FR
+      - 18-594-GB
       - 18-596-GB
       - 18-597-GB
-      - 18-598-US
-      - 18-600-US
+      - 18-601-GB
+      - 18-603-GB
+      - 18-605-GB
       - 18-606-GB
       - 18-607-GB
       - 18-608-GB
-      - 18-609-CH
+      - 18-610-GB
       - 18-612-SE
       - 18-613-US
       - 18-614-LT
       - 18-616-LT
       - 18-617-FI
       - 18-618-CH
-      - 18-619-FR
       - 18-620-CH
+      - 18-622-GB
       - 18-623-CA
       - 18-624-CH
-      - 18-625-CA
       - 18-626-AT
+      - 18-627-GB
       - 18-628-US
       - 18-630-SK
+      - 18-631-NL
       - 18-632-RO
       - 18-633-RU
-      - 18-634-GB
+      - 18-635-CZ
       - 18-636-PY
       - 18-637-RELAY
       - 18-638-CA
-      - 18-639-CA
       - 18-640-PT
       - 18-642-CH
-      - 18-643-JPtrojan//3482c71a-d01c-4ae5-b454-fa8cb3785f66@146.19.106.154443?allowInsecure=1&sni=both-cramp-banjo.stark-industries.solutions#18-644-CA
+      - 18-643-JPtrojan//3482c71a-d01c-4ae5-b454-fa8cb3785f66@94.131.20.3443?allowInsecure=1&sni=chop-wrist-bud.stark-industries.solutions#18-666-US
+      - 18-644-CA
       - 18-645-US
-      - 18-646-GB
       - 18-647-JP
       - 18-649-US
       - 18-650-KR
@@ -1127,7 +1129,6 @@ proxy-groups:
       - 18-663-RU
       - 18-664-DE
       - 18-665-RELAY
-      - 18-666-US
       - 18-667-HK
       - 18-668-ES
       - 18-669-DE
@@ -1173,7 +1174,6 @@ proxy-groups:
       - 18-710-US
       - 18-711-VN
       - 18-712-RELAY
-      - 18-713-NL
       - 18-714-KR
       - 18-715-CA
       - 18-716-VN
@@ -1329,7 +1329,6 @@ proxy-groups:
       - 07-211-CN
       - 07-221-RELAY
       - 07-231-RELAY
-      - 07-241-GB
       - 08-251-CN
       - 08-261-NOWHERE
       - 08-271-NOWHERE
@@ -1360,6 +1359,8 @@ proxy-groups:
       - 17-551-CN
       - 17-561-CN
       - 18-571-RELAY
+      - 18-601-GB
+      - 18-631-NL
       - 18-651-US
       - 18-661-CA
       - 18-671-HK
@@ -1427,6 +1428,7 @@ proxy-groups:
       - 17-562-NOWHERE
       - 18-582-LT
       - 18-612-SE
+      - 18-622-GB
       - 18-632-RO
       - 18-642-CH
       - 18-652-NL
@@ -1494,17 +1496,18 @@ proxy-groups:
       - 17-543-CN
       - 17-553-CN
       - 17-563-CN
+      - 18-593-FR
+      - 18-603-GB
       - 18-613-US
       - 18-623-CA
       - 18-633-RU
-      - 18-643-JPtrojan//3482c71a-d01c-4ae5-b454-fa8cb3785f66@146.19.106.154443?allowInsecure=1&sni=both-cramp-banjo.stark-industries.solutions#18-644-CA
+      - 18-643-JPtrojan//3482c71a-d01c-4ae5-b454-fa8cb3785f66@94.131.20.3443?allowInsecure=1&sni=chop-wrist-bud.stark-industries.solutions#18-666-US
       - 18-653-KR
       - 18-663-RU
       - 18-673-DE
       - 18-683-HK
       - 18-693-VN
       - 18-703-DE
-      - 18-713-NL
       - 18-723-US
       - 18-733-US
       - 18-743-US
@@ -1558,10 +1561,11 @@ proxy-groups:
       - 17-544-NOWHERE
       - 17-554-NOWHERE
       - 17-564-NOWHERE
+      - 18-594-GB
       - 18-614-LT
       - 18-624-CH
-      - 18-634-GB
-      - 18-643-JPtrojan//3482c71a-d01c-4ae5-b454-fa8cb3785f66@146.19.106.154443?allowInsecure=1&sni=both-cramp-banjo.stark-industries.solutions#18-644-CA
+      - 18-643-JPtrojan//3482c71a-d01c-4ae5-b454-fa8cb3785f66@94.131.20.3443?allowInsecure=1&sni=chop-wrist-bud.stark-industries.solutions#18-666-US
+      - 18-644-CA
       - 18-654-KR
       - 18-664-DE
       - 18-674-VN
@@ -1623,7 +1627,8 @@ proxy-groups:
       - 17-545-CN
       - 17-555-CN
       - 17-565-CN
-      - 18-625-CA
+      - 18-605-GB
+      - 18-635-CZ
       - 18-645-US
       - 18-655-PL
       - 18-665-RELAY
@@ -1686,15 +1691,13 @@ proxy-groups:
       - 17-546-NOWHERE
       - 17-556-NOWHERE
       - 17-566-HK
-      - 18-586-LT
       - 18-596-GB
       - 18-606-GB
       - 18-616-LT
       - 18-626-AT
       - 18-636-PY
-      - 18-646-GB
+      - 18-643-JPtrojan//3482c71a-d01c-4ae5-b454-fa8cb3785f66@94.131.20.3443?allowInsecure=1&sni=chop-wrist-bud.stark-industries.solutions#18-666-US
       - 18-656-HK
-      - 18-666-US
       - 18-676-DE
       - 18-686-VN
       - 18-706-DE
@@ -1755,6 +1758,7 @@ proxy-groups:
       - 18-597-GB
       - 18-607-GB
       - 18-617-FI
+      - 18-627-GB
       - 18-637-RELAY
       - 18-647-JP
       - 18-657-RELAY
@@ -1788,7 +1792,6 @@ proxy-groups:
       - 07-208-CN
       - 07-218-CN
       - 07-228-CN
-      - 07-238-GB
       - 07-248-CN
       - 08-268-NOWHERE
       - 08-278-CN
@@ -1817,7 +1820,6 @@ proxy-groups:
       - 16-538-CN
       - 17-548-NOWHERE
       - 17-558-NOWHERE
-      - 18-598-US
       - 18-608-GB
       - 18-618-CH
       - 18-628-US
@@ -1886,9 +1888,6 @@ proxy-groups:
       - 17-559-CN
       - 18-569-US
       - 18-589-LT
-      - 18-609-CH
-      - 18-619-FR
-      - 18-639-CA
       - 18-649-US
       - 18-659-PL
       - 18-669-DE
@@ -1913,6 +1912,7 @@ proxy-groups:
       - 02-000-JP
       - 04-010-RELAY
       - 04-020-CN
+      - 04-130-US
       - 06-150-CN
       - 06-160-NOWHERE
       - 06-170-CN
@@ -1951,7 +1951,8 @@ proxy-groups:
       - 17-560-NOWHERE
       - 18-570-RELAY
       - 18-580-GB
-      - 18-600-US
+      - 18-590-GB
+      - 18-610-GB
       - 18-620-CH
       - 18-630-SK
       - 18-640-PT
