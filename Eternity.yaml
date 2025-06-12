@@ -65,6 +65,7 @@ proxies:
   - {name: 04-111-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: d6fc2a51-09b9-3243-882b-f2533e4996b6, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-112-JP, server: 47.245.40.60, port: 28469, type: trojan, password: d6fc2a51-09b9-3243-882b-f2533e4996b6, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-113-JP, server: 47.245.31.103, port: 28463, type: trojan, password: d6fc2a51-09b9-3243-882b-f2533e4996b6, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-114-US, server: 103.136.185.28, port: 447, type: trojan, password: d6fc2a51-09b9-3243-882b-f2533e4996b6, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-115-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 925f0d77-53d1-3de0-9e1f-57888f64f77b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-116-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 925f0d77-53d1-3de0-9e1f-57888f64f77b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 925f0d77-53d1-3de0-9e1f-57888f64f77b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -137,7 +138,6 @@ proxies:
   - {name: 07-201-US, server: usa.test3.net, port: 443, type: trojan, password: 8e2a3980-4684-11f0-b76c-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-202-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 07-203-RELAY, server: CCVfbgt667yuI.999864.XyZ, port: 443, type: vmess, uuid: ecb31946-b81d-4e37-bfd9-2eb7fa5c4e52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /BbckrKsbv22PK1qu2TvM, headers: {Host: CCVfbgt667yuI.999864.XyZ}}, udp: true}
-  - {name: 07-204-US, server: 35.91.94.11, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
   - {name: 07-205-CN, server: cnamepc03-ndtabspegg7plp3p.coffeehouse.wiki, port: 40070, type: ss, cipher: chacha20-ietf-poly1305, password: 17cfc172-b858-471d-976c-11525783a87f, udp: true}
   - {name: 07-206-CN, server: 112.65.92.20, port: 45251, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-207-CN, server: lbsh.bnnodeservice.com, port: 34001, type: trojan, password: af4476cc-7ad0-4aec-999a-97f70bc9de99, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
@@ -279,6 +279,7 @@ proxy-groups:
       - 04-111-HK
       - 04-112-JP
       - 04-113-JP
+      - 04-114-US
       - 04-115-CN
       - 04-116-CN
       - 04-117-CN
@@ -351,7 +352,6 @@ proxy-groups:
       - 07-201-US
       - 07-202-CN
       - 07-203-RELAY
-      - 07-204-US
       - 07-205-CN
       - 07-206-CN
       - 07-207-CN
@@ -595,6 +595,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-004-RELAY
+      - 04-114-US
       - 04-124-CN
       - 05-144-CN
       - 07-154-CN
@@ -602,7 +603,6 @@ proxy-groups:
       - 07-174-CN
       - 07-184-CN
       - 07-194-CN
-      - 07-204-US
       - 07-214-CN
       - 07-224-CN
       - 08-234-CN
