@@ -66,6 +66,7 @@ proxies:
   - {name: 04-112-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: dda8dad2-9ff8-32b7-9b8f-0761dad937ec, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-113-JP, server: 47.245.40.60, port: 28469, type: trojan, password: dda8dad2-9ff8-32b7-9b8f-0761dad937ec, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-114-JP, server: 47.245.31.103, port: 28463, type: trojan, password: dda8dad2-9ff8-32b7-9b8f-0761dad937ec, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: 04-115-US, server: 103.136.185.28, port: 447, type: trojan, password: dda8dad2-9ff8-32b7-9b8f-0761dad937ec, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-116-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 2e83adb4-8d88-3938-9c52-61401a6c9645, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 2e83adb4-8d88-3938-9c52-61401a6c9645, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-118-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 2e83adb4-8d88-3938-9c52-61401a6c9645, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -176,8 +177,8 @@ proxies:
   - {name: 09-238-CN, server: 120.232.153.40, port: 43292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-239-CN, server: 8cbcd01f-sxsxs0-sy94f1-1nc6m.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b, sni: 8cbcd01f-sxsxs0-sy94f1-1nc6m.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
   - {name: 09-240-CN, server: 6a4d70fb-sxsxs0-sy7yrp-1j3kc.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 3a45a384-4ea7-11ed-a8bf-f23c91cfbbc9, sni: 6a4d70fb-sxsxs0-sy7yrp-1j3kc.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 09-246-KR, server: 210.217.18.70, port: 11171, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 09-247-LT, server: 185.237.185.77, port: 20036, type: ss, cipher: aes-256-gcm, password: 9XHO7KBQEW75JW8H, udp: true}
-  - {name: 09-248-HK, server: 154.223.21.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 10-255-RELAY, server: hk2.lrzdx.uk, port: 443, type: vmess, uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /register, headers: {Host: hk2.lrzdx.uk}}, udp: true}
   - {name: 10-256-RELAY, server: 104.21.112.1, port: 2087, type: vmess, uuid: 1c36906e-1a21-4330-b04f-85baf1a6ff26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 10-257-GB, server: 51.38.65.155, port: 443, type: trojan, password: dd6dcb10-4683-11f0-ae79-1239d0255272, sni: uk1.test3.net, skip-cert-verify: true, udp: true}
@@ -190,7 +191,6 @@ proxies:
   - {name: 10-264-CN, server: 120.198.71.214, port: 41175, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 14-265-DK, server: 95.164.85.39, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: wispy-crib-net.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 14-266-CN, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
-  - {name: 14-268-US, server: vc.fly.dev, port: 443, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vc, headers: {Host: vc.fly.dev}}, udp: true}
   - {name: 14-270-VN, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 14-275-RELAY, server: www.hdmoli.com, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: www.hdmoli.com}}, udp: true}
   - {name: 14-276-CN, server: v4.heduian.link, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v4.heduian.link}}, udp: true}
@@ -241,6 +241,7 @@ proxy-groups:
       - 04-112-HK
       - 04-113-JP
       - 04-114-JP
+      - 04-115-US
       - 04-116-CN
       - 04-117-CN
       - 04-118-CN
@@ -351,8 +352,8 @@ proxy-groups:
       - 09-238-CN
       - 09-239-CN
       - 09-240-CN
+      - 09-246-KR
       - 09-247-LT
-      - 09-248-HK
       - 10-255-RELAY
       - 10-256-RELAY
       - 10-257-GB
@@ -365,7 +366,6 @@ proxy-groups:
       - 10-264-CN
       - 14-265-DK
       - 14-266-CN
-      - 14-268-US
       - 14-270-VN
       - 14-275-RELAY
       - 14-276-CN
@@ -527,6 +527,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-005-RELAY
+      - 04-115-US
       - 04-125-CN
       - 07-135-CN
       - 07-145-KZ
@@ -558,6 +559,7 @@ proxy-groups:
       - 08-196-CN
       - 08-206-RU
       - 08-226-RELAY
+      - 09-246-KR
       - 10-256-RELAY
       - 14-266-CN
       - 14-276-CN
@@ -604,9 +606,7 @@ proxy-groups:
       - 08-218-CN
       - 08-228-NOWHERE
       - 09-238-CN
-      - 09-248-HK
       - 10-258-RELAY
-      - 14-268-US
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
