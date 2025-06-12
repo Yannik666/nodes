@@ -65,6 +65,8 @@ proxies:
   - {name: 04-111-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: aa1077e2-42eb-3375-96d9-9d3d0ef8dfc5, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-112-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: aa1077e2-42eb-3375-96d9-9d3d0ef8dfc5, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-113-JP, server: 47.245.40.60, port: 28469, type: trojan, password: aa1077e2-42eb-3375-96d9-9d3d0ef8dfc5, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-114-JP, server: 47.245.31.103, port: 28463, type: trojan, password: aa1077e2-42eb-3375-96d9-9d3d0ef8dfc5, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-115-US, server: 103.136.185.28, port: 447, type: trojan, password: aa1077e2-42eb-3375-96d9-9d3d0ef8dfc5, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 04-116-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 99e7e793-10fd-366a-a35a-57a36a01763f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 99e7e793-10fd-366a-a35a-57a36a01763f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-118-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 99e7e793-10fd-366a-a35a-57a36a01763f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -188,7 +190,6 @@ proxies:
   - {name: 09-266-CN, server: 120.232.153.40, port: 43292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-267-CN, server: 8cbcd01f-sxsxs0-sy94f1-1nc6m.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b, sni: 8cbcd01f-sxsxs0-sy94f1-1nc6m.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
   - {name: 09-268-CN, server: 6a4d70fb-sxsxs0-sy7yrp-1j3kc.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 3a45a384-4ea7-11ed-a8bf-f23c91cfbbc9, sni: 6a4d70fb-sxsxs0-sy7yrp-1j3kc.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 09-274-KR, server: 210.217.18.70, port: 11171, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 09-275-LT, server: 185.237.185.77, port: 20036, type: ss, cipher: aes-256-gcm, password: 9XHO7KBQEW75JW8H, udp: true}
   - {name: 09-276-HK, server: 154.223.21.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 10-284-CN, server: 120.198.71.216, port: 59082, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -204,7 +205,6 @@ proxies:
   - {name: 14-299-HK, server: 156.225.22.213, port: 552, type: ss, cipher: aes-128-gcm, password: rGDbiF7gtx5TWt4r4VjneQ==, udp: true}
   - {name: 14-300-CN, server: 120.26.55.225, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 23-328-IN, server: 82.180.146.173, port: 30607, type: ss, cipher: aes-128-gcm, password: 162629d7-cb17-43b1-82c9-f9c7ae6cba70, udp: true}
-  - {name: 23-342-CA, server: 142.4.216.225, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq, udp: true}
   - {name: 23-362-LT, server: 45.87.175.154, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 23-372-TW, server: taifo01a.kbservice.club, port: 443, type: trojan, password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610, sni: 45.32.28.232, skip-cert-verify: true, udp: true}
   - {name: 23-375-DE, server: 45.144.54.33, port: 34803, type: ss, cipher: chacha20-ietf-poly1305, password: LiHQX9cDbdooBHlIg0eiqQ, udp: true}
@@ -239,6 +239,8 @@ proxy-groups:
       - 04-111-HK
       - 04-112-HK
       - 04-113-JP
+      - 04-114-JP
+      - 04-115-US
       - 04-116-CN
       - 04-117-CN
       - 04-118-CN
@@ -362,7 +364,6 @@ proxy-groups:
       - 09-266-CN
       - 09-267-CN
       - 09-268-CN
-      - 09-274-KR
       - 09-275-LT
       - 09-276-HK
       - 10-284-CN
@@ -378,7 +379,6 @@ proxy-groups:
       - 14-299-HK
       - 14-300-CN
       - 23-328-IN
-      - 23-342-CA
       - 23-362-LT
       - 23-372-TW
       - 23-375-DE
@@ -473,7 +473,6 @@ proxy-groups:
       - 08-252-NOWHERE
       - 08-262-TW
       - 14-292-CN
-      - 23-342-CA
       - 23-362-LT
       - 23-372-TW
   - name: 测速3分组
@@ -504,6 +503,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-004-RELAY
+      - 04-114-JP
       - 04-124-CN
       - 07-154-RU
       - 07-164-CN
@@ -514,7 +514,6 @@ proxy-groups:
       - 08-214-HK
       - 08-224-RELAY
       - 08-264-RELAY
-      - 09-274-KR
       - 10-284-CN
   - name: 测速5分组
     type: url-test
@@ -523,6 +522,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-005-RELAY
+      - 04-115-US
       - 04-125-CN
       - 07-145-CN
       - 07-155-RU
