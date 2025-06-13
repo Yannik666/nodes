@@ -138,6 +138,7 @@ proxies:
   - {name: 07-196-US, server: usa.test3.net, port: 443, type: trojan, password: 8e2a3980-4684-11f0-b76c-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-197-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 07-198-RELAY, server: CCVfbgt667yuI.999864.XyZ, port: 443, type: vmess, uuid: ecb31946-b81d-4e37-bfd9-2eb7fa5c4e52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /BbckrKsbv22PK1qu2TvM, headers: {Host: CCVfbgt667yuI.999864.XyZ}}, udp: true}
+  - {name: 07-199-US, server: 35.91.94.11, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
   - {name: 07-200-CN, server: cnamepc03-ndtabspegg7plp3p.coffeehouse.wiki, port: 40070, type: ss, cipher: chacha20-ietf-poly1305, password: 17cfc172-b858-471d-976c-11525783a87f, udp: true}
   - {name: 07-201-CN, server: 112.65.92.20, port: 45251, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-202-CN, server: lbsh.bnnodeservice.com, port: 34001, type: trojan, password: af4476cc-7ad0-4aec-999a-97f70bc9de99, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
@@ -160,7 +161,7 @@ proxies:
   - {name: 07-219-NL, server: 77.246.98.67, port: 4343, type: ss, cipher: chacha20-ietf-poly1305, password: wZKkcqnHkoB64A1upA4K1M, udp: true}
   - {name: 07-220-HK, server: pt.mjt000.com, port: 443, type: trojan, password: 786334e7-dd13-4ef2-8efe-306c46cb8cf0, sni: pt.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 07-221-CN, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 51083, type: ss, cipher: chacha20-ietf-poly1305, password: 6e3accf4-66c9-4f18-8e7f-56551ed40f22, udp: true}
-  - {name: 07-222-US, server: iepl01.tube-cat.com, port: 20029, type: trojan, password: 1d99eb06-8f7c-4296-8c84-1e57084579a5, sni: VN.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 07-222-US, server: t18.emovpn.buzz, port: 2410, type: trojan, password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, sni: VN.catxstar.com, skip-cert-verify: true, udp: true}
   - {name: 07-223-VN, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 07-224-VN, server: 103.186.154.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 07-225-CN, server: ppy-boardv2.02ijp4uos1.download, port: 26133, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ppy-boardv2.02ijp4uos1.download}}, udp: true}
@@ -245,7 +246,6 @@ proxies:
   - {name: 09-318-JP, server: v84.emovpn.buzz, port: 5250, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v84.emovpn.buzz}}, udp: true}
   - {name: 09-319-HK, server: v81.emovpn.buzz, port: 6236, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v81.emovpn.buzz}}, udp: true}
   - {name: 09-320-HK, server: v14.emovpn.buzz, port: 1429, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v14.emovpn.buzz}}, udp: true}
-  - {name: 09-321-HK, server: t18.emovpn.buzz, port: 2410, type: trojan, password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 09-322-HK, server: t29.emovpn.buzz, port: 6123, type: trojan, password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 09-323-HK, server: v80.emovpn.buzz, port: 3194, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v80.emovpn.buzz}}, udp: true}
   - {name: 09-324-HK, server: v29.emovpn.buzz, port: 8571, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v29.emovpn.buzz}}, udp: true}
@@ -262,6 +262,7 @@ proxies:
   - {name: 09-339-HK, server: v78.emovpn.buzz, port: 5225, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v78.emovpn.buzz}}, udp: true}
   - {name: 09-340-HK, server: v77.emovpn.buzz, port: 3195, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v77.emovpn.buzz}}, udp: true}
   - {name: 09-341-HK, server: v55.emovpn.buzz, port: 8350, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v55.emovpn.buzz}}, udp: true}
+  - {name: 09-342-HK, server: v54.emovpn.buzz, port: 4671, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v54.emovpn.buzz}}, udp: true}
   - {name: 09-344-SG, server: t4.emovpn.buzz, port: 8189, type: trojan, password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 09-345-SG, server: t5.emovpn.buzz, port: 1370, type: trojan, password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 09-346-SG, server: t1.emovpn.buzz, port: 1445, type: trojan, password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, sni: www.baidu.com, skip-cert-verify: true, udp: true}
@@ -269,6 +270,7 @@ proxies:
   - {name: 09-348-SG, server: t13.emovpn.buzz, port: 1793, type: trojan, password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 09-349-SG, server: t12.emovpn.buzz, port: 1884, type: trojan, password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 09-351-US, server: v30.emovpn.buzz, port: 1372, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v30.emovpn.buzz}}, udp: true}
+  - {name: 09-354-US, server: t11.emovpn.buzz, port: 12527, type: trojan, password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 09-355-US, server: t10.emovpn.buzz, port: 1401, type: trojan, password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 09-358-US, server: t16.emovpn.buzz, port: 1662, type: trojan, password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 09-359-US, server: v49.emovpn.buzz, port: 8188, type: vmess, uuid: b6fb3816-af03-4b21-b1fc-cb2b70fa2705, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v49.emovpn.buzz}}, udp: true}
@@ -410,6 +412,7 @@ proxy-groups:
       - 07-196-US
       - 07-197-CN
       - 07-198-RELAY
+      - 07-199-US
       - 07-200-CN
       - 07-201-CN
       - 07-202-CN
@@ -517,7 +520,6 @@ proxy-groups:
       - 09-318-JP
       - 09-319-HK
       - 09-320-HK
-      - 09-321-HK
       - 09-322-HK
       - 09-323-HK
       - 09-324-HK
@@ -534,6 +536,7 @@ proxy-groups:
       - 09-339-HK
       - 09-340-HK
       - 09-341-HK
+      - 09-342-HK
       - 09-344-SG
       - 09-345-SG
       - 09-346-SG
@@ -541,6 +544,7 @@ proxy-groups:
       - 09-348-SG
       - 09-349-SG
       - 09-351-US
+      - 09-354-US
       - 09-355-US
       - 09-358-US
       - 09-359-US
@@ -654,7 +658,6 @@ proxy-groups:
       - 09-291-AE
       - 09-301-CN
       - 09-311-GB
-      - 09-321-HK
       - 09-331-HK
       - 09-341-HK
       - 09-351-US
@@ -688,6 +691,7 @@ proxy-groups:
       - 09-312-JP
       - 09-322-HK
       - 09-332-HK
+      - 09-342-HK
       - 09-362-US
       - 10-382-CN
       - 23-422-US
@@ -749,6 +753,7 @@ proxy-groups:
       - 09-314-HK
       - 09-324-HK
       - 09-344-SG
+      - 09-354-US
       - 09-364-US
       - 10-384-CN
       - 23-404-LT
@@ -893,6 +898,7 @@ proxy-groups:
       - 07-169-CO
       - 07-179-RELAY
       - 07-189-CN
+      - 07-199-US
       - 07-209-CN
       - 07-219-NL
       - 07-229-CN
