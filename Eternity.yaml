@@ -65,6 +65,8 @@ proxies:
   - {name: 04-111-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 6d316a89-7952-3bfa-9085-fe3c94a998a5, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-112-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 6d316a89-7952-3bfa-9085-fe3c94a998a5, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-113-JP, server: 47.245.40.60, port: 28470, type: trojan, password: 6d316a89-7952-3bfa-9085-fe3c94a998a5, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: 04-114-JP, server: 47.245.31.103, port: 28464, type: trojan, password: 6d316a89-7952-3bfa-9085-fe3c94a998a5, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 04-115-US, server: 103.136.185.28, port: 447, type: trojan, password: 6d316a89-7952-3bfa-9085-fe3c94a998a5, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-116-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 414d9bdd-4633-3bba-aebc-2778c5344a7c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 414d9bdd-4633-3bba-aebc-2778c5344a7c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-118-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 414d9bdd-4633-3bba-aebc-2778c5344a7c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -90,7 +92,6 @@ proxies:
   - {name: 07-153-CN, server: cnsg.1ga4cs.ccddn4.icu, port: 50503, type: ss, cipher: chacha20-ietf-poly1305, password: pHSRsscdDjydAv4u, udp: true}
   - {name: 07-154-CN, server: ap-g.hinetwork.tw, port: 27137, type: trojan, password: da2c6761-4f08-48e8-bd98-11403dea8c35, sni: ap-g.hinetwork.tw, skip-cert-verify: true, udp: true}
   - {name: 07-155-UA, server: 147.78.3.137, port: 20032, type: ss, cipher: aes-256-gcm, password: KKY5SF5THFSMZWS4, udp: true}
-  - {name: 07-156-HK, server: il.mjt000.com, port: 443, type: trojan, password: 6087d8e3-ea9e-48eb-8217-6050ff752f56, sni: il.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 07-157-CN, server: js.yd.1.29d.cdnlinkms001.xyz, port: 31036, type: ss, cipher: chacha20-ietf-poly1305, password: Yt3ZB8DxiVxPi4Mg, udp: true}
   - {name: 07-158-CN, server: ca001.dogsvip.site, port: 22002, type: ss, cipher: aes-256-gcm, password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9, udp: true}
   - {name: 07-159-CN, server: dlgdc.thecxfcsp.top, port: 21564, type: vmess, uuid: 9f9b21c3-e3fc-3e27-b878-82eeae401d12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dlgdc.thecxfcsp.top}}, udp: true}
@@ -293,7 +294,6 @@ proxies:
   - {name: 14-396-CN, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
   - {name: 23-399-LT, server: 45.87.175.92, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 23-406-FR, server: 62.210.88.22, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fYKOUGVv1Oau4C33x4fsTr, udp: true}
-  - {name: 23-416-US, server: 23.154.136.132, port: 9090, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 23-425-KR, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 23-428-NL, server: 193.29.139.173, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 23-442-RELAY, server: 154.83.2.54, port: 2096, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubsvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2525252F%2525253Fed%2525253D2560%25252526PROT_TYPE%2525253Dtrojan", headers: {Host: vle.amclubsvip.dpdns.org}}, udp: true}
@@ -332,6 +332,8 @@ proxy-groups:
       - 04-111-HK
       - 04-112-HK
       - 04-113-JP
+      - 04-114-JP
+      - 04-115-US
       - 04-116-CN
       - 04-117-CN
       - 04-118-CN
@@ -357,7 +359,6 @@ proxy-groups:
       - 07-153-CN
       - 07-154-CN
       - 07-155-UA
-      - 07-156-HK
       - 07-157-CN
       - 07-158-CN
       - 07-159-CN
@@ -560,7 +561,6 @@ proxy-groups:
       - 14-396-CN
       - 23-399-LT
       - 23-406-FR
-      - 23-416-US
       - 23-425-KR
       - 23-428-NL
       - 23-442-RELAY
@@ -716,6 +716,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-004-RELAY
+      - 04-114-JP
       - 04-124-CN
       - 07-154-CN
       - 07-164-CN
@@ -744,6 +745,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-005-RELAY
+      - 04-115-US
       - 04-125-CN
       - 07-145-CN
       - 07-155-UA
@@ -778,7 +780,6 @@ proxy-groups:
       - 04-006-RELAY
       - 04-116-CN
       - 07-146-CN
-      - 07-156-HK
       - 07-166-CN
       - 07-176-PY
       - 07-186-SG
@@ -800,7 +801,6 @@ proxy-groups:
       - 14-386-CN
       - 14-396-CN
       - 23-406-FR
-      - 23-416-US
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
