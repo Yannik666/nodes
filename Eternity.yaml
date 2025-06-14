@@ -66,6 +66,7 @@ proxies:
   - {name: 04-112-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 9e4826e5-beae-38a1-a83e-e6be3dffb13d, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-113-JP, server: 47.245.40.60, port: 28471, type: trojan, password: 9e4826e5-beae-38a1-a83e-e6be3dffb13d, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-114-JP, server: 47.245.31.103, port: 28465, type: trojan, password: 9e4826e5-beae-38a1-a83e-e6be3dffb13d, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-115-US, server: 103.136.185.28, port: 447, type: trojan, password: 9e4826e5-beae-38a1-a83e-e6be3dffb13d, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-116-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 179d954b-e76e-3fc1-8ddb-436387ec04c7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 179d954b-e76e-3fc1-8ddb-436387ec04c7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-118-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 179d954b-e76e-3fc1-8ddb-436387ec04c7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -243,7 +244,6 @@ proxies:
   - {name: 23-630-HK, server: 156.225.22.213, port: 552, type: ss, cipher: aes-128-gcm, password: rGDbiF7gtx5TWt4r4VjneQ==, udp: true}
   - {name: 23-637-LT, server: 45.87.175.199, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 23-656-VN, server: 103.186.154.30, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 23-662-US, server: 18.237.88.39, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -275,6 +275,7 @@ proxy-groups:
       - 04-112-HK
       - 04-113-JP
       - 04-114-JP
+      - 04-115-US
       - 04-116-CN
       - 04-117-CN
       - 04-118-CN
@@ -452,7 +453,6 @@ proxy-groups:
       - 23-630-HK
       - 23-637-LT
       - 23-656-VN
-      - 23-662-US
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -548,7 +548,6 @@ proxy-groups:
       - 08-292-NOWHERE
       - 08-302-RELAY
       - 10-582-RELAY
-      - 23-662-US
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -603,6 +602,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-005-RELAY
+      - 04-115-US
       - 04-125-CN
       - 07-135-CN
       - 07-145-CN
