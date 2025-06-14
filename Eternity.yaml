@@ -223,7 +223,6 @@ proxies:
   - {name: 23-562-DE, server: 132.145.232.171, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 23-563-IE, server: jatawv0zi1wb2x5mtmwnto3z3l3y0pvuvb.payonline.biz.tr, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: TKF0Or_HDSEIkMBJh9Ct4A, udp: true}
   - {name: 23-564-RELAY, server: hk2.lrzdx.uk, port: 443, type: vmess, uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /register, headers: {Host: hk2.lrzdx.uk}}, udp: true}
-  - {name: 23-565-SG, server: 188.166.183.100, port: 12599, type: ss, cipher: chacha20-ietf-poly1305, password: d02QUlz3xeeHe12SuOnOD6, udp: true}
   - {name: 23-566-IR, server: n.chapjavan.ir, port: 12000, type: vmess, uuid: 3a9b561c-88f5-2c16-e52d-d6fda4a44911, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 23-571-RELAY, server: 104.17.137.127, port: 443, type: vmess, uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aa}, udp: true}
   - {name: 23-574-DE, server: 23.158.56.241, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -233,6 +232,7 @@ proxies:
   - {name: 23-590-RELAY, server: eeddcvfgt6.444682.xyz, port: 443, type: trojan, password: 0f7070cd-c91d-4532-a51f-56da4f0e94be, sni: eeddcvfgt6.444682.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "%2525252FctHoQlqeZn8pbEUSLppj7jCmY", headers: {Host: eeddcvfgt6.444682.xyz}}, udp: true}
   - {name: 23-593-DK, server: 95.164.85.39, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: wispy-crib-net.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 23-596-GB, server: 89.185.84.185, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: K2Rzs8p6DhYGtSUhytqCCb, udp: true}
+  - {name: 23-602-SG, server: 128.199.159.68, port: 29480, type: ss, cipher: chacha20-ietf-poly1305, password: q2DhRktHJQGFmL2YcfXKXy, udp: true}
   - {name: 23-603-SG, server: zx.35nq.top, port: 55301, type: ss, cipher: chacha20-ietf-poly1305, password: cb6d1880-3e09-466d-92dc-101025cdbaa9, udp: true}
   - {name: 23-605-SG, server: zx.35nq.top, port: 55304, type: ss, cipher: chacha20-ietf-poly1305, password: cb6d1880-3e09-466d-92dc-101025cdbaa9, udp: true}
   - {name: 23-607-RU, server: 195.133.5.185, port: 2029, type: ss, cipher: aes-256-gcm, password: 7f20be91749b5874, udp: true}
@@ -428,7 +428,6 @@ proxy-groups:
       - 23-562-DE
       - 23-563-IE
       - 23-564-RELAY
-      - 23-565-SG
       - 23-566-IR
       - 23-571-RELAY
       - 23-574-DE
@@ -438,6 +437,7 @@ proxy-groups:
       - 23-590-RELAY
       - 23-593-DK
       - 23-596-GB
+      - 23-602-SG
       - 23-603-SG
       - 23-605-SG
       - 23-607-RU
@@ -542,6 +542,7 @@ proxy-groups:
       - 08-262-NOWHERE
       - 09-302-CN
       - 23-562-DE
+      - 23-602-SG
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -621,7 +622,6 @@ proxy-groups:
       - 08-265-CN
       - 08-275-RU
       - 10-545-CN
-      - 23-565-SG
       - 23-605-SG
   - name: 测速6分组
     type: url-test
