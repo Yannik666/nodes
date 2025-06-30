@@ -165,7 +165,6 @@ proxies:
   - {name: 09-263-CN, server: hzhz2.sssyun.xyz, port: 44014, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:ZDJjZmMxNDgtZDJjNi00MA==, udp: true}
   - {name: 09-264-CN, server: cnamelm-dwzksl7kzye3rdby.bestbrocciu.com, port: 9080, type: ssr, cipher: chacha20-ietf, password: ygUo3W, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 99935:vb3TTF, obfs-param: dfde699935.microsoft.com, udp: true}
   - {name: 09-288-RELAY, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: store.timimi.dpdns.org}}, udp: true}
-  - {name: 09-312-KR, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-362-RELAY, server: 92.243.75.49, port: 2087, type: trojan, password: wb6368, sni: hsdgbuys.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: hsdgbuys.pages.dev}}, udp: true}
   - {name: 09-445-RELAY, server: 172.67.191.140, port: 443, type: trojan, password: c7f423b7-ced8-43da-a9ae-e906cb4a222c, sni: DdDdddDDdF.999824.Xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FdwPcFaK3QxWRQTqot0LE", headers: {Host: DdDdddDDdF.999824.Xyz}}, udp: true}
   - {name: 10-449-CN, server: fiwejniavzoj.xn--fiqs8sjz2bull.com, port: 19490, type: vmess, uuid: fc7b534b-9188-4d81-b804-55b4eb91cd6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -185,6 +184,7 @@ proxies:
   - {name: 14-480-VN, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 14-489-NL, server: 109.107.172.30, port: 28190, type: ss, cipher: chacha20-ietf-poly1305, password: 1f8jdOIKkxRWMUeOfXPeo8, udp: true}
   - {name: 23-494-LT, server: 45.87.175.10, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 23-495-SG, server: 167.172.95.249, port: 30655, type: ss, cipher: chacha20-ietf-poly1305, password: Q54gASZhthrfhDeUUyHR7xMKEpc8clp5QCpWYrwvkyQ=, udp: true}
   - {name: 23-496-GB, server: 74.177.223.132, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
   - {name: 23-497-NL, server: 45.134.21.8, port: 2053, type: trojan, password: Aimer, sni: epcch.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 23-500-LT, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
@@ -336,7 +336,6 @@ proxy-groups:
       - 09-263-CN
       - 09-264-CN
       - 09-288-RELAY
-      - 09-312-KR
       - 09-362-RELAY
       - 09-445-RELAY
       - 10-449-CN
@@ -356,6 +355,7 @@ proxy-groups:
       - 14-480-VN
       - 14-489-NL
       - 23-494-LT
+      - 23-495-SG
       - 23-496-GB
       - 23-497-NL
       - 23-500-LT
@@ -463,7 +463,6 @@ proxy-groups:
       - 08-222-NOWHERE
       - 08-232-NOWHERE
       - 09-262-CN
-      - 09-312-KR
       - 09-362-RELAY
       - 10-452-FR
       - 23-502-NL
@@ -528,6 +527,7 @@ proxy-groups:
       - 08-235-RU
       - 09-445-RELAY
       - 10-455-CN
+      - 23-495-SG
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
