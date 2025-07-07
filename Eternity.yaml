@@ -76,13 +76,13 @@ proxies:
   - {name: 04-124-NOWHERE, server: us6-1.anewstart.cyou, port: 5061, type: vmess, uuid: 378cd908-bcae-3443-b33b-e3c187948db7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6-1.anewstart.cyou}}, udp: true}
   - {name: 05-133-RU, server: 46.29.163.177, port: 23117, type: vmess, uuid: 04259f36-1d8c-4fe8-97a4-b0508c9b0053, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 05-135-FR, server: 15.236.126.225, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 05-136-SG, server: 18.143.168.193, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123, udp: true}
   - {name: 23-155-RELAY, server: 188.164.159.246, port: 2096, type: trojan, password: Aimer, sni: acepo.ambercc.filegear-sg.me, skip-cert-verify: true, udp: true}
   - {name: 23-169-DE, server: 165.22.74.230, port: 443, type: trojan, password: 4732adfa16c6450bbef87264e41332db, sni: nextstepcareer.online, skip-cert-verify: true, udp: true}
   - {name: 23-170-KR, server: 218.237.185.230, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ%2540%2540, udp: true}
   - {name: 23-171-VN, server: 103.186.154.38, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 23-172-VN, server: 103.186.155.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 23-173-PL, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 7905a32b-012c-4711-89e2-73b6713eca75, udp: true}
+  - {name: 23-174-KR, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-177-US, server: 38.99.82.193, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 23-178-FR, server: 146.59.55.50, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 23-185-SG, server: 15.235.146.5, port: 443, type: trojan, password: cc49d7a2-4500-4c9e-995c-68c832878343, sni: zoom.us, skip-cert-verify: true, udp: true}
@@ -163,13 +163,13 @@ proxy-groups:
       - 04-124-NOWHERE
       - 05-133-RU
       - 05-135-FR
-      - 05-136-SG
       - 23-155-RELAY
       - 23-169-DE
       - 23-170-KR
       - 23-171-VN
       - 23-172-VN
       - 23-173-PL
+      - 23-174-KR
       - 23-177-US
       - 23-178-FR
       - 23-185-SG
@@ -308,6 +308,7 @@ proxy-groups:
       - 04-104-RELAY
       - 04-114-CN
       - 04-124-NOWHERE
+      - 23-174-KR
       - 23-214-US
       - 24-454-NL
       - 24-464-RELAY
@@ -334,7 +335,6 @@ proxy-groups:
     proxies:
       - 04-106-RELAY
       - 04-116-CN
-      - 05-136-SG
       - 24-466-RELAY
       - 24-476-RELAY
       - 24-496-VN
