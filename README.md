@@ -86,12 +86,12 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.58:8080#23-308-LT
     trojan://58dcd460-65df-47b1-b062-517df30bef29@usa.liangyuandian.top:443?allowInsecure=1#23-309-SG
     trojan://2ee85121-31de-4581-a492-eb00f606e392@192.3.107.252:443?allowInsecure=1&sni=rc8.freeguard.org#23-311-US
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPR1U1Wg@ca.opensocks.site:1443#23-313-CAss%2F%2FYWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lMjUyNSUyNTIzJTI1MjQlMjUyM2ZKQU10c0VBRVVPcEgvWVdZdFlxREZuVDBTVg%40103.186.155.1938388%2323-351-VN
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPR1U1Wg@ca.opensocks.site:1443#23-313-CA
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVFEwWg@uk.opensocks.site:1443#23-315-ES
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwVm5UellBcVhFSHc@89.23.103.229:443#23-316-NL
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.158.171.70:8080#23-325-FR
     trojan://e4af2638-bb12-4e4a-84f1-a032e23ca63f@usla.mjt000.com:443?allowInsecure=1#23-328-HK
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEZDQ1OE1GeENsdnZLUXA5Z1pIWU9X@23.177.185.63:49454#23-335-US
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEZDQ1OE1GeENsdnZLUXA5Z1pIWU9X@23.177.185.63:49454#23-335-USss%2F%2FYWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lMjUyNSUyNTIzJTI1MjQlMjUyM2ZKQU10c0VBRVVPcEgvWVdZdFlxREZuVDBTVg%40103.186.155.1938388%2323-351-VN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowUnNyY0ZKMXZPc1dFcWczUDU1aHZhYWNLZnVTaFQwY2MxaDB0OEFEME5BOHUxdVI@92.38.171.215:31348#23-338-ES
     trojan://2ee85121-31de-4581-a492-eb00f606e392@198.23.229.250:443?allowInsecure=1&sni=rc6.freeguard.org#23-339-US
     ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY@103.149.183.61:8388#23-342-HK
@@ -118,11 +118,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `185`
+合并节点总数: `184`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `185`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `184`
 
 
 ## 仓库声明
