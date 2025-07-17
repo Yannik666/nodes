@@ -108,12 +108,12 @@ proxies:
   - {name: 23-308-LT, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 23-309-SG, server: usa.liangyuandian.top, port: 443, type: trojan, password: 58dcd460-65df-47b1-b062-517df30bef29, skip-cert-verify: true, udp: true}
   - {name: 23-311-US, server: 192.3.107.252, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: rc8.freeguard.org, skip-cert-verify: true, udp: true}
-  - {name: 23-313-CAss//YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lMjUyNSUyNTIzJTI1MjQlMjUyM2ZKQU10c0VBRVVPcEgvWVdZdFlxREZuVDBTVg@103.186.155.1938388#23-351-VN, server: ca.opensocks.site, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: OGU5Z, udp: true}
+  - {name: 23-313-CA, server: ca.opensocks.site, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: OGU5Z, udp: true}
   - {name: 23-315-ES, server: uk.opensocks.site, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: YTQ0Z, udp: true}
   - {name: 23-316-NL, server: 89.23.103.229, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: pVnTzYAqXEHw, udp: true}
   - {name: 23-325-FR, server: 45.158.171.70, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 23-328-HK, server: usla.mjt000.com, port: 443, type: trojan, password: e4af2638-bb12-4e4a-84f1-a032e23ca63f, skip-cert-verify: true, udp: true}
-  - {name: 23-335-US, server: 23.177.185.63, port: 49454, type: ss, cipher: chacha20-ietf-poly1305, password: Dd458MFxClvvKQp9gZHYOW, udp: true}
+  - {name: 23-335-USss//YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lMjUyNSUyNTIzJTI1MjQlMjUyM2ZKQU10c0VBRVVPcEgvWVdZdFlxREZuVDBTVg@103.186.155.1938388#23-351-VN, server: 23.177.185.63, port: 49454, type: ss, cipher: chacha20-ietf-poly1305, password: Dd458MFxClvvKQp9gZHYOW, udp: true}
   - {name: 23-338-ES, server: 92.38.171.215, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: 0RsrcFJ1vOsWEqg3P55hvaacKfuShT0cc1h0t8AD0NA8u1uR, udp: true}
   - {name: 23-339-US, server: 198.23.229.250, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: rc6.freeguard.org, skip-cert-verify: true, udp: true}
   - {name: 23-342-HK, server: 103.149.183.61, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
@@ -207,12 +207,12 @@ proxy-groups:
       - 23-308-LT
       - 23-309-SG
       - 23-311-US
-      - 23-313-CAss//YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lMjUyNSUyNTIzJTI1MjQlMjUyM2ZKQU10c0VBRVVPcEgvWVdZdFlxREZuVDBTVg@103.186.155.1938388#23-351-VN
+      - 23-313-CA
       - 23-315-ES
       - 23-316-NL
       - 23-325-FR
       - 23-328-HK
-      - 23-335-US
+      - 23-335-USss//YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lMjUyNSUyNTIzJTI1MjQlMjUyM2ZKQU10c0VBRVVPcEgvWVdZdFlxREZuVDBTVg@103.186.155.1938388#23-351-VN
       - 23-338-ES
       - 23-339-US
       - 23-342-HK
@@ -294,7 +294,7 @@ proxy-groups:
       - 05-171-RELAY
       - 14-301-RELAY
       - 23-311-US
-      - 23-313-CAss//YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lMjUyNSUyNTIzJTI1MjQlMjUyM2ZKQU10c0VBRVVPcEgvWVdZdFlxREZuVDBTVg@103.186.155.1938388#23-351-VN
+      - 23-335-USss//YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lMjUyNSUyNTIzJTI1MjQlMjUyM2ZKQU10c0VBRVVPcEgvWVdZdFlxREZuVDBTVg@103.186.155.1938388#23-351-VN
       - 23-361-FI
   - name: 测速2分组
     type: url-test
@@ -322,7 +322,7 @@ proxy-groups:
       - 05-173-RELAY
       - 09-213-RELAY
       - 14-303-RU
-      - 23-313-CAss//YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lMjUyNSUyNTIzJTI1MjQlMjUyM2ZKQU10c0VBRVVPcEgvWVdZdFlxREZuVDBTVg@103.186.155.1938388#23-351-VN
+      - 23-313-CA
       - 23-343-LT
       - 23-353-VN
       - 23-383-MD
@@ -353,7 +353,7 @@ proxy-groups:
       - 14-295-TW
       - 23-315-ES
       - 23-325-FR
-      - 23-335-US
+      - 23-335-USss//YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lMjUyNSUyNTIzJTI1MjQlMjUyM2ZKQU10c0VBRVVPcEgvWVdZdFlxREZuVDBTVg@103.186.155.1938388#23-351-VN
       - 23-355-SG
       - 23-365-PL
   - name: 测速6分组
