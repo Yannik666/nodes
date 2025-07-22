@@ -91,7 +91,6 @@ proxies:
   - {name: 23-549-RELAY, server: 46.254.92.27, port: 443, type: trojan, password: NISHIKUITAN111, sni: zb.ylks.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: zb.ylks.xyz}}, udp: true}
   - {name: 23-550-RELAY, server: 104.21.3.189, port: 2053, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 23-551-TW, server: 60.249.35.37, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, udp: true}
-  - {name: 23-553-US, server: 104.192.226.106, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-557-AT, server: customers.tele-shop-too.studio, port: 33203, type: vmess, uuid: 634faa7f-4c83-4cbb-a452-a7753de908d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 23-558-NL, server: 194.87.31.68, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: R2UGad61FGO5, udp: true}
   - {name: 23-560-RELAY, server: 104.24.250.232, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
@@ -117,6 +116,7 @@ proxies:
   - {name: 23-610-RELAY, server: 162.159.44.192, port: 443, type: trojan, password: blue2024, sni: tb.promote.icu, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: tb.promote.icu}}, udp: true}
   - {name: 23-611-RELAY, server: 104.19.234.198, port: 443, type: trojan, password: blue2024, sni: ha.lii2010.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed", headers: {Host: ha.lii2010.us.kg}}, udp: true}
   - {name: 23-612-RELAY, server: 104.17.33.7, port: 443, type: trojan, password: blue2024, sni: td.promote.icu, skip-cert-verify: true, udp: true}
+  - {name: 23-613-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 23-614-RELAY, server: 162.159.141.145, port: 443, type: trojan, password: blue2024, sni: td.promote.icu, skip-cert-verify: true, udp: true}
   - {name: 23-615-RELAY, server: 172.67.109.241, port: 443, type: trojan, password: blue2024, sni: hb.lii2010.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: hb.lii2010.us.kg}}, udp: true}
   - {name: 23-616-RELAY, server: 198.41.214.224, port: 2052, type: trojan, password: f0d584bc-342f-4443-ba24-79e4d0e504b1, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560"}, udp: true}
@@ -241,7 +241,6 @@ proxy-groups:
       - 23-549-RELAY
       - 23-550-RELAY
       - 23-551-TW
-      - 23-553-US
       - 23-557-AT
       - 23-558-NL
       - 23-560-RELAY
@@ -267,6 +266,7 @@ proxy-groups:
       - 23-610-RELAY
       - 23-611-RELAY
       - 23-612-RELAY
+      - 23-613-US
       - 23-614-RELAY
       - 23-615-RELAY
       - 23-616-RELAY
@@ -436,8 +436,8 @@ proxy-groups:
     proxies:
       - 04-113-RELAY
       - 04-123-CN
-      - 23-553-US
       - 23-583-HK
+      - 23-613-US
       - 23-623-NL
       - 24-683-RELAY
       - 24-693-RELAY
