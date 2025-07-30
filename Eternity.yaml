@@ -55,6 +55,7 @@ proxies:
   - {name: 04-0004-DE, server: jp6-1.anewstart.cyou, port: 5061, type: vmess, uuid: 11dcc885-668b-3246-845e-9b5c41c9bbda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp6-1.anewstart.cyou}}, udp: true}
   - {name: 04-0005-DE, server: us-1.anewstart.cyou, port: 5061, type: vmess, uuid: 11dcc885-668b-3246-845e-9b5c41c9bbda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.anewstart.cyou}}, udp: true}
   - {name: 04-0006-DE, server: us6-1.anewstart.cyou, port: 5061, type: vmess, uuid: 11dcc885-668b-3246-845e-9b5c41c9bbda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6-1.anewstart.cyou}}, udp: true}
+  - {name: 04-0007-JP, server: 178.239.124.90, port: 443, type: trojan, password: fbdb1db1-8e6e-33f6-95e3-c3a7ab6ca9bf, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0008-SG, server: 43.160.203.70, port: 443, type: trojan, password: fbdb1db1-8e6e-33f6-95e3-c3a7ab6ca9bf, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0009-SG, server: 7nc1ui24.0ripz4lj.aliyungslb.com, port: 443, type: trojan, password: fbdb1db1-8e6e-33f6-95e3-c3a7ab6ca9bf, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-0109-RELAY, server: s3.cn-db.top, port: 8080, type: vmess, uuid: 5d5c957f-b0e7-3e4e-9db6-65a5fec7e080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.162.43, headers: {Host: s3.cn-db.top}}, udp: true}
@@ -82,7 +83,6 @@ proxies:
   - {name: 14-0535-HK, server: 2f692aa9-sv2sg0-svs488-n09f.hk.p5pv.com, port: 80, type: vmess, uuid: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 2f692aa9-sv2sg0-svs488-n09f.hk.p5pv.com}}, udp: true}
   - {name: 14-0536-HK, server: 3ded3a7f-svlb40-sz052u-amya.hk.p5pv.com, port: 80, type: vmess, uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3ded3a7f-svlb40-sz052u-amya.hk.p5pv.com}}, udp: true}
   - {name: 14-0537-HK, server: dcf99c60-sv0xs0-tasors-1tdqt.hk.p5pv.com, port: 80, type: vmess, uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcf99c60-sv0xs0-tasors-1tdqt.hk.p5pv.com}}, udp: true}
-  - {name: 14-0539-HK, server: 0613ae96-sv2sg0-svim0o-1slop.hk3.p5pv.com, port: 80, type: vmess, uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0613ae96-sv2sg0-svim0o-1slop.hk3.p5pv.com}}, udp: true}
   - {name: 14-0540-HK, server: ac5c4ff4-sv2sg0-swskl4-1rh01.hk3.p5pv.com, port: 80, type: vmess, uuid: 4c0ba4a2-1510-11ef-ba65-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ac5c4ff4-sv2sg0-swskl4-1rh01.hk3.p5pv.com}}, udp: true}
   - {name: 14-0541-HK, server: acf5ec1c-sv2sg0-t2y63q-1jk6u.hk.p5pv.com, port: 80, type: vmess, uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: acf5ec1c-sv2sg0-t2y63q-1jk6u.hk.p5pv.com}}, udp: true}
   - {name: 14-0542-HK, server: 6b71f268-sv4n40-tdh9w7-ahsb.hk3.p5pv.com, port: 80, type: vmess, uuid: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 6b71f268-sv4n40-tdh9w7-ahsb.hk3.p5pv.com}}, udp: true}
@@ -96,7 +96,6 @@ proxies:
   - {name: 14-0551-HK, server: 418446e2-sv2sg0-t2nkut-jx5r.hk3.p5pv.com, port: 80, type: vmess, uuid: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 418446e2-sv2sg0-t2nkut-jx5r.hk3.p5pv.com}}, udp: true}
   - {name: 14-0553-RELAY, server: sSsdCVfBGNjkI.931.PP.Ua, port: 443, type: vmess, uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /14Fziqw1hYgCXNutkS5H, headers: {Host: sSsdCVfBGNjkI.931.PP.Ua}}, udp: true}
   - {name: 14-0554-RU, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: 14-0555-US, server: 178.239.124.90, port: 443, type: trojan, password: fbdb1db1-8e6e-33f6-95e3-c3a7ab6ca9bf, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
   - {name: 14-0556-KZ, server: 194.76.18.129, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
   - {name: 14-0557-CN, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
   - {name: 24-0560-RELAY, server: OOoOOOooOp.222769.XYZ, port: 80, type: vmess, uuid: ce921385-2b31-45fe-84c5-1843e8ae845b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /VaaSEfNLHdW3I98dxLkez, headers: {Host: OOoOOOooOp.222769.XYZ}}, udp: true}
@@ -185,6 +184,7 @@ proxy-groups:
       - 04-0004-DE
       - 04-0005-DE
       - 04-0006-DE
+      - 04-0007-JP
       - 04-0008-SG
       - 04-0009-SG
       - 04-0109-RELAY
@@ -212,7 +212,6 @@ proxy-groups:
       - 14-0535-HK
       - 14-0536-HK
       - 14-0537-HK
-      - 14-0539-HK
       - 14-0540-HK
       - 14-0541-HK
       - 14-0542-HK
@@ -226,7 +225,6 @@ proxy-groups:
       - 14-0551-HK
       - 14-0553-RELAY
       - 14-0554-RU
-      - 14-0555-US
       - 14-0556-KZ
       - 14-0557-CN
       - 24-0560-RELAY
@@ -428,7 +426,6 @@ proxy-groups:
       - 04-0125-CN
       - 14-0535-HK
       - 14-0545-RELAY
-      - 14-0555-US
       - 24-0655-RELAY
       - 24-0665-RELAY
       - 24-0675-RELAY
@@ -458,6 +455,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 04-0007-JP
       - 04-0117-CN
       - 14-0537-HK
       - 14-0547-RELAY
@@ -492,7 +490,6 @@ proxy-groups:
       - 04-0009-SG
       - 04-0109-RELAY
       - 04-0119-CN
-      - 14-0539-HK
       - 14-0549-HK
       - 24-0579-RELAY
       - 24-0619-RELAY
