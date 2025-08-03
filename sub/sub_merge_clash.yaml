@@ -79,9 +79,9 @@ proxies:
   - {name: 09-0375-RELAY, server: 108.165.152.225, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
   - {name: 09-0376-US, server: 192.3.155.203, port: 995, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
   - {name: 14-0208-CN, server: 51e48c04-t0fds0-t3fjp7-cdfn.82.iwskwai.com, port: 3683, type: vmess, uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 51e48c04-t0fds0-t3fjp7-cdfn.82.iwskwai.com}}, udp: true}
-  - {name: 14-0209-RELAY, server: 190.93.246.151, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rongseven}, udp: true}
-  - {name: 14-0210-US, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA, udp: true}
-  - {name: 14-0212-NL, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 14-0209-NL, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 14-0210-RELAY, server: 190.93.246.151, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rongseven}, udp: true}
+  - {name: 14-0211-US, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA, udp: true}
   - {name: 14-0380-RELAY, server: FFfffffFffFFkkKkkKL.4444926.xYZ, port: 80, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /awmqq79B17rfnpXiNaWb, headers: {Host: FFfffffFffFFkkKkkKL.4444926.xYZ}}, udp: true}
   - {name: 23-0383-NL, server: 178.208.91.118, port: 19805, type: ss, cipher: chacha20-ietf-poly1305, password: 0YtVN1K4M388qRRJwqG1uN, udp: true}
   - {name: 23-0386-GB, server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}

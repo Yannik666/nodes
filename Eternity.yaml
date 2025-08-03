@@ -52,6 +52,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 03-0010-PL, server: 45.144.49.140, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 03-0012-VN, server: 103.186.155.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 03-0013-VN, server: 103.186.154.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 05-0019-US, server: 47.239.125.132, port: 443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
@@ -60,14 +61,13 @@ proxies:
   - {name: 05-0262-RELAY, server: rrrrrrrrrt.11890604.xyz, port: 443, type: vmess, uuid: f898ffcb-6417-4373-9640-0b66091e8206, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1, headers: {Host: rrrrrrrrrt.11890604.xyz}}, udp: true}
   - {name: 05-0265-RELAY, server: DdDDdddddDFrrrrrrRRy.IRan2035.dPDns.ORG, port: 443, type: vmess, uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp, headers: {Host: DdDDdddddDFrrrrrrRRy.IRan2035.dPDns.ORG}}, udp: true}
   - {name: 05-0266-RELAY, server: klo.986986.shop, port: 443, type: vmess, uuid: b75c9731-408d-4aa6-8ae9-3857205113a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /nvjx6j7kbDQIQMZvbeVA9, headers: {Host: klo.986986.shop}}, udp: true}
-  - {name: 05-0301-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.144.49.14057456#03-0010-PL, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: "05-0301-UStrojan//Aimer@92.243.74.2398443?allowInsecure=1&sni=epga.aimercc.dpdns.org&ws=1&wspath=%252F%253Fed%253D2560#09-0136-RELAY", server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0111-RELAY, server: 103.116.7.103, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
   - {name: 09-0112-RELAY, server: 103.116.7.220, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
   - {name: 09-0113-RELAY, server: 103.116.7.100, port: 2087, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
   - {name: 09-0117-RELAY, server: 31.43.179.27, port: 443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
   - {name: 09-0132-RELAY, server: 154.83.2.88, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
   - {name: 09-0135-RELAY, server: 92.243.74.180, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: 09-0136-RELAY, server: 92.243.74.239, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
   - {name: 09-0190-RELAY, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
   - {name: 09-0191-US, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
   - {name: 09-0192-US, server: 160.79.105.156, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
@@ -129,9 +129,9 @@ proxies:
   - {name: 09-0375-RELAY, server: 108.165.152.225, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
   - {name: 09-0376-US, server: 192.3.155.203, port: 995, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
   - {name: 14-0208-CN, server: 51e48c04-t0fds0-t3fjp7-cdfn.82.iwskwai.com, port: 3683, type: vmess, uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 51e48c04-t0fds0-t3fjp7-cdfn.82.iwskwai.com}}, udp: true}
-  - {name: 14-0209-RELAY, server: 190.93.246.151, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rongseven}, udp: true}
-  - {name: 14-0210-US, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA, udp: true}
-  - {name: 14-0212-NL, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 14-0209-NL, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 14-0210-RELAY, server: 190.93.246.151, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rongseven}, udp: true}
+  - {name: 14-0211-US, server: 154.3.8.151, port: 30067, type: ss, cipher: aes-256-gcm, password: iUB0923RBA, udp: true}
   - {name: 14-0380-RELAY, server: FFfffffFffFFkkKkkKL.4444926.xYZ, port: 80, type: vmess, uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /awmqq79B17rfnpXiNaWb, headers: {Host: FFfffffFffFFkkKkkKL.4444926.xYZ}}, udp: true}
   - {name: 23-0383-NL, server: 178.208.91.118, port: 19805, type: ss, cipher: chacha20-ietf-poly1305, password: 0YtVN1K4M388qRRJwqG1uN, udp: true}
   - {name: 23-0386-GB, server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -155,6 +155,7 @@ proxy-groups:
       - 测速8分组
       - 测速9分组
       - 测速10分组
+      - 03-0010-PL
       - 03-0012-VN
       - 03-0013-VN
       - 05-0019-US
@@ -163,14 +164,13 @@ proxy-groups:
       - 05-0262-RELAY
       - 05-0265-RELAY
       - 05-0266-RELAY
-      - 05-0301-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.144.49.14057456#03-0010-PL
+      - 05-0301-UStrojan//Aimer@92.243.74.2398443?allowInsecure=1&sni=epga.aimercc.dpdns.org&ws=1&wspath=%252F%253Fed%253D2560#09-0136-RELAY
       - 09-0111-RELAY
       - 09-0112-RELAY
       - 09-0113-RELAY
       - 09-0117-RELAY
       - 09-0132-RELAY
       - 09-0135-RELAY
-      - 09-0136-RELAY
       - 09-0190-RELAY
       - 09-0191-US
       - 09-0192-US
@@ -232,9 +232,9 @@ proxy-groups:
       - 09-0375-RELAY
       - 09-0376-US
       - 14-0208-CN
-      - 14-0209-RELAY
-      - 14-0210-US
-      - 14-0212-NL
+      - 14-0209-NL
+      - 14-0210-RELAY
+      - 14-0211-US
       - 14-0380-RELAY
       - 23-0383-NL
       - 23-0386-GB
@@ -296,7 +296,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0301-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.144.49.14057456#03-0010-PL
+      - 05-0301-UStrojan//Aimer@92.243.74.2398443?allowInsecure=1&sni=epga.aimercc.dpdns.org&ws=1&wspath=%252F%253Fed%253D2560#09-0136-RELAY
       - 09-0111-RELAY
       - 09-0191-US
       - 09-0201-RELAY
@@ -304,6 +304,7 @@ proxy-groups:
       - 09-0351-RELAY
       - 09-0361-US
       - 09-0371-US
+      - 14-0211-US
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -320,7 +321,6 @@ proxy-groups:
       - 09-0352-RELAY
       - 09-0362-US
       - 09-0372-RELAY
-      - 14-0212-NL
       - 23-0412-AE
   - name: 测速3分组
     type: url-test
@@ -372,7 +372,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 05-0266-RELAY
-      - 09-0136-RELAY
+      - 05-0301-UStrojan//Aimer@92.243.74.2398443?allowInsecure=1&sni=epga.aimercc.dpdns.org&ws=1&wspath=%252F%253Fed%253D2560#09-0136-RELAY
       - 09-0196-US
       - 09-0206-US
       - 09-0336-RELAY
@@ -420,22 +420,22 @@ proxy-groups:
       - 09-0349-RELAY
       - 09-0359-US
       - 09-0369-RELAY
-      - 14-0209-RELAY
+      - 14-0209-NL
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
+      - 03-0010-PL
       - 05-0030-CN
-      - 05-0301-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.144.49.14057456#03-0010-PL
       - 09-0190-RELAY
       - 09-0200-RELAY
       - 09-0340-RELAY
       - 09-0350-RELAY
       - 09-0360-RELAY
       - 09-0370-RELAY
-      - 14-0210-US
+      - 14-0210-RELAY
       - 14-0380-RELAY
   - name: 广告拦截
     type: select
