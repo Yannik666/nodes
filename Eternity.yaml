@@ -125,7 +125,7 @@ proxies:
   - {name: 06-0280-RELAY, server: 108.165.152.175, port: 2096, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 06-0281-RELAY, server: 167.68.5.248, port: 2087, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 06-0282-RELAY, server: 108.165.152.59, port: 2087, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
-  - {name: "09-0295-UStrojan//trojan@104.26.13.318443?allowInsecure=1&sni=qianlang.pages.dev&ws=1&wspath=%252F#09-1103-RELAY", server: 34.203.13.163, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 09-0295-US, server: 34.203.13.163, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 09-0299-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0309-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0337-RELAY, server: 188.164.159.74, port: 8443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
@@ -478,7 +478,7 @@ proxies:
   - {name: 09-1363-KR, server: 211.198.136.117, port: 50000, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 09-1364-US, server: 64.81.39.212, port: 20086, type: vmess, uuid: a3efc510-c175-4b74-bc04-fe1d110a62bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-1366-US, server: 64.81.30.24, port: 20086, type: vmess, uuid: f53e0d42-afca-4b76-ae7f-806d6a1d36c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 09-1367-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: "09-1367-UStrojan//trojan@104.26.13.318443?allowInsecure=1&sni=qianlang.pages.dev&ws=1&wspath=%252F#09-1103-RELAY", server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -569,7 +569,7 @@ proxy-groups:
       - 06-0280-RELAY
       - 06-0281-RELAY
       - 06-0282-RELAY
-      - 09-0295-UStrojan//trojan@104.26.13.318443?allowInsecure=1&sni=qianlang.pages.dev&ws=1&wspath=%252F#09-1103-RELAY
+      - 09-0295-US
       - 09-0299-US
       - 09-0309-US
       - 09-0337-RELAY
@@ -922,7 +922,7 @@ proxy-groups:
       - 09-1363-KR
       - 09-1364-US
       - 09-1366-US
-      - 09-1367-US
+      - 09-1367-UStrojan//trojan@104.26.13.318443?allowInsecure=1&sni=qianlang.pages.dev&ws=1&wspath=%252F#09-1103-RELAY
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1076,7 +1076,6 @@ proxy-groups:
       - 06-0183-RELAY
       - 06-0253-US
       - 06-0273-RELAY
-      - 09-0295-UStrojan//trojan@104.26.13.318443?allowInsecure=1&sni=qianlang.pages.dev&ws=1&wspath=%252F#09-1103-RELAY
       - 09-0433-RELAY
       - 09-0623-RELAY
       - 09-0733-RELAY
@@ -1107,6 +1106,7 @@ proxy-groups:
       - 09-1303-SE
       - 09-1333-CN
       - 09-1363-KR
+      - 09-1367-UStrojan//trojan@104.26.13.318443?allowInsecure=1&sni=qianlang.pages.dev&ws=1&wspath=%252F#09-1103-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1171,7 +1171,7 @@ proxy-groups:
       - 06-0255-US
       - 06-0265-RELAY
       - 06-0275-RELAY
-      - 09-0295-UStrojan//trojan@104.26.13.318443?allowInsecure=1&sni=qianlang.pages.dev&ws=1&wspath=%252F#09-1103-RELAY
+      - 09-0295-US
       - 09-0645-RELAY
       - 09-0655-RELAY
       - 09-0675-RELAY
@@ -1302,7 +1302,7 @@ proxy-groups:
       - 09-1317-HK
       - 09-1327-HK
       - 09-1337-CN
-      - 09-1367-US
+      - 09-1367-UStrojan//trojan@104.26.13.318443?allowInsecure=1&sni=qianlang.pages.dev&ws=1&wspath=%252F#09-1103-RELAY
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
