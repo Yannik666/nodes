@@ -62,6 +62,7 @@ proxies:
   - {name: 05-0022-RELAY, server: www.speedtest.net, port: 2096, type: trojan, password: HdihUYuf&72826:33+4hshdiu&6562+2;Jvsjdjr, sni: NEt-ACCounT1.pAGEs.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FtrNrffpXBCqDOiLjok", headers: {Host: NEt-ACCounT1.pAGEs.Dev}}, udp: true}
   - {name: 06-0028-BR, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 06-0030-CN, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v36.heduian.link}}, udp: true}
+  - {name: 06-0035-HK, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
   - {name: 06-0036-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 06-0038-KR, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 06-0040-LT, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -92,7 +93,7 @@ proxies:
   - {name: 23-0075-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: d70ef8b5-6048-4c0d-be4d-fc60399b0f45, udp: true}
   - {name: 23-0076-FR, server: 62.133.62.109, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: jifuR2NTM0Yt, udp: true}
   - {name: 23-0079-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/linkvws?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN"}, udp: true}
-  - {name: 23-0081-JP, server: 160.16.123.124, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
+  - {name: 23-0081-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwNzhuYUNmMkVmT2xSU0xUWDB3RlZ4@pupas-shirting-unsung.freesocks.work443#08-0133-US, server: 160.16.123.124, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
   - {name: 23-0085-CH, server: 45.95.232.236, port: 4248, type: ss, cipher: chacha20-ietf-poly1305, password: PtHv4bO4jPtBsHWSl1n5Qd, udp: true}
   - {name: 23-0087-USss//YWVzLTI1Ni1nY206MTAyYWQzZGEtMmQ1NS00OWQ2LWI4YzgtMmQ3ZTA0ZGYzM2Nh@77.110.110.240443#23-0073-AT, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-0104-NL, server: 92.112.126.90, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
@@ -127,6 +128,7 @@ proxy-groups:
       - 05-0022-RELAY
       - 06-0028-BR
       - 06-0030-CN
+      - 06-0035-HK
       - 06-0036-HK
       - 06-0038-KR
       - 06-0040-LT
@@ -157,7 +159,7 @@ proxy-groups:
       - 23-0075-AT
       - 23-0076-FR
       - 23-0079-DE
-      - 23-0081-JP
+      - 23-0081-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwNzhuYUNmMkVmT2xSU0xUWDB3RlZ4@pupas-shirting-unsung.freesocks.work443#08-0133-US
       - 23-0085-CH
       - 23-0087-USss//YWVzLTI1Ni1nY206MTAyYWQzZGEtMmQ1NS00OWQ2LWI4YzgtMmQ3ZTA0ZGYzM2Nh@77.110.110.240443#23-0073-AT
       - 23-0104-NL
@@ -223,7 +225,7 @@ proxy-groups:
       - 06-0041-LT
       - 06-0061-VN
       - 23-0071-AT
-      - 23-0081-JP
+      - 23-0081-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwNzhuYUNmMkVmT2xSU0xUWDB3RlZ4@pupas-shirting-unsung.freesocks.work443#08-0133-US
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -241,6 +243,7 @@ proxy-groups:
     proxies:
       - 05-0003-NL
       - 06-0063-VN
+      - 23-0081-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwNzhuYUNmMkVmT2xSU0xUWDB3RlZ4@pupas-shirting-unsung.freesocks.work443#08-0133-US
       - 23-0087-USss//YWVzLTI1Ni1nY206MTAyYWQzZGEtMmQ1NS00OWQ2LWI4YzgtMmQ3ZTA0ZGYzM2Nh@77.110.110.240443#23-0073-AT
   - name: 测速4分组
     type: url-test
@@ -260,6 +263,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 05-0005-FR
+      - 06-0035-HK
       - 06-0045-PY
       - 06-0055-VN
       - 06-0065-VN
