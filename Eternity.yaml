@@ -119,7 +119,6 @@ proxies:
   - {name: 05-0145-JP, server: iepl.eu.yuntidns001.top, port: 30993, type: vmess, uuid: bba298ae-6833-349d-9f24-ac77b82a957a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 05-0149-FI, server: 65.109.217.125, port: 8443, type: vmess, uuid: 3c137b61-811c-46d6-898f-a038d71ee868, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 05-0156-FI, server: 65.109.217.125, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: bfUM594DfkimJL4s2LGOFA, udp: true}
-  - {name: 05-1536-US, server: 15.204.64.211, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 05-1539-PL, server: 57.128.216.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 06-0179-KR, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 06-0229-JP, server: 185.141.219.112, port: 8388, type: ss, cipher: aes-256-gcm, password: bTaAw9DZrsnwl9wn, udp: true}
@@ -173,11 +172,12 @@ proxies:
   - {name: 08-0344-SG, server: spevoy.missionsec.us, port: 443, type: trojan, password: R3SuZDAZXDO3FYqxwK36l7gpSIBTFCxlzc89a7qg3S9p8BOCeACSFaA8nxeD2ZlT5Nl4O, sni: spevoy.missionsec.us, skip-cert-verify: true, udp: true}
   - {name: 08-0345-SG, server: 62.146.235.193, port: 28011, type: vmess, uuid: cfc5a87f-3c13-4e25-b556-176cdd6b5c6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-0346-TW, server: cdnfire.xiaomispeed.com, port: 23301, type: trojan, password: 24deb4fe-cdb8-4832-b8f4-4126493041dd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 08-0347-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@204.136.10.1151866#08-0518-CH, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 08-0347-US, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0348-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0349-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0350-CA, server: 142.4.216.225, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq, udp: true}
   - {name: 08-0351-CA, server: ca225.vpnbook.com, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq, udp: true}
+  - {name: 08-0352-CA, server: 148.113.209.118, port: 443, type: vmess, uuid: 08745918-d560-4f07-8f37-a103a4799bac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvkwsss}, udp: true}
   - {name: 08-0353-LT, server: 45.87.175.200, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 08-0354-NL, server: 193.29.139.173, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 08-0355-NL, server: 193.29.139.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
@@ -263,7 +263,6 @@ proxies:
   - {name: 08-0446-RELAY, server: 172.66.46.254, port: 443, type: trojan, password: auto, sni: dcf741e8.epeius-2gy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: dcf741e8.epeius-2gy.pages.dev}}, udp: true}
   - {name: 08-0447-RELAY, server: dcf741e8.epeius-2gy.pages.dev, port: 443, type: trojan, password: auto, sni: dcf741e8.epeius-2gy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: dcf741e8.epeius-2gy.pages.dev}}, udp: true}
   - {name: 08-0448-RELAY, server: www.visa.com.sg, port: 8443, type: trojan, password: trojan, sni: pangpi.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: pangpi.pages.dev}}, udp: true}
-  - {name: 08-0450-US, server: 165.140.216.141, port: 443, type: vmess, uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-0451-RELAY, server: bbbbbbbbb.222769.xyz, port: 80, type: vmess, uuid: 2e65577e-8fdb-4bb1-a495-96f3122099a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /f6taOMcOSZb9TPR, headers: {Host: bbbbbbbbb.222769.xyz}}, udp: true}
   - {name: 08-0452-RELAY, server: ip.sb, port: 8443, type: trojan, password: trojan, sni: fofang.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: fofang.pages.dev}}, udp: true}
   - {name: 08-0454-US, server: map.wimax.cc, port: 8443, type: trojan, password: WyRE1b2elC, skip-cert-verify: true, udp: true}
@@ -653,7 +652,6 @@ proxy-groups:
       - 05-0145-JP
       - 05-0149-FI
       - 05-0156-FI
-      - 05-1536-US
       - 05-1539-PL
       - 06-0179-KR
       - 06-0229-JP
@@ -707,11 +705,12 @@ proxy-groups:
       - 08-0344-SG
       - 08-0345-SG
       - 08-0346-TW
-      - 08-0347-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@204.136.10.1151866#08-0518-CH
+      - 08-0347-US
       - 08-0348-CA
       - 08-0349-CA
       - 08-0350-CA
       - 08-0351-CA
+      - 08-0352-CA
       - 08-0353-LT
       - 08-0354-NL
       - 08-0355-NL
@@ -797,7 +796,6 @@ proxy-groups:
       - 08-0446-RELAY
       - 08-0447-RELAY
       - 08-0448-RELAY
-      - 08-0450-US
       - 08-0451-RELAY
       - 08-0452-RELAY
       - 08-0454-US
@@ -1233,6 +1231,7 @@ proxy-groups:
       - 06-0322-VN
       - 06-0332-VN
       - 06-0342-VN
+      - 08-0352-CA
       - 08-0362-LT
       - 08-0372-LT
       - 08-0382-LT
@@ -1456,7 +1455,6 @@ proxy-groups:
       - 04-1516-SG
       - 04-1526-SG
       - 05-0156-FI
-      - 05-1536-US
       - 06-0316-VN
       - 06-0326-VN
       - 06-0336-VN
@@ -1516,7 +1514,7 @@ proxy-groups:
       - 06-0317-VN
       - 06-0327-VN
       - 06-0337-VN
-      - 08-0347-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@204.136.10.1151866#08-0518-CH
+      - 08-0347-US
       - 08-0357-NL
       - 08-0367-NL
       - 08-0377-NL
@@ -1573,7 +1571,6 @@ proxy-groups:
       - 06-0318-VN
       - 06-0328-VN
       - 06-0338-VN
-      - 08-0347-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@204.136.10.1151866#08-0518-CH
       - 08-0348-CA
       - 08-0358-NL
       - 08-0368-AE
@@ -1697,7 +1694,6 @@ proxy-groups:
       - 08-0410-US
       - 08-0420-US
       - 08-0430-US
-      - 08-0450-US
       - 08-0470-FR
       - 08-0490-GB
       - 08-0500-GB
