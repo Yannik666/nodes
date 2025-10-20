@@ -52,11 +52,11 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 04-0000-HK, server: 103.219.195.237, port: 443, type: trojan, password: ea40450a-1dc3-3c10-afec-fb1fa30ff7ad, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0001-JP, server: 178.239.125.119, port: 443, type: trojan, password: ea40450a-1dc3-3c10-afec-fb1fa30ff7ad, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0002-SG, server: 43.160.203.70, port: 443, type: trojan, password: ea40450a-1dc3-3c10-afec-fb1fa30ff7ad, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0003-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: ea40450a-1dc3-3c10-afec-fb1fa30ff7ad, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0004-US, server: 178.208.190.99, port: 443, type: trojan, password: ea40450a-1dc3-3c10-afec-fb1fa30ff7ad, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0000-HK, server: 103.219.195.237, port: 443, type: trojan, password: 9094214d-db26-3498-9374-43bbd2626f2b, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0001-JP, server: 178.239.125.119, port: 443, type: trojan, password: 9094214d-db26-3498-9374-43bbd2626f2b, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0002-SG, server: 43.160.203.70, port: 443, type: trojan, password: 9094214d-db26-3498-9374-43bbd2626f2b, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0003-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: 9094214d-db26-3498-9374-43bbd2626f2b, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0004-US, server: 178.208.190.99, port: 443, type: trojan, password: 9094214d-db26-3498-9374-43bbd2626f2b, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 06-0018-CN, server: 106.126.3.24, port: 1321, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21138:3veJGX, obfs-param: "", udp: true}
   - {name: 06-0019-CN, server: 36.151.194.31, port: 1435, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21138:3veJGX, obfs-param: "", udp: true}
   - {name: 06-0020-CN, server: hneyoxqhenuf.dnsfailover.org, port: 1397, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21138:3veJGX, obfs-param: "", udp: true}
@@ -198,9 +198,9 @@ proxies:
   - {name: 07-0223-CA, server: 15.235.85.156, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
   - {name: 07-0225-CA, server: 158.51.121.63, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
   - {name: 07-0227-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 07-0228-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 07-0229-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 07-0230-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 07-0231-US, server: 34.201.50.141, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0232-US, server: 52.87.250.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0233-US, server: 54.84.99.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0234-US, server: 54.242.126.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -297,7 +297,7 @@ proxies:
   - {name: 07-0356-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-0357-FR, server: 13.38.44.116, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0358-FR, server: 35.180.193.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 07-0360-FR, server: 51.255.173.12, port: 550, type: vmess, uuid: f608615c-03fe-472c-9aee-97391946095b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 07-0359-FR, server: 51.38.191.100, port: 550, type: vmess, uuid: 96db7e57-5314-4560-b708-2446670dfa29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-0362-CZ, server: 195.181.160.6, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-0363-LU, server: 109.61.46.43, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 07-0364-JP, server: 202.182.98.223, port: 9443, type: ss, cipher: aes-128-gcm, password: lINaALnHIiH4cSj8pJn6TQ%253D%253D, udp: true}
@@ -619,9 +619,9 @@ proxy-groups:
       - 07-0223-CA
       - 07-0225-CA
       - 07-0227-US
-      - 07-0228-US
       - 07-0229-US
       - 07-0230-US
+      - 07-0231-US
       - 07-0232-US
       - 07-0233-US
       - 07-0234-US
@@ -718,7 +718,7 @@ proxy-groups:
       - 07-0356-FR
       - 07-0357-FR
       - 07-0358-FR
-      - 07-0360-FR
+      - 07-0359-FR
       - 07-0362-CZ
       - 07-0363-LU
       - 07-0364-JP
@@ -947,6 +947,7 @@ proxy-groups:
       - 07-0201-SG
       - 07-0211-DE
       - 07-0221-CA
+      - 07-0231-US
       - 07-0241-US
       - 07-0261-RELAY
       - 07-0281-US
@@ -1269,7 +1270,6 @@ proxy-groups:
       - 07-0198-SG
       - 07-0208-DE
       - 07-0218-US
-      - 07-0228-US
       - 07-0238-US
       - 07-0248-RELAY
       - 07-0258-US
@@ -1326,6 +1326,7 @@ proxy-groups:
       - 07-0329-LT
       - 07-0339-LT
       - 07-0349-GB
+      - 07-0359-FR
       - 07-0369-SE
       - 07-0379-FI
       - 07-0389-VN
@@ -1373,7 +1374,6 @@ proxy-groups:
       - 07-0330-LT
       - 07-0340-NL
       - 07-0350-GB
-      - 07-0360-FR
       - 07-0370-SE
       - 07-0380-GB
       - 07-0390-VN
