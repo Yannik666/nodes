@@ -79,7 +79,6 @@ proxies:
   - {name: 06-0056-CN, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 8a203ef7-75f3-4aa3-9cb3-274ad5d6c0a5, udp: true}
   - {name: 06-0057-HK, server: 212.192.13.86, port: 22130, type: vmess, uuid: c8000d8d-5037-439d-95ab-0c04a2e5afb8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0058-HK, server: hk.ggzl.tiksg.icu, port: 2207, type: ss, cipher: chacha20-ietf-poly1305, password: e76d8a0d-cc46-4a11-ac1d-34f03cd4fdb4, udp: true}
-  - {name: 06-0059-HK, server: 58.152.30.26, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 06-0060-TW, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 74407e61-d605-48f7-bc19-f1154c91043f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
   - {name: 06-0063-HK, server: 212.192.13.86, port: 22130, type: vmess, uuid: 7125fade-b916-4c65-8827-95025fe97d8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0064-HK, server: 212.192.13.86, port: 22130, type: vmess, uuid: da5d9d7c-f8a1-4b88-80c5-ca05dd99e8be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -144,6 +143,7 @@ proxies:
   - {name: 07-0179-RELAY, server: 185.146.173.16, port: 80, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)"}, udp: true}
   - {name: 07-0184-HK, server: 58.152.46.98, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 07-0185-HK, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v30.heduian.link}}, udp: true}
+  - {name: 07-0186-HK, server: 58.152.53.186, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 07-0190-HK, server: in2.web3sp.com, port: 50619, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
   - {name: 07-0191-HK, server: de1.web3sp.com, port: 51029, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
   - {name: 07-0193-HK, server: in1.web3sp.com, port: 50609, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
@@ -317,7 +317,6 @@ proxy-groups:
       - 06-0056-CN
       - 06-0057-HK
       - 06-0058-HK
-      - 06-0059-HK
       - 06-0060-TW
       - 06-0063-HK
       - 06-0064-HK
@@ -382,6 +381,7 @@ proxy-groups:
       - 07-0179-RELAY
       - 07-0184-HK
       - 07-0185-HK
+      - 07-0186-HK
       - 07-0190-HK
       - 07-0191-HK
       - 07-0193-HK
@@ -717,6 +717,7 @@ proxy-groups:
       - 06-0086-CN
       - 06-0156-VN
       - 07-0176-HK
+      - 07-0186-HK
       - 07-0196-NOWHERE
       - 07-0206-JP
       - 07-0226-RELAY
@@ -799,7 +800,6 @@ proxy-groups:
       - 06-0029-CN
       - 06-0039-TW
       - 06-0049-CN
-      - 06-0059-HK
       - 06-0069-RELAY
       - 06-0079-HK
       - 06-0089-CN
